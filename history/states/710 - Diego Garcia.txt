@@ -1,0 +1,29 @@
+state = {
+	id = 710
+	name = "STATE_710"
+	manpower = 2147
+	state_category = zero_island
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+ 
+
+		strategic_state_location = {
+			favorable_approach = 13019
+		}
+		buildings = {
+			infrastructure = 1
+			13019 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		13019
+	}
+}
+

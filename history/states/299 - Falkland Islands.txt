@@ -1,0 +1,28 @@
+state = {
+	id = 299
+	name = "STATE_299"
+	manpower = 2463
+	state_category = zero_island
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		victory_points = { 12960 1 }
+
+		buildings = {
+			infrastructure = 1
+			12960 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		12960
+	}
+}
+

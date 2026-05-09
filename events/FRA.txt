@@ -1,0 +1,403 @@
+add_namespace = FRA
+
+#country_event = { #
+#	id = BUL.x
+#    picture = GFX_events_x
+#    title = BUL.x.t
+#    desc = BUL.x.d
+#    is_triggered_only = yes
+#    fire_only_once = yes
+#    option = { 
+#        name = BUL.x.a
+#		trigger = {
+#			always = yes
+#		}
+#	}
+#}
+
+country_event = { 
+	id = FRA.1
+    title = FRA.1.t
+    desc = FRA.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = FRA.1.a
+		add_stability = -0.05
+        FRA = {
+		kill_country_leader = yes
+        promote_character = {
+            character = Castelnaul
+            ideology = Military_junta
+        }	        
+		}
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.2
+					days = 5
+				}
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = FRA.2
+    title = FRA.2.t
+    desc = FRA.2.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = FRA.2.a
+        add_political_power = 50
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.3
+					days = 5
+				}               
+			}
+		}
+	}
+}
+country_event = { 
+	id = FRA.3
+    picture = GFX_event_Labor_Union_Party
+    title = FRA.3.t
+    desc = FRA.3.d
+    is_triggered_only = yes
+    option = { 
+    ai_chance = {
+    base = 100  
+    }
+    factor = 2
+
+        name = FRA.3.a
+        hidden_effect = {
+			FRA = {
+				country_event = {
+             id = FRA.14
+             days = 55
+             }
+			}
+		}
+	}
+	
+    option = { 
+        name = FRA.3.b
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.7
+				}
+			}
+		}
+	}
+    option = { 
+        name = FRA.3.c
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.8
+				}
+			}
+		}
+	}
+    option = { 
+        name = FRA.3.e
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.4
+				}
+			}
+		}
+	}
+ 
+}
+country_event = { 
+	id = FRA.4
+    picture = GFX_event_Labor_Union_Party
+    title = FRA.3.t
+    desc = FRA.3.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.4.a
+        hidden_effect = {
+			FRA = {
+				country_event = {
+             id = FRA.14
+             days = 55
+             }
+			}
+		}
+	}
+    option = { 
+        name = FRA.4.b
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.9
+
+				}
+			}
+		}
+	}
+    option = { 
+        name = FRA.4.c
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.10
+				}
+			}
+		}
+	}
+    option = { 
+        name = FRA.4.d
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.5
+				}
+			}
+		}
+	}
+    
+}
+country_event = { 
+	id = FRA.5
+    picture = GFX_event_Labor_Union_Party
+    title = FRA.3.t
+    desc = FRA.3.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.5.a
+        hidden_effect = {
+		FRA = {
+				country_event = {
+             id = FRA.14
+             days = 55
+             }
+			}
+		}
+	}
+    option = { 
+        name = FRA.5.b
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.11
+				}
+			}
+		}
+	}
+    option = { 
+        name = FRA.5.c
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.12
+				}
+			}
+		}
+	}
+    option = { 
+        name = FRA.5.d
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.6
+				}
+			}
+		}
+	}
+    
+}
+country_event = { 
+	id = FRA.6
+    picture = GFX_event_Labor_Union_Party
+    title = FRA.3.t
+    desc = FRA.3.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.6.a
+        hidden_effect = {
+			FRA = {
+				country_event = {
+             id = FRA.14
+             days = 55
+             }
+			}
+		}
+	}
+    option = { 
+        name = FRA.6.b
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.13
+				}
+			}
+		}
+	}
+    option = { 
+        name = FRA.6.c
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.3
+				}
+			}
+		}
+	}
+
+    
+}
+country_event = { 
+	id = FRA.7
+    picture = GFX_event_French_Communist_Party
+    title = FRA.7.t
+    desc = FRA.7.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.7.a
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.3
+				}
+			}
+		}
+	}       
+}
+country_event = { 
+	id = FRA.8
+    picture = GFX_event_Front_populaire
+    title = FRA.8.t
+    desc = FRA.8.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.8.a
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.3
+				}
+			}
+		}
+	}       
+}
+country_event = { 
+	id = FRA.9
+    picture = GFX_event_People_Party
+    title = FRA.9.t
+    desc = FRA.9.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.9.a
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.4
+				}
+			}
+		}
+	}       
+}
+country_event = { 
+	id = FRA.10
+    picture = GFX_event_Republican_Alliance
+    title = FRA.10.t
+    desc = FRA.10.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.10.a
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.4
+				}
+			}
+		}
+	}       
+}
+country_event = { 
+	id = FRA.11
+    picture = GFX_event_Young_Patriots
+    title = FRA.11.t
+    desc = FRA.11.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.11.a
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.5
+				}
+			}
+		}
+	}       
+}
+country_event = { 
+	id = FRA.12
+    picture = GFX_event_Farmers_Alliance
+    title = FRA.12.t
+    desc = FRA.12.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.12.a
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.5
+				}
+			}
+		}
+	}       
+}
+country_event = { 
+	id = FRA.13
+    picture = GFX_event_Workers_International
+    title = FRA.13.t
+    desc = FRA.13.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.13.a
+        hidden_effect = {
+			FRA = {
+				country_event = { 
+					id = FRA.6
+				}
+			}
+		}
+	}       
+}
+country_event = { 
+	id = FRA.14
+    picture = GFX_event_Labor_win
+    title = FRA.14.t
+    desc = FRA.14.d
+    is_triggered_only = yes
+    option = { 
+        name = FRA.14.a
+       		add_stability = 0.2
+            add_political_power = 100
+        news_event = {
+			id = news.1004 
+            set_politics = {
+    ruling_party = fascism
+    last_election = 1935.4.1
+    elections_allowed = no      
+     }
+     add_popularity = {
+    ideology = fascism
+    popularity = 0.35
+     }
+     #unlock_national_focus = 工团胜利    
+     #load_focus_tree = 工团国策
+	}
+	}
+
+}

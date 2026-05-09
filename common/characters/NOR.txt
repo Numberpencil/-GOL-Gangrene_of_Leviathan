@@ -1,0 +1,37 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Haakon_VII = {
+        name = Haakon_VII_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/NOR/Haakon_VII.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+    John_Mowinkel = {
+        name = John_Mowinkel_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/NOR/John_Mowinkel.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+}

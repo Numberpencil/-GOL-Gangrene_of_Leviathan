@@ -1,0 +1,3 @@
+﻿l_simp_chinese:
+person_of_interest_tt: "§L[ROOT.GetNameDef]的重要人物：§!§H\n\n[GetLeaderPOI]§!"
+person_of_interest_them_tt: "§L[FROM.GetNameDef]的重要人物：§!§H\n\n[GetLeaderPOI]§!"

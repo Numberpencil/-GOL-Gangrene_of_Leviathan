@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Sandino = {
+        name = Sandino_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/NIC/Sandino.png"
+            }
+        }
+        country_leader = {
+            ideology = National_communism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

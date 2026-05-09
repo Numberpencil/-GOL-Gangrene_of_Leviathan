@@ -1,0 +1,22 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Maximiliano_Hernández = {
+        name =  Maximiliano_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ELS/Maximiliano_Hernández.png"
+            }
+        }
+        country_leader = {
+            ideology = Esoteric_nazism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+   
+
+}

@@ -1,0 +1,36 @@
+characters = {
+    ## Leaders ##
+    #premier
+	ger_Wilhelm_II = {
+        name = GER_Wilhelm_II
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/ger_Wilhelm_II.png"
+            }
+        }
+        country_leader = {
+            ideology = DKP_NSDAP_united_government
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    GER_Hitler = {
+        name = GER_Hitler_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/GER_Hitler.png"
+            }
+        }
+        country_leader = {
+            ideology = DKP_NSDAP_united_government
+            traits = {
+                
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+}

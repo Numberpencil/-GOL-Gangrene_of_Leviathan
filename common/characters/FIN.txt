@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Mannerheim = {
+        name = Mannerheim_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FIN/Mannerheim.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

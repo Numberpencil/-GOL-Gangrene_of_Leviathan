@@ -1,0 +1,28 @@
+state = {
+	id = 923
+	name = "STATE_923"
+	manpower = 1460000
+	state_category = one
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+
+		victory_points = { 2072 2 } #Mekelle
+		victory_points = { 13828 1 } #Aksum
+		victory_points = { 13829 1 } #Adwa
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		2072 13828 13829
+	}
+}

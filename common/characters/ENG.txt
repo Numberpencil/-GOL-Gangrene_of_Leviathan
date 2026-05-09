@@ -1,0 +1,37 @@
+characters = {
+    ## Leaders ##
+    #premier
+	George_V = {
+        name = George_V_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ENG/George_V.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservatism_ideology
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Stanley_Baldwin = {
+        name = Stanley_Baldwin_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ENG/Stanley_Baldwin.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservatism_ideology
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

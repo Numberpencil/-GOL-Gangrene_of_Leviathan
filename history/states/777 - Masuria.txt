@@ -1,0 +1,28 @@
+state = {
+	id = 777
+	name = "STATE_777"
+	manpower = 573395
+	state_category = five
+
+	history = {
+		owner = GER 
+
+
+		victory_points = { 11386 1 } #Lyck
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	
+		1936.1.1 = {
+			owner = GER
+
+		}
+	}
+
+	provinces = {
+		6375 9327 9346 9372 11386
+	}
+}

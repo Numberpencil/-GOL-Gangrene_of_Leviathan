@@ -1,0 +1,23 @@
+state = {
+	id = 858
+	name = "STATE_858"
+	manpower = 42000
+	state_category = one
+	local_supplies = 3.0
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+		victory_points = { 12730 1 } #Tawang
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1996 10810 12730
+	}
+}

@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Alfonso_XIII = {
+        name = Alfonso_XIII_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SPR/Alfonso_XIII.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

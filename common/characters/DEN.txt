@@ -1,0 +1,37 @@
+characters = {
+    ## Leaders ##
+    #premier
+    Christian_X = {
+        name = Christian_X_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/DEN/Christian_X.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+	Stauning = {
+        name = Stauning_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/DEN/Stauning.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 538
+	name = "STATE_538"
+	manpower = 566403
+	state_category = one
+	local_supplies = 1.0
+
+	resources = {
+		rubber = 10
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		victory_points = { 10071 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		988 7219 7931 10071 12775 13899
+	}
+}

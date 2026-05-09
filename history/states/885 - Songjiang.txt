@@ -1,0 +1,27 @@
+state = {
+	id = 885
+	name = "STATE_885"
+	manpower = 5218500
+	state_category = four
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1 #Harbin
+			industrial_complex = 1
+		}
+		victory_points = { 12412 15 } #POP 3 + STRAT 2 + POL 0 = SIG 6
+		victory_points = { 10376 5 } #POP 1 + STRAT 2 + POL 0 = SIG 3
+	}
+
+	provinces = {
+		783 944 973 3791 3929 3944 6806 6811 6964 7670 9766 9897 10376 10433 10503 11823 11893 11906 12355 12412 12482
+	}
+}
+

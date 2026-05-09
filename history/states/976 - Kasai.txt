@@ -1,0 +1,29 @@
+state = {
+	id = 976
+	name = "STATE_976"
+	manpower = 1134568
+	state_category = two
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 1731 2 }
+	}
+
+	resources = {
+		coal = 1
+	}
+
+	provinces = {
+		1731 2024 7716 8016 9986 10893
+	}
+}
+

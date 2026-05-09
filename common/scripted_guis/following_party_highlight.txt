@@ -1,0 +1,77 @@
+scripted_gui = {
+	following_party_highlight_tab = {
+		window_name = "following_party_highlight_gui"
+		context_type = player_context
+		parent_window_token = politics_tab
+
+		ai_enabled = {
+			always = no
+		}
+		visible = {
+			is_ai = no
+		}
+		triggers = {
+			GUI_following_party_CM_highlight_visible = {
+				has_idea = following_party_CM
+			}
+			GUI_following_party_SC_highlight_visible = {
+				has_idea = following_party_SC
+			}
+			GUI_following_party_DM_highlight_visible = {
+				has_idea = following_party_DM
+			}
+			GUI_following_party_CS_highlight_visible = {
+				has_idea = following_party_CS
+			}
+			GUI_following_party_AT_highlight_visible = {
+				has_idea = following_party_AT
+			}
+			GUI_following_party_DP_highlight_visible = {
+				has_idea = following_party_DP
+			}
+			GUI_following_party_PP_highlight_visible = {
+				has_idea = following_party_PP
+			}
+			GUI_following_party_FS_highlight_visible = {
+				has_idea = following_party_FS
+			}
+			GUI_following_party_NS_highlight_visible = {
+				has_idea = following_party_NS
+			}
+			GUI_following_party_OC_highlight_visible = {
+				has_idea = following_party_OC
+			}
+
+			GUI_leading_party_CM_highlight_visible = {
+				has_government = communism
+			}
+			GUI_leading_party_SC_highlight_visible = {
+				has_government = socialism
+			}
+			GUI_leading_party_DM_highlight_visible = {
+				has_government = democrat
+			}
+			GUI_leading_party_CS_highlight_visible = {
+				has_government = conservatism
+			}
+			GUI_leading_party_AT_highlight_visible = {
+				has_government = authoritarianism
+			}
+			GUI_leading_party_DP_highlight_visible = {
+				has_government = despotism
+			}
+			GUI_leading_party_PP_highlight_visible = {
+				has_government = populism
+			}
+			GUI_leading_party_FS_highlight_visible = {
+				has_government = fascism
+			}
+			GUI_leading_party_NS_highlight_visible = {
+				has_government = national_socialism
+			}
+			GUI_leading_party_OC_highlight_visible = {
+				has_government = occultism
+			}
+		}
+	}
+}

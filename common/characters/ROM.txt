@@ -1,0 +1,37 @@
+characters = {
+    ## Leaders ##
+    #premier
+	 Carol_II = {
+        name = Carol_II_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ROM/Carol_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Armand_Callinescu = {
+        name = Armand_Callinescu_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ROM/Armand_Callinescu.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

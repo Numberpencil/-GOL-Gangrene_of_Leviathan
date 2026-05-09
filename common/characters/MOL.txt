@@ -1,0 +1,38 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Michael_II = {
+        name = Michael_II_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/MOL/Michael_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Paul_Gore = {
+        name = Paul_Gore_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/MOL/Paul_Gore.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+
+}

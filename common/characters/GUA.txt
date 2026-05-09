@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Jorge_Ubiko = {
+        name = Jorge_Ubiko_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GUA/Jorge_Ubiko.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

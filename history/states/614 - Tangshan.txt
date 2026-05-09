@@ -1,0 +1,29 @@
+state = {
+	id = 614
+	name = "STATE_614"
+	manpower = 1482235
+	state_category = one
+
+	resources = {
+		steel = 7
+		coal = 6 #The 1913 atlas suggests most of Hebei's coal was here, gonna spread out the rest across the province.
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		victory_points = { 12043 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		900 1052 11822 12043
+	}
+}

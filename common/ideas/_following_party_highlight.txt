@@ -1,0 +1,135 @@
+ideas = {
+	hidden_ideas = {
+		following_party_CM = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		following_party_SC = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		following_party_DM = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		following_party_CS = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		following_party_AT = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		following_party_DP = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		following_party_PP = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		following_party_FS = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		following_party_NS = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		following_party_OC = {
+			name = x
+			removal_cost = -1
+			cancel = {
+				is_subject = yes
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+
+	}
+}

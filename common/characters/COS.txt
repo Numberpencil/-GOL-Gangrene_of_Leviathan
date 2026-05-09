@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Leon_Cortés_Castro = {
+        name = Leon_Castro_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/COS/Leon_Cortés_Castro.png"
+            }
+        }
+        country_leader = {
+            ideology = Hyperconservativism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

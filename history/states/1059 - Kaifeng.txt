@@ -1,0 +1,32 @@
+state = {
+	id = 1059
+	name = "STATE_1059"
+	manpower = 15160000
+	state_category = four
+	local_supplies = 1.0
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 7656 5 } #POP 1 + STRAT 1 + POL 1 = SIG 3
+		victory_points = { 9958 20 } #POP 4 + STRAT 2 + POL 1 = SIG 7
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	resources = {
+		coal = 1 #The 1913 atlas shows most of Henans coal in Hebi state but I'll give one in Kaifeng since there were some there too.
+	}
+
+	provinces = {
+		4066 7085 7126 7540 7656 9958 9995 10098 10364 12012
+	}
+}
+

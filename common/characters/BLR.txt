@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Vasil_Zacharka = {
+        name = Vasil_Zacharka_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BLR/Vasil_Zacharka.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

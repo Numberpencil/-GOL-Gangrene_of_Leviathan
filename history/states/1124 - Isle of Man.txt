@@ -1,0 +1,30 @@
+state = {
+	id = 1124
+	name = "STATE_1124"
+	manpower = 42306
+	state_category = one_island
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		victory_points = { 3311 1 } #Douglas
+
+		strategic_province_location = {
+			natural_harbor = 3311
+		}
+		buildings = {
+			infrastructure = 3
+			3311 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		3311
+	}
+}

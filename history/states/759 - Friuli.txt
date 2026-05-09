@@ -1,0 +1,31 @@
+state = {
+	id = 759
+	name = "STATE_759"
+	manpower = 938000
+	state_category = five
+
+	resources = {
+		aluminium = 6
+		steel = 18
+	}
+
+	history = {
+		owner = ITA
+		add_core_of = ITA
+ 
+ 
+
+
+		victory_points = { 13582 1 } #Udine
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		628 3657 6656 9613 13582 13885
+	}
+}
+

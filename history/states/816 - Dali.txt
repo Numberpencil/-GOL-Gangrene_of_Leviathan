@@ -1,0 +1,30 @@
+state = {
+	id = 816
+	name = "STATE_816"
+	manpower = 3665000
+	state_category = two
+
+	resources = {
+		aluminium = 1
+		steel = 7
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7965 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+		victory_points = { 10413 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+	}
+
+	provinces = {
+		4559 4937 5009 7965 7976 8126 10413 10863 12789 12898
+	}
+}
+

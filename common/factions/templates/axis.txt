@@ -1,0 +1,129 @@
+faction_template_axis = {
+	name = Berlin_Defence_Agreement
+	icon = GFX_faction_logo_Berlin_Defence_Agreement
+	manifest = faction_manifest_pan_europe
+
+	goals = {
+
+
+	
+	}
+
+	default_rules = {
+		call_to_war_rule_independent_only
+		joining_rule_non_communist
+		faction_peace_rule_conquest_focus
+		change_leader_rule_manpower
+		change_leader_rule_manifest_below_35
+		dismissal_rule_offensive_war
+	}
+	
+}
+faction_template_Commonwealth = {
+	name = Commonwealth_of_Nations
+	icon = GFX_faction_logo_axis
+	manifest = faction_manifest_defense_of_democracy
+
+	goals = {
+
+
+	
+	}
+
+	default_rules = {
+		call_to_war_rule_independent_only
+		joining_rule_non_communist
+		faction_peace_rule_conquest_focus
+		change_leader_rule_manpower
+		change_leader_rule_manifest_below_35
+		dismissal_rule_offensive_war
+	}
+	
+}
+faction_template_Far_East_Defense = {
+	name = Far_East_Defense_Alliance
+	icon = GFX_faction_logo_axis
+	manifest = faction_manifest_defense_of_Commonwealth
+
+	goals = {
+
+
+	
+	}
+
+	default_rules = {
+		call_to_war_rule_independent_only
+		joining_rule_non_communist
+		faction_peace_rule_conquest_focus
+		change_leader_rule_manpower
+		change_leader_rule_manifest_below_35
+		dismissal_rule_offensive_war
+	}
+	
+}
+faction_template_Iberia = {
+	name = Pan_Iberian_Federation
+	icon = GFX_faction_logo_axis
+	manifest = faction_manifest_Far_United_beria
+
+	goals = {
+
+
+	
+	}
+
+	default_rules = {
+		call_to_war_rule_independent_only
+		joining_rule_non_communist
+		faction_peace_rule_conquest_focus
+		change_leader_rule_manpower
+		change_leader_rule_manifest_below_35
+		dismissal_rule_offensive_war
+	}
+	
+}
+
+faction_Greater_East = {
+	name = Greater_East_Asia_Alliance
+	icon = GFX_faction_logo_axis
+	manifest = faction_manifest_strategic_resource_control
+
+	goals = {
+
+
+	
+	}
+
+	default_rules = {
+		call_to_war_rule_independent_only
+		joining_rule_non_communist
+		faction_peace_rule_conquest_focus
+		change_leader_rule_manpower
+		change_leader_rule_manifest_below_35
+		dismissal_rule_offensive_war
+	}
+	
+}
+
+faction_San_Francisco = {
+	name = Greater_Treaty_of_San_Francisco
+	icon = GFX_faction_logo_axis
+	manifest = faction_manifest_defense_of_San_Francisco
+
+	goals = {
+
+
+	
+	}
+
+	default_rules = {
+		call_to_war_rule_independent_only
+		joining_rule_non_communist
+		faction_peace_rule_conquest_focus
+		change_leader_rule_manpower
+		change_leader_rule_manifest_below_35
+		dismissal_rule_offensive_war
+	}
+	
+}
+

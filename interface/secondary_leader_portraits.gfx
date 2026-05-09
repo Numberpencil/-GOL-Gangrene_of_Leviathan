@@ -1,0 +1,87 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_wilhelm_ii"
+		textureFile = "gfx\leaders\GER\ger_Wilhelm_II.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_George_V"
+		textureFile = "gfx\leaders\ENG\George_V.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_Gustav_V"
+		textureFile = "gfx\leaders\SWE\Gustav_V.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_Mikhail_II"
+		textureFile = "gfx\leaders\SOV\Mikhail_II.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_Isabella_I"
+		textureFile = "gfx\leaders\BRA\Isabella_I.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_Christian_X"
+		textureFile = "gfx\leaders\DEN\Christian_X.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_GeorgeII"
+		textureFile = "gfx\leaders\GRE\GeorgeII.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_Boris_III"
+		textureFile = "gfx\leaders\BUL\Boris_III.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_Carol_II"
+		textureFile = "gfx\leaders\ROM\Carol_II.png"	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_portrais_Michael_II"
+		textureFile = "gfx\leaders\MOL\Michael_II.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_Alexander_I"
+		textureFile = "gfx\leaders\YUG\Alexander_I.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_IV_kaluoer"
+		textureFile = "gfx\leaders\HUN\IV.Károly.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_otto_I"
+		textureFile = "gfx\leaders\HUN\otto_I.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_Koningin_Wilhelmina"
+		textureFile = "gfx\leaders\HOL\Koningin_Wilhelmina.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_Albert_I"
+		textureFile = "gfx\leaders\BEL\Albert_I.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_August_IV"
+		textureFile = "gfx\leaders\POL\August_IV.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_Mindaugas_III"
+		textureFile = "gfx\leaders\LIT\Mindaugas_III.png"
+		legacy_lazy_load = no
+	}
+}

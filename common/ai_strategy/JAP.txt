@@ -1,0 +1,4 @@
+JAP_stock_up_on_trains_before_china = {
+	}
+}
+

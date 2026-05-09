@@ -1,0 +1,27 @@
+state = {
+	id = 944
+	name = "STATE_944"
+	manpower = 1019000
+	state_category = two
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		victory_points = { 7980 2 } #Dire Dawa
+		victory_points = { 13822 3 } #Harar
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		7980 13556 13822
+	}
+}

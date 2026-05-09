@@ -1,0 +1,151 @@
+#on_action = {
+#	on_declare_war = {
+#		effect = {
+#			if = {
+#				limit = {
+#					FROM = { tag = HUN }
+#					ROOT = { tag = ROM }
+#				}
+#				news_event = {
+#					id = news.1003 #
+#				}
+#			}
+#		}
+#	}
+#}
+on_action = {
+	on_capitulation_immediate = {
+		effect = {
+			if = {
+				limit = { #匈牙利占领瓦拉几亚和塞尔维亚
+                    FROM = { original_tag = HUN }
+                    ROOT = { original_tag = ROM }
+					ROOT = { original_tag = BUL }
+					ROOT = { original_tag = YUG }
+					ROOT = { original_tag = BOS }
+				}
+				HUN = {
+				white_peace = YUG 
+				white_peace = ROM
+				white_peace = MOL
+				white_peace = BUL	
+				}
+				MAC = {
+				white_peace = YUG 
+				white_peace = ROM
+				white_peace = MOL
+				white_peace = BUL	
+				}
+				
+				news_event = { id = news.x } #匈牙利打败巴尔干同盟
+				HUN = {
+					puppet = ROM
+					puppet = YUG
+					puppet = BOS
+					puppet = BCV
+					puppet = MOL
+				}
+				802 = { #释放科索沃
+					transfer_state_to = KOS
+					add_core_of = KOS
+				}
+				105 = { #释放黑山
+					transfer_state_to = MNT
+					add_core_of = MNT
+				}
+				HUN = {
+					puppet = KOS
+					puppet = MNT
+				}
+			}
+		}
+	}
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					HUN = {
+						has_war_with = ROM
+						surrender_progress > 0.5
+					}
+				}
+                HUN = {
+				white_peace = YUG 
+				white_peace = ROM
+				white_peace = MOL
+				white_peace = BUL	
+				}
+				MAC = {
+				white_peace = YUG 
+				white_peace = ROM
+				white_peace = MOL
+				white_peace = BUL	
+				}
+				78 = {
+					transfer_state_to = ROM
+					add_core_of = ROM
+				}
+				79 = {
+					transfer_state_to = ROM
+					add_core_of = ROM
+				}
+				766 = {
+					transfer_state_to = ROM
+					add_core_of = ROM
+				}
+				80 = {
+					transfer_state_to = ROM
+					add_core_of = ROM
+				}
+				76 = {
+					transfer_state_to = ROM
+					add_core_of = ROM
+				}
+				83 = {
+					transfer_state_to = ROM
+					add_core_of = ROM
+				}
+				82 = {
+					transfer_state_to = ROM
+					add_core_of = ROM
+				}
+				84 = {
+					transfer_state_to = ROM
+					add_core_of = ROM
+				}
+				106 = {
+					transfer_state_to = BUL
+					add_core_of = BUL
+				}
+				970 = {
+					transfer_state_to = BUL
+					add_core_of = BUL
+				}
+				104 = {
+					transfer_state_to = YUG
+					add_core_of = YUG
+				}
+				804 = {
+					transfer_state_to = YUG
+					add_core_of = YUG
+				}
+				103 = {
+					transfer_state_to = YUG
+					add_core_of = YUG
+				}
+				109 = {
+					transfer_state_to = YUG
+					add_core_of = YUG
+				}
+				45 = {
+					transfer_state_to = YUG
+					add_core_of = YUG
+				}
+				764 = {
+					transfer_state_to = YUG
+					add_core_of = YUG
+				}
+			}
+		}
+	}
+}

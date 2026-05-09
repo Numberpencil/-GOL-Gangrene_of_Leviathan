@@ -1,0 +1,48 @@
+state = {
+	id = 290
+	name = "STATE_290"
+	manpower = 1091345
+	state_category = two
+
+	resources = {
+		steel = 17
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+
+
+
+
+
+		victory_points = { 9945 20 } #Tangiers
+		victory_points = { 13860 5 } #Ceuta
+		victory_points = { 13873 10 } #Melilla
+		victory_points = { 4199 1 } #Hoceima
+		victory_points = { 10113 2 } #Larache
+		victory_points = { 12087 3 } #Tetouan
+
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			9945 = {
+				naval_base = 3
+			}
+			13860 = {
+				naval_base = 2
+			}
+			13873 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		4199 7215 9945 10113 12087 12100 13860 13873
+	}
+}

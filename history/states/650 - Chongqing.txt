@@ -1,0 +1,31 @@
+state = { #Chongqing
+	id = 650
+	name = "STATE_650"
+	manpower = 16545000
+	state_category = five
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		victory_points = { 6999 30 } #POP 5 + STRAT 2 + POL 1 = SIG 8
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1 #Chongqing Arsenal
+			air_base = 2
+		}
+	}
+
+	resources = {
+		coal = 1 #Sichuan gets 1 coal, the 1913 map shows depots here and in the west but gonna put it here since the other already has decent resources.
+	}
+
+	provinces = {
+		1893 4141 4431 6999 10304 10822
+	}
+}
+

@@ -1,0 +1,37 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Washington_Pereira = {
+        name =Washington_Pereira_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BRA/Washington_Pereira.png"
+            }
+        }
+        country_leader = {
+            ideology = Oligarchist_despotism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Isabella_I = {
+        name =Isabella_I_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BRA/Isabella_I.png"
+            }
+        }
+        country_leader = {
+            ideology = Oligarchist_despotism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

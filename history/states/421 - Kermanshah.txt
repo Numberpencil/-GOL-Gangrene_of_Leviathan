@@ -1,0 +1,27 @@
+state = {
+	id = 421
+	name = "STATE_421"
+	manpower = 1249528
+	state_category = three
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		victory_points = { 9816 2 }
+		victory_points = { 12773 5 }
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		4943 5050 5098 9816 12773
+	}
+}
+

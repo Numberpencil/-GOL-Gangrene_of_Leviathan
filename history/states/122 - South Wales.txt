@@ -1,0 +1,32 @@
+state = {
+	id = 122
+	name = "STATE_122"
+	manpower = 1888927
+	state_category = six
+
+	resources = {
+		aluminium = 3
+		steel = 13
+	}
+
+	history = {
+		owner = ENG
+		add_core_of = ENG
+ 
+
+		victory_points = { 377 5 } #Cardiff
+		victory_points = { 407 3 } #Swansea
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			377 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+		377 407 6385 11361
+	}
+}

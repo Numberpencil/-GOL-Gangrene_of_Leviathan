@@ -1,0 +1,3 @@
+WTT_add_infiltration_save_equipment = {
+	
+}

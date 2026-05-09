@@ -1,0 +1,43 @@
+state = {
+	id = 429
+	name = "STATE_429"
+	manpower = 19463500
+	state_category = eight
+
+	resources = {
+		tungsten = 22
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+ 
+
+
+
+
+
+		victory_points = { 1349 40 } #Bombay
+		victory_points = { 4187 3 } #Surat
+		victory_points = { 12142 3 } #Sholapur
+		victory_points = { 12182 5 } #Poona
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			air_base = 2
+			1349 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+		1349 1405 4072 4187 4353 7013 7119 7177 7232 10019 10210 10270 12142 12182 12269
+	}
+}
+

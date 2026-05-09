@@ -1,0 +1,4 @@
+# Make POR want to send stuff to Republican Spain
+POR_helps_SPD_win_civil_war = {
+
+}

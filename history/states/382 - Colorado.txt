@@ -1,0 +1,31 @@
+state = {
+	id = 382
+	name = "STATE_382"
+	manpower = 1090000
+	state_category = four
+	local_supplies = 8.0
+
+	resources = {
+		oil = 2
+		coal = 7
+	}
+
+	history = {
+		owner = CLR
+		add_core_of = CLR
+
+
+
+		victory_points = { 1827 20 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		868 1658 1738 1809 1827 3869 7684 7780 7999 9792 10588 11772 12570 12627 12642 10640 4723 4760 4830 4871 7764 7818
+	}
+}
+

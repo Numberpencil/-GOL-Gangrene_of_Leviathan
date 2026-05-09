@@ -1,0 +1,32 @@
+state = {
+	id = 532
+	name = "STATE_532"
+	manpower = 5263095
+	state_category = eight
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		victory_points = { 10125 25 } #Nagoya
+		victory_points = { 12097 5 } #Hamamatsu
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			fuel_silo = 1
+			4069 = {
+				dam = 1 #Ōi Dam
+			}
+		}
+	}
+
+	provinces = {
+		4054 4069 4142 4172 7187 7217 10125 12097
+	}
+}

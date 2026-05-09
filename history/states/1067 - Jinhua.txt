@@ -1,0 +1,30 @@
+state = {
+	id = 1067
+	name = "STATE_1067"
+	manpower = 9234000
+	state_category = four
+	local_supplies = 6.0
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		victory_points = { 11920 10 }  #POP 4 + STRAT 0 + POL 0 = SIG 4
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	resources = {
+		coal = 1 #Gets 1 coal to represent the Zhejiang/Anhui/Jiangsu coal production
+	}
+
+	provinces = {
+		1096 1168 1195 7058 7146 7174 9944 10058 10086 11920 12059
+	}
+}

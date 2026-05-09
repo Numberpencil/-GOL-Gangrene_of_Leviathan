@@ -1,0 +1,4 @@
+ICE_avoid_joining_baddies = {
+
+
+}

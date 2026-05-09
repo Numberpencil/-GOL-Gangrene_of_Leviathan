@@ -1,0 +1,23 @@
+state = {
+	id = 230
+	name = "STATE_230"
+	manpower = 827523
+	state_category = five
+
+	history = {
+		owner = TUR
+		add_core_of = TUR
+victory_points = { 12320 10 } #Yerevan
+		victory_points = { 12441 1 } #Gyumri
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			air_base = 1
+		}
+	}
+
+	provinces = {
+		3564 11708 12320 12380 12441 13123 13724
+	}
+}

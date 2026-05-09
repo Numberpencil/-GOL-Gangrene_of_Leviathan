@@ -1,0 +1,33 @@
+state = {
+	id = 433
+	name = "STATE_433" # Rajasthan
+	manpower = 4935700
+	state_category = two
+
+	resources = {
+		tungsten = 37
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+ 
+
+
+
+		victory_points = { 1908 3 } #Ajmer
+		victory_points = { 12876 2 } #Bikaner
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1908 4149 4984 7998 10847 10866 12041 12718 12844 12876 12886 13851
+	}
+}
+

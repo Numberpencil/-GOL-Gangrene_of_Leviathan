@@ -1,0 +1,34 @@
+state = {
+	id = 752
+	name = "STATE_752"
+	manpower = 110921
+	state_category = one
+	local_supplies = 3.0
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		victory_points = { 2029 2 } #Mukalla
+		victory_points = { 8000 1 } #Hadibu
+		victory_points = { 13838 1 } #Seiyun
+
+		buildings = {
+			infrastructure = 1
+			2029 = {
+				naval_base = 1
+			}
+			8000 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		2029 4976 8000 12894 13079 13838 13839 13840 13841
+	}
+}

@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Siles_Zuaso = {
+        name = Siles_Zuaso_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SAC/Siles_Zuaso.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

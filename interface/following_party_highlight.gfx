@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = GFX_following_party_highlight
+		texturefile = "gfx\interface\coalition_indicator_leader.png"
+	}
+	spriteType = {
+		name = GFX_leading_party_highlight
+		textureFile = "gfx\interface\coalition_indicator.png"
+	}
+}

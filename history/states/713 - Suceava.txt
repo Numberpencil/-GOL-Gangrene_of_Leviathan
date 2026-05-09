@@ -1,0 +1,23 @@
+state = {
+	id = 713
+	name = "STATE_713"
+	manpower = 376921
+	state_category = one
+
+	history = {
+		owner = BCV
+		add_core_of = BCV
+ 
+
+		victory_points = { 6761 1 }
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		6761 11689
+	}
+}
+

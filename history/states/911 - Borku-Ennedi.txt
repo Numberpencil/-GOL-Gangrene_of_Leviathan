@@ -1,0 +1,23 @@
+state = {
+	id = 911
+	name = "STATE_911"
+	manpower = 26000
+	state_category = wasteland
+	impassable = yes
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1994
+	}
+}
+

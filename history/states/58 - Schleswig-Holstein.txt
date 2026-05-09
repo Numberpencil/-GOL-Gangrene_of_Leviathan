@@ -1,0 +1,51 @@
+state = {
+	id = 58
+	name = "STATE_58" #Holstein
+	manpower = 2496730
+	state_category = nine
+
+	history = {
+		owner = GER 
+ 
+		victory_points = { 9347 40 }
+		victory_points = { 6389 8 }
+		victory_points = { 11331 5 }
+
+		
+		
+		buildings = {
+			infrastructure = 3
+			dockyard = 4
+			air_base = 5
+			6389 = {
+				naval_base = 8
+				coastal_bunker = 3
+				naval_headquarters = {
+					level = 1
+					allowed = { has_dlc = "No Compromise, No Surrender" }
+				}
+				canal_kiel = {
+					level = 1
+					allowed = { has_dlc = "Gotterdammerung" }
+				}
+			}
+			9347 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+			11331 = {
+				naval_base = 1
+			}
+		}
+	
+		1936.1.1 = {
+			owner = GER
+
+		}
+	}
+
+	provinces = {
+		317 3231 3368 6257 6389 9320 9347 11331
+	}
+}
+

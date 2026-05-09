@@ -1,0 +1,25 @@
+state = {
+	id = 270
+	name = "STATE_270"
+	manpower = 392
+	state_category = zero_island
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+		buildings = {
+			infrastructure = 1
+			1280 = {
+				naval_base = 1
+				landmark_moai = 1
+			}
+		}
+	}
+
+	provinces = {
+		1280
+	}
+}
+

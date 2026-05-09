@@ -1,0 +1,3 @@
+BUL_befriend_GER = {
+	
+}

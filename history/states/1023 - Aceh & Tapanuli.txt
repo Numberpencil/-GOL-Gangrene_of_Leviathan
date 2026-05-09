@@ -1,0 +1,34 @@
+state = {
+	id = 1023
+	name = "STATE_1023"
+	manpower = 2392936
+	state_category = one
+
+	resources = {
+		oil = 22
+		rubber = 50
+	}
+
+	history = {
+		owner = XXX = 
+		add_core_of =
+
+
+		victory_points = { 7658 1 }
+
+		buildings = {
+			infrastructure = 1
+			1648 = {
+				naval_base = 1
+			}
+			7658 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1648 7658 8360 10509 10522 12126 12488
+	}
+}
+

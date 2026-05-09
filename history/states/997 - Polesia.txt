@@ -1,0 +1,22 @@
+state = {
+	id = 997
+	name = "STATE_997"
+	manpower = 247012
+	state_category = two
+
+	history = {
+		owner = BLR
+		add_core_of = BLR
+
+
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 11528 1 }
+	}
+
+	provinces = {
+		3256 6415 
+	}
+}
+

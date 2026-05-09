@@ -1,0 +1,32 @@
+state = {
+	id = 1007
+	name = "STATE_1007"
+	manpower = 283507
+	state_category = one
+
+	history = {
+		owner = SUD
+		add_core_of = SUD
+ 
+
+
+
+		victory_points = { 2046 2 }
+		victory_points = { 8105 2 }
+		victory_points = { 12725 3 }
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			12725 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		1977 2003 2046 4138 4963 7989 8105 10745 10902 12725 12796 12836
+	}
+}
+

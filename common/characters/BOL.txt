@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Herman_Bush_Becerra = {
+        name = Herman_Bush_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BOL/Herman_Bush_Becerra.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

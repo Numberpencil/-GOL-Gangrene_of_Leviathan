@@ -1,0 +1,26 @@
+state = {
+	id = 1049
+	name = "STATE_1049"
+	manpower = 1784000
+	state_category = two
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+
+		victory_points = { 5030 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		5030 10757 12414
+	}
+}
+

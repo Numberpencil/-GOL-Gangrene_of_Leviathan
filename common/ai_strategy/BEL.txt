@@ -1,0 +1,6 @@
+# SPECIAL PROJECT FACILITIES
+# Might as well use that Uranium!
+
+BEL_build_a_nuclear_facility_anywhere = {
+
+}

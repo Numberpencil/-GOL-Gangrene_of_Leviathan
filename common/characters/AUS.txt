@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	aus_ermolli = {
+        name = aus_ermolli_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/AUS/aus_ermolli.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

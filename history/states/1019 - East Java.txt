@@ -1,0 +1,34 @@
+state = {
+	id = 1019
+	name = "STATE_1019"
+	manpower = 15792996
+	state_category = four
+
+	resources = {
+		rubber = 85
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 4608 15 }
+		victory_points = { 10479 3 }
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			industrial_complex = 1
+			4608 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+		1209 4306 4608 7654 10479 10491 12472
+	}
+}
+

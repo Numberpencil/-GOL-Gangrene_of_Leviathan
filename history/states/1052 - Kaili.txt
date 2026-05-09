@@ -1,0 +1,31 @@
+state = {
+	id = 1052
+	name = "STATE_1052"
+	manpower = 3010200
+	state_category = two
+
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+ 
+
+
+
+		victory_points = { 7577 10 } #POP 3 + STRAT 1 + POL 0 = SIG 4
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		1474 7521 7549 7577
+	}
+}
+

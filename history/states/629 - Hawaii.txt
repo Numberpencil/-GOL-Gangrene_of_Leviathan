@@ -1,0 +1,38 @@
+state = {
+	id = 629
+	name = "STATE_629"
+	manpower = 393000
+	state_category = four
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+
+		victory_points = { 4180 15 }
+		victory_points = { 12021 3 }
+
+		buildings = {
+			infrastructure = 1
+			air_base = 5
+			industrial_complex = 2
+			4180 = {
+				naval_base = 10
+				naval_supply_hub = 1
+				naval_headquarters = {
+					level = 1
+					allowed = { has_dlc = "No Compromise, No Surrender" }
+				}
+			}
+		}
+	}
+
+	provinces = {
+		4180 7112 7195 10048 12021
+	}
+}
+

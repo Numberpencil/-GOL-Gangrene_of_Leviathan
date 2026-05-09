@@ -1,0 +1,163 @@
+ideas = {
+	country = {
+		toward_collapse ={
+			picture=toward_collapse
+			allowed ={
+				always= yes
+			}
+			modifier = {
+				#国家scope的modifier
+				political_power_factor = -0.05
+				stability_factor = -0.25
+				war_support_factor = -0.15
+				recruitable_population_factor = -0.02
+				surrender_limit = 0.15
+
+
+			}
+			
+		
+		}
+		rotten_and_obscurantist_system ={
+			picture=rotten_and_obscurantist_system 
+			allowed ={
+				always= yes
+			}
+			modifier ={
+				stability_factor = -0.10
+				political_power_gain = -0.15
+				political_advisor_cost_factor = 0.50
+			}
+		}
+		Weltpolitik={
+			picture=Weltpolitik
+			allowed ={
+				always= yes
+			}
+			modifier ={
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				send_volunteer_size=3
+				min_export = -0.8
+				resource_trade_cost_bonus_per_factory = -6
+				#贸易政策无法更变
+
+			}
+		}
+		Mitteleuropa_trade_agreement={
+			picture=Mitteleuropa_trade_agreement
+			allowed ={
+				always= yes
+			}
+			modifier={
+				consumer_goods_factor=-0.05
+				production_speed_buildings_factor =0.05
+				industrial_capacity_factory = 0.05
+				faction_trade_opinion_factor=0.10
+			}
+		}
+		The_aftermath_of_the_economic_crisis ={
+			picture= The_aftermath_of_the_economic_crisis
+			allowed ={
+				always= yes
+			}
+			modifier={
+				consumer_goods_factor=0.30
+				production_speed_buildings_factor =-0.15
+				production_factory_max_efficiency_factor= -0.15
+				industrial_capacity_factory = -0.15
+				stability_factor = -0.05
+
+			}
+		}
+		Heil_dir_im_Siegerkranz ={
+			picture=Heil_dir_im_Siegerkranz
+			allowed ={
+				always= yes
+			}
+			modifier={
+				stability_factor = 0.10
+				war_support_factor = -0.15
+				experience_gain_army_factor=-0.10
+				experience_gain_navy_factor=-0.10
+				experience_gain_air_factor=-0.10
+				consumer_goods_factor=-0.10
+				recruitable_population_factor = -0.015
+				land_doctrine_cost_factor =0.3
+				industrial_capacity_factory = 0.05
+				production_speed_arms_factory_factor = -0.10
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_infrastructure_factor = 0.10
+				#差一个：增加陆军默认编制“治安师”的镇压度
+
+			}
+		}
+		Capital_outflow={
+			picture=Capital_outflow
+			allowed ={
+				always= yes
+			}
+			#on_add={
+			#	add_offsite_building = {
+			#		type = industrial_complex
+			#		level = 4
+			#	}
+			#}
+			#这个我怕写错先注释掉了，是地图外民用工厂数量 +4
+			modifier={
+				consumer_goods_factor=0.15
+				production_speed_industrial_complex_factor = -0.10
+			}
+		}
+		Imperial_army ={
+			picture=Imperial_army
+			allowed ={
+				always= yes
+			}
+			modifier={
+				army_core_attack_factor=0.05
+				army_core_defence_factor=0.05
+				dig_in_speed =0.05
+				army_attack_factor=-0.10
+				max_planning=0.20
+				supply_consumption_factor=0.15
+				army_fuel_consumption_factor=0.10
+				army_speed_factor_for_controller=-0.15
+				experience_gain_army_factor=-0.20
+				land_doctrine_cost_factor=-0.15
+
+			}
+		}
+		Imperial_navy ={
+			picture=Imperial_navy
+			allowed ={
+				always= yes
+			}
+			modifier={
+				navy_max_range=0.15
+				navy_fuel_consumption_factor=0.15
+				#重型战舰建造速度+5％
+				critical_receive_chance=0.10
+				experience_gain_navy_factor=-0.20
+				naval_doctrine_cost_factor=0.15
+
+			}
+		}
+		Imperial_air_force={
+			picture = Imperial_air_force
+			allowed ={
+				always= yes
+			}
+			modifier={
+				air_range_factor=0.10
+				air_fuel_consumption_factor=0.15
+				#重型飞机建造速度+5％
+				air_strategic_bomber_bombing_factor=0.10
+				air_cas_present_factor=-0.10
+				air_attack_factor=-0.05
+				experience_gain_air_factor=-0.20
+				air_doctrine_cost_factor=0.15
+			}
+		}
+	}
+}

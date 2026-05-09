@@ -1,0 +1,21 @@
+spriteTypes = {
+	spriteType = {
+        name = "GFX_secondary_leader_button"
+        texturefile = "gfx/interface/secondary_leader_button.dds"
+		animation = {
+			animationmaskfile = "gfx/interface/secondary_leader_button_mask.dds"
+			animationtexturefile = "gfx\interface\shine_overlay.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 3
+			animationdelay = 2
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 10.0 y = 0.7 }
+		}
+		
+		legacy_lazy_load = no
+    }
+}
+

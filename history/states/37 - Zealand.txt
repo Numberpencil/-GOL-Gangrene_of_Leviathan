@@ -1,0 +1,33 @@
+state = {
+	id = 37
+	name = "STATE_37"
+	manpower = 1537041
+	state_category = nine
+	local_supplies = 15.0
+
+	history = {
+		owner = DEN
+		add_core_of = DEN
+ 
+		victory_points = { 6287 20 } #Copenhagen
+		victory_points = { 6393 2 } #Roskilde
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 6
+			6287 = {
+				naval_base = 8
+			}
+			6361 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		3260 3305 6287 6361 6393
+	}
+}

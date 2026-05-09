@@ -1,0 +1,35 @@
+state = {
+	id = 628
+	name = "STATE_628"
+	manpower = 3525715
+	state_category = two
+	local_supplies = 6.0
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		victory_points = { 1261 1 } #Bacolod
+		victory_points = { 10302 10 } #Iloilo
+		victory_points = { 12118 20 } #Cebu
+
+		buildings = {
+			infrastructure = 1
+			10302 = {
+				naval_base = 1
+			}
+			12118 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+		1261 1368 7385 7423 10186 10302 12112 12118 12153
+	}
+}
+

@@ -1,0 +1,26 @@
+state = {
+	id = 792
+	name = "STATE_792"
+	manpower = 2620544
+	state_category = four
+
+	history = {
+		owner = UKR
+		add_core_of = UKR
+
+
+
+		victory_points = { 11543 3 }
+		victory_points = { 572 1 }
+
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+	}
+
+	provinces = {
+		422 474 513 572 3412 6435 6520 6557 9520  11543 11503 6579 3496
+	}
+}
+

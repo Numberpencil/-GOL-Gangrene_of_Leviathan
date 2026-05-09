@@ -1,0 +1,15 @@
+defined_text = {
+	name = GetPoliticalSystemName
+	text = {
+		trigger = {
+			has_idea = Constitutional_monarchy
+		}
+		localization_key = "Constitutional_monarchy"
+	}
+	text = {
+		trigger = {
+			has_idea = Bicameral_constitutional_monarchy
+		}
+		localization_key = "Bicameral_constitutional_monarchy"
+	}
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 379
+	name = "STATE_379"
+	manpower = 101000
+	state_category = one
+
+	resources = {
+		aluminium = 37
+		tungsten = 52
+		steel = 113
+	}
+
+	history = {
+		owner = NVD
+		add_core_of = NVD
+
+
+
+		victory_points = { 4607 2 }
+
+		buildings = {
+			infrastructure = 2
+			#4799 = {
+			#	dam_mountain = 1 #Hoover Dam - built by united_states_events.161
+			#}
+		}
+	}
+
+	provinces = {
+		4736 4816 7827 7879 12399 12699 1740 850
+	}
+}
+

@@ -1,0 +1,35 @@
+state = {
+	id = 592
+	name = "STATE_592"
+	manpower = 1074000
+	state_category = six
+
+	resources = {
+		steel = 5
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2 #Guangzhou Arsenal - shared with Qingyuan
+			dockyard = 1 #Whampoa Dockyard
+			air_base = 3
+			1047 = {
+				naval_base = 5
+			}
+		}
+		victory_points = { 1047 40 } #POP 2 + STRAT 2 + POL 3 + BAL 3 = SIG 10
+	}
+
+	provinces = {
+		1047
+	}
+}
+

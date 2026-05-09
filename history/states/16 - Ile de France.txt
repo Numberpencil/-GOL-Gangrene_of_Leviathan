@@ -1,0 +1,33 @@
+state = {
+	id = 16
+	name = "STATE_16"
+	manpower = 6785913
+	state_category = twelve
+
+	history = {
+		owner = FRA
+		add_core_of = FRA
+ 
+
+		victory_points = { 11506 50 } #Paris
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			anti_air_building = 3
+			air_base = 8
+			11506 = {
+				landmark_eiffel_tower = 1
+			}
+			9534 = {
+				land_facility = 1 #Île Seguin in Billancourt
+			}
+		}
+	}
+
+	provinces = {
+		6949 9523 9534 9725 11491 11506 11518
+	}
+}
+

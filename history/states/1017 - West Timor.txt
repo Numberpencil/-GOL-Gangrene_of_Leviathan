@@ -1,0 +1,28 @@
+state = {
+	id = 1017
+	name = "STATE_1017"
+	manpower = 187500
+	state_category = one
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 1355 1 }
+
+		buildings = {
+			infrastructure = 1
+			1355 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1339 1355 4358
+	}
+}
+

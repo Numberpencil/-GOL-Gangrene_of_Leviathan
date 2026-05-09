@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Charles_IV = {
+        name = Charles_IV_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/PRU/Charles_IV.png"
+            }
+        }
+        country_leader = {
+            ideology = Nationalist_syndicalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

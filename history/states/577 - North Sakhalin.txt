@@ -1,0 +1,26 @@
+state = {
+	id = 577
+	name = "STATE_577"
+	manpower = 94759
+	state_category = three
+
+	resources = {
+		oil = 6
+		coal = 4
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		855 1742 1755
+	}
+}
+

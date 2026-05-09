@@ -1,0 +1,26 @@
+guiTypes = {
+	containerWindowType = {
+		name = "secondary_leader_gui_window"
+		position = { x = 12 y = 248 }
+		
+		iconType = {
+			name = "secondary_leader_toggler"
+			spriteType = GFX_secondary_leader_button
+			pdx_tooltip = person_of_interest_tt
+			scale = 0.6
+		}
+	}
+	
+	containerWindowType = {
+		name = "secondary_leader_gui_window_dip"
+		position = { x = 20 y = 250 }
+		size = { width = 32 height = 32 }
+		
+		iconType = {
+			name = "secondary_leader_displayer"
+			spriteType = GFX_secondary_leader_button
+			pdx_tooltip = person_of_interest_them_tt
+			scale = 0.5
+		}
+	}
+}

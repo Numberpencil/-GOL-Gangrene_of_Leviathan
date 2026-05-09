@@ -1,0 +1,49 @@
+state = {
+	id = 639
+	name = "STATE_639"
+	manpower = 28900
+	state_category = zero_island
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+
+		victory_points = { 13021 1 } #Tarawa
+
+		strategic_province_location = {
+			defensible_coastline = 13021
+		}
+		strategic_province_location = {
+			defensible_coastline = 7393
+		}
+		buildings = {
+			infrastructure = 1
+			13021 = {
+				naval_base = 1
+			}
+			4387 = {
+				naval_base = 1
+			}
+			7393 = {
+				naval_base = 1
+			}
+			13020 = {
+				naval_base = 1
+			}
+		}
+
+		 
+		 
+		 
+		 
+	}
+
+	provinces = {
+		4387 7393 13020 13021 13022
+	}
+}
+

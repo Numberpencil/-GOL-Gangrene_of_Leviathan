@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Trujillo_Molina = {
+        name = Trujillo_Molina_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/DOM/Trujillo_Molina.png"
+            }
+        }
+        country_leader = {
+            ideology = Classical_fascism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

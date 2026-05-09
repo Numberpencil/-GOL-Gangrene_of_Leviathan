@@ -1,0 +1,53 @@
+#首都
+capital = 47
+
+#开局国家状态
+set_stability = 0.6
+set_war_support = 0.4
+
+#开局科研槽
+set_research_slots = 3
+
+#人物提取
+#recruit_character = ger_Wilhelm_II
+recruit_character = Giannis_Metaxas
+recruit_character = GeorgeII
+
+
+# 开局解锁科技
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+#开局执政党
+set_politics = {
+	ruling_party = populism
+	last_election = "1934.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#饼图成分（数字总和为100）
+set_popularities = {
+	communism = 10
+	socialism = 10
+	democrat = 10
+	conservatism = 10
+	authoritarianism = 10
+	despotism = 10
+	populism = 10
+	fascism = 10
+	national_socialism = 10
+	occultism = 10
+}
+
+#开局阵营（若存在）
+#create_faction = Axis
+#add_to_faction = GER
+
+#开局民族精神
+add_ideas = {
+	POI_GeorgeII	
+	POI_COUNTRY_HAS_SECONDARY_LEADER
+}

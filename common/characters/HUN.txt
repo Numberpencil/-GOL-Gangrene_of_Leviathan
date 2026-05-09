@@ -1,0 +1,71 @@
+characters = {
+    ## Leaders ##
+    #premier
+	IV_kaluoer = { #卡洛伊四世
+        name = IV_kaluoer_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/HUN/IV.Károly.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+    HUN_gov = { #内阁政府
+        name = HUN_gov_name
+         portraits = {
+            civilian = {
+                large = "gfx/leaders/HUN/gunmu.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+    otto_I = { #奥托一世
+        name = otto_I_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/HUN/sima_OTTO.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Tisza_István = { 
+        name = Tisza_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/HUN/Tisza_István.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

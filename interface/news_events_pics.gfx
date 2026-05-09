@@ -1,0 +1,14 @@
+spriteTypes = {
+	SpriteType = { #通用
+		name = GFX_news_generic
+		texturefile = "gfx/events/news/news_photo_generic.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Karl_assassination"
+		texturefile = "gfx/events/news/Karl_assassination.dds"
+	}
+	#SpriteType = {
+	#	name = x
+	#	texturefile = ""
+	#}
+}

@@ -1,0 +1,38 @@
+state = {
+	id = 462
+	name = "STATE_462"
+	manpower = 1884411
+	state_category = three
+
+	resources = {
+		aluminium = 2
+		steel = 4
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+
+		victory_points = { 4108 10 } #Marrakesh
+		victory_points = { 7203 3 } #Agadir
+		victory_points = { 13858 5 } #Mazagan
+		victory_points = { 11943 5 } #Safi
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			7203 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1102 4022 4108 4139 5046 7203 10107 11943 13858 13868 13869
+	}
+}

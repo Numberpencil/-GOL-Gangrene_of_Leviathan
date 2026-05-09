@@ -1,0 +1,95 @@
+add_namespace = ROM
+
+#country_event = { #
+#	id = ROM.x
+#    picture = GFX_events_x
+#    title = ROM.x.t
+#    desc = ROM.x.d
+#    is_triggered_only = yes
+#    fire_only_once = yes
+#    option = { 
+#        name = ROM.x.a
+#		trigger = {
+#			always = yes
+#		}
+#	}
+#}
+
+country_event = { #匈牙利施压
+	id = ROM.1
+    picture = GFX_events_x
+    title = ROM.1.t
+    desc = ROM.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = ROM.1.a #我们别无选择
+		trigger = {
+			always = yes
+		}
+		news_event = { #布达佩斯通牒
+			id = news.1002
+		} 
+		HUN = {
+			puppet = ROM
+		}
+	}
+}
+
+country_event = { #进军布加勒斯特
+	id = ROM.2
+    picture = GFX_events_x
+    title = ROM.2.t
+    desc = ROM.2.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = ROM.2.a #铁卫团前进！
+		trigger = {
+			always = yes
+		}
+		
+		HUN = {
+			end_puppet = ROM
+			country_event = { #瓦拉几亚脱离控制
+				id = HUN.5
+			} 
+		}
+	}
+}
+
+country_event = { #来自匈牙利的最后通牒
+	id = ROM.3
+    picture = GFX_events_x
+    title = ROM.3.t
+    desc = ROM.3.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = ROM.3.a #我们绝不屈服！
+		trigger = {
+			always = yes
+		}
+		create_faction = balkan_defense_union
+		add_to_faction = YUG
+		add_to_faction = BUL
+	    set_faction_manifest = faction_manifest_Far_Defense_Balkan
+		HUN = {
+			country_event = { #瓦拉几亚拒绝要求
+				id = HUN.7
+			} 
+		}
+	}
+	option = {
+		name = ROM.3.b #我们打不过他们...
+		trigger = {
+			always = no
+		}
+		HUN = {
+			country_event = { #瓦拉几亚同意要求
+				id = HUN.8
+			} 
+			puppet = ROM
+		}
+	}
+}

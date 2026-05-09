@@ -1,0 +1,29 @@
+state = {
+	id = 1110
+	name = "STATE_1110"
+	manpower = 209379
+	state_category = one
+
+	resources = {
+		steel = 2
+		coal = 3
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 989 5 } #Oujda
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		989 1111 1989 4154 4933 7116 7908 7958 8046 13861 13871
+	}
+}

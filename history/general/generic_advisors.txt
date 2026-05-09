@@ -1,0 +1,7 @@
+# For minor countries where advisors are not defined
+# Generate them from a generic template
+
+# Political advisors
+every_possible_country = {
+	
+}

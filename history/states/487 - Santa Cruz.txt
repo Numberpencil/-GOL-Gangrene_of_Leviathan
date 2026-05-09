@@ -1,0 +1,23 @@
+state = {
+	id = 487
+	name = "STATE_487"
+	manpower = 109500
+	state_category = one
+
+	history = {
+		owner = SAC
+		add_core_of = SAC
+
+
+
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 10924 5 }
+	}
+
+	provinces = {
+		10924 12902 12973 13255 13262 13513 13518 13515 10982
+	}
+}
+

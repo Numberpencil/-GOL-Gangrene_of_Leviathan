@@ -1,0 +1,37 @@
+state = {
+	id = 336 #Singapore
+	name = "STATE_336"
+	manpower = 1160000
+	state_category = seven
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 12299 25 } # Singapore
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 6
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+				naval_supply_hub = 1
+				naval_headquarters = {
+					level = 1
+					allowed = { has_dlc = "No Compromise, No Surrender" }
+				}
+			}
+		}
+	}
+
+	provinces = {
+		12299
+	}
+}
+

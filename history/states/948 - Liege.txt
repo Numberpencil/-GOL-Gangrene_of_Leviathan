@@ -1,0 +1,32 @@
+state = {
+	id = 948
+	name = "STATE_948"
+	manpower = 1159461
+	state_category = ten
+	local_supplies = 7.0
+
+	resources = {
+		steel = 25
+		coal = 7
+	}
+
+	history = {
+		owner = BEL
+		add_core_of = BEL
+
+
+
+		victory_points = { 11519 10 } #Liège
+		victory_points = { 11407 2 } #Bastogne
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 2
+		}
+	}
+
+	provinces = {
+		6537 9418 9444 11407 11519
+	}
+}

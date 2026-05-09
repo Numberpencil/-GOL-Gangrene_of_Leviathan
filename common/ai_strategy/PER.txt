@@ -1,0 +1,4 @@
+PER_avoid_joining_japan = {
+
+	
+}

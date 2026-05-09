@@ -1,0 +1,30 @@
+state = {
+	id = 121
+	name = "STATE_121"
+	manpower = 721719
+	state_category = eight
+
+	resources = {
+		oil = 7
+	}
+
+	history = {
+		owner = ENG
+		add_core_of = ENG
+ 
+
+		victory_points = { 9392 10 } #Edinburgh
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 3
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		9314 9392 11378
+	}
+}

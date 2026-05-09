@@ -1,0 +1,35 @@
+add_namespace = BUL
+
+#country_event = { #
+#	id = BUL.x
+#    picture = GFX_events_x
+#    title = BUL.x.t
+#    desc = BUL.x.d
+#    is_triggered_only = yes
+#    fire_only_once = yes
+#    option = { 
+#        name = BUL.x.a
+#		trigger = {
+#			always = yes
+#		}
+#	}
+#}
+
+country_event = { #武装保卫瓦拉几亚
+	id = BUL.1
+    picture = GFX_events_x
+    title = BUL.1.t
+    desc = BUL.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = BUL.1.a
+		trigger = {
+			always = yes
+		}
+        add_to_war = {
+          targeted_alliance = ROM
+          enemy = HUN
+       }
+	}
+}

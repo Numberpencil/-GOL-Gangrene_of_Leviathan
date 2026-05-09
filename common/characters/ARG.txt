@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Pedro_Justo = {
+        name = Pedro_Justo_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ARG/Pedro_Justo.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

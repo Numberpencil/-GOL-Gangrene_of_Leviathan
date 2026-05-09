@@ -1,0 +1,22 @@
+state = {
+	id = 766
+	name = "STATE_766"
+	manpower = 298965
+	state_category = one
+
+	history = {
+		owner = ITA
+		add_core_of = ITA
+
+		victory_points = { 914 3 } #Tirana
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		914 3448 6900
+	}
+}
+

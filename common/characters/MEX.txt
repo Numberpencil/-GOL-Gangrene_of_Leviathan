@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Lázaro_Cárdenas = {
+        name = kadenasi_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/MEX/Lázaro_Cárdenas.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+                MEX_reformer
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

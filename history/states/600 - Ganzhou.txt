@@ -1,0 +1,30 @@
+state = {
+	id = 600
+	name = "STATE_600"
+	manpower = 4158000
+	state_category = two
+	local_supplies = 3.0
+
+	resources = {
+		tungsten = 96 #Bulk of Chinese Tungsten reserves
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1053 10 } #POP 3 + STRAT 1 + POL 0 = SIG 4
+	
+	}
+
+	provinces = {
+		1053 1110 4081 4156 4183 7004 7172 7199 9942 10057 10112 11945 12030
+	}
+}
+

@@ -1,0 +1,36 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Mikhail_II = {
+        name = Mikhail_II_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SOV/Mikhail_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Nikolai_Fomin = {
+        name = Nikolai_Fomin_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SOV/Nikolai_Fomin.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+}

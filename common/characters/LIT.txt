@@ -1,0 +1,38 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Mindaugas_III = {
+        name = Mindaugas_III_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIT/Mindaugas_III.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Yulgius_Saulis = {
+        name = Yulgius_Saulis_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIT/Yulgius_Saulis.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+   
+
+}

@@ -1,0 +1,29 @@
+state = { # Wenzhou
+	id = 803
+	name = "STATE_803"
+	manpower = 500000
+	state_category = port
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+ 
+
+
+		victory_points = { 4013 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 2
+			4013 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+		4013
+	}
+}
+

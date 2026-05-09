@@ -1,0 +1,25 @@
+state = {
+	id = 1103
+	name = "STATE_1103"
+	manpower = 2428122
+	state_category = four
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 10055 3 } #Tottori
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1167 1191 7050 7145 10052 10055 11985
+	}
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 611
+	name = "STATE_611"
+	manpower = 970000
+	state_category = one
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 6904 5 } #POP 1 + STRAT 1 + POL 1 = SIG 3
+	}
+
+	provinces = {
+		1137 1590 6904 9776
+	}
+}

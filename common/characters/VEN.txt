@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	aEliasa_López_Contreras = {
+        name = aElias_Contreras_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/VEN/Eliasa_López_Contreras.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

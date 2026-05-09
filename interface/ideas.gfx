@@ -1,0 +1,100 @@
+spriteTypes = {	
+	###德国###
+	SpriteType = {
+		name = "GFX_idea_rotten_and_obscurantist_system"
+		texturefile = "gfx/ideas/GER/rotten_and_obscurantist_system.png"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_idea_toward_collapse"
+		texturefile = "gfx/ideas/GER/toward_collapse.png"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Weltpolitik"
+		texturefile = "gfx/ideas/GER/Weltpolitik.png"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Mitteleuropa_trade_agreement" 
+		texturefile = "gfx/ideas/GER/Mitteleuropa_trade_agreement.png"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_idea_The_aftermath_of_the_economic_crisis"
+		texturefile = "gfx/ideas/GER/The_aftermath_of_the_economic_crisis.png"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Heil_dir_im_Siegerkranz"
+		texturefile = "gfx/ideas/GER/Heil_dir_im_Siegerkranz.png"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Capital_outflow"
+		texturefile = "gfx/ideas/GER/Capital_outflow.png"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Imperial_army"
+		texturefile = "gfx/ideas/GER/Imperial_army.png"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Imperial_navy"
+		texturefile = "gfx/ideas/GER/Imperial_navy.png"
+		
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_Imperial_air_force"
+		texturefile = "gfx/ideas/GER/Imperial_air_force.png"
+		
+	}
+	###匈牙利###
+	SpriteType = {
+		name = "GFX_idea_A_turbulent_country"
+		texturefile = "gfx/ideas/HUN/A_turbulent_country.png"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Aftermath_of_Great_Depression"
+		texturefile = "gfx/ideas/HUN/Aftermath_of_Great_Depression.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Legacy_of_the_Habsburgs"
+		texturefile = "gfx/ideas/HUN/Legacy_of_the_Habsburgs.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Post_Danube_era_army"
+		texturefile = "gfx/ideas/HUN/Post_Danube_era_army.png"
+	}
+
+	###塞尔维亚###
+	SpriteType = {
+		name = "GFX_idea_Belated_Victory"
+		texturefile = "gfx/ideas/YUG/Belated_Victory.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Myth_of_National_Rejuvenation"
+		texturefile = "gfx/ideas/YUG/Myth_of_National_Rejuvenation.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Backward_country"
+		texturefile = "gfx/ideas/YUG/Backward_country.png"
+	}
+	
+}

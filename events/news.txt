@@ -1,0 +1,72 @@
+add_namespace = news
+
+
+#news_event = { #
+#	id = news.x
+#	title = news.x.t
+#	desc = news.x.d
+#	picture = GFX_news_event_x
+#	is_triggered_only = yes
+#	option = {
+#		name = news.x.a
+#	}
+#}
+
+news_event = { #匈牙利国王卡洛伊四世遇刺身亡
+	id = HUN_news.1000
+	title = HUN_news.1000.t
+	desc = HUN_news.1000.d
+	picture = GFX_news_event_Karl_assassination
+	is_triggered_only = yes
+	major = yes
+	option = { #真野蛮
+		name = HUN_news.1000.a
+	}
+}
+
+news_event = { #匈牙利王国新王奥托加冕圣斯蒂芬王冠
+	id = news.1001
+	title = news.1001.t
+	desc = news.1001.d
+	picture = GFX_news_event_x
+	is_triggered_only = yes
+	major = yes
+	option = { #来真的？
+		name = news.1001.a
+	}
+}
+
+news_event = { #布达佩斯通牒
+	id = news.1002
+	title = news.1002.t
+	desc = news.1002.d
+	picture = GFX_news_event_x
+	is_triggered_only = yes
+	major = yes
+	option = { #无药可救，难道他们忘了1914吗？
+		name = news.1002.a
+	}
+}
+
+news_event = { #巴尔干战争爆发
+	id = news.1003
+	title = news.1003.t
+	desc = news.1003.d
+	picture = GFX_news_event_x
+	is_triggered_only = yes
+	major = yes
+	option = { #我早就说这群混蛋会再次搞砸这一切
+		name = news.1003.a
+	}
+}
+news_event = { #工团赢得大选
+	id = news.1004
+	title = news.1004.t
+	desc = news.1004.d
+	picture = GFX_news_event_x
+	is_triggered_only = yes
+	major = yes
+	option = { #我早就说这群混蛋会再次搞砸这一切
+		name = news.1004.a
+	}
+}

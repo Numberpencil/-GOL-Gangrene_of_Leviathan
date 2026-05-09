@@ -1,0 +1,25 @@
+state = {
+	id = 830
+	name = "STATE_830"
+	manpower = 161700
+	state_category = two
+
+	resources = { #historically major mining state
+		tungsten = 17
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1279 4297 12131
+	}
+}

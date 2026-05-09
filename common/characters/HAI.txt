@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Carl_Bruyard = {
+        name = Carl_Bruyard_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/HAI/Carl_Bruyard.png"
+            }
+        }
+        country_leader = {
+            ideology = Socialisation_corporatism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

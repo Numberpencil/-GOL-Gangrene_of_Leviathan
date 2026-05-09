@@ -1,0 +1,29 @@
+state = {
+	id = 993
+	name = "STATE_993"
+	manpower = 19783
+	state_category = wasteland
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+ 
+
+
+		victory_points = { 8051 1 } #Doha
+
+		buildings = {
+			infrastructure = 1
+			8051 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		8051
+	}
+}
+

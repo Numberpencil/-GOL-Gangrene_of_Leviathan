@@ -1,0 +1,28 @@
+state = {
+	id = 699
+	name = "STATE_699"
+	manpower = 33976
+	state_category = wasteland
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+ 
+
+
+		victory_points = { 13886 2 } #El Aaiun
+
+		buildings = {
+			infrastructure = 1
+			13886 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		5012 13886 13887 13888
+	}
+}

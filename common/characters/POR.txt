@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	 Fragoso_Carmona = {
+        name = Fragoso_Carmona_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/POR/Fragoso_Carmona.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

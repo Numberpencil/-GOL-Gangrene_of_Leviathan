@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Adolf_Friedrich = {
+        name = Adolf_Friedrich_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/EST/Adolf_Friedrich.png"
+            }
+        }
+        country_leader = {
+            ideology = Oligarchist_despotism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

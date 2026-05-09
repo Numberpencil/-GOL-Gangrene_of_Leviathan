@@ -1,0 +1,36 @@
+characters = {
+    ## Leaders ##
+    #premie	
+    GeorgeII = {
+        name = GeorgeII_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GRE/GeorgeII.png"
+            }
+        }
+        country_leader = {
+            ideology = Populist_conservativism
+            traits = {
+                
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Giannis_Metaxas = {
+        name = Giannis_Metaxas_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GRE/Giannis_Metaxas.png"
+            }
+        }
+        country_leader = {
+            ideology = Populist_conservativism
+            traits = {
+                
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+}

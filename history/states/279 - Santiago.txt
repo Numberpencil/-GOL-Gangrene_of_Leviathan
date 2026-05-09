@@ -1,0 +1,41 @@
+state = {
+	id = 279
+	name = "STATE_279"
+	manpower = 2346806
+	state_category = six
+
+	resources = {
+		steel = 19
+	}
+
+	history = {
+		owner = CHL
+		add_core_of = CHL
+
+
+
+
+
+		victory_points = { 650 30 } #Santiago
+		victory_points = { 13499 10 } #Valparaiso
+		victory_points = { 8229 3 } #Talca
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 3
+			13499 = {
+				naval_base = 5
+			}
+			650 = {
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+		650 5191 8222 8229 13235 13499
+	}
+}

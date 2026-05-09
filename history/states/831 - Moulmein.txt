@@ -1,0 +1,30 @@
+state = {
+	id = 831
+	name = "STATE_831"
+	manpower = 921600
+	state_category = three
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		victory_points = { 1403 3 } #Moulmein/Mawlamyine/Morlumreng
+
+		buildings = {
+			infrastructure = 1
+			1403 = { # Moulmein Estuary
+				naval_base = 3
+			}
+		}
+
+		 
+		
+	}
+
+	provinces = {
+		1403 4408 12125 12238
+	}
+}

@@ -1,0 +1,38 @@
+state = {
+	id = 293
+	name = "STATE_293"
+	manpower = 2639500
+	state_category = three
+
+	resources = {
+		oil = 1
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+
+		victory_points = { 10840 5 } #Sana'a
+		victory_points = { 1973 2 } #Taiz
+		victory_points = { 13836 2 } #Hodeida
+		victory_points = { 13837 1 } #Marib
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+			13836 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1920 1973 4924 10752 10840 13836 13837
+	}
+}

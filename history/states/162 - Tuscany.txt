@@ -1,0 +1,48 @@
+state = {
+	id = 162
+	name = "STATE_162"
+	manpower = 2978000
+	state_category = eight
+
+	history = {
+		owner = ITA
+		add_core_of = ITA
+ 
+ 
+
+
+
+
+
+		victory_points = { 9907 20 } #Firenze
+		victory_points = { 6973 3 } #La Spezia
+		victory_points = { 11833 2 } #Livorno
+		victory_points = { 6946 1 } #Pisa
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 3
+			air_base = 2
+			6946 = {
+				landmark_leaning_tower_of_pisa = 1
+			}
+			6973 = {
+				naval_base = 10
+				naval_headquarters = {
+					level = 1
+					allowed = { has_dlc = "No Compromise, No Surrender" }
+				}
+			}
+			11833 = {
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+		910 1616 6875 6946 6973 9750 9879 9907 11833 11889
+	}
+}
+

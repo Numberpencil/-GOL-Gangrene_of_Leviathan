@@ -1,0 +1,31 @@
+state = {
+	id = 728
+	name = "STATE_728"
+	manpower = 209000
+	state_category = minor_port
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		buildings = {
+			infrastructure = 2
+			11981 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 11981 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+	}
+
+	resources = {
+		coal = 2
+	}
+
+	provinces = {
+		11981
+	}
+}
+

@@ -1,0 +1,29 @@
+state = {
+	id = 679
+	name = "STATE_679"
+	manpower = 754141
+	state_category = four
+
+	history = {
+		owner = SAU
+		add_core_of = SAU
+victory_points = { 5037 10 } #Mecca
+		victory_points = { 12883 1 } #Jeddah
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			5037 = {
+				landmark_kaaba = 1
+			}
+			12883 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		4981 5037 12883
+	}
+}
+

@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	
+    Benito_Amilcare_Andrea_Mussolini = {
+        name = Benito_Amilcare_Andrea_Mussolini_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ITA/Mussolini.png"
+            }
+        }
+        country_leader = {
+            ideology = State_corporatism_italia
+            traits = {
+                
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+}

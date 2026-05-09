@@ -1,0 +1,32 @@
+state = {
+	id = 743
+	name = "STATE_743" # Shanghai
+	manpower = 4730510
+	state_category = eight
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1 #Jiangnan Shipyards
+			arms_factory = 3 #Shanghai Arsenal
+			air_base = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		victory_points = { 7014 30 } #POP 3 + STRAT 2 + POL 3 = SIG 8
+	}
+
+	provinces = {
+		7014 12052 12076
+	}
+}
+

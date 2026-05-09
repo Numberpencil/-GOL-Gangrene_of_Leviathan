@@ -1,0 +1,201 @@
+add_namespace = HUN
+
+#country_event = { #
+#	id = HUN.x
+#    picture = GFX_events_x
+#    title = HUN.x.t
+#    desc = HUN.x.d
+#    is_triggered_only = yes
+#    fire_only_once = yes
+#    option = { 
+#        name = HUN.x.a
+#		trigger = {
+#			always = yes
+#		}
+#	}
+#}
+
+country_event = { #卡尔遇刺
+	id = HUN.1
+    picture = GFX_events_x
+    title = HUN.1.t
+    desc = HUN.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = HUN.1.a #快，保护陛下！
+		trigger = {
+			tag = HUN
+		}
+		HUN = {
+		remove_ideas = POI_IV_kaluoer
+		}
+		news_event = {
+			id = HUN_news.1000 #匈牙利国王卡洛伊四世遇刺身亡
+		}
+		hidden_effect = {
+			HUN = {
+				country_event = { #权力真空
+					id = HUN.2
+					days = 10
+				}
+			}
+		}
+	}
+}
+
+country_event = { #权力真空
+	id = HUN.2
+    picture = GFX_events_x
+    title = HUN.2.t
+    desc = HUN.2.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = HUN.2.a #我们的匈牙利，究竟会，变成什么样子（哽咽）
+		trigger = {
+			always = yes
+		}
+		hidden_effect = {
+			HUN = {
+				country_event = { #奥托加冕
+					id = HUN.3
+					days = 20
+				}
+			}
+		}
+	}
+}
+
+country_event = { #奥托加冕
+	id = HUN.3
+    picture = GFX_events_x
+    title = HUN.3.t
+    desc = HUN.3.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = HUN.3.a #奥托国王万岁，匈牙利万岁！
+		trigger = {
+			always = yes
+		}
+		HUN = {
+			add_ideas = POI_otto_I
+		}
+		news_event = {
+			id = news.1001
+		}
+		hidden_effect = {
+			country_event = {
+				id = HUN.4
+				days = 30
+			}
+		}	
+	}
+}
+country_event = { #傀儡瓦拉几亚
+	id = HUN.4
+    picture = GFX_events_x
+    title = HUN.4.t
+    desc = HUN.4.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = HUN.4.a #让东方的朋友们，作出回答！
+		trigger = {
+			always = yes
+		}
+		ROM = {
+			country_event = { #匈牙利施压
+				id = ROM.1 
+			} 
+		}
+	}
+}
+
+country_event = { #瓦拉几亚脱离控制
+	id = HUN.5
+    picture = GFX_events_x
+    title = HUN.5.t
+    desc = HUN.5.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = HUN.5.a #该死！
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+country_event = { #对瓦拉几亚的最后通牒
+	id = HUN.6
+    picture = GFX_events_x
+    title = HUN.6.t
+    desc = HUN.6.d
+    #is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		date = 1936.1.7
+	}
+    option = { 
+        name = HUN.6.a #我们不会善罢甘休
+		trigger = {
+			always = yes
+		}
+		ROM = {
+			country_event = { #来自匈牙利的最后通牒
+				 id = ROM.3 
+			} 
+		}
+	}
+}
+
+country_event = { #瓦拉几亚拒绝要求
+	id = HUN.7
+    picture = GFX_events_x
+    title = HUN.7.t
+    desc = HUN.7.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = HUN.7.a #那就没什么好说的了
+		trigger = {
+			always = yes
+		}
+		declare_war_on = {
+			target = ROM
+			type = annex_everything
+		}
+		news_event = {
+			id = news.1003 #巴尔干战争爆发
+		}
+		hidden_effect = {
+			YUG = {
+				country_event = {
+					id = YUG.1 #武装保卫瓦拉几亚
+				}
+			}
+			BUL = {
+				country_event = {
+					id = BUL.1 #武装保卫瓦拉几亚
+				}
+			}
+		}
+	}
+}
+
+country_event = { #瓦拉几亚同意要求
+	id = HUN.8
+    picture = GFX_events_x
+    title = HUN.8.t
+    desc = HUN.8.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = HUN.8.a #算他们识相
+		trigger = {
+			always = yes
+		}
+	}
+}

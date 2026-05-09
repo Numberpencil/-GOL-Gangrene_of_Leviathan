@@ -1,0 +1,51 @@
+spriteTypes = {
+	SpriteType = { #新年演讲
+		name = GFX_events_new_year_speech
+		texturefile = "gfx/events/GER/GER_events_new_year_speech.dds"
+	}
+	#SpriteType = {
+	#	name = x
+	#	texturefile = ""
+	#}
+		spriteType = {
+		name = "GFX_news_event_Karl_assassination"
+		texturefile = "gfx/events/FRA/Karl_assassination.dds"
+	}
+	spriteType = {
+		name = "GFX_event_Labor_Union_Party"
+		texturefile = "gfx/events/FRA/Labor_Union_Party.dds"
+	}
+	spriteType = {
+		name = "GFX_event_French_Communist_Party"
+		texturefile = "gfx/events/FRA/French_Communist_Party.dds"
+	}		
+	spriteType = {
+		name = "GFX_event_Front_populaire"
+		texturefile = "gfx/events/FRA/Front_populaire.dds"
+	}	
+	spriteType = {
+		name = "GFX_event_People_Party"
+		texturefile = "gfx/events/FRA/People_Party.dds"
+	}	
+	spriteType = {
+		name = "GFX_event_Republican_Alliance"
+		texturefile = "gfx/events/FRA/Republican_Alliance.dds"
+	}	
+	spriteType = {
+		name = "GFX_event_Young_Patriots"
+		texturefile = "gfx/events/FRA/Young_Patriots.dds"
+	}
+	spriteType = {
+		name = "GFX_event_Farmers_Alliance"
+		texturefile = "gfx/events/FRA/Farmers_Alliance.dds"
+	}			
+
+	spriteType = {
+		name = "GFX_event_Workers_International"
+		texturefile = "gfx/events/FRA/Workers_International.dds"
+	}			
+	spriteType = {
+		name = "GFX_event_Labor_win"
+		texturefile = "gfx/events/FRA/Labor_win.dds"
+	}	
+}

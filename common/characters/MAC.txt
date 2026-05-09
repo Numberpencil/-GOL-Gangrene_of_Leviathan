@@ -1,0 +1,21 @@
+ characters = {
+    ## Leaders ##
+    #premier
+	Henrik_Welter = {
+        name = Henrik_Welter_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/MAC/Henrik_Welter.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

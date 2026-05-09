@@ -1,0 +1,32 @@
+state = {
+	id = 741
+	name = "STATE_741"
+	manpower = 243682
+	state_category = four
+
+	history = {
+		owner = GER =
+
+
+
+		victory_points = { 3488 2 } #Verviers
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			3488 = {
+				dam = 1 #Gileppe Dam
+			}
+		}
+	
+		1936.1.1 = {
+			owner = GER
+
+		}
+	}
+
+	provinces = {
+		3488
+	}
+}

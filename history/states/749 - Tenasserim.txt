@@ -1,0 +1,31 @@
+state = {
+	id = 749
+	name = "STATE_749"
+	manpower = 486801
+	state_category = one
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		victory_points = { 1315 1 } #Dawei/Thawai
+
+		buildings = {
+			infrastructure = 1
+			1315 = { # Dawei Port
+				naval_base = 1
+			}
+		}
+
+		 
+		
+	}
+
+	provinces = {
+		1296 1315 1385 4275 7295 10217 12292
+	}
+}
+

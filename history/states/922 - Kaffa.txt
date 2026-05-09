@@ -1,0 +1,30 @@
+state = {
+	id = 922
+	name = "STATE_922"
+	manpower = 876000
+	state_category = one
+
+	resources = {
+		rubber = 2
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		victory_points = { 7912 1 } #Jimma
+		victory_points = { 13820 2 } #Gambela
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		7912 13817 13820
+	}
+}

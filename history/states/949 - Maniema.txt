@@ -1,0 +1,22 @@
+state = {
+	id = 949
+	name = "STATE_949"
+	manpower = 316129
+	state_category = one
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		7161 10766 10858
+	}
+}
+

@@ -1,0 +1,30 @@
+state = {
+	id = 440
+	name = "STATE_440"
+	manpower = 8715900
+	state_category = four
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+ 
+
+
+
+		victory_points = { 12822 5 } #Amritsar
+		victory_points = { 10729 2 } #Ludhiana
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		2002 10729 10772 12822 13853
+	}
+}
+

@@ -1,0 +1,30 @@
+state = {
+	id = 1072
+	name = "STATE_1072"
+	manpower = 6998000
+	state_category = four
+
+	resources = {
+		tungsten = 3 #Not particularly known for Tungsten mining, but giving north China some from the south for balance.
+		coal = 3 #The 1913 atlas suggests most of the reserves were here, plus more useful for Shanxi player.
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		victory_points = { 1962 30 } #POP 4 + STRAT 2 + POL 2 = SIG 8
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2 #Taiyaun Arsenal - give one to GMJ though
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1034 1115 1519 1531 1575 1962 4074 4174 4469 4634 7041 7571 10367 10507 10838 12300
+	}
+}

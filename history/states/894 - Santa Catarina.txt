@@ -1,0 +1,28 @@
+state = {
+	id = 894
+	name = "STATE_894"
+	manpower = 1078300
+	state_category = three
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 10405 5 }
+	}
+
+	resources = {
+		coal = 1
+	}
+
+	provinces = {
+		1529 4533 4548 10405
+	}
+}
+

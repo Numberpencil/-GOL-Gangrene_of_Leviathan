@@ -1,0 +1,28 @@
+state = {
+	id = 1062
+	name = "STATE_1062"
+	manpower = 12164900
+	state_category = four
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		victory_points = { 7109 20 } #POP 5 + STRAT 2 + POL 0 = SIG 7
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+	}
+
+	resources = {
+		coal = 1 #The 1913 atlas suggests some coal reserves around this area so it gets a little.
+	}
+
+	provinces = {
+		4032 4093 4190 4208 7000 7109 10022 10053 11944 11996
+	}
+}

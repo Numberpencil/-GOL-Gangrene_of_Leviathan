@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Antonio_Augusto = {
+        name = Antonio_Augusto_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/RIG/Antonio_Augusto.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 1096
+	name = "STATE_1096"
+	manpower = 1178313
+	state_category = one
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		victory_points = { 2080 1 } #Yaounde
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		2080 5054 13619 13625
+	}
+}

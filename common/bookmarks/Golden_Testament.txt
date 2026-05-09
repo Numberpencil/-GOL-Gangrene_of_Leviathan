@@ -1,0 +1,112 @@
+bookmarks = {
+	bookmark = {
+		name = "Golden_Testament_NAME"
+		desc = "Golden_Testament_DESC"
+		date = 1935.1.1.12
+		picture = "GFX_bookmark_Golden_Testament"
+		default_country = "GER"
+	
+		GER = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		FRA = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		ENG = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		SOV = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		AUS = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		POL = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		ITA = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,36 @@
+ideas = {
+	hidden_ideas = {
+		Constitutional_monarchy = { #立宪君主制
+			name = "Constitutional_monarchy"
+			#on_add = {
+			#	set_country_flag = COUNTRY_HAS_SECONDARY_LEADER
+			#}
+			#on_remove = {
+			#	clr_country_flag = COUNTRY_HAS_SECONDARY_LEADER
+			#}
+			removal_cost = -1
+			cancel = {
+	
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		} 
+		Bicameral_constitutional_monarchy = { #二元君主立宪
+			name = "Bicameral_constitutional_monarchy"
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+	}
+}

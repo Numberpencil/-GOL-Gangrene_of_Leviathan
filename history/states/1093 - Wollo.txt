@@ -1,0 +1,24 @@
+state = {
+	id = 1093
+	name = "STATE_1093"
+	manpower = 949000
+	state_category = one
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 5097 1 } #Dessie
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		5097 7944
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 386
+	name = "STATE_386"
+	manpower = 1653000
+	state_category = five
+
+	history = {
+		owner = WAT #Spokane
+		add_core_of = WAT
+		victory_points = { 7315 20 } #Seattle
+		victory_points = { 7386 5 } #Olympia
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 5
+			7315 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+		1320 4296 4398 7255 7315 7386 7414 7442 10155 10157 10198 10242 10271 10690 12155 12214
+	}
+}
+

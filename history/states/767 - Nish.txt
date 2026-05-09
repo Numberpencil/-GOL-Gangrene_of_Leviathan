@@ -1,0 +1,30 @@
+state = {
+	id = 767
+	name = "STATE_767"
+	manpower = 1179472
+	state_category = three
+
+	resources = {
+		steel = 3
+	}
+
+	history = {
+		owner = YUG
+		add_core_of = YUG
+ 
+
+		victory_points = { 11887 2 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		 
+		
+	}
+
+	provinces = {
+		630 6634 9602 9756 9890 9906 11887 13560 11857 11868
+	}
+}
+

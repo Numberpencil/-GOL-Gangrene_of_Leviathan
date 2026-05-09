@@ -1,0 +1,39 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Koningin_Wilhelmina = {
+        name =  Koningin_Wilhelmina_name
+
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/HOL/Koningin_Wilhelmina.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Sjoerds_Gerbrandy = {
+        name =  Sjoerds_Gerbrandy_name
+
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/HOL/Sjoerds_Gerbrandy.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

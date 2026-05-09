@@ -1,0 +1,27 @@
+state = {
+	id = 441
+	name = "STATE_441"
+	manpower = 3539500
+	state_category = two
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+ 
+
+
+		victory_points = { 10905 5 } #Srinagar
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1910 2041 2084 7273 7316 8005 10821 10905 12754 12884
+	}
+}
+

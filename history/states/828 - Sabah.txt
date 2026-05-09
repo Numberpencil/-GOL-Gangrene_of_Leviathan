@@ -1,0 +1,35 @@
+state = {
+	id = 828 # Sabah
+	name = "STATE_828"
+	manpower = 200000
+	state_category = two
+
+	resources = {
+		oil = 2
+		rubber = 23
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+ 
+
+
+
+		victory_points = { 10199 2 } # Sandakan
+		victory_points = { 10212 1 } # Kota Kinabalu
+
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 1
+			10199 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1306 1335 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228
+	}
+}
+

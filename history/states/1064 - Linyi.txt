@@ -1,0 +1,30 @@
+state = {
+	id = 1064
+	name = "STATE_1064"
+	manpower = 15320000
+	state_category = two
+	local_supplies = 1.0
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		victory_points = { 1124 15 }  #POP 5 + STRAT 0 + POL 0 = SIG 5
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	resources = {
+		coal = 1 #Shandong should have about 3 coal - Qingdao has 7 though so our projections might be a bit off. Still, gonna put 1 coal in each of Shandong's states since that's what the map appears like.
+	}
+
+	provinces = {
+		1124 1154 4181 7055 7200 9956 9971 12015
+	}
+}
+

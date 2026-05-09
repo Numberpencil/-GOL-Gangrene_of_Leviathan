@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Pavel_Skoropadsky = {
+        name = Pavel_Skoropadsky_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/UKR/Pavel_Skoropadsky.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

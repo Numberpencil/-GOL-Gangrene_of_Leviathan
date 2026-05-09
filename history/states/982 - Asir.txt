@@ -1,0 +1,24 @@
+state = {
+	id = 982
+	name = "STATE_982"
+	manpower = 293948
+	state_category = one
+
+	history = {
+		owner = SAU
+		add_core_of = SAU
+victory_points = { 8073 1 } #Jazan
+		victory_points = { 13664 1 } #Abha
+
+		buildings = {
+			infrastructure = 1
+			8073 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1923 8073 10786 13664
+	}
+}

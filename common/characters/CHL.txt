@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Arturo_Alessandri = {
+        name = Arturo_Alessandri_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CHL/Arturo_Alessandri.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

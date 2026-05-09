@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Fuad_I = {
+        name =Fuad_I_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/EGY/Fuad_I.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

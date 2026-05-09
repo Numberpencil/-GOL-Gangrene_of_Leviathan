@@ -1,0 +1,33 @@
+state = {
+	id = 456
+	name = "STATE_456"
+	manpower = 2212258
+	state_category = two
+
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+ 
+
+
+
+		victory_points = { 12071 3 } #Luxor
+		victory_points = { 11999 3 } #Aswan
+
+		buildings = {
+			infrastructure = 1
+			11999 = {
+				dam = 1 #Aswan Low Dam
+			}
+		}
+	}
+
+	provinces = {
+		1028 1064 1206 7073 10844 11999 12071 12771
+	}
+}
+

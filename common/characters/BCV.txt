@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	George_von_Seneski = {
+        name = George_von_Seneski_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BCV/George_von_Seneski.png"
+            }
+        }
+        country_leader = {
+            ideology = Oligarchist_despotism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

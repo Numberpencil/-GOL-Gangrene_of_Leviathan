@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Antonio_Soto = {
+        name = Antonio_Soto_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/PAT/Antonio_Soto.png"
+            }
+        }
+        country_leader = {
+            ideology = Anarchist_syndicalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

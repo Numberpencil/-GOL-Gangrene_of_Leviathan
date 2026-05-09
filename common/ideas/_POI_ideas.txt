@@ -1,0 +1,340 @@
+ideas = {
+	hidden_ideas = {
+		POI_COUNTRY_HAS_SECONDARY_LEADER = {
+			name = "COUNTRY_HAS_SECONDARY_LEADER_name"
+
+			removal_cost = -1
+
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_wilhelm_ii = {			
+			name = "kaiser wilhelm ii"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+	
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+
+		}
+		POI_George_V = {
+			name = "ENG POI George V"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Gustav_V = {
+			name = "SWE POI Gustav_V"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Mikhail_II = {
+			name = "SOV POI Mikhail_II"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+	
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Isabella_I = {
+			name = "BRA POI Isabella_I"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Christian_X = {
+			name = "DEN POI Christian_X"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_GeorgeII = {
+			name = "GRE POI GeorgeII"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Boris_III = {
+			name = "BUL POI Boris_III"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Carol_II = {
+			name = "ROM POI Carol_II"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Michael_II = {
+			name = "MOL POI Michael_II"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Alexander_I = {
+			name = "YUG POI Alexander_I"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_IV_kaluoer = {
+			name = "HUN POI IV_kaluoer"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_otto_I = {
+			name = "HUN POI otto_I"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Koningin_Wilhelmina = {
+			name = "HOL POI Koningin_Wilhelmina"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Albert_I = {
+			name = "BEL POI Albert_I"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_August_IV = {
+			name = "POL POI August_IV"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Mindaugas_III = {
+			name = "LIT POI Mindaugas_III"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+    }
+}

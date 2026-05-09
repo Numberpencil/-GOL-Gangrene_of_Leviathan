@@ -1,0 +1,35 @@
+add_namespace = YUG
+
+#country_event = { #
+#	id = YUG.x
+#    picture = GFX_events_x
+#    title = YUG.x.t
+#    desc = YUG.x.d
+#    is_triggered_only = yes
+#    fire_only_once = yes
+#    option = { 
+#        name = YUG.x.a
+#		trigger = {
+#			always = yes
+#		}
+#	}
+#}
+
+country_event = { #武装保卫瓦拉几亚
+	id = YUG.1
+    picture = GFX_events_x
+    title = YUG.1.t
+    desc = YUG.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = YUG.1.a
+		trigger = {
+			always = yes
+		}
+        add_to_war = {
+          targeted_alliance = ROM
+          enemy = HUN
+       }
+	}
+}

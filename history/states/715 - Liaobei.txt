@@ -1,0 +1,28 @@
+state = { #Liaobei
+	id = 715
+	name = "STATE_715"
+	manpower = 4271800
+	state_category = three
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 916 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 1638 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 12337 1 } #POP 1 + STRAT 1 + POL 0 + BAL -1 = SIG 1
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		846 887 916 930 1499 1558 1627 1638 3849 3877 4561 4633 4642 6893 7812 9831 9927 11808 11836 11903 12337
+	}
+}
+

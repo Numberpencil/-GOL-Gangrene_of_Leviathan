@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Constitutional_monarchy"
+		textureFile = "gfx/interface/political_systems/Constitutional_monarchy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Bicameral_constitutional_monarchy"
+		textureFile = "gfx/interface/political_systems/Bicameral_constitutional_monarchy.dds"
+		legacy_lazy_load = no
+	}
+}

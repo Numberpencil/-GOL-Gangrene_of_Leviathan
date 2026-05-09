@@ -1,0 +1,16 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_faction_logo_Berlin_Defence_Agreement
+		textureFile = "gfx/interface/factions/faction_logos/Berlin_Defence_Agreement.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = GFX_faction_logo_Berlin_Defence_Agreement_miniature
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Berlin_Defence_Agreement_miniature.dds"
+	}
+	spriteType = {
+		name = GFX_faction_icon_Berlin_Defence_Agreement
+		texturefile = "gfx/interface/factions/faction_icons/Berlin_Defence_Agreement.dds"
+		legacy_lazy_load = yes
+	}
+}

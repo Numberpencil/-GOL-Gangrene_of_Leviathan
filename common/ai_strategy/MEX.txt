@@ -1,0 +1,4 @@
+stay_in_mexicos_faction = {
+	
+}
+

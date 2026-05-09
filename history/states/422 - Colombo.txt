@@ -1,0 +1,32 @@
+state = {
+	id = 422
+	name = "STATE_422"
+	manpower = 4850000
+	state_category = three
+
+	resources = {
+		rubber = 80
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		victory_points = { 7260 3 } #Colombo
+
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			7260 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+		1213 4219 7260 7344
+	}
+}

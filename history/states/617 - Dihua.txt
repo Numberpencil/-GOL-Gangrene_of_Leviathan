@@ -1,0 +1,39 @@
+state = {
+	id = 617
+	name = "STATE_617"
+	manpower = 1480500
+	state_category = two
+	local_supplies = 6.0
+
+	resources = {
+		oil = 4 #Dushanzi Oilfield
+		steel = 25
+		coal = 1 #coal = 1 #Mostly pity coal (removed one from Hebei) but there was/is coal mining in Xinjiang so gonna give it here so Xinjiang splinters have some access to coal + there are mountains.
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = { 4682 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 4709 10 } #POP 1 + STRAT 1 + POL 2 = SIG 4
+		victory_points = { 1143 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+		victory_points = { 10545 3 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+		victory_points = { 10674 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+	}
+
+	provinces = {
+		1143 1703 1708 1783 1844 2972 4682 4709 4770 4788 7148 7216 7702 7732 7792 7850 7866 8042 8086 10127 10545 10614 10674 10691 10839 10869 10907 12099 12524 12526 12601 12656 12733 12864 13726
+	}
+}

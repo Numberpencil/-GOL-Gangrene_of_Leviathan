@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Assamblea_federala = {
+        name = Assamblea_federala_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SWI/Assamblea_federala.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

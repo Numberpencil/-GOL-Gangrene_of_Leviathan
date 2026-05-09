@@ -1,0 +1,40 @@
+state = {
+	id = 776
+	name = "STATE_776"
+	manpower = 1972300
+	state_category = six
+
+	history = {
+		owner = GER 
+
+
+
+
+		victory_points = { 362 15 } #Danzig
+		victory_points = { 3295 3 } #Thorn
+		victory_points = { 3380 3 } #Elbing
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			362 = {
+				naval_base = 6
+			}
+			3295 = {
+				bunker = 2
+			}
+		}
+	
+		1936.1.1 = {
+			owner = GER
+
+		}
+	}
+
+	provinces = {
+		334 362 389 3295 3324 3380 6347 9252 9263 11288
+	}
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 267
+	name = "STATE_267"
+	manpower = 3262230
+	state_category = four
+
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 10737 5 } #Kabul
+		victory_points = { 12831 2 } #Jalalabad
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+
+	provinces = {
+		1995 5082 7916 8090 10737 10789 10826 12769 12831
+	}
+}

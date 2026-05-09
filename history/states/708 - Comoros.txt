@@ -1,0 +1,25 @@
+state = {
+	id = 708
+	name = "STATE_708"
+	manpower = 128603
+	state_category = one_island
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+		buildings = {
+			infrastructure = 1
+			13072 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		13072
+	}
+}
+

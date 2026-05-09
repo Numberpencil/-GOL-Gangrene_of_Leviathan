@@ -1,0 +1,37 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Gustav_V = {
+        name = Gustav_V_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SWE/Gustav_V.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Albin_Hansen = {
+        name = Albin_Hansen_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SWE/Albin_Hansen.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

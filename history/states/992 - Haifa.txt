@@ -1,0 +1,24 @@
+state = {
+	id = 992
+	name = "STATE_992"
+	manpower = 400030
+	state_category = two
+
+	history = {
+		owner = ISR
+		add_core_of = ISR
+victory_points = { 1065 2 } #Haifa
+
+		buildings = {
+			infrastructure = 1
+			1065 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1065 7107
+	}
+}
+

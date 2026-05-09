@@ -1,0 +1,22 @@
+state = {
+	id = 942
+	name = "STATE_942"
+	manpower = 165850
+	state_category = two
+
+	history = {
+		owner = AUS
+		add_core_of = AUS
+
+
+		victory_points = { 6680 1 } #Bregenz
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		6680
+	}
+}

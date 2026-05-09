@@ -1,0 +1,33 @@
+state = {
+	id = 938
+	name = "STATE_938"
+	manpower = 20772
+	state_category = one_island
+
+	history = {
+		owner = ENG
+		add_core_of = ENG
+ 
+
+		victory_points = { 13631 1 }
+
+		strategic_province_location = {
+			natural_harbor = 13631
+		}
+		buildings = {
+			infrastructure = 1
+			6196 = {
+				naval_base = 1
+			}
+			13631 = {
+				naval_base = 8
+				naval_supply_hub = 1
+			}
+		}
+	}
+
+	provinces = {
+		6196 13631
+	}
+}
+

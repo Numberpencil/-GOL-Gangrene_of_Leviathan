@@ -1,0 +1,22 @@
+state = {
+	id = 1028
+	name = "STATE_1028"
+	manpower = 1000
+	state_category = zero_island
+
+	history = {
+		owner = PAT
+		add_core_of = PAT
+
+ 
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		11009
+	}
+}
+

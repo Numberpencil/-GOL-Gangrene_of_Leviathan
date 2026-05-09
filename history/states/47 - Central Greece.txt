@@ -1,0 +1,41 @@
+state = {
+	id = 47
+	name = "STATE_47"
+	manpower = 1831515
+	state_category = six
+
+	resources = {
+		tungsten = 16
+		steel = 3
+		chromium = 18
+	}
+
+	history = {
+		owner = GRE
+		add_core_of = GRE
+ 
+
+		victory_points = { 4109 20 } #Athens
+		victory_points = { 7127 3 } #Chalcis
+		victory_points = { 976 1 } #Lamia
+		victory_points = { 3988 1 } #Corinth
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 4
+			dockyard = 1
+			4109 = {
+				naval_base = 9
+			}
+			3401 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		976 1109 1205 3401 3988 4109 7127 11895 12001
+	}
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 755
+	name = "STATE_755"
+	manpower = 833529
+	state_category = two
+	local_supplies = 5.0
+
+	resources = {
+		steel = 10
+	}
+
+	history = {
+		owner = SOV
+		add_core_of = SOV
+
+
+		victory_points = { 11241 10 } #Vitebsk
+		victory_points = { 6326 1 } #Polotsk
+
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+		}
+	}
+
+	provinces = {
+		323 354 387 3219 6249 6293 6326 9323 9386 11241 11259 11272 11353
+	}
+}
+

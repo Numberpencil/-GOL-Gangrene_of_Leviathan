@@ -1,0 +1,47 @@
+state = {
+	id = 461
+	name = "STATE_461"
+	manpower = 4885510
+	state_category = four
+
+	resources = {
+		steel = 3
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+
+
+
+		victory_points = { 10070 30 } #Rabat
+		victory_points = { 7069 20 } #Casablanca
+		victory_points = { 7100 5 } #Meknes
+		victory_points = { 4097 2 } #Taza
+		victory_points = { 10023 2 } #Settat
+		victory_points = { 11987 15 } #Fez
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+			7069 = {
+				naval_base = 5
+			}
+			10070 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1079 1152 1194 1207 4084 4097 7069 7100 7173 10013 10023 10070 11987 12042 13859 13870 13872
+	}
+}
+

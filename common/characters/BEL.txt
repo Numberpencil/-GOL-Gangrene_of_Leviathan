@@ -1,0 +1,37 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Albert_I = {
+        name = Albert_I_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BEL/Albert_I.png"
+            }
+        }
+        country_leader = {
+            ideology = Christian_democratic
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    van_Zeeland = {
+        name = van_Zeeland_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BEL/van_Zeeland.png"
+            }
+        }
+        country_leader = {
+            ideology = Christian_democratic
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

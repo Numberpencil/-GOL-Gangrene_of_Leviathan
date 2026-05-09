@@ -1,0 +1,38 @@
+spriteTypes = {
+	SpriteType = {
+		name = GFX_bookmark_Gangrene_of_Leviathan
+		texturefile = "gfx/bookmarks/Gangrene_of_Leviathan.png"
+	}
+	SpriteType = {
+		name = GFX_bookmark_Black_Gold_Sand_Sea
+		texturefile = "gfx/bookmarks/Black_Gold_Sand_Sea.png"
+	}
+	SpriteType = {
+		name = GFX_bookmark_Crimson_Rift
+		texturefile = "gfx/bookmarks/Crimson_Rift.png"
+	}
+	SpriteType = {
+		name = GFX_bookmark_Darkened_Days_Over_Asia_Pacific
+		texturefile = "gfx/bookmarks/Darkened_Days_Over_Asia_Pacific.png"
+	}
+	SpriteType = {
+		name = GFX_bookmark_Golden_Testament
+		texturefile = "gfx/bookmarks/Golden_Testament.png"
+	}
+	SpriteType = {
+		name = GFX_bookmark_Sunset_of_Bygone_Days
+		texturefile = "gfx/bookmarks/Sunset_of_Bygone_Days.png"
+	}
+	SpriteType = {
+		name = GFX_bookmarks_Unfinished_Utopia
+		texturefile = "gfx/bookmarks/Unfinished_Utopia.png"
+	}
+	SpriteType = {
+		name = GFX_bookmarks_Winds_of_Rebirth
+		texturefile = "gfx/bookmarks/Winds_of_Rebirth.png"
+	}
+	#SpriteType = {
+	#	name = x
+	#	texturefile = ""
+	#}
+}

@@ -1,0 +1,111 @@
+guiTypes = {
+	containerWindowType = {
+		name = "following_party_highlight_gui" #政党高亮
+		position = { x = 488 y = 268 }
+		size = { width = 320 height = 300 }
+
+		#following
+		iconType = {
+			name = "GUI_following_party_CM_highlight"
+			position = { x = 0 y = 1 }
+			spriteType = "GFX_following_party_highlight"
+		}
+		iconType = {
+			name = "GUI_following_party_SC_highlight"
+			position = { x = 0 y = 17 }
+			spriteType = "GFX_following_party_highlight"
+		}
+		iconType = {
+			name = "GUI_following_party_DM_highlight"
+			position = { x = 0 y = 33 }
+			spriteType = "GFX_following_party_highlight"
+		}
+		iconType = {
+			name = "GUI_following_party_CS_highlight"
+			position = { x = 0 y = 49 }
+			spriteType = "GFX_following_party_highlight"
+		}
+		iconType = {
+			name = "GUI_following_party_AT_highlight"
+			position = { x = 0 y = 65 }
+			spriteType = "GFX_following_party_highlight"
+		}
+		iconType = {
+			name = "GUI_following_party_DP_highlight"
+			position = { x = 0 y = 81 }
+			spriteType = "GFX_following_party_highlight"
+		}
+		iconType = {
+			name = "GUI_following_party_PP_highlight"
+			position = { x = 0 y = 97 }
+			spriteType = "GFX_following_party_highlight"
+		}
+		iconType = {
+			name = "GUI_following_party_FS_highlight"
+			position = { x = 0 y = 113 }
+			spriteType = "GFX_following_party_highlight"
+		}
+		iconType = {
+			name = "GUI_following_party_NS_highlight"
+			position = { x = 0 y = 129 }
+			spriteType = "GFX_following_party_highlight"
+		}
+		iconType = {
+			name = "GUI_following_party_OC_highlight"
+			position = { x = 0 y = 145 }
+			spriteType = "GFX_following_party_highlight"
+		}
+
+		#leading
+		iconType = {
+			name = "GUI_leading_party_CM_highlight"
+			position = { x = 0 y = 1 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+		iconType = {
+			name = "GUI_leading_party_SC_highlight"
+			position = { x = 0 y = 17 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+		iconType = {
+			name = "GUI_leading_party_DM_highlight"
+			position = { x = 0 y = 33 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+		iconType = {
+			name = "GUI_leading_party_CS_highlight"
+			position = { x = 0 y = 49 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+		iconType = {
+			name = "GUI_leading_party_AT_highlight"
+			position = { x = 0 y = 65 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+		iconType = {
+			name = "GUI_leading_party_DP_highlight"
+			position = { x = 0 y = 81 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+		iconType = {
+			name = "GUI_leading_party_PP_highlight"
+			position = { x = 0 y = 97 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+		iconType = {
+			name = "GUI_leading_party_FS_highlight"
+			position = { x = 0 y = 113 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+		iconType = {
+			name = "GUI_leading_party_NS_highlight"
+			position = { x = 0 y = 129 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+		iconType = {
+			name = "GUI_leading_party_OC_highlight"
+			position = { x = 0 y = 145 }
+			spriteType = "GFX_leading_party_highlight"
+		}
+	}
+}

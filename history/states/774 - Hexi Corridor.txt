@@ -1,0 +1,30 @@
+state = {
+	id = 774
+	name = "STATE_774"
+	manpower = 2053100
+	state_category = one
+
+	resources = {
+		oil = 8 #Yumen Oilfield
+		coal = 1 #Mostly a pity coal (removed 1 from Hebei) but there were apparently reserves here according to the 1913 atlas
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 2028 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 5100 5 } #POP 1 + STRAT 2 + POL 0 = SIG 3
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		2028 5057 5076 5100 7971 12327 12596 12776 12820
+	}
+}

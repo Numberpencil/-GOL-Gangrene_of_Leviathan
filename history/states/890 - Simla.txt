@@ -1,0 +1,28 @@
+state = {
+	id = 890
+	name = "STATE_890"
+	manpower = 3450000
+	state_category = two
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+ 
+
+
+
+		victory_points = { 12708 2 } #Simla
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1129 2076 7106 12708
+	}
+}
+

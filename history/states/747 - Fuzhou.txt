@@ -1,0 +1,29 @@
+state = { # Fuzhou
+	id = 747
+	name = "STATE_747"
+	manpower = 343510
+	state_category = port
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		buildings = {
+			infrastructure = 2
+			dockyard = 1 #Fuzhou Arsenal
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		victory_points = { 4196 5 } #POP 1 + STRAT 2 + POL 0 = SIG 3
+	}
+
+	provinces = {
+		4196
+	}
+}
+

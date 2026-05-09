@@ -1,0 +1,22 @@
+state = {
+	id = 418
+	name = "STATE_418"
+	manpower = 320514
+	state_category = one
+
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of =
+
+		victory_points = { 12333 2 } #Ashkabad
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		7491 10510 12333 12359
+	}
+}

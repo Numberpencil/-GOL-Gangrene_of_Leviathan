@@ -1,0 +1,24 @@
+state = {
+	id = 815
+	name = "STATE_815"
+	manpower = 2722800
+	state_category = two
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+ 
+
+		victory_points = { 13854 1 } #Patiala
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		2032 12868 13854
+	}
+}

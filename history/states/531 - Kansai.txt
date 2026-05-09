@@ -1,0 +1,36 @@
+state = {
+	id = 531
+	name = "STATE_531"
+	manpower = 8195676
+	state_category = eleven
+	local_supplies = 9.0
+
+	resources = {
+		steel = 30
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		victory_points = { 11960 20 } #Kyoto
+
+
+		victory_points = { 7072 20 } #Osaka
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+			fuel_silo = 1
+
+			7072 = { naval_base = 3 }
+		}
+	}
+
+	provinces = {
+		1051 1133 7113 7072 11960
+	}
+}

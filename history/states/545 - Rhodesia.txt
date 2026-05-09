@@ -1,0 +1,33 @@
+state = {
+	id = 545
+	name = "STATE_545"
+	manpower = 1356800
+	state_category = three
+	local_supplies = 3.0
+
+	resources = {
+		tungsten = 14
+		steel = 2
+		chromium = 160
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 7003 3 } #Harare/Salisbury
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1874 2151 2216 4205 4851 7003 7842 10000 10929 12207 13654 13801
+	}
+}
+

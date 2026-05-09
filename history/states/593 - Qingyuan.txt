@@ -1,0 +1,34 @@
+state = {
+	id = 593
+	name = "STATE_593"
+	manpower = 13602300
+	state_category = four
+	local_supplies = 1.0
+
+	resources = {
+		tungsten = 30
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+
+		victory_points = { 11938 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+		victory_points = { 12095 15 } #POP 4 + STRAT 1 + POL 0 = SIG 5
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		1087 1131 1187 1202 4092 7039 7108 7152 9963 11938 11941 12077 12095
+	}
+}
+

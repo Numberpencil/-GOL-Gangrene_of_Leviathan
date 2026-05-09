@@ -1,0 +1,24 @@
+state = {
+	id = 872
+	name = "STATE_872"
+	manpower = 46533
+	state_category = one
+
+	history = {
+		owner = ATA
+		add_core_of = ATA
+
+ 
+
+		victory_points = { 5131 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		5131
+	}
+}
+

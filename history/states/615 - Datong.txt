@@ -1,0 +1,33 @@
+state = { #Jindong/Eastern Shanxi
+	id = 615
+	name = "STATE_615"
+	manpower = 4603000
+	state_category = two
+
+	resources = {
+		tungsten = 3 #Not particularly known for Tungsten mining, but giving north China some from the south for balance.
+		coal = 2 #The 1913 atlas suggests slightly less than half the coal reserves were here so gonna put 2/5 of Shanxi's calculated coal here.
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+
+		victory_points = { 1180 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 12078 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+		victory_points = { 12432 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		1027 1180 1203 1438 4538 4606 7158 10421 10480 12078 12344 12432
+	}
+}

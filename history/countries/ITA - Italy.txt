@@ -1,0 +1,103 @@
+#首都
+capital = 2
+
+#开局国家状态
+set_stability = 0.6
+set_war_support = 0.4
+
+#开局科研槽
+set_research_slots = 4
+
+# 开局解锁科技
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+#人物提取
+recruit_character = Benito_Amilcare_Andrea_Mussolini
+
+#开局执政党
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#饼图成分（数字总和为100）
+set_popularities = {
+	communism = 10
+	socialism = 10
+	democrat = 10
+	conservatism = 10
+	authoritarianism = 10
+	despotism = 10
+	populism = 10
+	fascism = 10
+	national_socialism = 10
+	occultism = 10
+}
+
+#开局阵营（若存在）
+#create_faction = Axis
+#add_to_faction = GER
+
+#开局民族精神
+add_ideas = {
+	
+}
+
+#外交状态
+
+#开局政党
+set_party_name = {
+	ideology = communism
+	long_name = "ITA_PARTY_NAME_CM_x"
+	name = "ITA_PARTY_NAME_CM_x"
+}
+set_party_name = {
+	ideology = socialism
+	long_name = "ITA_PARTY_NAME_SC_x"
+	name = "ITA_PARTY_NAME_SC_x"
+}
+set_party_name = {
+	ideology = democrat
+	long_name = "ITA_PARTY_NAME_DM_x"
+	name = "ITA_PARTY_NAME_DM_x"
+}
+set_party_name = {
+	ideology = conservatism
+	long_name = "ITA_PARTY_NAME_CS_x"
+	name = "ITA_PARTY_NAME_CS_x"
+}
+set_party_name = {
+	ideology = authoritarianism
+	long_name = "ITA_PARTY_NAME_AT_x"
+	name = "ITA_PARTY_NAME_AT_x"
+}
+set_party_name = {
+	ideology = despotism
+	long_name = "ITA_PARTY_NAME_DP_x"
+	name = "ITA_PARTY_NAME_DP_x"
+}
+set_party_name = {
+	ideology = populism
+	long_name = "ITA_PARTY_NAME_PP_x"
+	name = "ITA_PARTY_NAME_PP_x"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "ITA_PARTY_NAME_FS_x"
+	name = "ITA_PARTY_NAME_FS_x"
+}
+set_party_name = {
+	ideology = national_socialism
+	long_name = "ITA_PARTY_NAME_NS_x"
+	name = "ITA_PARTY_NAME_NS_x"
+}
+set_party_name = {
+	ideology = occultism
+	long_name = "ITA_PARTY_NAME_OC_x"
+	name = "ITA_PARTY_NAME_OC_x"
+}

@@ -1,0 +1,51 @@
+#首都
+capital = 278
+
+#开局国家状态
+set_stability = 0.6
+set_war_support = 0.4
+
+#开局科研槽
+set_research_slots = 3
+
+#人物提取
+#recruit_character = ARG_Wilhelm_II
+recruit_character = Pedro_Justo
+
+# 开局解锁科技
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+#开局执政党
+set_politics = {
+	ruling_party = despotism
+	last_election = "1934.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#饼图成分（数字总和为100）
+set_popularities = {
+	communism = 1
+	socialism = 4
+	democrat = 15
+	conservatism = 13
+	authoritarianism = 19
+	despotism = 30
+	populism = 1
+	fascism = 11
+	national_socialism = 6
+	occultism = 0
+}
+
+#开局阵营（若存在）
+#create_faction = Axis
+#add_to_faction = ARG
+
+#开局民族精神
+add_ideas = {
+	
+}
+#开局政党

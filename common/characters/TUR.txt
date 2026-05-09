@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Mustafa_Suphi = {
+        name = Mustafa_Suphi_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TUR/Mustafa_Suphi.png"
+            }
+        }
+        country_leader = {
+            ideology = Leninism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

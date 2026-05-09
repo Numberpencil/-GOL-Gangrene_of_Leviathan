@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Patrick_Henry_Pearse = {
+        name = Patrick_Henry_Pearse_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/IRE/Patrick_Henry_Pearse.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservatism_ideology
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 419
+	name = "STATE_419"
+	manpower = 2050641
+	state_category = four
+	local_supplies = 4.0
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+		victory_points = { 1896 10 } #Tabriz
+		victory_points = { 4901 3 } #Ardabil
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		1896 2071 4755 4825 4901 10454 12793 12861
+	}
+}
+

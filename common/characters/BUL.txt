@@ -1,0 +1,37 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Boris_III = {
+        name = Boris_III_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BUL/Boris_III.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    	Christo_Lukov = {
+        name = Christo_Lukov_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BUL/Christo_Lukov.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

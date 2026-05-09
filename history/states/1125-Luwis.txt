@@ -1,0 +1,24 @@
+state = {
+	id = 1125
+	name = "STATE_1125"
+	manpower = 1
+	
+	state_category = rural
+	
+	history = {
+		owner = LWS
+		add_core_of = LWS
+
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 1690 2 }
+	}
+	
+	local_supplies = 0.0
+	buildings_max_level_factor = 1.000
+	
+	provinces = {
+		7865 4826 12553 4747 10327 1690 12673 10693 1832 12124 10687 3781 4778
+	}
+}

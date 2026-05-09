@@ -1,0 +1,36 @@
+state = {
+	id = 638
+	name = "STATE_638"
+	manpower = 20900
+	state_category = one_island
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+ 
+
+
+
+		victory_points = { 12140 1 } #Agana
+
+		strategic_province_location = {
+			natural_harbor = 12140
+		}
+		strategic_state_location = {
+			favorable_approach = 12140
+		}
+		buildings = {
+			infrastructure = 2
+			12140 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		12140
+	}
+}
+

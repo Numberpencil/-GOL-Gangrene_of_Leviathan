@@ -1,0 +1,27 @@
+state = {
+	id = 287
+	name = "STATE_287"
+	manpower = 444200
+	state_category = one
+	local_supplies = 4.0
+
+	resources = {
+		aluminium = 2
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		victory_points = { 13390 5 } #POP 1 + STRAT 2 + POL 0 = SIG 2
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1095 1698 1943 2064 2068 2074 2198 2947 4947 4973 5083 5736 7696 7830 7858 8103 10315 10900 10911 10917 13374 13386 13390 13408 13531 13581
+	}
+}

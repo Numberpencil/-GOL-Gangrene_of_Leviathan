@@ -1,0 +1,25 @@
+state = {
+	id = 557
+	name = "STATE_557"
+	manpower = 296412
+	state_category = one
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+		victory_points = { 5077 1 } #Boutilimit
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+
+	provinces = {
+		5034 5077 8058 13867
+	}
+}
+

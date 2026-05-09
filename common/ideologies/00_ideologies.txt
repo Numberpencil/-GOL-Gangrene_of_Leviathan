@@ -1,0 +1,299 @@
+ideologies = {
+
+    communism = {#共产主义
+        types = {
+            Leninism = {
+
+            }
+            Spartakismus = {
+
+            }
+            Mariategui_Thought = {
+
+            }
+            National_Communism = {
+
+            }
+            Anarchist_communism = {
+
+            }
+        }
+        color = { #
+            82 0 0 
+        }
+    }
+    
+    socialism = {#社会主义
+        types = {
+            Criminal_anarchism = {
+
+            }
+            Anarchist_syndicalism = {
+
+            }
+            Military_socialism = {
+
+            }
+            Syndicalism = {
+
+            }
+            Arabic_socialism = {
+
+            }
+            Left_wing_baathism = {
+
+            }
+            Radical_socialism = {
+
+            }
+            Social_democratism = {
+
+            }
+            Gaitanism = {
+
+            }
+            British_socialism = {
+
+            }
+            Neosanminism = {
+
+            }
+        }
+        color = { #
+            159 53 39
+        }
+    }
+
+    democrat = {#民主主义
+        types = {
+            Islamic_liberalism = {
+
+            }
+            Liberalism = {
+
+            }
+            Christian_democratic = {
+
+            }
+            Christian_democratic_Z = {
+
+            }
+            Oligarchist_liberalism = {
+
+            }
+            Social_monarchy = {
+
+            }
+            Conservativist_democrat = {
+
+            }
+            Radical_republicanism = {
+                
+            }
+        }
+        color = { #
+            91 156 176
+        }
+    }
+
+    conservatism = {#保守主义
+        types = {
+            Hyperconservativism = {
+
+            }
+            Conservatism_ideology = {
+
+            }
+            Konservative_Revolution = {
+
+            }
+            Konservative_Revolution_DKP = {
+
+            }
+            Conservatism_ideology_DKP = {
+
+            }
+        }
+        color = { #
+            29 39 86
+        }
+    }
+
+    authoritarianism = {#威权主义
+        types = {
+            Monarcho_socialism = {
+
+            }
+            au_Corporatocracy = {
+
+            }
+            au_Corporatocracy_UFC = {
+
+            }
+            Constitutionalist = {
+
+            }
+            Authoritarian_democrat = {
+
+            }
+            Hybrid_regime = {
+
+            }
+
+
+        }
+        color = { #
+            108 102 88 
+        }
+    }
+
+    despotism = { #专制主义
+        types = {
+            Parental_autocracy = {
+
+            }
+            de_Corporatocracy = {
+
+            }
+            de_Corporatocracy_UFC = {
+
+            }
+            Military_junta = {
+
+            }
+            Military_junta_france = {
+
+            }
+            Absolute_monarchy = {
+
+            }
+            Oligarchist_despotism = {
+
+            }
+            Oligarchist_despotism_MGP = {
+
+            }
+            
+        }
+        color = { #
+            45 40 39
+        }
+    }
+
+    populism = {#民粹主义
+        types = {
+            Peron_popilism = {
+
+            }
+            Right_wing_baathist_socialism = {
+
+            }
+            Populist_conservativism = {
+
+            }
+        }
+        color = { #
+            131 106 81
+        }
+    }
+
+    fascism = {#法西斯主义
+        types = {
+            Socialisation_corporatism = {
+
+            }
+            Socialisation_corporatism_italia = {
+
+            }
+            Classical_fascism = {
+
+            }
+            Nationalist_syndicalism = {
+
+            }
+            Nationalist_syndicalism_italia = {
+
+            }
+            Nationalist_syndicalism_france = {
+
+            }
+            Classical_futuroismo = {
+
+            }
+            Radical_futuroismo = {
+
+            }
+            Socialist_nationalism = {
+
+            }
+            Socialist_nationalism_SSNP = {
+
+            }
+            Integralist_corporatism = {
+
+            }
+            Integralist_corporatism_Talulah = {
+
+            }
+            Laban_corporatism_thought = {
+
+            }
+            State_corporatism = {
+
+            }
+            State_corporatism_italia = {
+
+            }
+            Nascimento_thought = {
+                
+            }
+            
+        }
+        color = { #
+            159 77 46
+        }
+    }
+    
+    national_socialism = {#民族社会主义
+        types = {
+            National_socialism_ideology = {
+
+            }
+            National_socialism_ideology_italia = {
+
+            }
+            Accelerationist_nazim = {
+
+            }
+            DKP_NSDAP_united_government = {
+                
+            }
+        }
+        color = { #
+            52 26 16
+        }
+    }
+    
+    occultism = { #神秘主义
+        types = {
+            Esoteric_nazism = {
+
+            }
+            Esoteric_fascism = {
+
+            }
+            Esoteric_Celtsdruidism = {
+
+            }
+            Esoteric_nazism_germany = {
+
+            }
+            Esoteric_fascism_italia = {
+                
+            }
+        }
+        color = { #
+            26 20 32
+        }
+    }
+}

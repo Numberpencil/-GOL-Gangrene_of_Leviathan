@@ -1,0 +1,31 @@
+state = {
+	id = 893
+	name = "STATE_893" #Nagpur
+	manpower = 3364300
+	state_category = two
+
+	resources = {
+		chromium = 3
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+ 
+
+
+		victory_points = { 10030 1 } #Amraoti
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		7430 10030 12781 13807 13848
+	}
+}
+

@@ -1,0 +1,130 @@
+defined_text = {
+	name = GetLeaderPOI
+	text = {
+		trigger = {
+			tag = GER
+			has_idea = POI_wilhelm_ii
+		}
+		localization_key = "GER_POI_wilhelm_ii"
+	}
+	text = {
+		trigger = {
+			tag = ENG
+			has_idea = POI_George_V
+		}
+		localization_key = "ENG_POI_George_V"
+	}
+	text = {
+		trigger = {	
+			or = {
+               tag = SWE
+			   tag = NOR	
+			   tag=  DOM
+			   			
+			}
+							
+			has_idea = POI_Gustav_V
+		}
+		localization_key = "SWE_POI_Gustav_V"
+	}
+      text = {
+		trigger = {	
+			tag = SOV			
+			has_idea = POI_Mikhail_II
+		}
+		localization_key = "SOV_POI_Mikhail_II"
+	}
+	 text = {
+		trigger = {	
+			tag = BRA			
+			has_idea = POI_Isabella_I
+		}
+		localization_key = "BRA_POI_Isabella_I"
+	}
+	 text = {
+		trigger = {	
+			tag = DEN			
+			has_idea = POI_Christian_X
+		}
+		localization_key = "DEN_POI_Christian_X"
+	}
+	text = {
+		trigger = {	
+			tag = GRE			
+			has_idea = POI_GeorgeII
+		}
+		localization_key = "GRE_POI_GeorgeII"
+	}
+	text = {
+		trigger = {	
+			tag = BUL			
+			has_idea = POI_Boris_III
+		}
+		localization_key = "BUL_POI_Boris_III"
+	}
+	text = {
+		trigger = {	
+			tag = ROM			
+			has_idea = POI_Carol_II
+		}
+		localization_key = "ROM_POI_Carol_II"
+	}
+	text = {
+		trigger = {	
+			tag = MOL			
+			has_idea = POI_Michael_II
+		}
+		localization_key = "ROM_POI_Michael_II"
+	}
+	text = {
+		trigger = {	
+			tag = YUG			
+			has_idea = POI_Alexander_I
+		}
+		localization_key = "YUG_POI_Alexander_I"
+	}
+	text = {
+		trigger = {	
+			tag = HUN			
+			has_idea = POI_IV_kaluoer
+		}
+		localization_key = "HUN_POI_IV_kaluoer"
+	}
+	text = {
+		trigger = {	
+			tag = HUN			
+			has_idea = POI_otto_I
+		}
+		localization_key = "HUN_POI_otto_I"
+	}
+	text = {
+		trigger = {	
+			tag = HOL			
+			has_idea = POI_Koningin_Wilhelmina
+		}
+		localization_key = "HOL_POI_Koningin_Wilhelmina"
+	}
+	text = {
+		trigger = {	
+			tag = BEL			
+			has_idea = POI_Albert_I
+		}
+		localization_key = "BEL_POI_Albert_I"
+	}
+	text = {
+		trigger = {	
+			tag = POL			
+			has_idea = POI_August_IV
+		}
+		localization_key = "BEL_POI_August_IV"
+	}
+	text = {
+		trigger = {	
+			tag = LIT			
+			has_idea = POI_Mindaugas_III
+		}
+		localization_key = "LIT_POI_Mindaugas_III"
+	}
+}
+		
+

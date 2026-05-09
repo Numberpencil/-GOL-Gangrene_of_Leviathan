@@ -1,0 +1,41 @@
+state = {
+	id = 447
+	name = "STATE_447"
+	manpower = 4313239
+	state_category = six
+
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+ 
+
+
+
+		victory_points = { 4076 30 } #Alexandria
+		victory_points = { 10073 5 } #Tanta
+		victory_points = { 11964 10 } #Damietta
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+			arms_factory = 2
+			air_base = 2
+			4076 = {
+				naval_base = 5
+			}
+			11964 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1071 4076 4145 7091 7164 10005 10073 11964
+	}
+}
+

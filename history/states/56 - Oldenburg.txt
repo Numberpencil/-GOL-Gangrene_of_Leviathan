@@ -1,0 +1,39 @@
+state = {
+	id = 56
+	name = "STATE_56"
+	manpower = 2058467
+	state_category = five
+	local_supplies = 14.0
+
+	history = {
+		owner = GER 
+ 
+
+		victory_points = { 241 4 } #Wilhemshaven
+		victory_points = { 11360 1 }
+
+		
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 3
+			air_base = 3
+			241 = {
+				naval_base = 8
+				coastal_bunker = 3
+				naval_facility = 1 #Wilhelmshaven Naval Dockyards
+			}
+		}
+	
+		1936.1.1 = {
+			owner = GER
+
+		}
+	}
+
+	provinces = {
+		241 247 309 336 3234 9281 11264 11360 11388
+	}
+}
+

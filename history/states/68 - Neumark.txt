@@ -1,0 +1,30 @@
+state = {
+	id = 68
+	name = "STATE_68"
+	manpower = 750840
+	state_category = five
+
+	resources = {
+		aluminium = 18
+	}
+
+	history = {
+		owner = GER 
+ 
+		victory_points = { 6236 1 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	
+		1936.1.1 = {
+			owner = GER
+
+		}
+	}
+
+	provinces = {
+		537 3473 3572 6236 9387 11478
+	}
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 1080
+	name = "STATE_1080"
+	manpower = 275000
+	state_category = one
+
+	history = {
+		owner = CAU
+		add_core_of = CAU
+
+		victory_points = { 11617 1 }
+
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+		}
+	}
+
+	provinces = {
+		672 11599 11617 11647
+	}
+}

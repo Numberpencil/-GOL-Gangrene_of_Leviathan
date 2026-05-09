@@ -1,0 +1,28 @@
+state = {
+	id = 914
+	name = "STATE_914"
+	manpower = 42500
+	state_category = minor_port
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+ 
+
+
+		buildings = {
+			infrastructure = 1
+			2115 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 2115 1 }
+	}
+
+	provinces = {
+		2115
+	}
+}
+

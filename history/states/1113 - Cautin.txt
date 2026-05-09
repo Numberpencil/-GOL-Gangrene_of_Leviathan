@@ -1,0 +1,35 @@
+state = {
+	id = 1113
+	name = "STATE_1113"
+	manpower = 1567037
+	state_category = four
+
+	history = {
+		owner = CHL
+		add_core_of = CHL
+
+
+
+
+
+
+
+		victory_points = { 12984 5 } #Concepcion
+		victory_points = { 8251 3 } #Chillán
+		victory_points = { 5121 2 } #Temuco
+		victory_points = { 12954 2 } #Valdivia
+		victory_points = { 5169 1 } #Puerto Montt
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			5121 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		5121 5169 8251 12920 12954 12984 13498
+	}
+}

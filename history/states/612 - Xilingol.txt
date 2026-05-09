@@ -1,0 +1,28 @@
+state = {
+	id = 612
+	name = "STATE_612"
+	manpower = 1066000
+	state_category = two
+	local_supplies = 6.0
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		victory_points = { 7648 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	resources = {
+		coal = 1 #Mostly pity coal (removed one from Hebei) but there was/is coal mining in Suiyuan/Inner Mongolia so gonna give it here so MON has some access to coal + there are mountains.
+	}
+
+	provinces = {
+		828 952 1489 1551 1608 1796 1811 1871 4222 4495 4555 4612 4873 6837 7545 7578 7648 7674 10363 10372 10397 10575 11752 12348 12448 12554
+	}
+}

@@ -1,0 +1,37 @@
+characters = {
+    ## Leaders ##
+    #premier
+	August_IV = {
+        name = August_IV_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/POL/August_IV.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Władysław_Wróblewski = {
+        name = wadiswafu_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/POL/Władysław_Wróblewski.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

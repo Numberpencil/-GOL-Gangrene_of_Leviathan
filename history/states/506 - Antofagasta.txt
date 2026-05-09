@@ -1,0 +1,35 @@
+state = {
+	id = 506
+	name = "STATE_506"
+	manpower = 168254
+	state_category = two
+
+	history = {
+		owner = CHL
+		add_core_of = CHL
+
+ 
+
+
+
+		victory_points = { 12994 4 } #Antofagasta
+		victory_points = { 13508 1 } #Calama
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			12994 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	resources = {
+		coal = 1
+	}
+
+	provinces = {
+		5146 5171 12994 13506
+	}
+}
+

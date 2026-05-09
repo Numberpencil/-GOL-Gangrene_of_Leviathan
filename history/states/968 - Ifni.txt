@@ -1,0 +1,27 @@
+state = {
+	id = 968
+	name = "STATE_968"
+	manpower = 39970
+	state_category = one
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+		victory_points = { 12857 5 } #Sidi Ifni
+
+		buildings = {
+			infrastructure = 1
+			12857 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		12857
+	}
+}
+

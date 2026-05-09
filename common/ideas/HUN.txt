@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+		A_turbulent_country = { #纷扰的多民族国家
+			picture = GFX_idea_A_turbulent_country
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.05
+			}
+		}
+		Aftermath_of_Great_Depression = { #大恐慌的余波
+			picture = GFX_idea_Aftermath_of_Great_Depression
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				industrial_capacity_factory = -0.05
+				global_building_slots_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.05
+			}
+		}
+		Legacy_of_the_Habsburgs = { #哈布斯堡的遗产
+			picture = GFX_idea_Legacy_of_the_Habsburgs
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.1
+				industrial_factory_donations = 2
+				military_factory_donations = 2
+			}
+		}
+		Post_Danube_era_army = { #后多瑙军队
+			picture = GFX_idea_Post_Danube_era_army
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				army_org_factor = 0.05
+				offence = -0.05
+				experience_gain_army_factor = -0.1
+				mobilization_speed = -0.2
+			}
+		}
+	}
+}

@@ -1,0 +1,182 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Louis_Franchet_d.Espèrey = {
+        name = Louis_Franchet_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Louis_Franchet_d.Espèrey.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+                FRA_absolute_ruler
+                FRA_beyond_cure
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Marcel_Cachin = {
+        name = Marcel_Cachin_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Marcel_Cachin.png"
+            }
+        }
+        country_leader = {
+            ideology = Leninism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+       Léon_Blum = {
+        name = Blum_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Léon_Blum.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+       Paul_Four = {
+        name = Paul_Four_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Paul_Four.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Louis_Marin = {
+        name = Louis_Marin_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Louis_Marin.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservatism_ideology
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Pierre_Charles = {
+        name = Pierre_Charles_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Pierre_Charles.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Henry_Dorger = {
+        name = Henry_Dorger_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Henry_Dorger.png"
+            }
+        }
+        country_leader = {
+            ideology = Populist_conservativism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Lagardère = {
+        name = Lagardre_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Lagardère.png"
+            }
+        }
+        country_leader = {
+            ideology = Nationalist_syndicalism_italia
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Maurice_Doriot = {
+        name = Maurice_Doriot_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Maurice_Doriot.png"
+            }
+        }
+        country_leader = {
+            ideology = National_socialism_ideology_italia
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Leondod = {
+        name = Leondod_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Leondod.png"
+            }
+        }
+        country_leader = {
+            ideology = Esoteric_fascism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Castelnaul = {
+        name = Castelnaul_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Castelnaul.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

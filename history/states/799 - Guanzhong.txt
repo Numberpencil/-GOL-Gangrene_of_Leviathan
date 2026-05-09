@@ -1,0 +1,31 @@
+state = {
+	id = 799
+	name = "STATE_799"
+	manpower = 6183000
+	state_category = two
+
+	resources = {
+		tungsten = 3 #Not particularly known for Tungsten mining, but giving north China some from the south for balance.
+		coal = 1
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+
+
+		victory_points = { 7301 30 } #POP 4 + STRAT 2 + POL 2 = SIG 8
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		5092 12713 7406 7418 7301 1976 4256 4167 2006 10257 4295
+	}
+}
+

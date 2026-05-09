@@ -1,0 +1,38 @@
+state = {
+	id = 439
+	name = "STATE_439"
+	manpower = 34371332
+	state_category = eight
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+ 
+ 
+
+
+
+
+
+		victory_points = { 2086 20 } #Delhi
+		victory_points = { 4915 5 } #Agra
+		victory_points = { 9951 3 } #Bareilly
+		victory_points = { 11955 5 } #Meerut
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 4
+			arms_factory = 1
+			4915 = {
+				landmark_taj_mahal = 1
+			}
+		}
+	}
+
+	provinces = {
+		2086 4915 5086 8114 9951 10794 11955 13850 13855
+	}
+}
+

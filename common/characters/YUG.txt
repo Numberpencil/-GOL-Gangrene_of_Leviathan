@@ -1,0 +1,40 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Alexander_I = {
+        name = Alexander_I_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/YUG/Alexander_I.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+
+
+
+	Milan_Stojadinović = {
+        name = Milan_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/YUG/Milan_Stojadinović.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+    }
+ }
+}

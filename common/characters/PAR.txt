@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Raphael_Franco = {
+        name = Raphael_Franco_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/PAR/Raphael_Franco.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_socialism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

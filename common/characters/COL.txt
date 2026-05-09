@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Alfonso_Pumarejo = {
+        name =Alfonso_Pumarejo_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/COL/Alfonso_Pumarejo.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

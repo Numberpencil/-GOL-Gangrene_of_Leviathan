@@ -1,0 +1,34 @@
+state = {
+	id = 510
+	name = "STATE_510"
+	manpower = 1184277
+	state_category = five
+
+	resources = {
+		oil = 10
+	}
+
+	history = {
+		owner = PAR
+		add_core_of = PAR
+
+ 
+
+
+
+		
+		victory_points = { 12964 10 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			air_base = 1
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		4006 8187 8238 11827 12964
+	}
+}
+

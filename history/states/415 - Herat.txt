@@ -1,0 +1,24 @@
+state = {
+	id = 415
+	name = "STATE_415"
+	manpower = 705868
+	state_category = two
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+		victory_points = { 4893 3 } #Herat
+
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		4893 8053 10476 10896 12788 12871
+	}
+}

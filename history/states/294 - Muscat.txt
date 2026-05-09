@@ -1,0 +1,39 @@
+state = {
+	id = 294
+	name = "STATE_294"
+	manpower = 226189
+	state_category = three
+
+	resources = {
+		oil = 1
+	}
+
+	history = {
+		owner = XXX
+		add_core_of = XXX
+
+
+
+
+
+		victory_points = { 10760 4 } #Muscat
+		victory_points = { 4993 2 } #Sohar
+		victory_points = { 8020 2 } #Sur
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			8020 = {
+				naval_base = 1
+			}
+			10760 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+		1947 4993 8002 8020 10760
+	}
+}

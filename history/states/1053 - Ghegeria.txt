@@ -1,0 +1,26 @@
+state = {
+	id = 1053
+	name = "STATE_1053"
+	manpower = 201056
+	state_category = one
+	local_supplies = 5.0
+
+	history = {
+		owner = ITA
+		add_core_of = ITA
+
+
+		victory_points = { 9780 3 } #Shkodër
+
+		buildings = {
+			infrastructure = 2
+			9780 = {
+				naval_base = 1 #Bar + Lezhë
+			}
+		}
+	}
+
+	provinces = {
+		9780 11762
+	}
+}

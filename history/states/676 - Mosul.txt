@@ -1,0 +1,22 @@
+state = {
+	id = 676
+	name = "STATE_676"
+	manpower = 413987
+	state_category = two
+
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+victory_points = { 10106 10 } #Mosul
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		12413 12839 13746
+	}
+}
+
