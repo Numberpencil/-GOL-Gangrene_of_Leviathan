@@ -5,12 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 9948 1 } # Lang Son
+		owner = VIN
+		add_core_of = VIN
+victory_points = { 9948 1 } # Lang Son
 
 		buildings = {
 			infrastructure = 1

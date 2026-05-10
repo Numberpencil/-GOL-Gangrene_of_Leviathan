@@ -6,14 +6,9 @@ state = {
 	local_supplies = 4.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
- 
-
-
-		buildings = {
+		owner = ENG
+		add_core_of = ENG
+buildings = {
 			infrastructure = 1
 			2048 = {
 				naval_base = 3

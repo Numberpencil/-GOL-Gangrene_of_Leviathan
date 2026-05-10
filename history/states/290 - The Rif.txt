@@ -9,18 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-
-
-
-
-		victory_points = { 9945 20 } #Tangiers
+		owner = SPR
+		add_core_of = SPR
+victory_points = { 9945 20 } #Tangiers
 		victory_points = { 13860 5 } #Ceuta
 		victory_points = { 13873 10 } #Melilla
 		victory_points = { 4199 1 } #Hoceima

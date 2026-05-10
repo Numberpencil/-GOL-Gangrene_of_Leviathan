@@ -9,16 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-		
-
-		victory_points = { 12989 3 } #Kampala
+		owner = DMA
+		add_core_of = DMA
+victory_points = { 12989 3 } #Kampala
 
 		buildings = {
 			infrastructure = 1

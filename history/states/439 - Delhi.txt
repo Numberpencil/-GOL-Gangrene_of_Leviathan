@@ -5,17 +5,9 @@ state = {
 	state_category = eight
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-
-
-		victory_points = { 2086 20 } #Delhi
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 2086 20 } #Delhi
 		victory_points = { 4915 5 } #Agra
 		victory_points = { 9951 3 } #Bareilly
 		victory_points = { 11955 5 } #Meerut

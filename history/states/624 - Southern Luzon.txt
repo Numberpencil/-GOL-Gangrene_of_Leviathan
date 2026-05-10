@@ -5,12 +5,9 @@ state = {
 	state_category = four
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 4228 1 } #Legazpi
+		owner = PHI
+		add_core_of = PHI
+victory_points = { 4228 1 } #Legazpi
 
 		buildings = {
 			infrastructure = 1

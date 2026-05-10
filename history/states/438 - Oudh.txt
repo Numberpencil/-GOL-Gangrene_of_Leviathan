@@ -5,17 +5,9 @@ state = {
 	state_category = five
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-
-
-		victory_points = { 4299 10 } #Lucknow
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 4299 10 } #Lucknow
 		victory_points = { 12137 10 } #Cawnpore
 		victory_points = { 7334 5 } #Gorakhpur
 		victory_points = { 12786 4 } #Benares

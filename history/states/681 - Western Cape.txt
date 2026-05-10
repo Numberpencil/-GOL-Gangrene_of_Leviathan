@@ -5,12 +5,9 @@ state = {
 	state_category = five
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 12589 20 } #Cape Town
+		owner = SAF
+		add_core_of = SAF
+victory_points = { 12589 20 } #Cape Town
 
 		buildings = {
 			infrastructure = 2

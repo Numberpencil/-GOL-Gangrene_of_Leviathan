@@ -13,7 +13,8 @@ state = {
 	history = {
 		owner = FRA
 		add_core_of = FRA
- 
+ 		set_demilitarized_zone = yes
+
 
 		victory_points = { 11483 20 } #Lille
 

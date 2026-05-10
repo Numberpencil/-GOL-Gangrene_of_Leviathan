@@ -11,14 +11,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
- 
-
-
-
-
-		victory_points = { 1208 5 }
+		owner = BOR
+		add_core_of = BOR
+victory_points = { 1208 5 }
 		victory_points = { 7371 1 }
 
 		buildings = {

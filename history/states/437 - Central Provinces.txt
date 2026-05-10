@@ -5,15 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-		victory_points = { 12080 3 } #Indore
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 12080 3 } #Indore
 		victory_points = { 11995 2 } #Bhopal
 
 		buildings = {

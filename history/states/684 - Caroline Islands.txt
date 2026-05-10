@@ -5,16 +5,9 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-
-
-		victory_points = { 2489 1 } #Truk
+		owner = DPG
+		add_core_of = DPG
+victory_points = { 2489 1 } #Truk
 		victory_points = { 13028 1 } #Yap
 		victory_points = { 13036 1 } #Ponape
 

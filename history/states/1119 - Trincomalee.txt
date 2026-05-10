@@ -9,14 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-		victory_points = { 10229 2 } #Trincomalee
+		owner = DPG
+		add_core_of = DPG
+victory_points = { 10229 2 } #Trincomalee
 		victory_points = { 10201 1 } #Jaffna
 
 		buildings = {

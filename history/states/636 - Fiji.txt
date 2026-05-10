@@ -5,14 +5,9 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-		victory_points = { 4286 1 } #Suva
+		owner = ENG
+		add_core_of = ENG
+victory_points = { 4286 1 } #Suva
 
 		buildings = {
 			infrastructure = 1

@@ -6,13 +6,8 @@ state = {
 	local_supplies = 2.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		victory_points = { 10788 1 } #Timbuktu
+		owner = FRA
+victory_points = { 10788 1 } #Timbuktu
 
 		buildings = {
 			infrastructure = 1

@@ -9,13 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		buildings = {
+		owner = BRM
+		add_core_of = BRM
+buildings = {
 			infrastructure = 1
 		}
 		victory_points = { 1934 2 } #Myitkina

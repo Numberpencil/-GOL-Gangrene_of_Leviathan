@@ -6,14 +6,9 @@ state = {
 	local_supplies = 9.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-		victory_points = { 2054 3 } #Jaipur
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 2054 3 } #Jaipur
 
 		buildings = {
 			infrastructure = 2

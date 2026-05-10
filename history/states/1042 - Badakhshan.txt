@@ -5,13 +5,9 @@ state = {
 	state_category = wasteland
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		victory_points = { 10417 1 } #Khorog
+		owner = SOV
+		add_core_of = SOV
+victory_points = { 10417 1 } #Khorog
 
 		buildings = {
 			infrastructure = 1

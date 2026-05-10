@@ -9,14 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 4075 15 } # Hanoi
+		owner = VIN
+		add_core_of = VIN
+victory_points = { 4075 15 } # Hanoi
 		victory_points = { 4119 5 } # Haiphong
 
 		buildings = {

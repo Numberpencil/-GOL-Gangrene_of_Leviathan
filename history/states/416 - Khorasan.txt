@@ -6,14 +6,9 @@ state = {
 	local_supplies = 5.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 5029 8 } #Mashhad
+		owner = PER
+		add_core_of = PER
+victory_points = { 5029 8 } #Mashhad
 		victory_points = { 7602 1 } #Astarabad
 		victory_points = { 7990 1 } #Birjand
 

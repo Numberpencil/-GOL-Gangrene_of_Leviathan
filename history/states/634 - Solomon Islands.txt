@@ -5,15 +5,9 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
- 
-
-
-
-
-
-		victory_points = { 1269 1 } #Honiara
+		owner = DPG
+		add_core_of = DPG
+victory_points = { 1269 1 } #Honiara
 		victory_points = { 4378 1 } #Buin
 
 		strategic_state_location = {

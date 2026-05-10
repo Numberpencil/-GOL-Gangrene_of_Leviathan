@@ -11,13 +11,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 12581 1 } #Kokand
+		owner = SOV
+		add_core_of = SOV
+victory_points = { 12581 1 } #Kokand
 		victory_points = { 12583 1 } #Pishpek
 
 		buildings = {

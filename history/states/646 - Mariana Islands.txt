@@ -5,14 +5,9 @@ state = {
 	state_category = zero_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 3995 1 } #Garapan
+		owner = JAP
+		add_core_of = JAP
+victory_points = { 3995 1 } #Garapan
 
 		strategic_province_location = {
 			defensible_coastline = 3995

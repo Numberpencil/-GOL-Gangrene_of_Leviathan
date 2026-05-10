@@ -5,15 +5,9 @@ state = {
 	state_category = three
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-
-		victory_points = { 8144 1 } #Tabora
+		owner = DMA
+		add_core_of = DMA
+victory_points = { 8144 1 } #Tabora
 		victory_points = { 13317 1 } #Muansa
 
 		buildings = {

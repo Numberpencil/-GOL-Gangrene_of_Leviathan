@@ -9,13 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 7236 4 } # Hat Yai
+		owner = SIA
+		add_core_of = SIA
+victory_points = { 7236 4 } # Hat Yai
 		victory_points = { 4312 2 } # Nakhon Si Thammarat
 
 		buildings = {

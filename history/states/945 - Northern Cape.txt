@@ -5,13 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 13060 3 } #Kimberley
+		owner = SAF
+		add_core_of = SAF
+victory_points = { 13060 3 } #Kimberley
 		victory_points = { 13792 1 } #Mafeking
 
 		buildings = {

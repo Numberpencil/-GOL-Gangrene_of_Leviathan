@@ -9,13 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 1833 3 } #East London
+		owner = SAF
+		add_core_of = SAF
+victory_points = { 1833 3 } #East London
 		victory_points = { 4696 5 } #Port Elizabeth
 
 		buildings = {

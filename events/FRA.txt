@@ -17,6 +17,7 @@ add_namespace = FRA
 
 country_event = { 
 	id = FRA.1
+	picture = GFX_event_The_Death_of_Despere
     title = FRA.1.t
     desc = FRA.1.d
     is_triggered_only = yes
@@ -44,6 +45,7 @@ country_event = {
 
 country_event = { 
 	id = FRA.2
+	picture = GFX_news_event_carnival
     title = FRA.2.t
     desc = FRA.2.d
     is_triggered_only = yes
@@ -53,12 +55,16 @@ country_event = {
         add_political_power = 50
         hidden_effect = {
 			FRA = {
-				country_event = { 
+			country_event = { 
 					id = FRA.3
 					days = 5
-				}               
+				} 
+			country_event = {
+             id = FRA.14
+             days = 55
+             }              
 			}
-		}
+		}		
 	}
 }
 country_event = { 
@@ -74,14 +80,7 @@ country_event = {
     factor = 2
 
         name = FRA.3.a
-        hidden_effect = {
-			FRA = {
-				country_event = {
-             id = FRA.14
-             days = 55
-             }
-			}
-		}
+       
 	}
 	
     option = { 
@@ -124,14 +123,7 @@ country_event = {
     is_triggered_only = yes
     option = { 
         name = FRA.4.a
-        hidden_effect = {
-			FRA = {
-				country_event = {
-             id = FRA.14
-             days = 55
-             }
-			}
-		}
+       
 	}
     option = { 
         name = FRA.4.b
@@ -223,14 +215,7 @@ country_event = {
     is_triggered_only = yes
     option = { 
         name = FRA.6.a
-        hidden_effect = {
-			FRA = {
-				country_event = {
-             id = FRA.14
-             days = 55
-             }
-			}
-		}
+       
 	}
     option = { 
         name = FRA.6.b
@@ -386,7 +371,8 @@ country_event = {
             add_political_power = 100
         news_event = {
 			id = news.1004 
-            set_politics = {
+		}
+        set_politics = {
     ruling_party = fascism
     last_election = 1935.4.1
     elections_allowed = no      
@@ -397,7 +383,7 @@ country_event = {
      }
      #unlock_national_focus = 工团胜利    
      #load_focus_tree = 工团国策
-	}
+	
 	}
 
 }

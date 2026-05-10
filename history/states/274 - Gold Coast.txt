@@ -9,17 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-		
-		
-
-		victory_points = { 10862 1 } #Accra
+		owner = DMA
+		add_core_of = DMA
+victory_points = { 10862 1 } #Accra
 
 		buildings = {
 			air_base = 1

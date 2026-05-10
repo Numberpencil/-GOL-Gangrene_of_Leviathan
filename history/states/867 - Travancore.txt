@@ -9,15 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-		victory_points = { 7402 3 } #Trivandrum
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 7402 3 } #Trivandrum
 		victory_points = { 1238 2 } #Cochin
 
 		buildings = {

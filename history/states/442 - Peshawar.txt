@@ -6,15 +6,9 @@ state = {
 	local_supplies = 5.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
- 
- 
-
-
-		victory_points = { 12717 2 } #Peshawar
+		owner = AFG
+		add_core_of = AFG
+victory_points = { 12717 2 } #Peshawar
 
 		buildings = {
 			industrial_complex = 2

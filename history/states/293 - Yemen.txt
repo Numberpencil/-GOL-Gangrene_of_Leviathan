@@ -9,15 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-
-		victory_points = { 10840 5 } #Sana'a
+		owner = FSA
+		add_core_of = FSA
+victory_points = { 10840 5 } #Sana'a
 		victory_points = { 1973 2 } #Taiz
 		victory_points = { 13836 2 } #Hodeida
 		victory_points = { 13837 1 } #Marib

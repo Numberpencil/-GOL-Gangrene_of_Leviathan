@@ -5,12 +5,9 @@ state = {
 	state_category = six
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 7087 3 }
+		owner = JAP
+		add_core_of = JAP
+victory_points = { 7087 3 }
 
 		buildings = {
 			infrastructure = 3

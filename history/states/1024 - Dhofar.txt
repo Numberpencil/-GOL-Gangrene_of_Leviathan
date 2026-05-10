@@ -6,12 +6,9 @@ state = {
 	local_supplies = 3.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 2103 1 } #Salalah
+		owner = OMA
+		add_core_of = OMA
+victory_points = { 2103 1 } #Salalah
 
 		buildings = {
 			infrastructure = 1

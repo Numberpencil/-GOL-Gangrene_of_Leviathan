@@ -9,13 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 2026 10 } #Isfahan
+		owner = PER
+		add_core_of = PER
+victory_points = { 2026 10 } #Isfahan
 		victory_points = { 8031 1 } #Yazd
 
 		buildings = {

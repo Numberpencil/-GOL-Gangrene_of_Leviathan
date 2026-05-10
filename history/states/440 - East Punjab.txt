@@ -5,15 +5,9 @@ state = {
 	state_category = four
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-		victory_points = { 12822 5 } #Amritsar
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 12822 5 } #Amritsar
 		victory_points = { 10729 2 } #Ludhiana
 
 		buildings = {

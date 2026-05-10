@@ -6,13 +6,9 @@ state = {
 	local_supplies = 3.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 4609 2 } #Rasht
+		owner = PER
+		add_core_of = PER
+victory_points = { 4609 2 } #Rasht
 		victory_points = { 10385 4 } #Sari
 
 		buildings = {

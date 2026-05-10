@@ -5,13 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 13748 1 } #Nizwa
+		owner = OMA
+		add_core_of = OMA
+victory_points = { 13748 1 } #Nizwa
 		victory_points = { 13749 1 } #Buraimi
 
 		buildings = {

@@ -5,14 +5,9 @@ state = {
 	state_category = zero_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 13047 1 }
+		owner = DPG
+		add_core_of = DPG
+victory_points = { 13047 1 }
 		buildings = {
 			infrastructure = 1
 			13047 = {

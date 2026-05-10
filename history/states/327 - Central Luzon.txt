@@ -5,14 +5,9 @@ state = {
 	state_category = six
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 10165 3 } #Tarlac
+		owner = PHI
+		add_core_of = PHI
+victory_points = { 10165 3 } #Tarlac
 		victory_points = { 10265 30 } #Manila
 		victory_points = { 1221 3 } #Batangas
 

@@ -13,7 +13,7 @@ state = {
 	history = {
 		owner = XXX
 		add_core_of = XXX
-		controller = LEP
+
 
  
 

@@ -5,14 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 5068 1 } #Hargeysa
+		owner = ITA
+		add_core_of = ITA
+victory_points = { 5068 1 } #Hargeysa
 		victory_points = { 10921 2 } #Las Khorey
 		victory_points = { 13496 1 } #Berbera
 

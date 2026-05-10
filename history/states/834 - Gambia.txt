@@ -5,13 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		victory_points = { 4989 1 } #Banjul
+		owner = FRA
+victory_points = { 4989 1 } #Banjul
 
 		buildings = {
 			infrastructure = 1

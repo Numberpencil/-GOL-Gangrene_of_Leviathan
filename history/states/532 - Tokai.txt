@@ -5,14 +5,9 @@ state = {
 	state_category = eight
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 10125 25 } #Nagoya
+		owner = JAP
+		add_core_of = JAP
+victory_points = { 10125 25 } #Nagoya
 		victory_points = { 12097 5 } #Hamamatsu
 
 		buildings = {

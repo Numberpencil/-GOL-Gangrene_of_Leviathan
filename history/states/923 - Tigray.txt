@@ -5,15 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-
-		victory_points = { 2072 2 } #Mekelle
+		owner = ETH
+		add_core_of = ETH
+victory_points = { 2072 2 } #Mekelle
 		victory_points = { 13828 1 } #Aksum
 		victory_points = { 13829 1 } #Adwa
 

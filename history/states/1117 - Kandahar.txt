@@ -5,13 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 5064 2 } #Kandahar
+		owner = AFG
+		add_core_of = AFG
+victory_points = { 5064 2 } #Kandahar
 		victory_points = { 2017 1 } #Farah
 
 		buildings = {

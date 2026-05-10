@@ -9,14 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 7912 1 } #Jimma
+		owner = ETH
+		add_core_of = ETH
+victory_points = { 7912 1 } #Jimma
 		victory_points = { 13820 2 } #Gambela
 
 		buildings = {

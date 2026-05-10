@@ -9,15 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-
-		victory_points = { 8019 1 } #Yabelo
+		owner = ETH
+		add_core_of = ETH
+victory_points = { 8019 1 } #Yabelo
 		victory_points = { 13638 1 } #Moyale
 		victory_points = { 13818 2 } #Yirgalem
 

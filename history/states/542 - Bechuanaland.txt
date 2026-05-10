@@ -6,13 +6,9 @@ state = {
 	local_supplies = 2.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		victory_points = { 8214 3 } #Gaberones
+		owner = SAF
+		add_core_of = SAF
+victory_points = { 8214 3 } #Gaberones
 
 		buildings = {
 			infrastructure = 1

@@ -9,17 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-
-
-		victory_points = { 12005 20 } #Lahore
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 12005 20 } #Lahore
 		victory_points = { 8007 4 } #Multan
 		victory_points = { 4979 3 } #Rawalpindi
 		victory_points = { 10887 3 } #Sialkot

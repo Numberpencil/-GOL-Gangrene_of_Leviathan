@@ -11,13 +11,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 1330 10 } # Yangon
+		owner = BRM
+		add_core_of = BRM
+victory_points = { 1330 10 } # Yangon
 		victory_points = { 12256 1 } # Toungoo
 
 		buildings = {

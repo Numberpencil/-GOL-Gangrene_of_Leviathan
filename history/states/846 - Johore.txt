@@ -9,13 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
- 
-
-
-
-		victory_points = { 10313 7 } # Johor Bahru
+		owner = JHR
+		add_core_of = JHR
+victory_points = { 10313 7 } # Johor Bahru
 		victory_points = { 7427 1 } # Malacca
 		buildings = {
 			infrastructure = 2

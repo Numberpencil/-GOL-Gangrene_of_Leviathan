@@ -5,13 +5,9 @@ state = {
 	state_category = three
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		victory_points = { 1403 3 } #Moulmein/Mawlamyine/Morlumreng
+		owner = BRM
+		add_core_of = BRM
+victory_points = { 1403 3 } #Moulmein/Mawlamyine/Morlumreng
 
 		buildings = {
 			infrastructure = 1

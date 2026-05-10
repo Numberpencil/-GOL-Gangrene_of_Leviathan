@@ -5,7 +5,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = XXX
+		owner = ETH
+		add_core_of = ETH
 		add_core_of = XXX
 
 

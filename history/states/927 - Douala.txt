@@ -9,14 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		buildings = {
+		owner = DMA
+		add_core_of = DMA
+buildings = {
 			infrastructure = 1
 			air_base = 1
 			industrial_complex = 1

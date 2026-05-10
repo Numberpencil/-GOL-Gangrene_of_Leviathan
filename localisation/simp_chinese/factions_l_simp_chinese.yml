@@ -1213,9 +1213,9 @@
  TRIGGER_HAS_NOT_ACTIVE_FACTION_RULE: "$COUNTRY_OR_FACTION|H$未启用规则$RULE|H$"
  #阵营
  Berlin_Defence_Agreement: "柏林防御协定"
- Far_East_Defense_Alliance: "远东防御同盟"
- Commonwealth_of_Nations: "英联邦"
- Pan_Iberian_Federation: "泛伊比利亚联邦"
+ Far_East_Defense_Alliance: "远东防御体系"
+ Commonwealth_of_Nations: "威斯敏斯特体系"
+ Pan_Iberian_Federation: "泛伊比利亚邦联"
  defense_of_Commonwealth_goal_name: "自我防卫"
  defense_of_Commonwealth_goal_desc: "面临强国的威胁，我们必须团结一致"
  Defense_of_Commonwealth: "阵营内国家处于独立"

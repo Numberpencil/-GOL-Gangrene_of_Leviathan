@@ -5,14 +5,8 @@ state = {
 	state_category = wasteland
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
- 
-
-
-		victory_points = { 13886 2 } #El Aaiun
+		owner = SPR
+victory_points = { 13886 2 } #El Aaiun
 
 		buildings = {
 			infrastructure = 1

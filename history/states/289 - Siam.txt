@@ -9,12 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 7408 15 } # Bangkok
+		owner = SIA
+		add_core_of = SIA
+victory_points = { 7408 15 } # Bangkok
 
 		buildings = {
 			infrastructure = 2

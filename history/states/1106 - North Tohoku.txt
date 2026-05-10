@@ -12,14 +12,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 6994 5 } #Aomori
+		owner = JAP
+		add_core_of = JAP
+victory_points = { 6994 5 } #Aomori
 		victory_points = { 9865 2 } #Akita
 
 		buildings = {

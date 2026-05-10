@@ -11,13 +11,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 4859 10 } #Johannesburg
+		owner = SAF
+		add_core_of = SAF
+victory_points = { 4859 10 } #Johannesburg
 		victory_points = { 10400 15 } #Pretoria
 
 		buildings = {

@@ -5,14 +5,9 @@ state = {
 	state_category = zero_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-		victory_points = { 13021 1 } #Tarawa
+		owner = ENG
+		add_core_of = ENG
+victory_points = { 13021 1 } #Tarawa
 
 		strategic_province_location = {
 			defensible_coastline = 13021

@@ -12,13 +12,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 7003 3 } #Harare/Salisbury
+		owner = GSA
+		add_core_of = GSA
+victory_points = { 7003 3 } #Harare/Salisbury
 
 		buildings = {
 			infrastructure = 1

@@ -5,15 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-
-		victory_points = { 1464 8 } #Vientiane/Viangchan
+		owner = LAO
+		add_core_of = LAO
+victory_points = { 1464 8 } #Vientiane/Viangchan
 		victory_points = { 4613 3 } #Luang Prabang/Louangphabang
 		victory_points = { 1563 2 } #Pakse/Pakxe
 

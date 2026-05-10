@@ -5,15 +5,9 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-
-		victory_points = { 13041 1 } #Kwajalein
+		owner = DPG
+		add_core_of = DPG
+victory_points = { 13041 1 } #Kwajalein
 		victory_points = { 13046 1 } #Eniwetok
 
 		strategic_province_location = {

@@ -5,12 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-		victory_points = { 5077 1 } #Boutilimit
+		owner = FRA
+victory_points = { 5077 1 } #Boutilimit
 
 		buildings = {
 			infrastructure = 1

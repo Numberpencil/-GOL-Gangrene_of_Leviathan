@@ -6,11 +6,9 @@ state = {
 	local_supplies = 6.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-		victory_points = { 2070 2 }
+		owner = PER
+		add_core_of = PER
+victory_points = { 2070 2 }
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

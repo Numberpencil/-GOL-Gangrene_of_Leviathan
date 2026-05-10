@@ -11,15 +11,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-		victory_points = { 10088 1 } #Cuttack
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 10088 1 } #Cuttack
 		victory_points = { 12241 3 } #Jagdalpur
 
 		buildings = {

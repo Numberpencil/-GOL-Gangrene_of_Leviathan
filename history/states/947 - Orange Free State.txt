@@ -9,12 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 12648 3 } #Bloemfontein
+		owner = SAF
+		add_core_of = SAF
+victory_points = { 12648 3 } #Bloemfontein
 
 		buildings = {
 			infrastructure = 2

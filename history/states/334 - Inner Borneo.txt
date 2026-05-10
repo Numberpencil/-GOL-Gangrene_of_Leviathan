@@ -6,11 +6,9 @@ state = {
 	impassable = yes
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-		buildings = {
+		owner = BOR
+		add_core_of = BOR
+buildings = {
 			infrastructure = 1
 		}
 	}

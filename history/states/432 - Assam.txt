@@ -11,14 +11,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-		victory_points = { 12395 1 } #Shillong
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 12395 1 } #Shillong
 
 		buildings = {
 			infrastructure = 2

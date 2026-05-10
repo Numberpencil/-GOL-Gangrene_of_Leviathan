@@ -10,13 +10,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 989 5 } #Oujda
+		owner = MOR
+		add_core_of = MOR
+victory_points = { 989 5 } #Oujda
 
 		buildings = {
 			infrastructure = 1

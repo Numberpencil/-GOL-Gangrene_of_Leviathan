@@ -5,15 +5,9 @@ state = {
 	state_category = wasteland
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
- 
-
-
-		victory_points = { 12774 1 } #Gwadar
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 12774 1 } #Gwadar
 
 		buildings = {
 			infrastructure = 1

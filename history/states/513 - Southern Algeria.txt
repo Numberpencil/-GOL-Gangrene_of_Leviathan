@@ -5,13 +5,8 @@ state = {
 	state_category = wasteland
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		buildings = {
+		owner = FRA
+buildings = {
 			infrastructure = 1
 		}
 		victory_points = { 1126 1 } #Laghouat

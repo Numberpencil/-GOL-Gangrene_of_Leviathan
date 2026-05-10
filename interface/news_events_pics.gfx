@@ -7,6 +7,18 @@ spriteTypes = {
 		name = "GFX_news_event_Karl_assassination"
 		texturefile = "gfx/events/news/Karl_assassination.dds"
 	}
+	SpriteType = {
+		name = "GFX_news_event_syndicate_wins_election"
+		texturefile = "gfx/events/news/syndicate_wins_election.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Budapest_Ultimatum"
+		texturefile = "gfx/events/news/Budapest_Ultimatum.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_The_Balkan_Wars"
+		texturefile = "gfx/events/news/The_Balkan_Wars.dds"
+	}
 	#SpriteType = {
 	#	name = x
 	#	texturefile = ""

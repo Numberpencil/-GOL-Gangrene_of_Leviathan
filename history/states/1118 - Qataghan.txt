@@ -9,13 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 12314 1 } #Kunduz
+		owner = AFG
+		add_core_of = AFG
+victory_points = { 12314 1 } #Kunduz
 		victory_points = { 7584 2 } #Mazar-i-Sharif
 
 		buildings = {

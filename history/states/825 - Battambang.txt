@@ -5,14 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 10177 2 } #Battambang/Phra Tabong
+		owner = CAM
+		add_core_of = CAM
+victory_points = { 10177 2 } #Battambang/Phra Tabong
 		victory_points = { 4302 1 } #Siem Reap/Siemrath
 
 		buildings = {

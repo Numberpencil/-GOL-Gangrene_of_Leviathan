@@ -9,15 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-		victory_points = { 1908 3 } #Ajmer
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 1908 3 } #Ajmer
 		victory_points = { 12876 2 } #Bikaner
 
 		buildings = {

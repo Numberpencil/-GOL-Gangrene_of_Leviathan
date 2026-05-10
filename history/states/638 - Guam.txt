@@ -5,15 +5,9 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
- 
-
-
-
-		victory_points = { 12140 1 } #Agana
+		owner = DPG
+		add_core_of = DPG
+victory_points = { 12140 1 } #Agana
 
 		strategic_province_location = {
 			natural_harbor = 12140

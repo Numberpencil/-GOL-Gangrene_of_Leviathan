@@ -5,13 +5,9 @@ state = {
 	state_category = zero_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
- 
-
-		strategic_state_location = {
+		owner = DPG
+		add_core_of = DPG
+strategic_state_location = {
 			favorable_approach = 13019
 		}
 		buildings = {

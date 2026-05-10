@@ -9,11 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-		victory_points = { 10671 2 } #Samarkand
+		owner = SOV
+		add_core_of = SOV
+victory_points = { 10671 2 } #Samarkand
 
 		buildings = {
 			infrastructure = 2

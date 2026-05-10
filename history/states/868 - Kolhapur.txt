@@ -10,15 +10,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-		victory_points = { 12295 1 } #Kolhapur
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 12295 1 } #Kolhapur
 		victory_points = { 13846 1 } #Bellary
 
 		buildings = {

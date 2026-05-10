@@ -5,16 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-
-
-		victory_points = { 4995 1 } #Dolo
+		owner = ETH
+		add_core_of = ETH
+victory_points = { 4995 1 } #Dolo
 		victory_points = { 12812 1 } #Werder
 		victory_points = { 13554 1 } #Sassabaneh
 

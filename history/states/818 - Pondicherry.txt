@@ -5,15 +5,9 @@ state = {
 	state_category = port
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
- 
-
-
-		victory_points = { 10149 1 } #Pondicherry
+		owner = FRA
+		add_core_of = RAJ
+victory_points = { 10149 1 } #Pondicherry
 
 		buildings = {
 			infrastructure = 2

@@ -6,13 +6,9 @@ state = {
 	local_supplies = 4.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 1896 10 } #Tabriz
+		owner = PER
+		add_core_of = PER
+victory_points = { 1896 10 } #Tabriz
 		victory_points = { 4901 3 } #Ardabil
 
 		buildings = {

@@ -6,14 +6,9 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-		victory_points = { 10803 1 } #Abidjan
+		owner = DMA
+		add_core_of = DMA
+victory_points = { 10803 1 } #Abidjan
 		victory_points = { 8122 1 } #Bouake (created by effect)
 
 		buildings = {

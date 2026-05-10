@@ -7,9 +7,17 @@ spriteTypes = {
 	#	name = x
 	#	texturefile = ""
 	#}
-		spriteType = {
+	spriteType = {
+		name = "GFX_event_The_Death_of_Despere"
+		texturefile = "gfx/events/FRA/The_Death_of_Despere.dds"
+	}
+	spriteType = {
 		name = "GFX_news_event_Karl_assassination"
 		texturefile = "gfx/events/FRA/Karl_assassination.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_carnival"
+		texturefile = "gfx/events/FRA/carnival.dds"
 	}
 	spriteType = {
 		name = "GFX_event_Labor_Union_Party"

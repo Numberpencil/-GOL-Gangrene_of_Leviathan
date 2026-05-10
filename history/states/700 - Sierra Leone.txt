@@ -9,13 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		victory_points = { 2038 1 } #Freistadt/Freetown
+		owner = FRA
+victory_points = { 2038 1 } #Freistadt/Freetown
 
 		buildings = {
 			infrastructure = 1

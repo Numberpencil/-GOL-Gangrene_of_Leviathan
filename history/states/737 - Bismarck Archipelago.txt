@@ -5,13 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 7251 5 }
+		owner = DPG
+		add_core_of = DPG
+victory_points = { 7251 5 }
 
 		strategic_province_location = {
 			defensive_chokepoint = 7251

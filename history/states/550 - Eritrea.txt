@@ -5,16 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-
-
-		victory_points = { 12723 1 } #Bishia
+		owner = ETH
+		add_core_of = ETH
+victory_points = { 12723 1 } #Bishia
 		victory_points = { 12766 1 } #Massawa
 		victory_points = { 13831 3 } #Asmara
 

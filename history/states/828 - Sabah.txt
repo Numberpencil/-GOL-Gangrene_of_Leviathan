@@ -10,13 +10,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
- 
-
-
-
-		victory_points = { 10199 2 } # Sandakan
+		owner = BOR
+		add_core_of = BOR
+victory_points = { 10199 2 } # Sandakan
 		victory_points = { 10212 1 } # Kota Kinabalu
 
 		buildings = {

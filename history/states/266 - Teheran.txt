@@ -5,16 +5,9 @@ state = {
 	state_category = five
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-
-
-		victory_points = { 10837 15 }
+		owner = PER
+		add_core_of = PER
+victory_points = { 10837 15 }
 		victory_points = { 8040 5 }
 		victory_points = { 7969 3 }
 		victory_points = { 2065 1 }

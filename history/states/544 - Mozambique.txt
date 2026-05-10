@@ -5,13 +5,9 @@ state = {
 	state_category = three
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		victory_points = { 12971 3 } #Quelimane
+		owner = GSA
+		add_core_of = GSA
+victory_points = { 12971 3 } #Quelimane
 		victory_points = { 2123 2 } #Moçambique
 
 		buildings = {

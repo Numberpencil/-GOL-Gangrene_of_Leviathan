@@ -10,14 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 4948 10 } #Dakar
+		owner = FRA
+victory_points = { 4948 10 } #Dakar
 		victory_points = { 12710 3 } #Saint Louis
 
 		buildings = {

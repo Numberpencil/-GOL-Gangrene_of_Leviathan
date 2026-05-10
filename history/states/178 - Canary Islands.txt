@@ -5,12 +5,9 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 13071 1 } #Las Palmas
+		owner = SPR
+		add_core_of = SPR
+victory_points = { 13071 1 } #Las Palmas
 
 		strategic_province_location = {
 			natural_harbor = 13071

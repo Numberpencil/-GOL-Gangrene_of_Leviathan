@@ -6,12 +6,8 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-		victory_points = { 10836 1 } #Ouagadougou
+		owner = FRA
+victory_points = { 10836 1 } #Ouagadougou
 
 		buildings = {
 			infrastructure = 1

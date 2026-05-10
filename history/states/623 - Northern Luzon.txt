@@ -5,13 +5,9 @@ state = {
 	state_category = four
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 4423 3 } #Baguio
+		owner = PHI
+		add_core_of = PHI
+victory_points = { 4423 3 } #Baguio
 		victory_points = { 12213 1 } #Aparri
 
 		buildings = {

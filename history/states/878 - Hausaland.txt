@@ -5,19 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-
-
-		
-		
-
-		buildings = {
+		owner = DMA
+		add_core_of = DMA
+buildings = {
 			infrastructure = 1
 		}
 		victory_points = { 13214 3 } #Kaduna

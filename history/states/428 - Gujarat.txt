@@ -9,15 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
- 
-
-
-
-		victory_points = { 9975 20 } #Ahmedabad
+		owner = RAJ
+		add_core_of = RAJ
+victory_points = { 9975 20 } #Ahmedabad
 		victory_points = { 11952 3 } #Baroda
 
 		buildings = {
