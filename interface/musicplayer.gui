@@ -35,12 +35,13 @@ guiTypes = {
 				name = "cake"
 				position = { x = 15 y = 84 }
 				textureFile = ""
-				font = "hoi4_typewriter22"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 0}
 				text = "RADIO_TITLE"
 				maxWidth = 150
 				maxHeight = 20
 				format = center	
+	
 			}
 			
 			
@@ -154,7 +155,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "track_label"
 			position = { x = 60 y = 8 }
-			font = "hoi4_typewriter16"
+			font = "hoi_18b"
 			maxWidth = 430
 			maxHeight = 20
 			format = left
@@ -165,7 +166,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "track_length"
 			position = { x = -106 y = 8 }
-			font = "hoi4_typewriter16"
+			font = "hoi_18b"
 			text = "9:33"
 			maxWidth = 60
 			maxHeight = 20
