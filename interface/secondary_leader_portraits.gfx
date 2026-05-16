@@ -61,7 +61,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_secondary_leader_otto_I"
-		textureFile = "gfx\leaders\HUN\otto_I.png"
+		textureFile = "gfx\leaders\HUN\sima_OTTO.png"
 		legacy_lazy_load = yes
 	}
 	spriteType = {
