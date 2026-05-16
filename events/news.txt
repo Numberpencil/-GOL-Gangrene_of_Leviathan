@@ -13,7 +13,7 @@ add_namespace = news
 #}
 
 news_event = { #匈牙利国王卡洛伊四世遇刺身亡
-	id = HUN_news.1000
+	id = news.1000
 	title = HUN_news.1000.t
 	desc = HUN_news.1000.d
 	picture = GFX_news_event_Karl_assassination
@@ -28,7 +28,7 @@ news_event = { #匈牙利王国新王奥托加冕圣斯蒂芬王冠
 	id = news.1001
 	title = news.1001.t
 	desc = news.1001.d
-	picture = GFX_news_event_x
+	picture = GFX_news_event_The_coronation_of_the_new
 	is_triggered_only = yes
 	major = yes
 	option = { #来真的？

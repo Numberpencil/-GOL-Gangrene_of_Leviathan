@@ -28,10 +28,11 @@ country_event = { #卡尔遇刺
 			tag = HUN
 		}
 		HUN = {
-		remove_ideas = POI_IV_kaluoer
+		remove_ideas = POI_IV_kaluoer	
+		remove_ideas = POI_COUNTRY_HAS_SECONDARY_LEADER
 		}
 		news_event = {
-			id = HUN_news.1000 #匈牙利国王卡洛伊四世遇刺身亡
+			id = news.1000 #匈牙利国王卡洛伊四世遇刺身亡
 		}
 		hidden_effect = {
 			HUN = {
@@ -80,6 +81,7 @@ country_event = { #奥托加冕
 			always = yes
 		}
 		HUN = {
+			add_ideas = POI_COUNTRY_HAS_SECONDARY_LEADER
 			add_ideas = POI_otto_I
 		}
 		news_event = {
