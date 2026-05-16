@@ -67,6 +67,20 @@ guiTypes = {
 			}
 		}
 	}
+	containerWindowType = { #阵营图标
+			name = "faction_icons_container_gui"
+			position = { x = 565 y = 60}
+			size = { width = 100 height = 100 }
+            clipping = yes
+			iconType = { #柏林防御协定
+			name = "facion_icons_Berlin_Defence_Agreement"
+			position = { x = -4 y = 3 }
+			size = { width = 100% height = 100% }
+			spriteType = "GFX_faction_icon_Berlin_Defence_Agreement"
+			alwaystransparent = yes
+						
+		}
+	}
 
 	containerWindowType = {
 		name = "countrypoliticsview"
@@ -309,19 +323,7 @@ guiTypes = {
 						format = left
 						alwaystransparent = yes
 					}
-					containerWindowType = {
-						name = "faction_icons_container"
-						position = { x = 379 y = -200}
-						size = { width = 100 height = 100 }
-
-						iconType = { #柏林防御协定
-							name = "facion_icons_Berlin_Defence_Agreement"
-							position = { x = -4 y = 3 }
-							size = { width = 100% height = 100% }
-							spriteType = "GFX_faction_icon_Berlin_Defence_Agreement"
-							alwaystransparent = yes
-						}
-					}
+					
 				}
 			}
 

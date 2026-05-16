@@ -17,5 +17,21 @@ characters = {
             id = -1
         }
     }
+法案    	Antonio_Maura = {
+        name = Antonio_Maura_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SPR/Antonio_Maura.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 
 }

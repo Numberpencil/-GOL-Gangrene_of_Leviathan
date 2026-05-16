@@ -9,6 +9,7 @@ set_war_support = 0.4
 set_research_slots = 3
 
 #人物提取
+recruit_character = Antonio_Maura
 recruit_character = Alfonso_XIII
 
 # 开局解锁科技
@@ -52,7 +53,8 @@ add_to_faction = POR
 
 #开局民族精神
 add_ideas = {
-	
+	POI_Alfonso_XIII
+	POI_COUNTRY_HAS_SECONDARY_LEADER
 }
 
 #外交状态

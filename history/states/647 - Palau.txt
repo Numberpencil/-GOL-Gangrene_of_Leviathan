@@ -5,8 +5,8 @@ state = {
 	state_category = zero_island
 
 	history = {
-		owner = DPG
-		add_core_of = DPG
+		owner = JAP
+		add_core_of = JAP
 victory_points = { 12103 1 } #Koror
 
 		strategic_province_location = {

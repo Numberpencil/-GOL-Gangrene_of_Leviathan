@@ -125,6 +125,13 @@ defined_text = {
 		}
 		localization_key = "LIT_POI_Mindaugas_III"
 	}
+	text = {
+		trigger = {	
+			tag = SPR			
+			has_idea = POI_Alfonso_XIII
+		}
+		localization_key = "SPR_POI_Alfonso_XIII"
+	}
 }
 		
 

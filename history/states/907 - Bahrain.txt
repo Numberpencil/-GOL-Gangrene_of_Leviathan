@@ -9,15 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
- 
- 
-
-
-		buildings = {
+		owner = ENG
+		add_core_of = ENG
+buildings = {
 			infrastructure = 1
 			13552 = {
 				naval_base = 2

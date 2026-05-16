@@ -336,5 +336,24 @@ ideas = {
 				
 			}
 		}
+		POI_Alfonso_XIII = {
+			name = "SPR POI Alfonso_XIII"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
     }
 }

@@ -5,12 +5,9 @@ state = {
 	state_category = zero_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-		buildings = {
+		owner = DPG
+		add_core_of = DPG
+buildings = {
 			infrastructure = 1
 			7390 = {
 				naval_base = 1
