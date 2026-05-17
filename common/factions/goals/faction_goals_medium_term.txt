@@ -1,72 +1,68 @@
-#category = short_term medium_term or long_term
-# ROOT is faction leader, FROM is faction member who opens UI and views goals, completed/cancel/complete_effect do not have FROM scopes
-
-
-######################################################################
-
-###  ##   ##  ### ###  ##  #  #      ## ###  ###  ##  ### ### ###  ##  
-#   #  # #  #  #   #  #  # ## #     #   #  # #   #  #  #  #    #  #  # 
-##  #### #     #   #  #  # # ##      #  ###  ##  #     #  ##   #  #    
-#   #  # #  #  #   #  #  # #  #       # #    #   #  #  #  #    #  #  # 
-#   #  #  ##   #  ###  ##  #  #     ##  #    ###  ##  ### #   ###  ##  
-
-######################################################################
-
-
- ##  #   # ###  ## 
-#  #  # #   #  #   
-####   #    #   #  
-#  #  # #   #    # 
-#  # #   # ### ##  
-
-
-FAC_Maintain_stability_term = { #阵营目标的块
-	name = FAC_Maintain_stability_term #阵营目标的名字，如在这里是维持稳定。决定本地化键值。
-	description = FAC_Maintain_stability_term_desc #阵营目标的描述
-	category = short_term #目标类别，在这里是短期目标，类别有短期、中期、长期（category = short_term medium_term or long_term）
-	group = FOCUS_FILTER_INTERNAL_AFFAIRS #阵营目标的类别，在这里是内政。如果需要添加，只需在这上面写上写类别名字、并添加同名的带GFX前缀的图标和带_FACTION_GOAL_FILTER后缀的本地化即可（有意思的是，你甚至能直接写已经有的图标的名字上去。就像在这里这样）
-	allowed = { #初始可见条件。如果开局时不满足则之后都不可见。
-
+faction_goal_undo_versailles = {
+	name = undo_versailles_goal_name
+	description = undo_versailles_goal_desc
+	category = medium_term
+	group = FOCUS_FILTER_WAR_SUPPORT
+	visible = {
+		FROM = { original_tag = GER }
 	}
-	visible = { #可见条件
-			tag = PRA #在这里的意思是，当阵营领导者是PRA时，这个阵营目标才可见。
-	}
-
-	available = { #启用条件
-
-		ROOT = {
-			has_war = no
+	completed = {
+		OR = {
+			AND = {
+				original_tag = GER
+				has_army_manpower = {
+					size > 1000000
+				}
+				controls_state = 28
+				controls_state = 85
+				controls_state = 86
+				controls_state = 188
+				controls_state = 762
+				controls_state = 807
+				controls_state = 912
+			}
+			any_allied_country = {
+				original_tag = GER
+				has_army_manpower = {
+					size > 1000000
+				}
+				controls_state = 28
+				controls_state = 85
+				controls_state = 86
+				controls_state = 188
+				controls_state = 762
+				controls_state = 807
+				controls_state = 912
+			}
 		}
-
+		42 = { is_demilitarized_zone = no }
+		51 = { is_demilitarized_zone = no }
+		978 = { is_demilitarized_zone = no }
 	}
-	completed = { #完成条件
-	
-
+	complete_effect = {
+		add_faction_power_projection = 100
+		every_faction_member = {
+			limit = {
+				original_tag = GER
+			}
+			add_faction_initiative = 1
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
+		every_faction_member = { 
+			tooltip = INFLUENCE_ABOVE_30_PERCENT
+			visible_when_empty = yes
+			limit = {
+				faction_influence_ratio > 0.3
+			}
+			add_war_support = 0.05
+			add_political_power = 50
+		}
 	}
-
-	complete_effect = { #完成效果
-
-	}
-
-	cancel_effect = { #取消效果
-		# 效果 - 目标被取消时执行一次
-		#
-		# 作用域（SCOPE） = 派系领袖：国家（COUNTRY）
-	}
-
-	select_effect = { #选择效果
-		# 效果 - 目标被选中时执行一次，仅在游戏开始后选中目标时生效
-		#
-		# 作用域（SCOPE） = 派系领袖：国家（COUNTRY）
-	}
-	
-	remove_effect = { #移除效果
-		# 效果 - 目标被移除时执行一次，仅在游戏开始后移除目标时生效
-		#
-		# 作用域（SCOPE） = 派系领袖：国家（COUNTRY）
-	}
-
-	ai_will_do = { #AI选择目标的倾向
+	ai_will_do = {
 		base = 1
+		modifier = {
+			add = 9
+			is_historical_focus_on = yes
+		}
 	}
 }

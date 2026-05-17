@@ -1,8 +1,8 @@
 characters = {
     ## Leaders ##
     #premier
-	Mikhail_II = {
-        name = Mikhail_II_name
+	Kirill_Vladimirov = {
+        name =Kirill_Vladimirov_name
         portraits = {
             civilian = {
                 large = "gfx/leaders/SOV/Mikhail_II.png"
