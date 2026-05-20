@@ -71,7 +71,7 @@ ideas = {
 			}
 		}
 		POI_Mikhail_II = {
-			name = "SOV POI Mikhail_II"
+			name = "SOV POI Kirill_Vladimirov"
 			on_add = {
 				
 			}

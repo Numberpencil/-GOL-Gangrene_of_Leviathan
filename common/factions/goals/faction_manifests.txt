@@ -1160,7 +1160,6 @@ faction_manifest_Far_Defense_Balkan = {
 		completed_amount_collection = collection:Far_Defense_Balkan
 		range = { min = 0.8 max = 0.1 }
 		reversed = {
-              surrender_limit = 0.5
 			  army_core_defence_factor = 0.1
 		}
 		

@@ -17,7 +17,7 @@ characters = {
             id = -1
         }
     }
-法案    	Antonio_Maura = {
+    Antonio_Maura = {
         name = Antonio_Maura_name
         portraits = {
             civilian = {
