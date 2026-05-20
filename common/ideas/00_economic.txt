@@ -839,3 +839,32 @@ ideas = {
     }	
 }
 
+# 在 common/ideas/00_economic.txt 或其他ideas文件中添加：
+
+ideas = {
+    # 国际联盟成员
+    country = {
+        league_of_nations_member_idea = {
+            picture = generic_democratic
+            modifier = {
+                # 添加适当的修正
+            }
+        }
+        
+        # 海军条约
+        MTG_naval_treaty_adherent = {
+            picture = generic_naval_treaty
+            modifier = {
+                # 添加适当的修正
+            }
+        }
+        
+        # 不受控出口（波兰）
+        uncontrolled_exports = {
+            picture = generic_trade
+            modifier = {
+                consumer_goods_expected_value = 0.05
+            }
+        }
+    }
+}

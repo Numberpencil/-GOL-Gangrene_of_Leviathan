@@ -1,4 +1,0 @@
-USA_unit_production = {
-
-
-}

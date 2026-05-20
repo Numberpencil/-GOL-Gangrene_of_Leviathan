@@ -31,7 +31,7 @@ country_event = { #卡尔遇刺
 		remove_ideas = POI_IV_kaluoer
 		}
 		news_event = {
-			id = HUN_news.1000 #匈牙利国王卡洛伊四世遇刺身亡
+			id = news.1000 #匈牙利国王卡洛伊四世遇刺身亡
 		}
 		hidden_effect = {
 			HUN = {
@@ -125,6 +125,12 @@ country_event = { #瓦拉几亚脱离控制
 		trigger = {
 			always = yes
 		}
+		hidden_effect = {
+			country_event = {
+				id = HUN.6
+				days = 5
+			}
+		}
 	}
 }
 
@@ -133,11 +139,8 @@ country_event = { #对瓦拉几亚的最后通牒
     picture = GFX_events_x
     title = HUN.6.t
     desc = HUN.6.d
-    #is_triggered_only = yes
+    is_triggered_only = yes
     fire_only_once = yes
-	trigger = {
-		date = 1936.1.7
-	}
     option = { 
         name = HUN.6.a #我们不会善罢甘休
 		trigger = {
@@ -163,9 +166,15 @@ country_event = { #瓦拉几亚拒绝要求
 		trigger = {
 			always = yes
 		}
-		declare_war_on = {
+		declare_war_on = { #声明对罗马尼亚的战争
 			target = ROM
 			type = annex_everything
+		}
+		MAC = { #声明对罗马尼亚的战争
+			declare_war_on = {
+				target = ROM
+				type = annex_everything
+			}
 		}
 		news_event = {
 			id = news.1003 #巴尔干战争爆发

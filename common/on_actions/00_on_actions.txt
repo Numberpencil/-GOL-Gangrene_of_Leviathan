@@ -1,150 +1,101 @@
-#on_action = {
-#	on_declare_war = {
-#		effect = {
-#			if = {
-#				limit = {
-#					FROM = { tag = HUN }
-#					ROOT = { tag = ROM }
-#				}
-#				news_event = {
-#					id = news.1003 #
-#				}
-#			}
-#		}
-#	}
-#}
+# GOL巴尔干战争On_Action系统
+# 基于即时触发机制的和平协议系统
+
 on_action = {
+	# 投降立即拦截（设置flag）
 	on_capitulation_immediate = {
 		effect = {
+			# 瓦拉几亚投降
 			if = {
-				limit = { #匈牙利占领瓦拉几亚和塞尔维亚
-                    FROM = { original_tag = HUN }
-                    ROOT = { original_tag = ROM }
-					ROOT = { original_tag = BUL }
-					ROOT = { original_tag = YUG }
-					ROOT = { original_tag = BOS }
+				limit = {
+					FROM = { tag = ROM }
+					ROOT = { tag = HUN }
+					NOT = { has_global_flag = GOL_flag_hungarian_victory }
+					NOT = { has_global_flag = GOL_flag_balkan_alliance_victory }
 				}
-				HUN = {
-				white_peace = YUG 
-				white_peace = ROM
-				white_peace = MOL
-				white_peace = BUL	
+				set_global_flag = GOL_flag_romania_defeated
+			}
+			
+			# 塞尔维亚投降
+			if = {
+				limit = {
+					FROM = { tag = YUG }
+					ROOT = { tag = HUN }
+					NOT = { has_global_flag = GOL_flag_hungarian_victory }
+					NOT = { has_global_flag = GOL_flag_balkan_alliance_victory }
 				}
-				MAC = {
-				white_peace = YUG 
-				white_peace = ROM
-				white_peace = MOL
-				white_peace = BUL	
+				set_global_flag = GOL_flag_yugoslavia_defeated
+			}
+			
+			# 匈牙利投降
+			if = {
+				limit = {
+					FROM = { tag = HUN }
+					ROOT = { OR = { tag = ROM tag = YUG } }
+					NOT = { has_global_flag = GOL_flag_hungarian_victory }
+					NOT = { has_global_flag = GOL_flag_balkan_alliance_victory }
 				}
-				
-				news_event = { id = news.x } #匈牙利打败巴尔干同盟
-				HUN = {
-					puppet = ROM
-					puppet = YUG
-					puppet = BOS
-					puppet = BCV
-					puppet = MOL
-				}
-				802 = { #释放科索沃
-					transfer_state_to = KOS
-					add_core_of = KOS
-				}
-				105 = { #释放黑山
-					transfer_state_to = MNT
-					add_core_of = MNT
-				}
-				HUN = {
-					puppet = KOS
-					puppet = MNT
-				}
+				set_global_flag = GOL_flag_hungary_defeated
 			}
 		}
 	}
-	on_weekly = {
+	
+	# 和平会议开始前拦截（执行和平脚本）
+	on_before_peace_conference_start = {
 		effect = {
+			# 匈牙利阵营胜利
 			if = {
 				limit = {
-					HUN = {
-						has_war_with = ROM
-						surrender_progress > 0.5
+					ROOT = { tag = HUN }
+					FROM = { OR = { tag = ROM tag = YUG } }
+					NOT = { has_global_flag = GOL_flag_hungarian_victory }
+					NOT = { has_global_flag = GOL_flag_balkan_alliance_victory }
+					# 检查两个国家是否都被击败
+					OR = {
+						AND = {
+							FROM = { tag = ROM }
+							OR = {
+								has_global_flag = GOL_flag_yugoslavia_defeated
+								YUG = {
+									all_core_state = {
+										OR = {
+											is_controlled_by = HUN
+											is_controlled_by = MAC
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							FROM = { tag = YUG }
+							OR = {
+								has_global_flag = GOL_flag_romania_defeated
+								ROM = {
+									all_core_state = {
+										OR = {
+											is_controlled_by = HUN
+											is_controlled_by = MAC
+										}
+									}
+								}
+							}
+						}
 					}
 				}
-                HUN = {
-				white_peace = YUG 
-				white_peace = ROM
-				white_peace = MOL
-				white_peace = BUL	
+				GOL_hungarian_victory_peace = yes
+				news_event = { id = GOL_balkan.1 }
+			}
+			
+			# 巴尔干同盟胜利
+			if = {
+				limit = {
+					FROM = { tag = HUN }
+					ROOT = { OR = { tag = ROM tag = YUG } }
+					NOT = { has_global_flag = GOL_flag_hungarian_victory }
+					NOT = { has_global_flag = GOL_flag_balkan_alliance_victory }
 				}
-				MAC = {
-				white_peace = YUG 
-				white_peace = ROM
-				white_peace = MOL
-				white_peace = BUL	
-				}
-				78 = {
-					transfer_state_to = ROM
-					add_core_of = ROM
-				}
-				79 = {
-					transfer_state_to = ROM
-					add_core_of = ROM
-				}
-				766 = {
-					transfer_state_to = ROM
-					add_core_of = ROM
-				}
-				80 = {
-					transfer_state_to = ROM
-					add_core_of = ROM
-				}
-				76 = {
-					transfer_state_to = ROM
-					add_core_of = ROM
-				}
-				83 = {
-					transfer_state_to = ROM
-					add_core_of = ROM
-				}
-				82 = {
-					transfer_state_to = ROM
-					add_core_of = ROM
-				}
-				84 = {
-					transfer_state_to = ROM
-					add_core_of = ROM
-				}
-				106 = {
-					transfer_state_to = BUL
-					add_core_of = BUL
-				}
-				970 = {
-					transfer_state_to = BUL
-					add_core_of = BUL
-				}
-				104 = {
-					transfer_state_to = YUG
-					add_core_of = YUG
-				}
-				804 = {
-					transfer_state_to = YUG
-					add_core_of = YUG
-				}
-				103 = {
-					transfer_state_to = YUG
-					add_core_of = YUG
-				}
-				109 = {
-					transfer_state_to = YUG
-					add_core_of = YUG
-				}
-				45 = {
-					transfer_state_to = YUG
-					add_core_of = YUG
-				}
-				764 = {
-					transfer_state_to = YUG
-					add_core_of = YUG
-				}
+				GOL_balkan_alliance_victory_peace = yes
+				news_event = { id = GOL_balkan.2 }
 			}
 		}
 	}

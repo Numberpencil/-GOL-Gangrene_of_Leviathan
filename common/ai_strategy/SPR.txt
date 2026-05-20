@@ -1,4 +1,0 @@
-spanish_civil_war_GER_expatriate = {
-	
-	
-}

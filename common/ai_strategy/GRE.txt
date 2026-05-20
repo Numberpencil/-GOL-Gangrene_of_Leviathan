@@ -1,3 +1,0 @@
-GRE_befriend_balkan_countries_YUG = {
-
-}

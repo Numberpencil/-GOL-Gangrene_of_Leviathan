@@ -16,7 +16,7 @@ add_namespace = FRA
 #}
 
 country_event = { 
-	id = FRA.1
+	id = FRA.1 # 德斯佩雷之死
 	picture = GFX_event_The_Death_of_Despere
     title = FRA.1.t
     desc = FRA.1.d
@@ -44,7 +44,7 @@ country_event = {
 }
 
 country_event = { 
-	id = FRA.2
+	id = FRA.2 # 狂欢
 	picture = GFX_news_event_carnival
     title = FRA.2.t
     desc = FRA.2.d
@@ -68,7 +68,7 @@ country_event = {
 	}
 }
 country_event = { 
-	id = FRA.3
+	id = FRA.3 # 工团主义的力行者-工团行动党
     picture = GFX_event_Labor_Union_Party
     title = FRA.3.t
     desc = FRA.3.d
@@ -116,7 +116,7 @@ country_event = {
  
 }
 country_event = { 
-	id = FRA.4
+	id = FRA.4 # 工团主义的力行者-工团行动党
     picture = GFX_event_Labor_Union_Party
     title = FRA.3.t
     desc = FRA.3.d
@@ -159,7 +159,7 @@ country_event = {
     
 }
 country_event = { 
-	id = FRA.5
+	id = FRA.5 # 工团主义的力行者-工团行动党
     picture = GFX_event_Labor_Union_Party
     title = FRA.3.t
     desc = FRA.3.d
@@ -208,7 +208,7 @@ country_event = {
     
 }
 country_event = { 
-	id = FRA.6
+	id = FRA.6 # 工团主义的力行者-工团行动党
     picture = GFX_event_Labor_Union_Party
     title = FRA.3.t
     desc = FRA.3.d
@@ -241,7 +241,7 @@ country_event = {
     
 }
 country_event = { 
-	id = FRA.7
+	id = FRA.7 # 务实主义的选择-法兰西共产党
     picture = GFX_event_French_Communist_Party
     title = FRA.7.t
     desc = FRA.7.d
@@ -258,7 +258,7 @@ country_event = {
 	}       
 }
 country_event = { 
-	id = FRA.8
+	id = FRA.8 # 脆弱的联盟-人民阵线
     picture = GFX_event_Front_populaire
     title = FRA.8.t
     desc = FRA.8.d
@@ -275,7 +275,7 @@ country_event = {
 	}       
 }
 country_event = { 
-	id = FRA.9
+	id = FRA.9 # 奇美拉-人民党
     picture = GFX_event_People_Party
     title = FRA.9.t
     desc = FRA.9.d
@@ -292,7 +292,7 @@ country_event = {
 	}       
 }
 country_event = { 
-	id = FRA.10
+	id = FRA.10 # 民主主义的末路-共和联盟
     picture = GFX_event_Republican_Alliance
     title = FRA.10.t
     desc = FRA.10.d
@@ -309,7 +309,7 @@ country_event = {
 	}       
 }
 country_event = { 
-	id = FRA.11
+	id = FRA.11 # 坚定的独裁拥护者-青年爱国者
     picture = GFX_event_Young_Patriots
     title = FRA.11.t
     desc = FRA.11.d
@@ -326,7 +326,7 @@ country_event = {
 	}       
 }
 country_event = { 
-	id = FRA.12
+	id = FRA.12 # 投机主义-农民联盟
     picture = GFX_event_Farmers_Alliance
     title = FRA.12.t
     desc = FRA.12.d
@@ -343,7 +343,7 @@ country_event = {
 	}       
 }
 country_event = { 
-	id = FRA.13
+	id = FRA.13 # 随之任之-工人国际支部
     picture = GFX_event_Workers_International
     title = FRA.13.t
     desc = FRA.13.d
@@ -360,7 +360,7 @@ country_event = {
 	}       
 }
 country_event = { 
-	id = FRA.14
+	id = FRA.14 # 工团胜利
     picture = GFX_event_Labor_win
     title = FRA.14.t
     desc = FRA.14.d

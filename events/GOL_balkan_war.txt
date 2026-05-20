@@ -1,0 +1,34 @@
+# GOL巴尔干战争事件
+# 匈牙利阵营与巴尔干同盟的和平协议事件
+
+add_namespace = GOL_balkan
+
+# 匈牙利阵营胜利新闻事件
+news_event = {
+	id = GOL_balkan.1
+	title = GOL_balkan.1.t
+	desc = GOL_balkan.1.desc
+	picture = GFX_news_treaty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GOL_balkan.1.a
+		ai_chance = { base = 100 }
+	}
+}
+
+# 巴尔干同盟胜利新闻事件
+news_event = {
+	id = GOL_balkan.2
+	title = GOL_balkan.2.t
+	desc = GOL_balkan.2.desc
+	picture = GFX_news_treaty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GOL_balkan.2.a
+		ai_chance = { base = 100 }
+	}
+}

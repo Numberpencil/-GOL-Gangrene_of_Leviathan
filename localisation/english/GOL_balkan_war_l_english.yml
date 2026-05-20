@@ -1,0 +1,8 @@
+l_english:
+GOL_balkan.1.t: "Hungarian Faction Victorious"
+GOL_balkan.1.desc: "After fierce fighting, the Hungarian faction has successfully occupied all core territories of Wallachia and Serbia. The Balkan Alliance is forced to accept a peace agreement, and Hungary establishes a new order in the region."
+GOL_balkan.1.a: "History will be rewritten"
+
+GOL_balkan.2.t: "Balkan Alliance Victorious"
+GOL_balkan.2.desc: "Hungary's surrender progress has fallen below the critical threshold, and the Balkan Alliance has successfully defeated Hungary's expansionist ambitions. After the peace agreement is signed, member states receive their rightful territorial compensation."
+GOL_balkan.2.a: "Justice will prevail over evil"

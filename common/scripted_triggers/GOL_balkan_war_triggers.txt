@@ -1,0 +1,70 @@
+# GOL巴尔干战争触发器
+# 用于判定阵营归属、领土控制和胜利条件
+# 
+# 注意：以下触发器目前未被on_action系统使用
+# on_action系统使用直接的tag检查和flag系统
+# 这些触发器保留作为备用或供其他系统使用
+
+# ==================== 阵营归属判定 ====================
+
+is_in_hungarian_faction = {
+	OR = {
+		tag = HUN
+		tag = MAC
+	}
+}
+
+is_in_balkan_alliance = {
+	OR = {
+		tag = ROM
+		tag = YUG
+		tag = BUL
+		tag = BOS
+	}
+}
+
+# ==================== 匈牙利阵营胜利条件 ====================
+
+hungarian_victory_condition_met = {
+	HUN = {
+		has_war = yes
+		ROM = {
+			all_core_state = {
+				OR = {
+					is_controlled_by = HUN
+					is_controlled_by = MAC
+				}
+			}
+		}
+		YUG = {
+			all_core_state = {
+				OR = {
+					is_controlled_by = HUN
+					is_controlled_by = MAC
+				}
+			}
+		}
+	}
+}
+
+# ==================== 巴尔干同盟胜利条件 ====================
+
+balkan_alliance_victory_condition_met = {
+	HUN = {
+		has_war = yes
+		surrender_progress > 0.5
+	}
+}
+
+# ==================== 战争状态检查 ====================
+
+is_hungarian_balkan_war_active = {
+	HUN = {
+		OR = {
+			has_war_with = ROM
+			has_war_with = YUG
+			has_war_with = BUL
+			has_war_with = BOS
+		}
+	}
+}

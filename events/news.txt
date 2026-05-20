@@ -13,14 +13,14 @@ add_namespace = news
 #}
 
 news_event = { #匈牙利国王卡洛伊四世遇刺身亡
-	id = HUN_news.1000
-	title = HUN_news.1000.t
-	desc = HUN_news.1000.d
+	id = news.1000
+	title = news.1000.t
+	desc = news.1000.d
 	picture = GFX_news_event_Karl_assassination
 	is_triggered_only = yes
 	major = yes
 	option = { #真野蛮
-		name = HUN_news.1000.a
+		name = news.1000.a
 	}
 }
 

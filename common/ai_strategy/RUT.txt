@@ -1,3 +1,0 @@
-RUT_we_do_not_guarantee_or_befriend_you = {
-	
-}

@@ -1,0 +1,148 @@
+# GOL巴尔干战争效果
+# 用于执行和平协议和领土转移
+
+# ==================== 白色和平效果 ====================
+
+GOL_balkan_white_peace = {
+	HUN = {
+		white_peace = ROM
+		white_peace = YUG
+		white_peace = BUL
+		white_peace = BOS
+	}
+	
+	if = {
+		limit = {
+			MAC = {
+				OR = {
+					has_war_with = ROM
+					has_war_with = YUG
+					has_war_with = BUL
+					has_war_with = BOS
+				}
+			}
+		}
+		MAC = {
+			white_peace = ROM
+			white_peace = YUG
+			white_peace = BUL
+			white_peace = BOS
+		}
+	}
+}
+
+# ==================== 匈牙利阵营胜利效果 ====================
+
+GOL_hungarian_victory_peace = {
+	GOL_balkan_white_peace = yes
+	
+	HUN = {
+		puppet = ROM
+		puppet = YUG
+		puppet = BOS
+		puppet = BCV
+		puppet = MOL
+	}
+	
+	802 = {
+		transfer_state_to = KOS
+		add_core_of = KOS
+	}
+	
+	105 = {
+		transfer_state_to = MNT
+		add_core_of = MNT
+	}
+	
+	HUN = {
+		puppet = KOS
+		puppet = MNT
+	}
+	
+	set_global_flag = GOL_flag_hungarian_victory
+	
+	# 清除投降标记flag（避免重复触发）
+	clr_global_flag = GOL_flag_romania_defeated
+	clr_global_flag = GOL_flag_yugoslavia_defeated
+	clr_global_flag = GOL_flag_hungary_defeated
+}
+
+# ==================== 巴尔干同盟胜利效果 ====================
+
+GOL_balkan_alliance_victory_peace = {
+	GOL_balkan_white_peace = yes
+	
+	78 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+	79 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+	766 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+	80 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+	76 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+	93 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+	82 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+	84 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+	
+	106 = {
+		transfer_state_to = BUL
+		add_core_of = BUL
+	}
+	970 = {
+		transfer_state_to = BUL
+		add_core_of = BUL
+	}
+	
+	104 = {
+		transfer_state_to = YUG
+		add_core_of = YUG
+	}
+	804 = {
+		transfer_state_to = YUG
+		add_core_of = YUG
+	}
+	103 = {
+		transfer_state_to = YUG
+		add_core_of = YUG
+	}
+	109 = {
+		transfer_state_to = YUG
+		add_core_of = YUG
+	}
+	45 = {
+		transfer_state_to = YUG
+		add_core_of = YUG
+	}
+	764 = {
+		transfer_state_to = YUG
+		add_core_of = YUG
+	}
+	
+	set_global_flag = GOL_flag_balkan_alliance_victory
+	
+	# 清除投降标记flag（避免重复触发）
+	clr_global_flag = GOL_flag_romania_defeated
+	clr_global_flag = GOL_flag_yugoslavia_defeated
+	clr_global_flag = GOL_flag_hungary_defeated
+}

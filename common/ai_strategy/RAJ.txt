@@ -1,3 +1,0 @@
-commonwealth_let_raj_defend_itself = {
-	
-}
