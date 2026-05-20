@@ -1,0 +1,15 @@
+﻿# 
+# 此文件为，预留理念接口供后续实装
+# 注意：此文件中的理念不会被实际使用，仅作为模板使用
+
+ideas = {
+country = {
+#IRE_generic_idea = {
+#picture = GFX_idea_generic
+#allowed = { always = yes }
+#modifier = {
+## 预留修正接口
+#}
+#}
+}
+}

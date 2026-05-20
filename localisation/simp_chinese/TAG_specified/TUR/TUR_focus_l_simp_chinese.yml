@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+# 国策本地化模板
+# 命名规则：(focus_)TAG_AA_name/num
+# 示例：focus_TAG_AA_name 或 focus_TAG_AA_00
+
+# 国策名称
+#focus_TUR_AA_name: "国策名称"
+
+# 国策描述
+#focus_TUR_AA_name_desc: "国策描述"
+
+# 国策效果文本
+#focus_TUR_AA_name_effect: "国策效果文本"
+
+# 国策条件文本
+#focus_TUR_AA_name_trigger_tt: "国策条件文本"

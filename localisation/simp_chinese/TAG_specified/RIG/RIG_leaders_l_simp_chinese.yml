@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-Antonio_Augusto_name: "安东尼奥·奥古斯托·博尔热斯·德·梅代罗斯"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#RIG_leader: "领袖名称"

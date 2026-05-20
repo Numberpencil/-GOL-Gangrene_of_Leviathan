@@ -1,3 +1,6 @@
 ﻿l_simp_chinese:
-kadenasi_name: "拉萨罗·卡德纳斯"
-MEX_reformer: "墨西哥改革家"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#MEX_leader: "领袖名称"

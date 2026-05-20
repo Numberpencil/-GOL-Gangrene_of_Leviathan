@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
-Alfonso_XIII_name: "阿方索十三世"
-Antonio_Maura_name: "米格尔·毛拉"
-SPR_POI_Alfonso_XIII: "阿方索十三世\n—————————————————————————\n§1西班牙国王§!\n\n\n\n\n\n\n£GFX_secondary_leader_portrais_Mikhail_II\n\n\n\n\n\n\n"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#SPR_leader: "领袖名称"

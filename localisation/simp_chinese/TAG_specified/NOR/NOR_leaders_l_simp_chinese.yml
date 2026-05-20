@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
-Haakon_VII_name: "哈康七世"
-John_Mowinkel_name: "约翰.莫温克尔"
-NOR_POI_Gustav_V: "古斯塔夫五世\n—————————————————————————\n§1瑞典及挪威国王§!\n\n\n\n\n\n\n£GFX_secondary_leader_portrais_Gustav_V\n\n\n\n\n\n\n"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#NOR_leader: "领袖名称"

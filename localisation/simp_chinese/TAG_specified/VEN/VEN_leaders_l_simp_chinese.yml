@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-aElias_Contreras_name: "埃莱亚萨.孔特雷拉斯"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#VEN_leader: "领袖名称"

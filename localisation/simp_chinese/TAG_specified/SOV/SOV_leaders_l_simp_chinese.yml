@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
-Mikhail_II_name: "基里尔·弗拉基米洛"
-Nikolai_Fomin_name: "尼古拉·格奥尔基耶维奇·福明"
-SOV_POI_Mikhail_II: "基里尔·弗拉基米洛\n—————————————————————————\n§1俄罗斯沙皇§!\n\n\n\n\n\n\n£GFX_secondary_leader_portrais_Kirill_Vladimirov\n\n\n\n\n\n\n"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#SOV_leader: "领袖名称"

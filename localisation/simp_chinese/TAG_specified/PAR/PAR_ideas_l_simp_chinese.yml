@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+# 理念本地化模板
+# 命名规则：[hidden_][timed_]idea_TAG_num/name(_num)
+# 示例：idea_TAG_00 或 idea_TAG_name
+
+# 理念名称
+#PAR_generic_idea: "理念名称"
+
+# 理念描述
+#PAR_generic_idea_desc: "理念描述"

@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
-Washington_Pereira_name: "华盛顿·路易斯"
-Isabella_I_name: "伊莎贝尔一世"
-BRA_POI_Isabella_I: "伊莎贝尔一世\n—————————————————————————\n§1承上帝恩典及人民一致拥戴\n巴西立宪皇帝与永久保卫者§!\n\n\n\n\n\n\n£GFX_secondary_leader_portrais_Isabella_I\n\n\n\n\n\n\n"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#BRA_leader: "领袖名称"

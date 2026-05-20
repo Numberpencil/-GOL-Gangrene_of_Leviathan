@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-von_bock_name: "冯.博克"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#CZE_leader: "领袖名称"

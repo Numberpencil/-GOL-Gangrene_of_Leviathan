@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
-GeorgeII_name: "乔治二世"
-Giannis_Metaxas_name: "扬尼斯·梅塔克萨斯"
-GRE_POI_GeorgeII: "乔治二世\n—————————————————————————\n§1希腊国王§!\n\n\n\n\n\n\n£GFX_secondary_leader_portrais_GeorgeII\n\n\n\n\n\n\n"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#GRE_leader: "领袖名称"

@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-Pavel_Skoropadsky_name: "斯科罗帕斯基"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#UKR_leader: "领袖名称"

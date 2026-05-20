@@ -1,0 +1,20 @@
+# POL国家事件框架
+# 此文件为POL国家的事件框架，预留事件接口供后续实装
+# 注意：此文件中的事件不会被触发，仅作为模板使用
+
+add_namespace = POL
+
+#country_event = {
+#	id = POL.1
+#	title = POL.1.t
+#	desc = POL.1.d
+#	picture = GFX_events_generic
+#	
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	
+#	option = {
+#		name = POL.1.a
+#		# 预留效果接口
+#	}
+#}

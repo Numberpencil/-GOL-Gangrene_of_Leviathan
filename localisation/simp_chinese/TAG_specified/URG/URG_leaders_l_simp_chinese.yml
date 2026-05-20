@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-Gabriel_Trajano_name: "加夫列尔.特拉"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#URG_leader: "领袖名称"

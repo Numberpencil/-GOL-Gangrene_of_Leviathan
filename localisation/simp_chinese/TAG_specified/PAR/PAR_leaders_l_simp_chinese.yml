@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-Raphael_Franco_name: "拉斐尔.佛朗哥"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#PAR_leader: "领袖名称"

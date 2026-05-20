@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-Fragoso_Carmona_name: "弗拉戈索·卡尔莫纳"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#POR_leader: "领袖名称"

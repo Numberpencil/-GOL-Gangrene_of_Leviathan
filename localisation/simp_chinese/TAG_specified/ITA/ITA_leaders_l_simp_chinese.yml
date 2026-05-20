@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-Benito_Amilcare_Andrea_Mussolini_name: "贝尼托·墨索里尼"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#ITA_leader: "领袖名称"

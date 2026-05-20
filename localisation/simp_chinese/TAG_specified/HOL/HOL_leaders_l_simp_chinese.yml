@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
-Koningin_Wilhelmina_name: "威廉明娜女王"
-Sjoerds_Gerbrandy_name: "彼得.格布兰迪"
-HOL_POI_Koningin_Wilhelmina: "威廉明娜女王\n—————————————————————————\n§1尼德兰女王§!\n\n\n\n\n\n\n£GFX_secondary_leader_Koningin_Wilhelmina\n\n\n\n\n\n\n"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#HOL_leader: "领袖名称"

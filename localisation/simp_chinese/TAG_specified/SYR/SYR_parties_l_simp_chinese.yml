@@ -1,0 +1,33 @@
+﻿l_simp_chinese:
+# 政党本地化模板
+# 命名规则：TAG_PARTY_NAME_XX_name
+
+# 共产主义政党
+#SYR_PARTY_NAME_CM_unkown: "共产主义政党名称"
+
+# 社会主义政党
+#SYR_PARTY_NAME_SC_unkown: "社会主义政党名称"
+
+# 民主政党
+#SYR_PARTY_NAME_DM_unkown: "民主政党名称"
+
+# 保守主义政党
+#SYR_PARTY_NAME_CS_unkown: "保守主义政党名称"
+
+# 威权主义政党
+#SYR_PARTY_NAME_AT_unkown: "威权主义政党名称"
+
+# 专制主义政党
+#SYR_PARTY_NAME_DP_unkown: "专制主义政党名称"
+
+# 民粹主义政党
+#SYR_PARTY_NAME_PP_unkown: "民粹主义政党名称"
+
+# 法西斯政党
+#SYR_PARTY_NAME_FS_unkown: "法西斯政党名称"
+
+# 国家社会主义政党
+#SYR_PARTY_NAME_NS_unkown: "国家社会主义政党名称"
+
+# 神秘主义政党
+#SYR_PARTY_NAME_OC_unkown: "神秘主义政党名称"

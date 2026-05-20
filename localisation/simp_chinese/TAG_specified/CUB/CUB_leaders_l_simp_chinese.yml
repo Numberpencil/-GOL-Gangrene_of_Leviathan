@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-Gerardo_Machado_name: "格拉尔多.马查多"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#CUB_leader: "领袖名称"

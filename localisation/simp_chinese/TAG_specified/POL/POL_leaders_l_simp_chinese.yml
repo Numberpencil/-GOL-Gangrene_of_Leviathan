@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
-August_IV_name: "古斯塔夫四世"
-wadiswafu_name: "瓦迪斯瓦夫·弗鲁布莱夫斯基"
-BEL_POI_August_IV: "古斯塔夫四世\n—————————————————————————\n§1波兰国王§!\n\n\n\n\n\n\n£GFX_secondary_leader_August_IV\n\n\n\n\n\n\n"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#POL_leader: "领袖名称"

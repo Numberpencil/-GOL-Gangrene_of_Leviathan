@@ -1,0 +1,20 @@
+# SCO国家事件框架
+# 此文件为SCO国家的事件框架，预留事件接口供后续实装
+# 注意：此文件中的事件不会被触发，仅作为模板使用
+
+add_namespace = SCO
+
+#country_event = {
+#	id = SCO.1
+#	title = SCO.1.t
+#	desc = SCO.1.d
+#	picture = GFX_events_generic
+#	
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	
+#	option = {
+#		name = SCO.1.a
+#		# 预留效果接口
+#	}
+#}

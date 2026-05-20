@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
-Jorge_Ubiko_name: "豪尔赫.乌比科"
+# 领袖本地化模板
+# 命名规则：TAG_leader_name
+
+# 领袖名称
+#GUA_leader: "领袖名称"
