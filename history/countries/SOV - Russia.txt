@@ -47,6 +47,6 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-	POI_Mikhail_II
+	POI_Kirill_Vladimirov
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 }

@@ -5,7 +5,7 @@ characters = {
         name =Kirill_Vladimirov_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/SOV/Mikhail_II.png"
+                large = "gfx/leaders/SOV/Kirill_Vladimirov.png"
             }
         }
         country_leader = {

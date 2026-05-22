@@ -67,6 +67,49 @@ news_event = { #工团赢得大选
 	is_triggered_only = yes
 	major = yes
 	option = { #又一个法西斯
+		trigger = {
+			NOT = {
+				TAG = FRA
+			}
+		}
 		name = news.1004.a
+	}
+	option = { #又一个法西斯
+		trigger = {		
+				TAG = FRA
+		}
+		name = news.1004.b
+	}
+}
+news_event = { #改进型巨构机首次投入巴尔干战场
+	id = news.1005
+	title = news.1005.t
+	desc = news.1005.d
+	picture = GFX_news_event_machines_deployed_in_the_Balkans
+	is_triggered_only = no
+	major = yes
+	trigger = {
+		107 = { is_controlled_by = HUN }
+		107 = { is_owned_by = YUG }
+		HUN = { has_war_with = YUG }
+	}
+	option = { #天哪
+		name = news.1005.a
+	}
+}
+news_event = { #改进型巨构机首次投入巴尔干战场
+	id = news.1006
+	title = news.1006.t
+	desc = news.1006.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	is_triggered_only = no
+	major = yes
+	trigger = {
+		MAC = { has_war_with = YUG 
+		has_capitulated = yes
+		}
+	}
+	option = { #天哪
+		name = news.1006.a
 	}
 }

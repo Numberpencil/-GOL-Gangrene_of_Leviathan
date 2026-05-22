@@ -30,9 +30,9 @@ defined_text = {
       text = {
 		trigger = {	
 			tag = SOV			
-			has_idea = POI_Mikhail_II
+			has_idea = POI_Kirill_Vladimirov
 		}
-		localization_key = "SOV_POI_Mikhail_II"
+		localization_key = "SOV_POI_Kirill_Vladimirov"
 	}
 	 text = {
 		trigger = {	

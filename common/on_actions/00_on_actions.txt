@@ -1,7 +1,8 @@
 # GOL巴尔干战争On_Action系统
 # 基于即时触发机制的和平协议系统
 
-on_action = {
+on_actions = {
+	
 	# 投降立即拦截（设置flag）
 	on_capitulation_immediate = {
 		effect = {
