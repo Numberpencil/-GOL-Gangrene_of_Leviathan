@@ -23,6 +23,14 @@ spriteTypes = {
 		name = "GFX_news_event_The_Balkan_Wars"
 		texturefile = "gfx/events/news/The_Balkan_Wars.dds"
 	}
+	SpriteType = {
+		name = "GFX_news_event_machines_deployed_in_the_Balkans"
+		texturefile = "gfx/events/news/machines_deployed_in_the_Balkans.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_North_Macedonian_massacre"
+		texturefile = "gfx/events/news/North_Macedonian_massacre.dds"
+	}
 	#SpriteType = {
 	#	name = x
 	#	texturefile = ""

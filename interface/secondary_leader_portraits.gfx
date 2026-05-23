@@ -84,4 +84,9 @@ legacy_lazy_load = no
 		textureFile = "gfx\leaders\LIT\Mindaugas_III.png"
 legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_secondary_leader_Alfonso_XIII"
+		textureFile = "gfx\leaders\SPR\Alfonso_XIII.png"
+legacy_lazy_load = no
+	}
 }
