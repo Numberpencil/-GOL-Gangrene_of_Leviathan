@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Edward_DeWitt = {
+        name = Edward_DeWitt_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/WYM/Edward_DeWitt.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

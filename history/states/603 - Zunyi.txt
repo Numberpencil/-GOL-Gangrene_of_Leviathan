@@ -11,12 +11,9 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-		victory_points = { 10763 5 } #POP 3 + STRAT 0 + POL 0 = SIG 3
+		owner = CHI
+		add_core_of = CHI
+victory_points = { 10763 5 } #POP 3 + STRAT 0 + POL 0 = SIG 3
 		buildings = {
 			infrastructure = 2
 		}

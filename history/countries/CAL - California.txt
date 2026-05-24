@@ -9,8 +9,8 @@ set_war_support = 0.4
 set_research_slots = 3
 
 #人物提取
-#recruit_character = ger_Wilhelm_II
-#recruit_character = Fuad_I
+recruit_character = Walter_Disney
+
 
 # 开局解锁科技
 
@@ -21,7 +21,7 @@ set_technology = {
 
 #开局执政党
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = democrat
 	last_election = "1934.1.1"
 	election_frequency = 48
 	elections_allowed = no

@@ -1,0 +1,22 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Anastasy_Vonsiatsky = {
+        name = Anastasy_Vonsiatsky_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/MTN/Anastasy_Vonsiatsky.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+
+}

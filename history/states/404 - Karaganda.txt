@@ -12,8 +12,7 @@ state = {
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		add_core_of =
-
+	
 		victory_points = { 4250 1 } #Karaganda
 
 		buildings = {

@@ -5,12 +5,10 @@ state = { #Chongqing
 	state_category = five
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 6999 30 } #POP 5 + STRAT 2 + POL 1 = SIG 8
+		owner = CQQ
+		add_core_of = CHI
+		add_core_of = CQQ
+victory_points = { 6999 30 } #POP 5 + STRAT 2 + POL 1 = SIG 8
 
 		buildings = {
 			infrastructure = 3

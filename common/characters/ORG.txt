@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Vladimir_Lenin = {
+        name = Vladimir_Lenin_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ORG/Vladimir_Lenin.png"
+            }
+        }
+        country_leader = {
+            ideology = Leninism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

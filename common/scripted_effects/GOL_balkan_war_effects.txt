@@ -104,7 +104,10 @@ GOL_balkan_alliance_victory_peace = {
 		transfer_state_to = ROM
 		add_core_of = ROM
 	}
-	
+	789 = {
+		transfer_state_to = HUN
+		add_core_of = HUN
+	}
 	106 = {
 		transfer_state_to = BUL
 		add_core_of = BUL
@@ -134,7 +137,7 @@ GOL_balkan_alliance_victory_peace = {
 		transfer_state_to = YUG
 		add_core_of = YUG
 	}
-	764 = {
+	794 = {
 		transfer_state_to = YUG
 		add_core_of = YUG
 	}

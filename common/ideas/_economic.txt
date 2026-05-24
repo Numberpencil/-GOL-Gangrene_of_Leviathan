@@ -6,7 +6,9 @@ ideas = {
 
 		civilian_economy = {#民用
 
-
+			available = {
+		    war = no				
+		}	
 			cost = 150
 			removal_cost = -1
 
@@ -32,6 +34,7 @@ ideas = {
 
 			available = {
 				has_war_support > 0.15
+
 				
 				}	
 			cost = 150
@@ -98,13 +101,14 @@ ideas = {
 
 
 			available = {
-				has_war_support > 0.5
-				OR = {
-					has_government = fascism
-					has_government = communism
-		            has_war = yes
+				or = {
+					has_war_support > 0.5
+					has_war = yes
+				}
+				
+
 			}
-        }
+        
 			cost = 150
 			removal_cost = -1
 
@@ -172,7 +176,6 @@ ideas = {
 			available = {
 				has_war = yes
 				has_war_support > 0.8
-				longest_war_length > 3
 				any_enemy_country = {
 					ic_ratio = {
 						tag = ROOT
@@ -242,6 +245,7 @@ ideas = {
 
 			available = {
 				
+				
 			}
 
 			cost = 150
@@ -307,6 +311,7 @@ ideas = {
 		export_focus = {
 
 			available = {
+		
 
 			
 			}
@@ -348,18 +353,8 @@ ideas = {
 	}
 		limited_exports = {
 			available = {
-				OR = {
-					AND = {
-						has_government = democrat
-						has_war = yes
-						any_enemy_country = {
-							ic_ratio = {
-								tag = ROOT
-								ratio > 0.2
-							}
-						}
-					}
-				
+				always = no
+
 			}
 
 			cost = 150
@@ -414,19 +409,15 @@ ideas = {
 				
    			}
 		}
-    }
+    
 		
 		closed_economy = {
 
 
 			available = {
-
 				has_war = yes
 
-					OR = {
-						has_government = fascism
-						has_government = communism
-					}
+
 				}
 				
 
@@ -486,8 +477,8 @@ ideas = {
 				}
    			}
 		}
-
-	}
+    }
+	
 	mobilization_laws = {
 		law = yes
 		use_list_view = yes
@@ -535,6 +526,7 @@ ideas = {
 
 			available = {
 			
+		
 				}			
 			
 
@@ -562,9 +554,8 @@ ideas = {
 			level = 5
 
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
-				
+
 			}
 
 			modifier = {
@@ -594,11 +585,8 @@ ideas = {
 		extensive_conscription = {
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
-				OR = {
-					has_government = fascism
-					has_government = communism
-				}
+				has_war_support > 0.2
+
 		}
 			ai_will_do = {
    				factor = 1
@@ -636,13 +624,11 @@ ideas = {
 		service_by_requirement = {
 
 
-			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
-				OR = {
-					has_government = fascism
-					has_government = communism			
-			}
+		available = {
+		has_war_support > 0.6
+		surrender_progress > 0
 
+		}
 			ai_will_do = {
    				factor = 1
 				modifier = {
@@ -692,7 +678,7 @@ ideas = {
 					date > 1941.1.1
 				}
 
-			}
+		
 
 			cost = 150
 			removal_cost = -1
@@ -708,8 +694,8 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
-		
-	   }
+		}
+	   
 		all_adults_serve = {
 
 
@@ -718,7 +704,7 @@ ideas = {
 				has_war = yes
 				OR = {
 					has_war_support > 0.7
-					surrender_progress > 0
+					surrender_progress > 1
 				}
 				enemies_strength_ratio > 0.75
 			}
@@ -769,7 +755,7 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-
+    
 		scraping_the_barrel = {
 
 			available = {
@@ -832,8 +818,343 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+	}
 	
+    	
+	Industrial_Policy = {
+
+		law = yes
+		use_list_view = yes
+
+		Laissez_faire_policy = {#自由放任
+
+			available = {
+				
+				always = no
 	
-    }	
+			}
+
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+			    production_speed_industrial_complex_factor = 0.1#民工建造
+	            production_speed_arms_factory_factor = -0.2#军工建造
+				consumer_goods_expected_value = 0.05 #生活消费品工厂系数
+				war_support_factor = -0.1#战争支持度
+				stability_factor = 0.05#稳定
+				conscription_factor = 0.05#征兵因素
+				production_speed_infrastructure_factor = 0.1#基建建造
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		Limited_intervention_policy = {#有限干预政策
+
+			available = {
+				always = no
+	
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+			    production_speed_industrial_complex_factor = 0.025#民工建造
+	            production_speed_arms_factory_factor = -0.1#军工建造
+				consumer_goods_expected_value = 0.025 #生活消费品工厂系数
+				war_support_factor = -0.05#战争支持度
+				stability_factor = 0.025#稳定
+				conscription_factor = 0.025#征兵因素
+				production_speed_infrastructure_factor = 0.05#基建建造
+				production_factory_max_efficiency_factor = 0.05 #生产效率上限。	
+				production_factory_efficiency_gain_factor = 0.05 #生产效率提升。	
+
+			}
+            default = no
+
+			cancel_if_invalid = no
+		}
+         National_coordination_policy = {#国家统筹政策
+
+			available = {
+				always = no
+			
+	
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+			    production_speed_industrial_complex_factor = -0.05#民工建造
+	            production_speed_arms_factory_factor = 0.1#军工建造
+				war_support_factor = -0.05#战争支持度
+				stability_factor = 0.05#稳定
+				production_speed_infrastructure_factor = 0.05#基建建造
+				production_factory_max_efficiency_factor = 0.05 #生产效率上限。	
+				production_factory_efficiency_gain_factor = 0.05 #生产效率提升。	
+
+			}
+            default = yes
+
+			cancel_if_invalid = no
+		}
+		 Government_led_policies = {#政府主导政策
+
+			available = {
+				always = no
+			
+	
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+	            production_speed_arms_factory_factor = 0.05#军工建造
+				production_speed_infrastructure_factor = 0.1#基建建造	
+				industrial_capacity_factory = 0.1#工厂产出
+
+			}
+            default = no
+
+			cancel_if_invalid = no
+		}
+        Wartime_Industrial_Policy = {#战时工业政策
+
+			available = {
+				always = no
+				
+                
+			}
+	
+			
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+	           production_speed_industrial_complex_factor = -0.15#民工建造
+	            production_speed_arms_factory_factor = 0.15#军工建造
+				industrial_capacity_factory = 0.1#工厂产出			
+				industrial_capacity_dockyard = 0.1#船坞产出	
+				stability_factor = -0.1#稳定
+				production_speed_infrastructure_factor = -0.1#基建建造
+				production_factory_max_efficiency_factor = 0.075 #生产效率上限。	
+				production_factory_efficiency_gain_factor = 0.075 #生产效率提升。
+				local_resources_factor = 0.1#资源
+
+			}
+            default = no
+
+			cancel_if_invalid = no
+		}
+		Total_military_control_industry = {#全面军事管制工业
+
+			available = {
+				always = no	  
+							
+                
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+	            production_speed_industrial_complex_factor = -0.2#民工建造
+	            production_speed_arms_factory_factor = 0.2#军工建造
+				industrial_capacity_factory = 0.15#工厂产出			
+				industrial_capacity_dockyard = 0.15#船坞产出	
+				stability_factor = -0.15#稳定
+				production_speed_infrastructure_factor = -0.15#基建建造
+				production_factory_max_efficiency_factor = 0.1 #生产效率上限。	
+				production_factory_efficiency_gain_factor = 0.1 #生产效率提升。
+				local_resources_factor = 0.15#资源
+                consumer_goods_expected_value = -0.075 #生活消费品工厂系数
+				political_power_factor = -0.05
+
+
+			}
+            default = no
+
+			cancel_if_invalid = no
+		}
+	}
+		Science_Policy = {
+		
+		law = yes
+		use_list_view = yes
+		Laissez_faire_policy = {#保守科研
+
+			available = {
+			always = no
+
+	
+			}
+
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.1#战争支持度
+				stability_factor = 0.1#稳定
+				research_speed_factor = -0.1#科研
+				production_factory_max_efficiency_factor = -0.05 #生产效率上限。	
+				production_factory_efficiency_gain_factor = -0.05 #生产效率提升。
+
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		Basic_scientific = {#基本科研主导
+
+			available = {
+			always = no
+
+	
+			}
+            
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05#稳定
+				research_speed_factor = 0.05#科研
+
+			}
+
+			
+            default = yes
+
+			cancel_if_invalid = no
+		}
+		Relaxing_scientific= {#放宽科研管控
+
+			available = {
+			always = no
+
+	
+			}
+
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+                consumer_goods_expected_value = 0.025 #生活消费品工厂系数
+				stability_factor = 0.025#稳定
+				research_speed_factor = 0.1#科研
+				production_factory_max_efficiency_factor = 0.025 #生产效率上限。	
+				production_factory_efficiency_gain_factor = 0.025 #生产效率提升。
+
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		No_scientific_research_control= {#无科研管控
+
+			available = {
+			always = no
+
+	
+			}
+
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.1#战争支持度
+                consumer_goods_expected_value = 0.05 #生活消费品工厂系数
+				stability_factor = -0.1#稳定
+				research_speed_factor = 0.15#科研
+				production_factory_max_efficiency_factor = 0.05 #生产效率上限。	
+				production_factory_efficiency_gain_factor = 0.05 #生产效率提升。
+				political_power_factor = -0.01
+
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		Moral_vacuum_research= {#道德真空科研
+
+			available = {
+			always = no
+
+	
+			}
+
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.1#战争支持度
+                consumer_goods_expected_value = 0.1 #生活消费品工厂系数
+				stability_factor = -0.2#稳定
+				research_speed_factor = 0.20#科研
+				production_factory_max_efficiency_factor = 0.1 #生产效率上限。	
+				production_factory_efficiency_gain_factor = 0.1 #生产效率提升。
+				political_power_factor = -0.01
+				monthly_population = -0.005#月度人口
+				conscription_factor = -0.1
+
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		Megastructure_research = {#道德真空科研
+
+			available = {
+			always = no
+
+	
+			}
+
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.3#战争支持度
+                consumer_goods_expected_value = 0.2 #生活消费品工厂系数
+				stability_factor = -0.35#稳定
+				research_speed_factor = 0.30#科研
+				production_factory_max_efficiency_factor = 0.15 #生产效率上限。	
+				production_factory_efficiency_gain_factor = 0.15 #生产效率提升。
+				political_power_factor = -0.02
+				monthly_population = -0.015#月度人口
+				conscription_factor = -0.2
+				production_speed_buildings_factor = 0.1 #建造
+
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+	}
 }
+
+	
+	
+
 

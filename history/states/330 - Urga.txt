@@ -11,12 +11,10 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 4801 10 }#Urga
+		owner = MON
+		add_core_of = MON
+		add_core_of = CHI
+victory_points = { 4801 10 }#Urga
 
 		buildings = {
 			infrastructure = 1

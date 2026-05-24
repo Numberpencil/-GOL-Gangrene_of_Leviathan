@@ -6,12 +6,9 @@ state = {
 	local_supplies = 8.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 1834 3 } #Moron
+		owner = SOV
+		add_core_of = SOV
+victory_points = { 1834 3 } #Moron
 
 		buildings = {
 			infrastructure = 2

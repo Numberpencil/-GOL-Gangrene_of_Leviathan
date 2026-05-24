@@ -56,4 +56,54 @@ add_ideas = {
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 }
 
-
+#开局政党
+set_party_name = {
+ideology = communism
+long_name = "SWE_PARTY_NAME_CM_unkown"
+name = "SWE_PARTY_NAME_CM_unkown"
+}
+set_party_name = {
+ideology = socialism
+long_name = "SWE_PARTY_NAME_SC_SD"
+name = "SWE_PARTY_NAME_SC_SD"
+}
+set_party_name = {
+ideology = democrat
+long_name = "SWE_PARTY_NAME_DM_unkown"
+name = "SWE_PARTY_NAME_DM_unkown"
+}
+set_party_name = {
+ideology = conservatism
+long_name = "SWE_PARTY_NAME_CS_unkown"
+name = "SWE_PARTY_NAME_CS_unkown"
+}
+set_party_name = {
+ideology = authoritarianism
+long_name = "SWE_PARTY_NAME_AT_unkown"
+name = "SWE_PARTY_NAME_AT_unkown"
+}
+set_party_name = {
+ideology = despotism
+long_name = "SWE_PARTY_NAME_DP_unkown"
+name = "SWE_PARTY_NAME_DP_unkown"
+}
+set_party_name = {
+ideology = populism
+long_name = "SWE_PARTY_NAME_PP_unkown"
+name = "SWE_PARTY_NAME_PP_unkown"
+}
+set_party_name = {
+ideology = fascism
+long_name = "SWE_PARTY_NAME_FS_unkown"
+name = "SWE_PARTY_NAME_FS_unkown"
+}
+set_party_name = {
+ideology = national_socialism
+long_name = "SWE_PARTY_NAME_NS_unkown"
+name = "SWE_PARTY_NAME_NS_unkown"
+}
+set_party_name = {
+ideology = occultism
+long_name = "SWE_PARTY_NAME_OC_unkown"
+name = "SWE_PARTY_NAME_OC_unkown"
+}

@@ -9,7 +9,7 @@ set_war_support = 0.4
 set_research_slots = 3
 
 #人物提取
-#recruit_character = ger_Wilhelm_II
+
 recruit_character = Christo_Lukov
 recruit_character = Boris_III
 
@@ -44,10 +44,62 @@ set_popularities = {
 
 #开局阵营（若存在）
 #create_faction = Axis
-#add_to_faction = GER
+
 
 #开局民族精神
 add_ideas = {
 	POI_Boris_III
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+}
+
+#开局政党
+set_party_name = {
+	ideology = communism
+	long_name = "BUL_PARTY_NAME_CM_unkown"
+	name = "BUL_PARTY_NAME_CM_LYL"
+}
+set_party_name = {
+	ideology = socialism
+	long_name = "BUL_PARTY_NAME_SC_unkown"
+	name = "BUL_PARTY_NAME_SC_SPD"
+}
+set_party_name = {
+	ideology = democrat
+	long_name = "BUL_PARTY_NAME_DM_unkown"
+	name = "BUL_PARTY_NAME_DM_DZP"
+}
+set_party_name = {
+	ideology = conservatism
+	long_name = "BUL_PARTY_NAME_CS_unkown"
+	name = "BUL_PARTY_NAME_CS_DKP"
+}
+set_party_name = {
+	ideology = authoritarianism
+	long_name = "BUL_PARTY_NAME_AT_unkown"
+	name = "BUL_PARTY_NAME_AT_TLeV"
+}
+set_party_name = {
+	ideology = despotism
+	long_name = "BUL_PARTY_NAME_DP_NL"
+	name = "BUL_PARTY_NAME_DP_NL"
+}
+set_party_name = {
+	ideology = populism
+	long_name = "BUL_PARTY_NAME_PP_unkown"
+	name = "BUL_PARTY_NAME_PP_unkown"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "BUL_PARTY_NAME_FS_unkown"
+	name = "BUL_PARTY_NAME_FS_DKP"
+}
+set_party_name = {
+	ideology = national_socialism
+	long_name = "BUL_PARTY_NAME_NS_unkown"
+	name = "BUL_PARTY_NAME_NS_NSDAP"
+}
+set_party_name = {
+	ideology = occultism
+	long_name = "BUL_PARTY_NAME_OC_unkown"
+	name = "BUL_PARTY_NAME_OC_NSDAP"
 }

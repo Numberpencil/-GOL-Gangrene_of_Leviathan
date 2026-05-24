@@ -54,3 +54,54 @@ add_ideas = {
 
 #人物提取
 recruit_character = Christian_X
+#开局政党
+set_party_name = {
+ideology = communism
+long_name = "DEN_PARTY_NAME_CM_unkown"
+name = "DEN_PARTY_NAME_CM_unkown"
+}
+set_party_name = {
+ideology = socialism
+long_name = "DEN_PARTY_NAME_SC_SD"
+name = "DEN_PARTY_NAME_SC_SD"
+}
+set_party_name = {
+ideology = democrat
+long_name = "DEN_PARTY_NAME_DM_unkown"
+name = "DEN_PARTY_NAME_DM_unkown"
+}
+set_party_name = {
+ideology = conservatism
+long_name = "DEN_PARTY_NAME_CS_unkown"
+name = "DEN_PARTY_NAME_CS_unkown"
+}
+set_party_name = {
+ideology = authoritarianism
+long_name = "DEN_PARTY_NAME_AT_unkown"
+name = "DEN_PARTY_NAME_AT_unkown"
+}
+set_party_name = {
+ideology = despotism
+long_name = "DEN_PARTY_NAME_DP_unkown"
+name = "DEN_PARTY_NAME_DP_unkown"
+}
+set_party_name = {
+ideology = populism
+long_name = "DEN_PARTY_NAME_PP_unkown"
+name = "DEN_PARTY_NAME_PP_unkown"
+}
+set_party_name = {
+ideology = fascism
+long_name = "DEN_PARTY_NAME_FS_unkown"
+name = "DEN_PARTY_NAME_FS_unkown"
+}
+set_party_name = {
+ideology = national_socialism
+long_name = "DEN_PARTY_NAME_NS_unkown"
+name = "DEN_PARTY_NAME_NS_unkown"
+}
+set_party_name = {
+ideology = occultism
+long_name = "DEN_PARTY_NAME_OC_unkown"
+name = "DEN_PARTY_NAME_OC_unkown"
+}

@@ -50,5 +50,55 @@ add_ideas = {
 	POI_Albert_I
 }
 
-#人物提取
-recruit_character = van_Zeeland
+
+#开局政党
+set_party_name = {
+ideology = communism
+long_name = "BEL_PARTY_NAME_CM_unkown"
+name = "BEL_PARTY_NAME_CM_unkown"
+}
+set_party_name = {
+ideology = socialism
+long_name = "BEL_PARTY_NAME_SC_unkown"
+name = "BEL_PARTY_NAME_SC_unkown"
+}
+set_party_name = {
+ideology = democrat
+long_name = "BEL_PARTY_NAME_DM_NUG"
+name = "BEL_PARTY_NAME_DM_NUG"
+}
+set_party_name = {
+ideology = conservatism
+long_name = "BEL_PARTY_NAME_CS_unkown"
+name = "BEL_PARTY_NAME_CS_unkown"
+}
+set_party_name = {
+ideology = authoritarianism
+long_name = "BEL_PARTY_NAME_AT_FR"
+name = "BEL_PARTY_NAME_AT_FR"
+}
+set_party_name = {
+ideology = despotism
+long_name = "BEL_PARTY_NAME_DP_unkown"
+name = "BEL_PARTY_NAME_DP_unkown"
+}
+set_party_name = {
+ideology = populism
+long_name = "BEL_PARTY_NAME_PP_unkown"
+name = "BEL_PARTY_NAME_PP_unkown"
+}
+set_party_name = {
+ideology = fascism
+long_name = "BEL_PARTY_NAME_FS_unkown"
+name = "BEL_PARTY_NAME_FS_unkown"
+}
+set_party_name = {
+ideology = national_socialism
+long_name = "BEL_PARTY_NAME_NS_unkown"
+name = "BEL_PARTY_NAME_NS_unkown"
+}
+set_party_name = {
+ideology = occultism
+long_name = "BEL_PARTY_NAME_OC_unkown"
+name = "BEL_PARTY_NAME_OC_unkown"
+}

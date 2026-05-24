@@ -49,3 +49,53 @@ add_ideas = {
 	
 }
 #开局政党
+set_party_name = {
+ideology = communism
+long_name = "ARG_PARTY_NAME_CM_PTS"
+name = "ARG_PARTY_NAME_CM_PTS"
+}
+set_party_name = {
+ideology = socialism
+long_name = "ARG_PARTY_NAME_SC_CGT"
+name = "ARG_PARTY_NAME_SC_CGT"
+}
+set_party_name = {
+ideology = democrat
+long_name = "ARG_PARTY_NAME_DM_USR"
+name = "ARG_PARTY_NAME_DM_USR"
+}
+set_party_name = {
+ideology = conservatism
+long_name = "ARG_PARTY_NAME_CS_UCRA"
+name = "ARG_PARTY_NAME_CS_UCRA"
+}
+set_party_name = {
+ideology = authoritarianism
+long_name = "ARG_PARTY_NAME_AT_PSI"
+name = "ARG_PARTY_NAME_AT_PSI"
+}
+set_party_name = {
+ideology = despotism
+long_name = "ARG_PARTY_NAME_DP_PDN"
+name = "ARG_PARTY_NAME_DP_PDN"
+}
+set_party_name = {
+ideology = populism
+long_name = "ARG_PARTY_NAME_PP_CGT"
+name = "ARG_PARTY_NAME_PP_CGT"
+}
+set_party_name = {
+ideology = fascism
+long_name = "ARG_PARTY_NAME_FS_unkown"
+name = "ARG_PARTY_NAME_FS_unkown"
+}
+set_party_name = {
+ideology = national_socialism
+long_name = "ARG_PARTY_NAME_NS_unkown"
+name = "ARG_PARTY_NAME_NS_unkown"
+}
+set_party_name = {
+ideology = occultism
+long_name = "ARG_PARTY_NAME_OC_unkown"
+name = "ARG_PARTY_NAME_OC_unkown"
+}

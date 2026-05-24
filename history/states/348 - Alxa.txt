@@ -6,14 +6,10 @@ state = {
 	local_supplies = 6.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-		victory_points = { 4783 1 } #POP 0 + STRAT 0 + POL 1 = SIG 1
+		owner = NXM
+		add_core_of = CHI
+		add_core_of = NXM
+victory_points = { 4783 1 } #POP 0 + STRAT 0 + POL 1 = SIG 1
 		victory_points = { 12750 1 } #POP 0 + STRAT 0 + POL 1 = SIG 1
 
 		buildings = {

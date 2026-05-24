@@ -9,14 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		buildings = {
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+buildings = {
 			infrastructure = 2
 			12559 = {
 				naval_base = 3

@@ -57,3 +57,54 @@ ROM = {
 		days = 369
 	}
 }
+#开局政党
+set_party_name = {
+ideology = communism
+long_name = "ROM_PARTY_NAME_CM_unkown"
+name = "ROM_PARTY_NAME_CM_unkown"
+}
+set_party_name = {
+ideology = socialism
+long_name = "ROM_PARTY_NAME_SC_unkown"
+name = "ROM_PARTY_NAME_SC_unkown"
+}
+set_party_name = {
+ideology = democrat
+long_name = "ROM_PARTY_NAME_DM_unkown"
+name = "ROM_PARTY_NAME_DM_unkown"
+}
+set_party_name = {
+ideology = conservatism
+long_name = "ROM_PARTY_NAME_CS_unkown"
+name = "ROM_PARTY_NAME_CS_unkown"
+}
+set_party_name = {
+ideology = authoritarianism
+long_name = "ROM_PARTY_NAME_AT_FR"
+name = "ROM_PARTY_NAME_AT_FR"
+}
+set_party_name = {
+ideology = despotism
+long_name = "ROM_PARTY_NAME_DP_unkown"
+name = "ROM_PARTY_NAME_DP_unkown"
+}
+set_party_name = {
+ideology = populism
+long_name = "ROM_PARTY_NAME_PP_unkown"
+name = "ROM_PARTY_NAME_PP_unkown"
+}
+set_party_name = {
+ideology = fascism
+long_name = "ROM_PARTY_NAME_FS_unkown"
+name = "ROM_PARTY_NAME_FS_unkown"
+}
+set_party_name = {
+ideology = national_socialism
+long_name = "ROM_PARTY_NAME_NS_unkown"
+name = "ROM_PARTY_NAME_NS_unkown"
+}
+set_party_name = {
+ideology = occultism
+long_name = "ROM_PARTY_NAME_OC_unkown"
+name = "ROM_PARTY_NAME_OC_unkown"
+}

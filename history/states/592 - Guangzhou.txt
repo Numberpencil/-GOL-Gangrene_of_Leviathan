@@ -9,13 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		buildings = {
+		owner = GDC
+		add_core_of = CHI
+		add_core_of = GDC
+buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 2 #Guangzhou Arsenal - shared with Qingyuan

@@ -9,7 +9,7 @@ set_war_support = 0.4
 set_research_slots = 3
 
 #人物提取
-#recruit_character = ger_Wilhelm_II
+#recruit_character = GRE_Wilhelm_II
 recruit_character = Giannis_Metaxas
 recruit_character = GeorgeII
 
@@ -44,10 +44,62 @@ set_popularities = {
 
 #开局阵营（若存在）
 #create_faction = Axis
-#add_to_faction = GER
+#add_to_faction = GRE
 
 #开局民族精神
 add_ideas = {
 	POI_GeorgeII	
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+}
+
+#开局政党
+set_party_name = {
+	ideology = communism
+	long_name = "GRE_PARTY_NAME_CM_LYL"
+	name = "GRE_PARTY_NAME_CM_LYL"
+}
+set_party_name = {
+	ideology = socialism
+	long_name = "GRE_PARTY_NAME_SC_SPD"
+	name = "GRE_PARTY_NAME_SC_SPD"
+}
+set_party_name = {
+	ideology = democrat
+	long_name = "GRE_PARTY_NAME_DM_DZP"
+	name = "GRE_PARTY_NAME_DM_DZP"
+}
+set_party_name = {
+	ideology = conservatism
+	long_name = "GRE_PARTY_NAME_CS_DKP"
+	name = "GRE_PARTY_NAME_CS_DKP"
+}
+set_party_name = {
+	ideology = authoritarianism
+	long_name = "GRE_PARTY_NAME_AT_TLeV"
+	name = "GRE_PARTY_NAME_AT_TLeV"
+}
+set_party_name = {
+	ideology = despotism
+	long_name = "GRE_PARTY_NAME_DP_unkown"
+	name = "GRE_PARTY_NAME_DP_unkown"
+}
+set_party_name = {
+	ideology = populism
+	long_name = "GRE_PARTY_NAME_PP_AP"
+	name = "GRE_PARTY_NAME_PP_AP"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "GRE_PARTY_NAME_FS_DKP"
+	name = "GRE_PARTY_NAME_FS_DKP"
+}
+set_party_name = {
+	ideology = national_socialism
+	long_name = "GRE_PARTY_NAME_NS_NSDAP"
+	name = "GRE_PARTY_NAME_NS_NSDAP"
+}
+set_party_name = {
+	ideology = occultism
+	long_name = "GRE_PARTY_NAME_OC_NSDAP"
+	name = "GRE_PARTY_NAME_OC_NSDAP"
 }

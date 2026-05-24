@@ -5,11 +5,10 @@ state = { #Tianjin
 	state_category = major_port
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-		victory_points = { 10068 20 } #POP 2 + STRAT 2 + POL 2 = SIG 6
+		owner = HBQ
+		add_core_of = CHI
+		add_core_of = HBQ
+victory_points = { 10068 20 } #POP 2 + STRAT 2 + POL 2 = SIG 6
 
 		buildings = {
 			infrastructure = 2

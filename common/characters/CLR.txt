@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	James_Brendan = {
+        name = James_Brendan_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CLR/James_Brendan.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

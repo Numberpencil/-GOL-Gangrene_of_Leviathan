@@ -5,6 +5,8 @@ capital = 361
 set_stability = 0.6
 set_war_support = 0.4
 
+#人物提取
+recruit_character = Huey_Pierce
 #开局科研槽
 set_research_slots = 3
 
@@ -14,9 +16,11 @@ set_technology = {
 	
 }
 
+
+
 #开局执政党
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = conservatism
 	last_election = "1934.1.1"
 	election_frequency = 48
 	elections_allowed = no

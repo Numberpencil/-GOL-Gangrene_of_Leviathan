@@ -7,12 +7,7 @@ state = {
 	history = {
 		owner = ETH
 		add_core_of = ETH
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 13825 2 } #Awsa
+victory_points = { 13825 2 } #Awsa
 
 		buildings = {
 			infrastructure = 1

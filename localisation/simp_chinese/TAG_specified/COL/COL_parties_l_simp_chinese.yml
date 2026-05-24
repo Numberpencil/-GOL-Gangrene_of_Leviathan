@@ -3,31 +3,31 @@
 # 命名规则：TAG_PARTY_NAME_XX_name
 
 # 共产主义政党
-#COL_PARTY_NAME_CM_unkown: "共产主义政党名称"
+COL_PARTY_NAME_CM_PCC: "哥伦比亚共产党"
 
 # 社会主义政党
-#COL_PARTY_NAME_SC_unkown: "社会主义政党名称"
+COL_PARTY_NAME_SC_unkown: "左翼民主联盟"
 
 # 民主政党
-#COL_PARTY_NAME_DM_unkown: "民主政党名称"
+COL_PARTY_NAME_DM_PLC: "哥伦比亚自由党"
 
 # 保守主义政党
-#COL_PARTY_NAME_CS_unkown: "保守主义政党名称"
+COL_PARTY_NAME_CS_PCC: "哥伦比亚保守党"
 
 # 威权主义政党
-#COL_PARTY_NAME_AT_unkown: "威权主义政党名称"
+COL_PARTY_NAME_AT_PCC: "哥伦比亚保守党极端派"
 
 # 专制主义政党
-#COL_PARTY_NAME_DP_unkown: "专制主义政党名称"
+COL_PARTY_NAME_DP_PCC: "哥伦比亚保守党极端派"
 
 # 民粹主义政党
-#COL_PARTY_NAME_PP_unkown: "民粹主义政党名称"
+COL_PARTY_NAME_PP_unkown: "民粹团体"
 
 # 法西斯政党
-#COL_PARTY_NAME_FS_unkown: "法西斯政党名称"
+COL_PARTY_NAME_FS_unkown: "猎豹党"
 
 # 国家社会主义政党
-#COL_PARTY_NAME_NS_unkown: "国家社会主义政党名称"
+COL_PARTY_NAME_NS_unkown: "猎豹党"
 
 # 神秘主义政党
-#COL_PARTY_NAME_OC_unkown: "神秘主义政党名称"
+COL_PARTY_NAME_OC_unkown: "猎豹党"

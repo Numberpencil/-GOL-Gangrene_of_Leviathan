@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Heber_Grant = {
+        name = Heber_Grant_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/NVD/Heber_Grant.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Huey_Pierce = {
+        name = Huey_Pierce_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CSA/Huey_Pierce.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservatism_ideology
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

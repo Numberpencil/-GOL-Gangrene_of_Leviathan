@@ -54,3 +54,55 @@ add_ideas = {
 	POI_Alexander_I
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 }
+
+#开局政党
+set_party_name = {
+ideology = communism
+long_name = "YUG_PARTY_NAME_CM_unkown"
+name = "YUG_PARTY_NAME_CM_unkown"
+}
+set_party_name = {
+ideology = socialism
+long_name = "YUG_PARTY_NAME_SC_unkown"
+name = "YUG_PARTY_NAME_SC_unkown"
+}
+set_party_name = {
+ideology = democrat
+long_name = "YUG_PARTY_NAME_DM_RP"
+name = "YUG_PARTY_NAME_DM_RP"
+}
+set_party_name = {
+ideology = conservatism
+long_name = "YUG_PARTY_NAME_CS_unkown"
+name = "YUG_PARTY_NAME_CS_unkown"
+}
+set_party_name = {
+ideology = authoritarianism
+long_name = "YUG_PARTY_NAME_DP_RP"
+name = "YUG_PARTY_NAME_DP_RP"
+}
+set_party_name = {
+ideology = despotism
+long_name = "YUG_PARTY_NAME_DP_unkown"
+name = "YUG_PARTY_NAME_DP_unkown"
+}
+set_party_name = {
+ideology = populism
+long_name = "YUG_PARTY_NAME_PP_unkown"
+name = "YUG_PARTY_NAME_PP_unkown"
+}
+set_party_name = {
+ideology = fascism
+long_name = "YUG_PARTY_NAME_FS_unkown"
+name = "YUG_PARTY_NAME_FS_unkown"
+}
+set_party_name = {
+ideology = national_socialism
+long_name = "YUG_PARTY_NAME_NS_unkown"
+name = "YUG_PARTY_NAME_NS_unkown"
+}
+set_party_name = {
+ideology = occultism
+long_name = "YUG_PARTY_NAME_OC_unkown"
+name = "YUG_PARTY_NAME_OC_unkown"
+}

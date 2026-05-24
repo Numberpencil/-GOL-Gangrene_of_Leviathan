@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Chief_Henry = {
+        name = Chief_Henry_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/OKH/Chief_Henry.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

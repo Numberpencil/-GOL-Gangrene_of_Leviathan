@@ -9,13 +9,10 @@ state = { #Gansu
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		victory_points = { 1630 20 } #POP 2 + STRAT 2 + POL 2 = SIG 6
+		owner = GSM
+		add_core_of = CHI
+		add_core_of = GSM
+victory_points = { 1630 20 } #POP 2 + STRAT 2 + POL 2 = SIG 6
 		victory_points = { 1933 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
 
 		buildings = {
@@ -26,6 +23,6 @@ state = { #Gansu
 	}
 
 	provinces = {
-		517 531 556 1630 1647 1933 2022 3745 4313 4939 5025 6638 7397 7911 12797 12882
+		 531 556 1630  1933 2022  4313  6638 7397 7911 12797 12882
 	}
 }

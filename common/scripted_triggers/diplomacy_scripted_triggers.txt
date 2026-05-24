@@ -394,7 +394,7 @@ DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
 			NOT = { has_war_with_non_exiled_country = yes } 
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_NON_GIE_CALL
+			tooltip = 
 			always = no
 		}
 	}
@@ -410,7 +410,7 @@ DIPLOMACY_OFFER_JOIN_FACTION_ENABLE_TRIGGER = {
 }
 
 DIPLOMACY_WAR_ENABLE_TRIGGER = {
-	NOT = {
-		always = yes
-	}
+	 hidden_trigger = {
+       always = no
+    }
 }

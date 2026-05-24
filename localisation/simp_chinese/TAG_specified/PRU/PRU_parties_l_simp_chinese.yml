@@ -3,31 +3,31 @@
 # 命名规则：TAG_PARTY_NAME_XX_name
 
 # 共产主义政党
-#PRU_PARTY_NAME_CM_unkown: "共产主义政党名称"
+PRU_PARTY_NAME_CM_unkown: "圣伊帕尼亚共产党"
 
 # 社会主义政党
-#PRU_PARTY_NAME_SC_unkown: "社会主义政党名称"
+PRU_PARTY_NAME_SC_APRA: "圣伊斯帕尼亚阿普拉党"
 
 # 民主政党
-#PRU_PARTY_NAME_DM_unkown: "民主政党名称"
+PRU_PARTY_NAME_DM_unkown: "圣伊斯帕尼亚社会民主党"
 
 # 保守主义政党
-#PRU_PARTY_NAME_CS_unkown: "保守主义政党名称"
+PRU_PARTY_NAME_CS_unkown: "制宪议会"
 
 # 威权主义政党
-#PRU_PARTY_NAME_AT_unkown: "威权主义政党名称"
+PRU_PARTY_NAME_AT_unkown: "圣伊斯帕尼亚军方"
 
 # 专制主义政党
-#PRU_PARTY_NAME_DP_unkown: "专制主义政党名称"
+PRU_PARTY_NAME_DP_unkown: "军方制宪会议-军政府体制"
 
 # 民粹主义政党
-#PRU_PARTY_NAME_PP_unkown: "民粹主义政党名称"
+PRU_PARTY_NAME_PP_unkown: "民粹团体"
 
 # 法西斯政党
-#PRU_PARTY_NAME_FS_unkown: "法西斯政党名称"
+PRU_PARTY_NAME_FS_UR: "革命联盟党-国家民主党联盟"
 
 # 国家社会主义政党
-#PRU_PARTY_NAME_NS_unkown: "国家社会主义政党名称"
+PRU_PARTY_NAME_NS_UR: "革命联盟党右派"
 
 # 神秘主义政党
-#PRU_PARTY_NAME_OC_unkown: "神秘主义政党名称"
+PRU_PARTY_NAME_OC_unkown: "极端团体"

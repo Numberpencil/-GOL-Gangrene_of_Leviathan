@@ -7,8 +7,7 @@ state = {
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		add_core_of =
-
+	
 		victory_points = { 10308 1 } #Akmolinsk
 
 		buildings = {

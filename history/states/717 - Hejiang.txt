@@ -5,11 +5,10 @@ state = {
 	state_category = two
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-		victory_points = { 9623 10 } #POP 2 + STRAT 2 + POL 0 = SIG 4
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+victory_points = { 9623 10 } #POP 2 + STRAT 2 + POL 0 = SIG 4
 
 		buildings = {
 			infrastructure = 3

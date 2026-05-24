@@ -9,11 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-		victory_points = {
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+victory_points = {
 			957 10 # Vladivostok
 		}
 

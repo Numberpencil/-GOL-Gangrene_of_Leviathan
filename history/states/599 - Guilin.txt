@@ -10,14 +10,10 @@ state = { #Guilin
 	}
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-
-		buildings = {
+		owner = GXC
+		add_core_of = CHI
+		add_core_of = GXC
+buildings = {
 			infrastructure = 2
 		}
 		victory_points = { 10404 10 } #POP 2 + STRAT 1 + POL 0 + BAL 1 = SIG 4

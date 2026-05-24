@@ -6,13 +6,9 @@ state = { #Xiangyang
 	local_supplies = 2.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-		buildings = {
+		owner = CHI
+		add_core_of = CHI
+buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 1612 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3

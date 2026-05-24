@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Henry_Creel = {
+        name = Henry_Creel_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/WAT/Henry_Creel.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

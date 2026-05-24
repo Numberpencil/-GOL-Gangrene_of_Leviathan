@@ -6,8 +6,9 @@ state = {
 	local_supplies = 3.0
 
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
+		owner = TIB
+		add_core_of = CHI
+		add_core_of = TIB
 victory_points = { 12730 1 } #Tawang
 
 		buildings = {

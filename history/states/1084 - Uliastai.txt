@@ -6,14 +6,10 @@ state = {
 	local_supplies = 8.0
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-
-
-		victory_points = { 7799 2 } #Uliastai
+		owner = MON
+		add_core_of = CHI
+		add_core_of = MON
+victory_points = { 7799 2 } #Uliastai
 		victory_points = { 12520 1 } #Khovd
 		victory_points = { 12695 1 } #Ulaangom
 
@@ -24,6 +20,6 @@ state = {
 	}
 
 	provinces = {
-		1689 4697 4777 4858 7773 7799 7843 10560 10563 10634 10669 10695 12520 12544 12614 12675 12695
+		1689 1774 1855 4697 4751 4777 4858 7773 7799  7808 7843 7870 10539 10560 10563 10634 10669 10695 12520 12544 12614 12675 12695
 	}
 }

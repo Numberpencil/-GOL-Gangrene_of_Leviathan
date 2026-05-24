@@ -30,7 +30,7 @@ set_politics = {
 #饼图成分（数字总和为100）
 set_popularities = {
 	communism = 2
-	socialism = 7
+	socialism = 5
 	democrat = 15
 	conservatism = 1
 	authoritarianism = 15
@@ -48,4 +48,56 @@ set_popularities = {
 #开局民族精神
 add_ideas = {
 	
+}
+
+#开局政党
+set_party_name = {
+	ideology = communism
+	long_name = "BOL_PARTY_NAME_CM_unkown"
+	name = "BOL_PARTY_NAME_CM_unkown"
+}
+set_party_name = {
+	ideology = socialism
+	long_name = "BOL_PARTY_NAME_SC_PL"
+	name = "BOL_PARTY_NAME_SC_PL"
+}
+set_party_name = {
+	ideology = democrat
+	long_name = "BOL_PARTY_NAME_DM_PL"
+	name = "BOL_PARTY_NAME_DM_PL"
+}
+set_party_name = {
+	ideology = conservatism
+	long_name = "BOL_PARTY_NAME_CS_PL"
+	name = "BOL_PARTY_NAME_CS_PL"
+}
+set_party_name = {
+	ideology = authoritarianism
+	long_name = "BOL_PARTY_NAME_AT_unkown"
+	name = "BOL_PARTY_NAME_AT_unkown"
+}
+set_party_name = {
+	ideology = despotism
+	long_name = "BOL_PARTY_NAME_DP_unkown"
+	name = "BOL_PARTY_NAME_DP_unkown"
+}
+set_party_name = {
+	ideology = populism
+	long_name = "BOL_PARTY_NAME_PP_unkown"
+	name = "BOL_PARTY_NAME_PP_unkown"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "BOL_PARTY_NAME_FS_FSB"
+	name = "BOL_PARTY_NAME_FS_FSB"
+}
+set_party_name = {
+	ideology = national_socialism
+	long_name = "BOL_PARTY_NAME_NS_FSB"
+	name = "BOL_PARTY_NAME_NS_FSB"
+}
+set_party_name = {
+	ideology = occultism
+	long_name = "BOL_PARTY_NAME_OC_unkown"
+	name = "BOL_PARTY_NAME_OC_unkown"
 }

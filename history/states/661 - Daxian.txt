@@ -5,12 +5,10 @@ state = { #Eastern Sichuan
 	state_category = three
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
-
-
-		victory_points = { 11865 20 } #POP 5 + STRAT 2 + POL 0 = SIG 7
+		owner = CQQ
+		add_core_of = CHI
+		add_core_of = CQQ
+victory_points = { 11865 20 } #POP 5 + STRAT 2 + POL 0 = SIG 7
 
 		buildings = {
 			infrastructure = 3

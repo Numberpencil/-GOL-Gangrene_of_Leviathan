@@ -87,6 +87,7 @@ news_event = { #改进型巨构机首次投入巴尔干战场
 	desc = news.1005.d
 	picture = GFX_news_event_machines_deployed_in_the_Balkans
 	is_triggered_only = no
+	fire_only_once = yes
 	major = yes
 	trigger = {
 		107 = { is_controlled_by = HUN }
@@ -97,19 +98,31 @@ news_event = { #改进型巨构机首次投入巴尔干战场
 		name = news.1005.a
 	}
 }
-news_event = { #改进型巨构机首次投入巴尔干战场
+news_event = { #马其顿大屠杀
 	id = news.1006
 	title = news.1006.t
 	desc = news.1006.d
 	picture = GFX_news_event_North_Macedonian_massacre
 	is_triggered_only = no
+	fire_only_once = yes
 	major = yes
 	trigger = {
 		MAC = { has_war_with = YUG 
 		has_capitulated = yes
 		}
 	}
-	option = { #天哪
+	option = { #我们听不见地狱中的哀嚎
+		trigger = {
+			NOT = {
+				is_in_faction_with = ROM
+			}
+		}
 		name = news.1006.a
+	}
+	option = { #我们听不见地狱中的哀嚎
+		trigger = {
+				is_in_faction_with = ROM			
+		}
+		name = news.1006.b
 	}
 }

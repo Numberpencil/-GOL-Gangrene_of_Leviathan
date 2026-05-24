@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+    Fritz_Julius = {
+        name = Fritz_Julius_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LWS/Fritz_Julius.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

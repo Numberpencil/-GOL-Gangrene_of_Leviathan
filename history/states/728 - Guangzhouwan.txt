@@ -5,13 +5,9 @@ state = {
 	state_category = minor_port
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		buildings = {
+		owner = GXC
+		add_core_of = GXC
+buildings = {
 			infrastructure = 2
 			11981 = {
 				naval_base = 1

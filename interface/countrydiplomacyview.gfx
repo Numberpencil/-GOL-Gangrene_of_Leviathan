@@ -810,9 +810,9 @@ spriteTypes = {
 		name = "GFX_trade_resource_chart"
 		size = 10
 		colors = {
-			rgb = { 0 0.7 0 }
-			rgb = { 1.0 1.0 0 }
-			rgb = { 0 0 1.0 }
+			 rgb = { 0 0.7 0 }
+			 rgb = { 1.0 1.0 0 }
+			 rgb = { 0 0 1.0 }
 		}
 	}
 	
