@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Richard_Bedford_Bennett = {
+        name = Richard_Bedford_Bennett_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CAN/Richard_Bedford_Bennett.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

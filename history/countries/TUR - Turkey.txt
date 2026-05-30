@@ -42,8 +42,12 @@ set_popularities = {
 }
 
 #开局阵营（若存在）
-#create_faction = Axis
-#add_to_faction = GER
+create_faction_from_template = faction_templateRevolutionary_United_International
+add_to_faction = TUR
+add_to_faction = SYR
+add_to_faction = KUR
+add_to_faction = CAU
+
 
 #开局民族精神
 add_ideas = {

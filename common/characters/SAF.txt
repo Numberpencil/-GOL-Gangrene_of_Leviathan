@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	James_Barry = {
+        name = James_Barry_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SAF/James_Barry.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

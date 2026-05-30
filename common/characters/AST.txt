@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Joseph_Aloysius_Lyons = {
+        name = Joseph_Aloysius_Lyons_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/AST/Joseph_Aloysius_Lyons.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

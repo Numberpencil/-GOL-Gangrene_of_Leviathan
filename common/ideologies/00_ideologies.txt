@@ -11,7 +11,7 @@ ideologies = {
             Mariategui_Thought = {
 
             }
-            National_Communism = {
+            National_communism = {
 
             }
             Anarchist_communism = {

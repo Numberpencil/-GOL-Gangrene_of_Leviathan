@@ -19,7 +19,6 @@ defined_text = {
 			or = {
                tag = SWE
 			   tag = NOR	
-			   tag=  DOM
 			   			
 			}
 							
@@ -132,6 +131,28 @@ defined_text = {
 		}
 		localization_key = "SPR_POI_Alfonso_XIII"
 	}
+	text = {
+		trigger = {	
+			tag = CAN			
+			has_idea = POI_Bethborough
+		}
+		localization_key = "CAN_POI_Bethborough"
+	}
+	text = {
+		trigger = {	
+			tag = SAF			
+			has_idea = POI_Clarendon
+		}
+		localization_key = "SAF_POI_Clarendon"
+	}
+	text = {
+		trigger = {	
+			tag = AST			
+			has_idea = POI_Alfred_Isaacs
+		}
+		localization_key = "AST_POI_Alfred_Isaacs"
+	}
 }
+
 		
 

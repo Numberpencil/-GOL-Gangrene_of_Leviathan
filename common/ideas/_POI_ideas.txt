@@ -355,5 +355,62 @@ ideas = {
 				
 			}
 		}
+		POI_Bethborough = {
+			name = "CAN POI Bethborough"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Clarendon = {
+			name = "SAF POI Clarendon"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}	
+		POI_Alfred_Isaacs = {
+			name = "AST POI Alfred_Isaacs"
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}							
     }
 }

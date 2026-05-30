@@ -14,6 +14,10 @@ set_technology = {
 	
 }
 
+#人物提取
+#recruit_character = ARG_Wilhelm_II
+recruit_character = Joseph_Aloysius_Lyons
+
 #开局执政党
 set_politics = {
 	ruling_party = democrat
@@ -37,13 +41,63 @@ set_popularities = {
 }
 
 #开局阵营（若存在）
-create_faction_from_template = faction_template_Far_East_Defense
-add_to_faction = AST
-add_to_faction = INS
-add_to_faction = NZL
+
 
 
 #开局民族精神
 add_ideas = {
-	
+	POI_Alfred_Isaacs
+	POI_COUNTRY_HAS_SECONDARY_LEADER
+}
+
+#开局政党
+set_party_name = {
+	ideology = communism
+	long_name = "AST_PARTY_NAME_CM_unkown"
+	name = "AST_PARTY_NAME_CM_LYL"
+}
+set_party_name = {
+	ideology = socialism
+	long_name = "AST_PARTY_NAME_SC_unkown"
+	name = "AST_PARTY_NAME_SC_SPD"
+}
+set_party_name = {
+	ideology = democrat
+	long_name = "AST_PARTY_NAME_DM_unkown"
+	name = "AST_PARTY_NAME_DM_DZP"
+}
+set_party_name = {
+	ideology = conservatism
+	long_name = "AST_PARTY_NAME_CS_unkown"
+	name = "AST_PARTY_NAME_CS_DKP"
+}
+set_party_name = {
+	ideology = authoritarianism
+	long_name = "AST_PARTY_NAME_AT_unkown"
+	name = "AST_PARTY_NAME_AT_TLeV"
+}
+set_party_name = {
+	ideology = despotism
+	long_name = "AST_PARTY_NAME_DP_unkown"
+	name = "AST_PARTY_NAME_DP_NL"
+}
+set_party_name = {
+	ideology = populism
+	long_name = "AST_PARTY_NAME_PP_unkown"
+	name = "AST_PARTY_NAME_PP_unkown"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "AST_PARTY_NAME_FS_unkown"
+	name = "AST_PARTY_NAME_FS_DKP"
+}
+set_party_name = {
+	ideology = national_socialism
+	long_name = "AST_PARTY_NAME_NS_unkown"
+	name = "AST_PARTY_NAME_NS_NSDAP"
+}
+set_party_name = {
+	ideology = occultism
+	long_name = "AST_PARTY_NAME_OC_unkown"
+	name = "AST_PARTY_NAME_OC_NSDAP"
 }

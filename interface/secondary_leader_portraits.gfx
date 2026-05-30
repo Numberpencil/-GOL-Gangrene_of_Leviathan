@@ -89,4 +89,19 @@ legacy_lazy_load = no
 		textureFile = "gfx\leaders\SPR\Alfonso_XIII.png"
 legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_secondary_leader_Bethborough"
+		textureFile = "gfx\leaders\CAN\Bethborough.png"
+legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_Clarendon"
+		textureFile = "gfx\leaders\SAF\Clarendon.png"
+legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_Alfred_Isaacs"
+		textureFile = "gfx\leaders\AST\Alfred_Isaacs.png"
+legacy_lazy_load = no
+	}
 }

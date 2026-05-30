@@ -1,0 +1,116 @@
+#首都
+capital = 64
+
+#开局国家状态
+set_stability = 0.6
+set_war_support = 0.4
+
+#人物提取
+#recruit_character = CAN_Wilhelm_II
+recruit_character = Richard_Bedford_Bennett
+
+
+
+#开局科研槽
+set_research_slots = 4
+
+# 开局解锁科技
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+#开局执政党
+set_politics = {
+	ruling_party = democrat
+	last_election = "1934.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#饼图成分（数字总和为100）
+set_popularities = {
+	communism = 10
+	socialism = 10
+	democrat = 10
+	conservatism = 20
+	authoritarianism = 10
+	despotism = 0
+	populism = 0
+	fascism = 10
+	national_socialism = 20
+	occultism = 10
+}
+
+#开局阵营（若存在）
+
+
+#开局民族精神
+add_ideas = {
+
+}
+#功能性民族精神
+add_ideas = { 
+	POI_COUNTRY_HAS_SECONDARY_LEADER
+	POI_Bethborough
+	#合作政党
+
+}
+
+
+#外交状态
+
+
+
+
+#开局政党
+set_party_name = {
+	ideology = communism
+	long_name = "CAN_PARTY_NAME_CM_unkown"
+	name = "CAN_PARTY_NAME_CM_unkown"
+}
+set_party_name = {
+	ideology = socialism
+	long_name = "CAN_PARTY_NAME_SC_unkown"
+	name = "CAN_PARTY_NAME_SC_unkown"
+}
+set_party_name = {
+	ideology = democrat
+	long_name = "CAN_PARTY_NAME_DM_unkown"
+	name = "CAN_PARTY_NAME_DM_unkown"
+}
+set_party_name = {
+	ideology = conservatism
+	long_name = "CAN_PARTY_NAME_CS_unkown"
+	name = "CAN_PARTY_NAME_CS_unkown"
+}
+set_party_name = {
+	ideology = authoritarianism
+	long_name = "CAN_PARTY_NAME_AT_unkown"
+	name = "CAN_PARTY_NAME_AT_unkown"
+}
+set_party_name = {
+	ideology = despotism
+	long_name = "CAN_PARTY_NAME_DP_unkown"
+	name = "CAN_PARTY_NAME_DP_unkown"
+}
+set_party_name = {
+	ideology = populism
+	long_name = "CAN_PARTY_NAME_PP_unkown"
+	name = "CAN_PARTY_NAME_PP_unkown"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "CAN_PARTY_NAME_FS_unkown"
+	name = "CAN_PARTY_NAME_FS_unkown"
+}
+set_party_name = {
+	ideology = national_socialism
+	long_name = "CAN_PARTY_NAME_NS_unkown"
+	name = "CAN_PARTY_NAME_NS_unkown"
+}
+set_party_name = {
+	ideology = occultism
+	long_name = "CAN_PARTY_NAME_OC_unkown"
+	name = "CAN_PARTY_NAME_OC_unkown"
+}
