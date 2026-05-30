@@ -42,7 +42,10 @@ set_popularities = {
 
 #开局阵营（若存在）
 
-
+create_faction_from_template = faction_template_Far_East_Defense
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = INS
 
 #开局民族精神
 add_ideas = {
@@ -54,32 +57,32 @@ add_ideas = {
 set_party_name = {
 	ideology = communism
 	long_name = "AST_PARTY_NAME_CM_unkown"
-	name = "AST_PARTY_NAME_CM_LYL"
+	name = "AST_PARTY_NAME_CM_unkown"
 }
 set_party_name = {
 	ideology = socialism
 	long_name = "AST_PARTY_NAME_SC_unkown"
-	name = "AST_PARTY_NAME_SC_SPD"
+	name = "AST_PARTY_NAME_SC_unkown"
 }
 set_party_name = {
 	ideology = democrat
 	long_name = "AST_PARTY_NAME_DM_unkown"
-	name = "AST_PARTY_NAME_DM_DZP"
+	name = "AST_PARTY_NAME_DM_unkown"
 }
 set_party_name = {
 	ideology = conservatism
 	long_name = "AST_PARTY_NAME_CS_unkown"
-	name = "AST_PARTY_NAME_CS_DKP"
+	name = "AST_PARTY_NAME_CS_unkown"
 }
 set_party_name = {
 	ideology = authoritarianism
 	long_name = "AST_PARTY_NAME_AT_unkown"
-	name = "AST_PARTY_NAME_AT_TLeV"
+	name = "AST_PARTY_NAME_AT_unkown"
 }
 set_party_name = {
 	ideology = despotism
 	long_name = "AST_PARTY_NAME_DP_unkown"
-	name = "AST_PARTY_NAME_DP_NL"
+	name = "AST_PARTY_NAME_DP_unkown"
 }
 set_party_name = {
 	ideology = populism
@@ -89,15 +92,15 @@ set_party_name = {
 set_party_name = {
 	ideology = fascism
 	long_name = "AST_PARTY_NAME_FS_unkown"
-	name = "AST_PARTY_NAME_FS_DKP"
+	name = "AST_PARTY_NAME_FS_unkown"
 }
 set_party_name = {
 	ideology = national_socialism
 	long_name = "AST_PARTY_NAME_NS_unkown"
-	name = "AST_PARTY_NAME_NS_NSDAP"
+	name = "AST_PARTY_NAME_NS_unkown"
 }
 set_party_name = {
 	ideology = occultism
 	long_name = "AST_PARTY_NAME_OC_unkown"
-	name = "AST_PARTY_NAME_OC_NSDAP"
+	name = "AST_PARTY_NAME_OC_unkown"
 }

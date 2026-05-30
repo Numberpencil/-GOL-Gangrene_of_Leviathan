@@ -5,13 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-<<<<<<< HEAD
 		owner = MAN
 		add_core_of = CHI
 		add_core_of = MAN = 
-=======
-		owner = XXX
->>>>>>> 2854897086e8d242fa68860cc450fddeb1256d2d
 
 		victory_points = { 13150 1 } #POP 1 + STRAT 1 + POL 1 = SIG 3
 

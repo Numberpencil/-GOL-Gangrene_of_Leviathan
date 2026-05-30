@@ -37,24 +37,30 @@ idea_categories = {
 	Major_bills = {
 		slot = trade_laws
 		slot = economy
+		slot = mobilization_laws
 		slot = Industrial_Policy
 		slot = Science_Policy
-		slot = mobilization_laws
+		slot = Military_training
 
 		ledger = civilian
 		
 		cost = 150
 		removal_cost = 0
 	}
-	Military_Act = {
-	slot = mobilization_laws
+	Social_bill = {
+	slot = Public_Security_System
+	slot = Women_rights
+	slot = Cultural_Policy
+	slot = Education_Policy
+	slot = Labor_Policy
+	slot = welfare_policies
 
 	ledger = civilian
 		
 		cost = 150
 		removal_cost = 0
 	}
-	Social_bill = {
+	Social_bill11 = {
 
 		
 		ledger = civilian

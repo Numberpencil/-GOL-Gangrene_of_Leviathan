@@ -12,7 +12,7 @@ state = {
 	history = {
 		owner = JHR
 		add_core_of = JHR
-		add_core_of = XXX
+
  
 
 

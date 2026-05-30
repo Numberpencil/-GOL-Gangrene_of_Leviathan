@@ -150,8 +150,8 @@ HAM = {
 	color_ui =  rgb{ 128 86 52 }
 }
 GDC = {
-	color =  rgb{ 66 97 124}
-	color_ui =  rgb{ 66 97 124 }
+	color =  rgb{ 29 48 82}
+	color_ui =  rgb{ 29 48 82 }
 }
 SCN = {
 	color =  rgb{ 139 87 66 }
@@ -178,16 +178,16 @@ TIB = {
 	color_ui =  rgb { 95 104 104 }
 }
 YUN = {
-	color =  rgb { 71 76 114 }
-	color_ui =  rgb { 71 76 114 }
+	color =  rgb { 50 63 86 }
+	color_ui =  rgb { 50 63 86 }
 }
 MON = {
 	color =  rgb { 128 95 80 }
 	color_ui =  rgb { 128 95 80 }
 }
 GXC = {
-	color =  rgb {75 127 122}
-	color_ui =  rgb {75 127 122}
+	color =  rgb {29 63 82}
+	color_ui =  rgb {29 63 82}
 }
 SHX = {
 	color =  rgb { 115 79 50 }

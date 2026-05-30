@@ -353,8 +353,7 @@ ideas = {
 	}
 		limited_exports = {
 			available = {
-				always = no
-
+	
 			}
 
 			cost = 150
@@ -984,11 +983,11 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-		Science_Policy = {
+	Science_Policy = {
 		
 		law = yes
 		use_list_view = yes
-		Laissez_faire_policy = {#保守科研
+		Conservative_tendencies_in_scientific_research = {#保守科研
 
 			available = {
 			always = no
@@ -1008,7 +1007,7 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.05 #生产效率上限。	
 				production_factory_efficiency_gain_factor = -0.05 #生产效率提升。
 
-			}
+ 			}
 
 			
 
@@ -1017,11 +1016,9 @@ ideas = {
 		Basic_scientific = {#基本科研主导
 
 			available = {
-			always = no
-
-	
+			always = no	
 			}
-            
+
 			cost = 150
 			removal_cost = -1
 
@@ -1029,11 +1026,8 @@ ideas = {
 				stability_factor = 0.05#稳定
 				research_speed_factor = 0.05#科研
 
-			}
-
-			
+			}			
             default = yes
-
 			cancel_if_invalid = no
 		}
 		Relaxing_scientific= {#放宽科研管控
@@ -1151,6 +1145,665 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+	}
+	Military_training = {
+		
+		law = yes
+		use_list_view = yes
+		No_training_system = {#无训练体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				training_time_army_factor  = -0.2#陆军师训练时间
+				army_org_factor  = -0.2#陆军组织度
+				experience_gain_army_unit_factor   = -0.3#陆军师经验增长
+				army_morale_factor  = -0.15 #陆军师组织度恢复速率	
+				army_attack_factor  = -0.1 #单位攻击
+				army_defence_factor = -0.1 #单位防御
+				conscription_factor = 0.05#可征募人口系数
+				naval_accidents_chance = 0.2
+				air_accidents_factor = 0.2
+
+ 			}			
+			cancel_if_invalid = no
+		}		
+	
+	Relaxed_training_system = {#宽松训练体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				training_time_army_factor  = -0.1#陆军师训练时间
+				army_org_factor  = -0.1#陆军组织度
+				experience_gain_army_unit_factor   = -0.15#陆军师经验增长
+				army_morale_factor  = -0.10 #陆军师组织度恢复速率	
+				army_attack_factor  = -0.05 #单位攻击
+				army_defence_factor = -0.05 #单位防御
+				conscription_factor = 0.02#可征募人口系数
+				naval_accidents_chance = 0.05
+				air_accidents_factor = 0.05
+
+ 			}			
+			cancel_if_invalid = no
+		}	
+		Basic_training_system = {#基本训练体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				experience_gain_army_unit_factor   = -0.05#陆军师经验增长
+				conscription_factor = 0.01#可征募人口系数
+
+ 			}			
+			cancel_if_invalid = no
+			default = yes
+
+		}	
+		Professional_training_system = {#专业训练体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				training_time_army_factor  = 0.1#陆军师训练时间
+				army_org_factor  = 0.05#陆军组织度
+				experience_gain_army_unit_factor   = 0.10#陆军师经验增长
+				army_morale_factor  = 0.05 #陆军师组织度恢复速率	
+				army_attack_factor  = 0.025 #单位攻击
+				coordination_bonus = 0.05#协同性
+				special_forces_cap_flat = 0.05#特种部队容量上限乘数
+				naval_accidents_chance = -0.1
+				air_accidents_factor = -0.1
+
+ 			}			
+			cancel_if_invalid = no
+		}	
+		Rigorous_training_system = {#严酷训练体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				training_time_army_factor  = 0.3#陆军师训练时间
+				army_org_factor  = 0.15#陆军组织度
+				experience_gain_army_unit_factor   = 0.25#陆军师经验增长
+				army_morale_factor  = 0.15 #陆军师组织度恢复速率	
+				army_attack_factor  = 0.05 #单位攻击
+				coordination_bonus = 0.15#协同性
+				special_forces_cap_flat = 0.25#特种部队容量上限乘数
+				naval_accidents_chance = -0.25
+				air_accidents_factor = -0.25
+
+ 			}			
+			cancel_if_invalid = no
+		}					
+	}
+	Public_Security_System = {
+		
+		law = yes
+		use_list_view = yes
+		No_public_security_agency = {#无公安机构
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+                  political_power_factor = 0.07
+				  stability_factor = -0.15
+				   resistance_growth = 0.3
+				   compliance_growth = -0.3
+				   resistance_decay = -0.3
+				   airforce_intel_to_others = 45
+				   civilian_intel_to_others = 45
+                   army_intel_to_others = 45
+                   navy_intel_to_others = 45
+
+
+ 			}			
+			cancel_if_invalid = no
+		}	
+		Preventative_security = {#预防性治安
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+                  political_power_factor = 0.01#政治点
+				  stability_factor = -0.05#稳定度
+				   resistance_growth = 0.2#抵抗增长速度
+				   compliance_growth = -0.2#顺从增长速度
+				   resistance_decay = -0.2#抵抗下降速度
+				   airforce_intel_to_others = 37.5#泄露给他国的空军情报
+				   civilian_intel_to_others = 37.5#泄露给他国的民政情报
+                   army_intel_to_others = 37.5#泄露给他国的陆军情报
+                   navy_intel_to_others = 37.5#泄露给他国的海军情报
+
+ 			}			
+			cancel_if_invalid = no
+		}	
+		Standard_security = {#标准治安保障
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+                  political_power_factor = 0.0025
+				   resistance_decay = -0.1
+				   airforce_intel_to_others = 30
+				   civilian_intel_to_others = 30
+                   army_intel_to_others = 30
+                   navy_intel_to_others = 30
+
+ 			}			
+			cancel_if_invalid = no
+			default = yes
+		}		
+		Medium_sized_law_enforcement_agencies = {#中等规模治安机构
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				    political_power_factor = -0.01
+				   stability_factor = -0.025
+				   airforce_intel_to_others = 22.5
+				   civilian_intel_to_others = 22.5
+                   army_intel_to_others = 22.5
+                   navy_intel_to_others = 22.5
+
+ 			}			
+			cancel_if_invalid = no
+		}		
+		Large_scale_law_enforcement_agencies = {#大规模治安机构
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				    political_power_factor = -0.0025
+				   stability_factor = -0.05
+				   	resistance_growth = -0.1
+				   compliance_growth = 0.1
+				   resistance_decay = 0.1
+				   airforce_intel_to_others = 10
+				   civilian_intel_to_others = 15
+                   army_intel_to_others = 10
+                   navy_intel_to_others = 10
+
+ 			}			
+			cancel_if_invalid = no
+		}	
+		Severe_social_control = {#重度社会管控
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				   political_power_factor = -0.005
+				   stability_factor = -0.075
+				   resistance_growth = -0.2
+				   compliance_growth = 0.2
+				   resistance_decay = 0.2
+				   airforce_intel_to_others = 7.5
+				   civilian_intel_to_others = 7.5
+                   army_intel_to_others = 7.5
+                   navy_intel_to_others = 7.5
+
+ 			}			
+			cancel_if_invalid = no
+		}
+		Nowhere_to_hide = {#全景监狱
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				   political_power_factor = -0.01
+				   stability_factor = -0.1
+				   resistance_growth = -0.3
+				   compliance_growth = 0.3
+				   resistance_decay = 0.3
+
+ 			}			
+			cancel_if_invalid = no
+		}																																				
+	}
+	Women_rights = {
+		
+		law = yes
+		use_list_view = yes
+		Women_are_subordinate = {#女性受支配
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = 0.025#稳定度
+			   industrial_capacity_factory = -0.05#工厂产出
+			   monthly_population = 0.15#月度人力
+			   political_power_factor = 0.01#每日政治点数
+			   consumer_goods_factor = -0.05#生活消费品工厂花费
+ 			}			
+			cancel_if_invalid = no
+		}																																			
+
+		Traditional_gender_roles = {#传统性别角色：
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = 0.01#稳定度
+			   monthly_population = 0.05#月度人力
+ 			}			
+			cancel_if_invalid = no
+		}	
+		Women_equal_rights = {#女性平等权利：
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = -0.015#稳定度
+			   monthly_population = -0.025#月度人力
+			   industrial_capacity_factory = 0.05#工厂产出
+ 			}			
+			cancel_if_invalid = no
+			 default = yes
+		}
+		higher_status_of_women = {#较高女性地位：
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = -0.05#稳定度
+			   monthly_population = -0.05#月度人力
+			   industrial_capacity_factory = 0.05#工厂产出
+ 			}			
+			cancel_if_invalid = no
+		}																																										
+	}
+	Cultural_Policy = {
+		
+		law = yes
+		use_list_view = yes
+		religious_theocracy = {#宗教神权
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = 0.05#稳定度
+			   research_speed_factor = -0.1#研究速度
+			   political_power_factor = 0.01#每日政治点数
+ 			}			
+			cancel_if_invalid = no
+		}
+		Maintaining_tradition = {#维护传统
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = 0.025#稳定度
+			   research_speed_factor = -0.05#研究速度
+			   political_power_factor = 0.01#每日政治点数
+ 			}			
+			cancel_if_invalid = no
+		}	
+		The_Doctrine_of_the_Mean = {#中庸之道
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+
+ 			}			
+			cancel_if_invalid = no
+			default = yes
+		}	
+		Cultural_freedom = {#文化自由
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = -0.025#稳定度
+			   research_speed_factor = 0.05#研究速度
+			   political_power_factor = -0.01#每日政治点数
+ 			}			
+			cancel_if_invalid = no
+		}
+		Complete_liberation = {#完全解放
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = -0.05#稳定度
+			   research_speed_factor = 0.075#研究速度
+			   political_power_factor = -0.03#每日政治点数
+ 			}			
+			cancel_if_invalid = no
+		}																																																																														
+	}
+	Education_Policy = {
+		
+		law = yes
+		use_list_view = yes
+		No_education_system = {#无教育体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = -0.1#稳定度
+			   research_speed_factor = -0.1#研究速度
+ 			}			
+			cancel_if_invalid = no
+		}
+		Preliminary_Education_System = {#初步教育体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = -0.05#稳定度
+			   research_speed_factor = -0.05#研究速度
+ 			}			
+			cancel_if_invalid = no
+		}		
+		private_education_system = {#私立教育体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+			   research_speed_factor = 0.015#研究速度
+ 			}			
+			cancel_if_invalid = no
+		}
+		Basic_compulsory_education_system = {#基本义务教育体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = 0.025#稳定度
+ 			}			
+			cancel_if_invalid = no
+			default = yes
+		}	
+		Higher_compulsory_education_system = {#高等义务教育体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = 0.05#稳定度
+			   research_speed_factor = 0.05#研究速度			   
+ 			}			
+			cancel_if_invalid = no
+		}
+		public_higher_education_system = {#公立高等教育体系
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = 0.1#稳定度
+			   research_speed_factor = 0.05#研究速度			   
+ 			}			
+			cancel_if_invalid = no
+		}																																																																																					
+	}
+	Labor_Policy = {
+		
+		law = yes
+		use_list_view = yes
+		slave_treatment = {#会说话的工具
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = -0.15#稳定度
+			   	monthly_population = -0.15#月度人力
+				industrial_capacity_factory = 0.1#工厂产出
+	            industrial_capacity_dockyard = 0.1#船坞产出	
+				production_speed_buildings_factor = 0.05#建造速度
+ 			}			
+			cancel_if_invalid = no
+		}
+		Minimum_Labor_Protection = {#最低劳动保障
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = -0.10#稳定度
+			   	monthly_population = -0.10#月度人力
+				industrial_capacity_factory = 0.05#工厂产出
+	            industrial_capacity_dockyard = 0.025#船坞产出	
+				production_speed_buildings_factor = 0.025#建造速度
+ 			}			
+			cancel_if_invalid = no
+		}
+		Limited_labor_protection = {#有限劳动保障
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+               stability_factor = 0.025#稳定度
+				production_speed_buildings_factor = 0.005#建造速度
+				production_factory_efficiency_gain_factor = 0.035 #生产效率提升
+ 			}			
+			cancel_if_invalid = no
+			default = yes
+		}
+		Appropriate_labor_protection = {#适当劳动保障
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05#稳定度
+				industrial_capacity_factory = -0.015#工厂产出
+				industrial_capacity_dockyard = -0.015#船坞产出	
+				production_factory_efficiency_gain_factor = 0.05 #生产效率提升
+			    production_factory_max_efficiency_factor = 0.025 #生产效率上限。				
+ 			}			
+			cancel_if_invalid = no
+		}																																																																																														
+		Workers_Country = {#工人之国
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.1#稳定度
+				production_speed_buildings_factor = -0.025#建造速度
+				industrial_capacity_factory = -0.025#工厂产出
+				industrial_capacity_dockyard = -0.025#船坞产出	
+				production_factory_efficiency_gain_factor = 0.1 #生产效率提升
+			    production_factory_max_efficiency_factor = 0.05 #生产效率上限。				
+ 			}			
+			cancel_if_invalid = no
+		}					
+	}
+	welfare_policies = {
+		
+		law = yes
+		use_list_view = yes
+		Living_like_dregs = {#如渣滓般苟活
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = -0.2#基建建造
+ 			}			
+			cancel_if_invalid = no
+		}
+		Minimum_Social_Security = {#最低社会保障
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = -0.1#基建建造
+ 			}			
+			cancel_if_invalid = no
+		}
+		Basic_social_security = {#基本社会保障
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.01#稳定度
+ 			}			
+			cancel_if_invalid = no
+			default = yes
+		}
+		High_social_security = {#高昂社会保障
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.1#基建建造
+				stability_weekly = 0.001
+ 			}			
+			cancel_if_invalid = no
+
+		}
+		welfare_state = {#福利国家
+
+			available = {
+			always = no	
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.15#基建建造
+				stability_weekly = 0.002#周稳定度
+ 			}			
+			cancel_if_invalid = no
+
+		}																
 	}
 }
 

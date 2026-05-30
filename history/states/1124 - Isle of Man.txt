@@ -5,13 +5,9 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = XXX
-		add_core_of = XXX
-
- 
-
-
-		victory_points = { 3311 1 } #Douglas
+		owner = ENG
+		add_core_of = ENG
+victory_points = { 3311 1 } #Douglas
 
 		strategic_province_location = {
 			natural_harbor = 3311
