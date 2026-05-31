@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Li_Zongren = {
+        name = Li_Zongren_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GXC/Li_Zongren.png"
+            }
+        }
+        country_leader = {
+            ideology = Hybrid_regime
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

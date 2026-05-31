@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Chiang_Kai_shek = {
+        name = Chiang_Kai_shek_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CHI/Chiang_Kai_shek.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

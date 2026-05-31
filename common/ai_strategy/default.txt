@@ -1086,7 +1086,7 @@ dont_build_capitals_if_on_treaty = {
 		OR = {
 				original_tag = ITA
 				original_tag = ENG
-				NOT = { has_idea = MTG_naval_treaty_adherent }
+
 			}
 	}
 

@@ -5,12 +5,10 @@ state = {
 	state_category = two
 
 	history = {
-		owner = GRE
+		owner = TLK
 		add_core_of = GRE
- 
-
-
-		buildings = {
+		add_core_of = TLK
+buildings = {
 			infrastructure = 2
 			dockyard = 1
 		}

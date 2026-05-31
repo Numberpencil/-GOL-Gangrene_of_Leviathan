@@ -12,7 +12,13 @@ scripted_gui = {
 		triggers = {
 			facion_icons_Berlin_Defence_Agreement_visible = {
                    is_in_faction_with = GER
-			}		
-        }
+			}
+			facion_icons_Pan_Iberian_Federation = {
+                   is_in_faction_with = CAL
+			}	
+			faction_logo_Far_East_Defense = {
+                   is_in_faction_with = AST
+			}				
+        }	
 	}
 }

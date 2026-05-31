@@ -11,6 +11,7 @@ state = {
 
 	history = {
 		owner = GRE
+		add_core_of = TLK
 		add_core_of = GRE
 
 

@@ -14,6 +14,9 @@ set_technology = {
 	
 }
 
+#人物提取
+recruit_character = Chiang_Kai_shek
+
 #开局执政党
 set_politics = {
 	ruling_party = authoritarianism

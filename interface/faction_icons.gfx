@@ -11,6 +11,83 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_faction_icon_Berlin_Defence_Agreement
 		texturefile = "gfx/interface/factions/faction_icons/Berlin_Defence_Agreement.dds"
-		legacy_lazy_load = yes
+		legacy_lazy_load = no	}
+	spriteType = {
+		name = GFX_faction_logo_Pan_Iberian_Federation
+		textureFile = "gfx/interface/factions/faction_logos/Pan_Iberian_Federation.dds"
+		noOfFrames = 2
 	}
+	spriteType = {
+		name = GFX_faction_logo_Pan_Iberian_Federation_miniature
+		texturefile = "gfx/interface/factions/faction_logos/Pan_Iberian_Federation_miniature.dds"
+	}
+	spriteType = {
+		name = GFX_faction_icon_Pan_Iberian_Federation
+		texturefile = "gfx/interface/factions/faction_icons/Pan_Iberian_Federation.dds"
+		legacy_lazy_load = no	}
+	spriteType = {
+		name = GFX_faction_logo_Far_East_Defense
+		textureFile = "gfx/interface/factions/faction_logos/Far_East_Defense.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = GFX_faction_logo_Far_East_Defense_miniature
+		texturefile = "gfx/interface/factions/faction_logos/Far_East_Defense_miniature.dds"
+	}
+	spriteType = {
+		name = GFX_faction_icon_Far_East_Defense
+		texturefile = "gfx/interface/factions/faction_icons/Far_East_Defense.dds"
+		legacy_lazy_load = no	}
+	spriteType = {
+		name = GFX_faction_logo_Commonwealth
+		textureFile = "gfx/interface/factions/faction_logos/Commonwealth.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = GFX_faction_logo_Commonwealth_miniature
+		texturefile = "gfx/interface/factions/faction_logos/Commonwealth_miniature.dds"
+	}
+	spriteType = {
+		name = GFX_faction_icon_Commonwealth
+		texturefile = "gfx/interface/factions/faction_icons/Commonwealth.dds"
+		legacy_lazy_load = no	}
+	spriteType = {
+		name = GFX_faction_logo_Revolutionary_United_International
+		textureFile = "gfx/interface/factions/faction_logos/Revolutionary_United_International.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = GFX_faction_logo_Revolutionary_United_International_miniature
+		texturefile = "gfx/interface/factions/faction_logos/Revolutionary_United_International_miniature.dds"
+	}
+	spriteType = {
+		name = GFX_faction_icon_Revolutionary_United_International
+		texturefile = "gfx/interface/factions/faction_icons/Revolutionary_United_International.dds"
+		legacy_lazy_load = no	}
+	spriteType = {
+		name = GFX_faction_logo_balkan_defense_union
+		textureFile = "gfx/interface/factions/faction_logos/balkan_defense_union.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = GFX_faction_logo_balkan_defense_union_miniature
+		texturefile = "gfx/interface/factions/faction_logos/balkan_defense_union_miniature.dds"
+	}
+	spriteType = {
+		name = GFX_faction_icon_balkan_defense_union
+		texturefile = "gfx/interface/factions/faction_icons/balkan_defense_union.dds"
+		legacy_lazy_load = no	}
+	spriteType = {
+		name = GFX_faction_logo_Iberia
+		textureFile = "gfx/interface/factions/faction_logos/Iberia.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = GFX_faction_logo_Iberia
+		texturefile = "gfx/interface/factions/faction_logos/Iberia_miniature.dds"
+	}
+	spriteType = {
+		name = GFX_faction_icon_Iberia
+		texturefile = "gfx/interface/factions/faction_icons/Iberia.dds"
+		legacy_lazy_load = no	}
 }

@@ -120,31 +120,31 @@ spriteTypes = {
 		### 征兵法案
 	spriteType = {
 		name = "GFX_idea_disarmed_nation"
-		texturefile = "gfx/interface/ideas/idea_disarmed_nation.dds"
+		texturefile = "gfx/ideas/idea_disarmed_nation.png"
 	}
 	spriteType = {
 		name = "GFX_idea_volunteer_only"
-		texturefile = "gfx/interface/ideas/idea_volunteer_only.dds"
+		texturefile = "gfx/ideas/idea_volunteer_only.png"
 	}
 	spriteType = {
 		name = "GFX_idea_limited_conscription"
-		texturefile = "gfx/interface/ideas/idea_limited_conscription.dds"
+		texturefile = "gfx/ideas/idea_limited_conscription.png"
 	}
 	spriteType = {
 		name = "GFX_idea_extensive_conscription"
-		texturefile = "gfx/interface/ideas/idea_extensive_conscription.dds"
+		texturefile = "gfx/ideas/idea_extensive_conscription.png"
 	}
 	spriteType = {
 		name = "GFX_idea_service_by_requirement"
-		texturefile = "gfx/interface/ideas/idea_service_by_requirement.dds"
+		texturefile = "gfx/ideas/idea_service_by_requirement.png"
 	}
 	spriteType = {
 		name = "GFX_idea_all_adults_serve"
-		texturefile = "gfx/interface/ideas/idea_all_adults_serve.dds"
+		texturefile = "gfx/ideas/idea_all_adults_serve.png"
 	}
 	spriteType = {
 		name = "GFX_idea_scraping_the_barrel"
-		texturefile = "gfx/interface/ideas/idea_scraping_the_barrel.dds"
+		texturefile = "gfx/ideas/idea_scraping_the_barrel.png"
 	}
 	###动员
 	spriteType = {
@@ -167,5 +167,76 @@ spriteTypes = {
 		name = "GFX_idea_tot_economic_mobilisation"
 		texturefile = "gfx/ideas/idea_tot_economic_mobilisation.dds"
 	}
-
+	###工业政策
+	spriteType = {
+		name = "GFX_idea_Laissez_faire_policy"
+		texturefile = "gfx/ideas/Laissez_faire_policy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Limited_intervention_policy"
+		texturefile = "gfx/ideas/Limited_intervention_policy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_National_coordination_policy"
+		texturefile = "gfx/ideas/National_coordination_policy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Government_led_policies"
+		texturefile = "gfx/ideas/Government_led_policies.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Wartime_Industrial_Policy"
+		texturefile = "gfx/ideas/Wartime_Industrial_Policy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Total_military_control_industry"
+		texturefile = "gfx/ideas/Total_military_control_industry.png"
+	}
+###科研政策
+	spriteType = {
+		name = "GFX_idea_Conservative_tendencies_in_scientific_research"
+		texturefile = "gfx/ideas/Conservative_tendencies_in_scientific_research.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Basic_scientific"
+		texturefile = "gfx/ideas/Basic_scientific.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Relaxing_scientific"
+		texturefile = "gfx/ideas/Relaxing_scientific.png"
+	}
+	spriteType = {
+		name = "GFX_idea_No_scientific_research_control"
+		texturefile = "gfx/ideas/No_scientific_research_control.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Moral_vacuum_research"
+		texturefile = "gfx/ideas/Moral_vacuum_research.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Megastructure_research"
+		texturefile = "gfx/ideas/Megastructure_research.png"
+	}
+###训练政策
+	spriteType = {
+		name = "GFX_idea_No_training_system"
+		texturefile = "gfx/ideas/No_training_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Relaxed_training_system"
+		texturefile = "gfx/ideas/Basic_training_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Basic_training_system"
+		texturefile = "gfx/ideas/Basic_training_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Professional_training_system"
+		texturefile = "gfx/ideas/Professional_training_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Rigorous_training_system"
+		texturefile = "gfx/ideas/Rigorous_training_system.png"
+	}
+	
 }

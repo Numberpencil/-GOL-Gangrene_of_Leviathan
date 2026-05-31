@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Hu_Hanmin = {
+        name = Hu_Hanmin_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GDC/Hu_Hanmin.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservativist_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

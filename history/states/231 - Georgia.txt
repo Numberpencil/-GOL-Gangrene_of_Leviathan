@@ -7,9 +7,8 @@ state = {
 	history = {
 		owner = CAU
 		add_core_of = CAU
-
-
-		victory_points = { 1599 10 }
+		add_core_of = GRA
+victory_points = { 1599 10 }
 		victory_points = { 772 2 }
 		victory_points = { 3658 1 }
 

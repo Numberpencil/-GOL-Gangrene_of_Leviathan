@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	George_William_Forbes = {
+        name = George_William_Forbes_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/NZL/George_William_Forbes.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

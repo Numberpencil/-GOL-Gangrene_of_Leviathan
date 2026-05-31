@@ -6,10 +6,10 @@ state = {
 	local_supplies = 9.0
 
 	history = {
-		owner = GRE
+		owner = TLK
 		add_core_of = GRE
-
-		buildings = {
+		add_core_of = TLK
+buildings = {
 			infrastructure = 2
 		}
 	}

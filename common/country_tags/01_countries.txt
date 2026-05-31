@@ -1,5 +1,7 @@
+ABJ = "countries/Azerbaijan.txt"
 AFG = "countries/Afghanistan.txt"
 ALB = "countries/Albania.txt"
+AMA = "countries/Armenia.txt"
 ARG = "countries/Argentina.txt"
 AST = "countries/Australia.txt"
 ATA = "countries/Atacama.txt"
@@ -42,6 +44,7 @@ FIN = "countries/Finland.txt"
 FRA	= "countries/France.txt"
 FSA = "countries/Federation of South Arabia.txt"
 GDC = "countries/GuangDong.txt" #广东革命政府
+GRA = "countries/Georgia.txt" #格鲁吉亚
 GER	= "countries/Germany.txt"
 GRE = "countries/Greece.txt"
 GSA = "countries/Gobernación española de África.txt" #西属非洲总督区
@@ -124,9 +127,9 @@ SLV = "countries/Slovenia.txt"
 SOV = "countries/Russia.txt"
 SPR = "countries/Spain.txt"
 SUD = "countries/Sudan.txt"
-
 SWI = "countries/Switzerland.txt"
 SYR = "countries/Syria.txt"
+TLK = "countries/Thessaloniki.txt"
 TIB = "countries/Tibet.txt" #西藏噶厦政府
 TRK = "countries/Turkeistan.txt" #突厥斯坦
 TUN = "countries/Tunisia.txt"

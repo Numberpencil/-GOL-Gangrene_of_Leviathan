@@ -372,18 +372,14 @@ country_event = {
         news_event = {
 			id = news.1004 
 		}
-        set_politics = {
+	add_ideas = Political_enthusiasm
+    set_politics = {
     ruling_party = fascism
     last_election = 1935.4.1
     elections_allowed = no      
      }
-     add_popularity = {
-    ideology = fascism
-    popularity = 0.35
-     }
      #unlock_national_focus = 工团胜利    
-     #load_focus_tree = 工团国策
-	
+     #load_focus_tree = 工团国策	
 	}
 
 }

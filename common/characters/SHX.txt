@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Yan_Xishan = {
+        name = Yan_Xishan_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SHX/Yan_Xishan.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

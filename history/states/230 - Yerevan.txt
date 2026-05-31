@@ -5,8 +5,9 @@ state = {
 	state_category = five
 
 	history = {
-		owner = TUR
-		add_core_of = TUR
+		owner = CAU
+		add_core_of = CAU
+		add_core_of = AMA
 victory_points = { 12320 10 } #Yerevan
 		victory_points = { 12441 1 } #Gyumri
 

@@ -152,6 +152,13 @@ defined_text = {
 		}
 		localization_key = "AST_POI_Alfred_Isaacs"
 	}
+	text = {
+		trigger = {	
+			tag = NZL			
+			has_idea = POI_Charles_Bathurst
+		}
+		localization_key = "NZL_POI_Charles_Bathurst"
+	}
 }
 
 		

@@ -12,11 +12,8 @@ state = {
 	history = {
 		owner = CAU
 		add_core_of = CAU
-
-
-
-
-		victory_points = { 7661 15 }
+		add_core_of = ABJ
+victory_points = { 7661 15 }
 		victory_points = { 11674 3 }
 		victory_points = { 4473 2 }
 

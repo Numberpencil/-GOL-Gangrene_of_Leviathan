@@ -13,6 +13,8 @@ set_technology = {
 	infantry_weapons = 1
 	
 }
+#人物提取
+recruit_character = Li_Zongren
 
 #开局执政党
 set_politics = {

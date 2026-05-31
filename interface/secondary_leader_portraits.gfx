@@ -104,4 +104,9 @@ legacy_lazy_load = no
 		textureFile = "gfx\leaders\AST\Alfred_Isaacs.png"
 legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_secondary_leader_Charles_Bathurst"
+		textureFile = "gfx\leaders\NZL\Charles_Bathurst.png"
+legacy_lazy_load = no
+	}
 }

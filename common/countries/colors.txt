@@ -109,8 +109,28 @@ GRE = {
 	color_ui =  rgb { 74 84 124  }
 }
 TUR = {
-	color =  rgb { 100 38 46  }
-	color_ui =  rgb { 100 38 46  }
+	color =  rgb { 100 29 31 }
+	color_ui =  rgb { 100 29 31  }
+}
+AMA = {
+	color =  rgb { 105 29 3 }
+	color_ui =  rgb { 105 29 3  }
+}
+ABJ = {
+	color =  rgb { 99 35 36 }
+	color_ui =  rgb { 99 35 36  }
+}
+TLK = {
+	color =  rgb {97 19 24}
+	color_ui =  rgb { 97 19 24  }
+}
+GRA = {
+	color =  rgb { 82 13 14}
+	color_ui =  rgb {82 13 14  }
+}
+IRQ = {
+	color =  rgb { 84 30 31}
+	color_ui =  rgb {84 30 31 }
 }
 BCV = {
 	color =  rgb { 118 95 81  }
@@ -302,8 +322,8 @@ SYR = {
 	color_ui =  rgb { 133 54 50 }
 }
 IRQ = {
-	color =  rgb { 29 71 46  }
-	color_ui =  rgb { 29 71 46  }
+	color =  rgb { 84 30 31  }
+	color_ui =  rgb { 84 30 31  }
 }
 LEB = {
 	color =  rgb { 130  150  60  }

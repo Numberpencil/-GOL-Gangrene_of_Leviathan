@@ -46,7 +46,11 @@ create_faction_from_template = faction_templateRevolutionary_United_Internationa
 add_to_faction = TUR
 add_to_faction = SYR
 add_to_faction = KUR
-add_to_faction = CAU
+add_to_faction = AMA
+add_to_faction = ABJ
+add_to_faction = GRA
+add_to_faction = TLK
+add_to_faction = IRQ
 
 
 #开局民族精神

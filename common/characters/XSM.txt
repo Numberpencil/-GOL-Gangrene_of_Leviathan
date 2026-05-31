@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Ma_Lin = {
+        name = Ma_Lin_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/XSM/Ma_Lin.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

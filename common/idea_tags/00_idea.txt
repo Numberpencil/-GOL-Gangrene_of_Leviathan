@@ -35,7 +35,7 @@ idea_categories = {
 		removal_cost = 0
 	}
 	Major_bills = {
-		slot = trade_laws
+	    slot = trade_laws	
 		slot = economy
 		slot = mobilization_laws
 		slot = Industrial_Policy
@@ -48,6 +48,7 @@ idea_categories = {
 		removal_cost = 0
 	}
 	Social_bill = {
+
 	slot = Public_Security_System
 	slot = Women_rights
 	slot = Cultural_Policy

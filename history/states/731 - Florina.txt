@@ -5,11 +5,10 @@ state = {
 	state_category = four
 
 	history = {
-		owner = GRE
+		owner = TLK
 		add_core_of = GRE
- 
-
-		victory_points = { 9837 1 } #Florina
+		add_core_of = TLK
+victory_points = { 9837 1 } #Florina
 
 		buildings = {
 			infrastructure = 2

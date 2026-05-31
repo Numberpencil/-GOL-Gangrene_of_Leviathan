@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Jigme_Wangchuck = {
+        name = Jigme_Wangchuck_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BHU/Jigme_Wangchuck.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

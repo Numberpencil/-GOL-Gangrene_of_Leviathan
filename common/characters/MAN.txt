@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Yu_Zhishan = {
+        name = Yu_Zhishan_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/MAN/Yu_Zhishan.png"
+            }
+        }
+        country_leader = {
+            ideology = Hybrid_regime
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

@@ -5,8 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = TUR
-		add_core_of = TUR
+		owner = CAU
+		add_core_of = CAU
+		add_core_of = AMA
 victory_points = { 6997 2 }
 
 		buildings = {

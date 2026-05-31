@@ -55,7 +55,7 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-	
+
 }
 
 #开局政党
