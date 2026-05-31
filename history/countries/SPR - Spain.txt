@@ -55,6 +55,7 @@ add_to_faction = POR
 add_ideas = {
 	POI_Alfonso_XIII
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	faction_idea_Pan_Iberian_Union
 }
 
 #外交状态

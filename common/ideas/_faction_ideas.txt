@@ -1,0 +1,85 @@
+ideas = {
+	hidden_ideas = {
+		faction_idea_Berlin_Defence_Agreement = {
+			name = "faction_idea_Berlin_Defence_Agreement_name"
+			removal_cost = -1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			}
+		}
+		faction_idea_Far_East_Defense_Alliance = {
+			name = "faction_idea_Far_East_Defense_Alliance_name"
+			removal_cost = -1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			}
+		}
+		faction_idea_Commonwealth_of_Nations = {
+			name = "faction_idea_Commonwealth_of_Nations_name"
+			removal_cost = -1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			}
+		}
+		faction_idea_Treaty_of_San_Francisco = {
+			name = "faction_idea_Treaty_of_San_Francisco_name"
+			removal_cost = -1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			}
+		}
+		faction_idea_Triple_Alliance = {
+			name = "faction_idea_Triple_Alliance_name"
+			removal_cost = -1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			}
+		}
+		faction_idea_Balkan_Alliance = {
+			name = "faction_idea_Balkan_Alliance_name"
+			removal_cost = -1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			}
+		}
+		faction_idea_Pan_Iberian_Union = {
+			name = "faction_idea_Pan_Iberian_Union_name"
+			removal_cost = -1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			}
+		}
+		faction_idea_Revolutionary_International = {
+			name = "faction_idea_Revolutionary_International_name"
+			removal_cost = -1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			}
+		}
+		faction_idea_Greater_East_Asia_Alliance = {
+			name = "faction_idea_Greater_East_Asia_Alliance_name"
+			removal_cost = -1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			}
+		}
+	}
+}

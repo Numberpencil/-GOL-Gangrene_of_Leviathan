@@ -21,7 +21,7 @@ faction_template_axis = {
 }
 faction_template_Commonwealth = {
 	name = Commonwealth_of_Nations
-	icon = GFX_faction_logo_Commonwealth
+	icon = GFX_faction_logo_Commonwealth_of_Nations
 	manifest = faction_manifest_defense_of_democracy
 
 	goals = {
@@ -42,7 +42,7 @@ faction_template_Commonwealth = {
 }
 faction_template_Far_East_Defense = {
 	name = Far_East_Defense_Alliance
-	icon = GFX_faction_logo_Far_East_Defense
+	icon = GFX_faction_logo_Far_East_Defense_Alliance
 	manifest = faction_manifest_defense_of_Commonwealth
 
 	goals = {
@@ -63,7 +63,7 @@ faction_template_Far_East_Defense = {
 }
 faction_template_Iberia = {
 	name = Pan_Iberian_Federation
-	icon = GFX_faction_logo_Iberia
+	icon = GFX_faction_logo_Pan_Iberian_Federation
 	manifest = faction_manifest_Far_United_beria
 
 	goals = {
@@ -85,7 +85,7 @@ faction_template_Iberia = {
 
 faction_Greater_East = {
 	name = Greater_East_Asia_Alliance
-	icon = GFX_faction_logo_axis
+	icon = GFX_faction_logo_Greater_East_Asia_Alliance
 	manifest = faction_manifest_strategic_resource_control
 
 	goals = {
@@ -106,8 +106,8 @@ faction_Greater_East = {
 }
 
 faction_San_Francisco = {
-	name = Greater_Treaty_of_San_Francisco
-	icon = GFX_faction_logo_Pan_Iberian_Federation
+	name = Treaty_of_San_Francisco
+	icon = GFX_faction_logo_Treaty_of_San_Francisco
 	manifest = faction_manifest_defense_of_San_Francisco
 
 	goals = {
@@ -148,8 +148,8 @@ faction_templateRevolutionary_United_International = {
 	
 }
 faction_template_balkan_defense_union = {
-	name = balkan_defense_union
-	icon = GFX_faction_logo_balkan_defense_union
+	name = Balkan_Defense_Union
+	icon = GFX_faction_logo_Balkan_Defense_Union
 	manifest = Far_Defense_Balkan
 
 	goals = {

@@ -1,4 +1,4 @@
-﻿# 
+# 
 # 此文件为，预留历史接口供后续实装
 
 #首都
@@ -51,10 +51,9 @@ occultism = 10
 #}
 
 #功能性民族精神
-#add_ideas = {
-#INS_functional_idea_1
-#INS_functional_idea_2
-#}
+add_ideas = {
+faction_idea_Far_East_Defense_Alliance
+}
 
 #开局政党
 set_party_name = {

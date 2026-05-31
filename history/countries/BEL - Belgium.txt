@@ -48,6 +48,7 @@ set_popularities = {
 add_ideas = {
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 	POI_Albert_I
+	faction_idea_Berlin_Defence_Agreement
 }
 
 

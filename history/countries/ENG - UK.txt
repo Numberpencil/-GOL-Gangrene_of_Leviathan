@@ -51,10 +51,16 @@ add_to_faction = SAF
 
 #开局民族精神
 add_ideas = {
+	
+}
+#功能性民族精神
+add_ideas = {
 	POI_George_V
 	Bicameral_constitutional_monarchy
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	faction_idea_Commonwealth_of_Nations
 }
+
 #开局政党
 set_party_name = {
 ideology = communism

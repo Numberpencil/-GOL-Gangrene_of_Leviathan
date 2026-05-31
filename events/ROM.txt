@@ -70,7 +70,7 @@ country_event = { #来自匈牙利的最后通牒
 		trigger = {
 			always = yes
 		}
-		create_faction = balkan_defense_union
+		create_faction = Balkan_Defense_Union
 		add_to_faction = YUG
 		add_to_faction = BUL
 	    set_faction_manifest = faction_manifest_Far_Defense_Balkan

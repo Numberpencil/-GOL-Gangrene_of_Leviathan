@@ -48,5 +48,5 @@ add_to_faction = NVD
 
 #开局民族精神
 add_ideas = {
-	
+	faction_idea_Treaty_of_San_Francisco
 }

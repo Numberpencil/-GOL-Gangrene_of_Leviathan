@@ -46,5 +46,5 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-	
+	faction_idea_Commonwealth_of_Nations
 }

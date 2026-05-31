@@ -1,0 +1,164 @@
+# 阵营图标专用idea管理脚本
+# 参考第二领导人系统实现方式
+
+# 更新所有阵营成员的faction idea
+update_faction_ideas_for_all = {
+	# 清除所有faction idea
+	every_country = {
+		limit = {
+			OR = {
+				has_idea = faction_idea_Berlin_Defence_Agreement
+				has_idea = faction_idea_Far_East_Defense_Alliance
+				has_idea = faction_idea_Commonwealth_of_Nations
+				has_idea = faction_idea_Treaty_of_San_Francisco
+				has_idea = faction_idea_Triple_Alliance
+				has_idea = faction_idea_Balkan_Alliance
+				has_idea = faction_idea_Pan_Iberian_Union
+				has_idea = faction_idea_Revolutionary_International
+				has_idea = faction_idea_Greater_East_Asia_Alliance
+			}
+		}
+		remove_ideas = {
+			faction_idea_Berlin_Defence_Agreement
+			faction_idea_Far_East_Defense_Alliance
+			faction_idea_Commonwealth_of_Nations
+			faction_idea_Treaty_of_San_Francisco
+			faction_idea_Triple_Alliance
+			faction_idea_Balkan_Alliance
+			faction_idea_Pan_Iberian_Union
+			faction_idea_Revolutionary_International
+			faction_idea_Greater_East_Asia_Alliance
+		}
+	}
+	
+	# 为每个阵营添加对应的idea给所有成员
+	GER = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Berlin_Defence_Agreement
+			}
+		}
+	}
+	
+	AST = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Far_East_Defense_Alliance
+			}
+		}
+	}
+	
+	ENG = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Commonwealth_of_Nations
+			}
+		}
+	}
+	
+	CAL = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Treaty_of_San_Francisco
+			}
+		}
+	}
+	
+	BRA = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Triple_Alliance
+			}
+		}
+	}
+	
+	ARG = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Triple_Alliance
+			}
+		}
+	}
+	
+	CHL = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Triple_Alliance
+			}
+		}
+	}
+	
+	YUG = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Balkan_Alliance
+			}
+		}
+	}
+	
+	GRE = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Balkan_Alliance
+			}
+		}
+	}
+	
+	SPR = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Pan_Iberian_Union
+			}
+		}
+	}
+	
+	POR = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Pan_Iberian_Union
+			}
+		}
+	}
+	
+	TUR = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Revolutionary_International
+			}
+		}
+	}
+	
+	JAP = {
+		if = {
+			limit = { is_faction_leader = yes }
+			every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_ideas = faction_idea_Greater_East_Asia_Alliance
+			}
+		}
+	}
+}

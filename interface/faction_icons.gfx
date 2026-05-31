@@ -1,93 +1,136 @@
 spriteTypes = {
-	spriteType = {
+	spriteType = { #柏林防御协定-图标
+		name = GFX_faction_icon_Berlin_Defence_Agreement
+		texturefile = "gfx/interface/factions/faction_icons/faction_icon_Berlin_Defence_Agreement.dds"
+		legacy_lazy_load = no	
+	}
+	spriteType = { #柏林防御协定
 		name = GFX_faction_logo_Berlin_Defence_Agreement
-		textureFile = "gfx/interface/factions/faction_logos/Berlin_Defence_Agreement.dds"
+		textureFile = "gfx/interface/factions/faction_logos/faction_logo_Berlin_Defence_Agreement.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
+	spriteType = { #柏林防御协定-缩略图
 		name = GFX_faction_logo_Berlin_Defence_Agreement_miniature
 		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Berlin_Defence_Agreement_miniature.dds"
 	}
-	spriteType = {
-		name = GFX_faction_icon_Berlin_Defence_Agreement
-		texturefile = "gfx/interface/factions/faction_icons/Berlin_Defence_Agreement.dds"
-		legacy_lazy_load = no	}
-	spriteType = {
-		name = GFX_faction_logo_Pan_Iberian_Federation
-		textureFile = "gfx/interface/factions/faction_logos/Pan_Iberian_Federation.dds"
+	
+	spriteType = { #远东防御体系-图标
+		name = GFX_faction_icon_Far_East_Defense_Alliance
+		texturefile = "gfx/interface/factions/faction_icons/faction_icon_Far_East_Defense_Alliance.dds"
+		legacy_lazy_load = no	
+	}
+	spriteType = { #远东防御体系
+		name = GFX_faction_logo_Far_East_Defense_Alliance
+		textureFile = "gfx/interface/factions/faction_logos/faction_logo_Far_East_Defense_Alliance.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = GFX_faction_logo_Pan_Iberian_Federation_miniature
-		texturefile = "gfx/interface/factions/faction_logos/Pan_Iberian_Federation_miniature.dds"
+	spriteType = { #远东防御体系-缩略图
+		name = GFX_faction_logo_Far_East_Defense_Alliance_miniature
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Far_East_Defense_Alliance_miniature.dds"	
 	}
-	spriteType = {
+
+	spriteType = { #威斯敏斯特体系-图标
+		name = GFX_faction_icon_Commonwealth_of_Nations
+		texturefile = "gfx/interface/factions/faction_icons/faction_icon_Commonwealth_of_Nations.dds"
+		legacy_lazy_load = no	
+	}
+	spriteType = { #威斯敏斯特体系
+		name = GFX_faction_logo_Commonwealth_of_Nations
+		textureFile = "gfx/interface/factions/faction_logos/faction_logo_Commonwealth_of_Nations.dds"
+		noOfFrames = 2
+	}
+	spriteType = { #威斯敏斯特体系-缩略图
+		name = GFX_faction_logo_Commonwealth_of_Nations_miniature
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Commonwealth_of_Nations_miniature.dds"	
+	}
+
+	spriteType = { #圣弗朗西斯科协定-图标
+		name = GFX_faction_icon_Treaty_of_San_Francisco
+		texturefile = "gfx/interface/factions/faction_icons/faction_icon_Treaty_of_San_Francisco.dds"
+		legacy_lazy_load = no	
+	}
+	spriteType = { #圣弗朗西斯科协定
+		name = GFX_faction_logo_Treaty_of_San_Francisco
+		textureFile = "gfx/interface/factions/faction_logos/faction_logo_Treaty_of_San_Francisco.dds"
+		noOfFrames = 2
+	}
+	spriteType = { #圣弗朗西斯科协定-缩略图
+		name = GFX_faction_logo_Treaty_of_San_Francisco_miniature
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Treaty_of_San_Francisco_miniature.dds"	
+	}
+	
+	spriteType = { #三国同盟-图标
+		name = GFX_faction_icon_Triple_Alliance
+		texturefile = "gfx/interface/factions/faction_icons/faction_icon_Triple_Alliance.dds"
+		legacy_lazy_load = no	
+	}
+	spriteType = { #三国同盟
+		name = GFX_faction_logo_Triple_Alliance
+		textureFile = "gfx/interface/factions/faction_logos/faction_logo_Triple_Alliance.dds"
+		noOfFrames = 2
+	}
+	spriteType = { #三国同盟-缩略图
+		name = GFX_faction_logo_Triple_Alliance_miniature
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Triple_Alliance_miniature.dds"	
+	}
+	
+	spriteType = { #巴尔干同盟-图标
+		name = GFX_faction_icon_Balkan_Defense_Union
+		texturefile = "gfx/interface/factions/faction_icons/faction_icon_Balkan_Defense_Union.dds"
+		legacy_lazy_load = no	
+	}
+	spriteType = { #巴尔干同盟
+		name = GFX_faction_logo_Balkan_Defense_Union
+		textureFile = "gfx/interface/factions/faction_logos/faction_logo_Balkan_Defense_Union.dds"
+		noOfFrames = 2
+	}
+	spriteType = { #巴尔干同盟-缩略图
+		name = GFX_faction_logo_Balkan_Defense_Union_miniature
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Balkan_Defense_Union_miniature.dds"	
+	}
+	
+	spriteType = { #泛伊比利亚邦联-图标
 		name = GFX_faction_icon_Pan_Iberian_Federation
-		texturefile = "gfx/interface/factions/faction_icons/Pan_Iberian_Federation.dds"
-		legacy_lazy_load = no	}
-	spriteType = {
-		name = GFX_faction_logo_Far_East_Defense
-		textureFile = "gfx/interface/factions/faction_logos/Far_East_Defense.dds"
+		texturefile = "gfx/interface/factions/faction_icons/faction_icon_Pan_Iberian_Federation.dds"
+		legacy_lazy_load = no	
+	}
+	spriteType = { #泛伊比利亚邦联
+		name = GFX_faction_logo_Pan_Iberian_Federation
+		textureFile = "gfx/interface/factions/faction_logos/faction_logo_Pan_Iberian_Federation.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = GFX_faction_logo_Far_East_Defense_miniature
-		texturefile = "gfx/interface/factions/faction_logos/Far_East_Defense_miniature.dds"
+	spriteType = { #泛伊比利亚邦联-缩略图
+		name = GFX_faction_logo_Pan_Iberian_Federation_miniature
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Pan_Iberian_Federation_miniature.dds"	
 	}
-	spriteType = {
-		name = GFX_faction_icon_Far_East_Defense
-		texturefile = "gfx/interface/factions/faction_icons/Far_East_Defense.dds"
-		legacy_lazy_load = no	}
-	spriteType = {
-		name = GFX_faction_logo_Commonwealth
-		textureFile = "gfx/interface/factions/faction_logos/Commonwealth.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = GFX_faction_logo_Commonwealth_miniature
-		texturefile = "gfx/interface/factions/faction_logos/Commonwealth_miniature.dds"
-	}
-	spriteType = {
-		name = GFX_faction_icon_Commonwealth
-		texturefile = "gfx/interface/factions/faction_icons/Commonwealth.dds"
-		legacy_lazy_load = no	}
-	spriteType = {
-		name = GFX_faction_logo_Revolutionary_United_International
-		textureFile = "gfx/interface/factions/faction_logos/Revolutionary_United_International.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = GFX_faction_logo_Revolutionary_United_International_miniature
-		texturefile = "gfx/interface/factions/faction_logos/Revolutionary_United_International_miniature.dds"
-	}
-	spriteType = {
+	
+	spriteType = { #革命联合国际-图标
 		name = GFX_faction_icon_Revolutionary_United_International
-		texturefile = "gfx/interface/factions/faction_icons/Revolutionary_United_International.dds"
-		legacy_lazy_load = no	}
-	spriteType = {
-		name = GFX_faction_logo_balkan_defense_union
-		textureFile = "gfx/interface/factions/faction_logos/balkan_defense_union.dds"
+		texturefile = "gfx/interface/factions/faction_icons/faction_icon_Revolutionary_United_International.dds"
+		legacy_lazy_load = no	
+	}
+	spriteType = { #革命联合国际
+		name = GFX_faction_logo_Revolutionary_United_International
+		textureFile = "gfx/interface/factions/faction_logos/faction_logo_Revolutionary_United_International.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = GFX_faction_logo_balkan_defense_union_miniature
-		texturefile = "gfx/interface/factions/faction_logos/balkan_defense_union_miniature.dds"
+	spriteType = { #革命联合国际-缩略图
+		name = GFX_faction_logo_Revolutionary_United_International_miniature
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Revolutionary_United_International_miniature.dds"	
 	}
-	spriteType = {
-		name = GFX_faction_icon_balkan_defense_union
-		texturefile = "gfx/interface/factions/faction_icons/balkan_defense_union.dds"
-		legacy_lazy_load = no	}
-	spriteType = {
-		name = GFX_faction_logo_Iberia
-		textureFile = "gfx/interface/factions/faction_logos/Iberia.dds"
+	
+	spriteType = { #大东亚协同体-图标
+		name = GFX_faction_icon_Greater_East_Asia_Alliance
+		texturefile = "gfx/interface/factions/faction_icons/faction_icon_Greater_East_Asia_Alliance.dds"
+		legacy_lazy_load = no	
+	}
+	spriteType = { #大东亚协同体
+		name = GFX_faction_logo_Greater_East_Asia_Alliance
+		textureFile = "gfx/interface/factions/faction_logos/faction_logo_Greater_East_Asia_Alliance.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = GFX_faction_logo_Iberia
-		texturefile = "gfx/interface/factions/faction_logos/Iberia_miniature.dds"
+	spriteType = { #大东亚协同体-缩略图
+		name = GFX_faction_logo_Greater_East_Asia_Alliance_miniature
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_Greater_East_Asia_Alliance_miniature.dds"	
 	}
-	spriteType = {
-		name = GFX_faction_icon_Iberia
-		texturefile = "gfx/interface/factions/faction_icons/Iberia.dds"
-		legacy_lazy_load = no	}
 }

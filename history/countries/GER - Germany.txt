@@ -77,6 +77,8 @@ add_ideas = {
 	following_party_CS
 	following_party_FS
 	following_party_OC
+	#阵营图标
+	faction_idea_Berlin_Defence_Agreement
 }
 
 

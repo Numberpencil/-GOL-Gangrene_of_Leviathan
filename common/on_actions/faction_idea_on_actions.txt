@@ -1,0 +1,32 @@
+# 阵营变动时自动更新faction idea
+# 确保所有阵营成员都拥有正确的阵营图标idea
+
+on_actions = {
+	# 加入阵营时
+	on_join_faction = {
+		effect = {
+			update_faction_ideas_for_all = yes
+		}
+	}
+	
+	# 离开阵营时
+	on_leave_faction = {
+		effect = {
+			update_faction_ideas_for_all = yes
+		}
+	}
+	
+	# 阵营领袖变更时
+	on_assume_faction_leadership = {
+		effect = {
+			update_faction_ideas_for_all = yes
+		}
+	}
+	
+	# 创建阵营时
+	on_create_faction = {
+		effect = {
+			update_faction_ideas_for_all = yes
+		}
+	}
+}

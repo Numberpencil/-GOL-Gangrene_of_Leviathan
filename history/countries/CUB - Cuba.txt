@@ -51,7 +51,7 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-	
+	faction_idea_Pan_Iberian_Union
 }
 
 #人物提取

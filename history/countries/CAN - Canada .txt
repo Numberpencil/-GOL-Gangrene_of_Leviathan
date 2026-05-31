@@ -54,7 +54,7 @@ add_ideas = {
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 	POI_Bethborough
 	#合作政党
-
+	faction_idea_Commonwealth_of_Nations
 }
 
 

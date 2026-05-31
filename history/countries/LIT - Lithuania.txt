@@ -49,4 +49,5 @@ set_popularities = {
 add_ideas = {
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 	POI_Mindaugas_III
+	faction_idea_Berlin_Defence_Agreement
 }

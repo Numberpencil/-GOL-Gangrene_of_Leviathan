@@ -9,7 +9,7 @@ set_stability = 0.5
 set_war_support = 0.3
 
 #人物提取
-#recruit_character = CAU_leader
+#recruit_character = GRA_leader
 
 #开局科研槽
 set_research_slots = 3
@@ -42,12 +42,12 @@ occultism = 10
 }
 
 #开局阵营（若存在）
-#create_faction_from_template = faction_template_CAU
+#create_faction_from_template = faction_template_GRA
 
 #开局民族精神
 #add_ideas = {
-#CAU_generic_idea_1
-#CAU_generic_idea_2
+#GRA_generic_idea_1
+#GRA_generic_idea_2
 #}
 
 #功能性民族精神
@@ -58,51 +58,51 @@ faction_idea_Revolutionary_International
 #开局政党
 set_party_name = {
 ideology = communism
-long_name = "CAU_PARTY_NAME_CM_unkown"
-name = "CAU_PARTY_NAME_CM_unkown"
+long_name = "GRA_PARTY_NAME_CM_unkown"
+name = "GRA_PARTY_NAME_CM_unkown"
 }
 set_party_name = {
 ideology = socialism
-long_name = "CAU_PARTY_NAME_SC_unkown"
-name = "CAU_PARTY_NAME_SC_unkown"
+long_name = "GRA_PARTY_NAME_SC_unkown"
+name = "GRA_PARTY_NAME_SC_unkown"
 }
 set_party_name = {
 ideology = democrat
-long_name = "CAU_PARTY_NAME_DM_unkown"
-name = "CAU_PARTY_NAME_DM_unkown"
+long_name = "GRA_PARTY_NAME_DM_unkown"
+name = "GRA_PARTY_NAME_DM_unkown"
 }
 set_party_name = {
 ideology = conservatism
-long_name = "CAU_PARTY_NAME_CS_unkown"
-name = "CAU_PARTY_NAME_CS_unkown"
+long_name = "GRA_PARTY_NAME_CS_unkown"
+name = "GRA_PARTY_NAME_CS_unkown"
 }
 set_party_name = {
 ideology = authoritarianism
-long_name = "CAU_PARTY_NAME_AT_unkown"
-name = "CAU_PARTY_NAME_AT_unkown"
+long_name = "GRA_PARTY_NAME_AT_unkown"
+name = "GRA_PARTY_NAME_AT_unkown"
 }
 set_party_name = {
 ideology = despotism
-long_name = "CAU_PARTY_NAME_DP_unkown"
-name = "CAU_PARTY_NAME_DP_unkown"
+long_name = "GRA_PARTY_NAME_DP_unkown"
+name = "GRA_PARTY_NAME_DP_unkown"
 }
 set_party_name = {
 ideology = populism
-long_name = "CAU_PARTY_NAME_PP_unkown"
-name = "CAU_PARTY_NAME_PP_unkown"
+long_name = "GRA_PARTY_NAME_PP_unkown"
+name = "GRA_PARTY_NAME_PP_unkown"
 }
 set_party_name = {
 ideology = fascism
-long_name = "CAU_PARTY_NAME_FS_unkown"
-name = "CAU_PARTY_NAME_FS_unkown"
+long_name = "GRA_PARTY_NAME_FS_unkown"
+name = "GRA_PARTY_NAME_FS_unkown"
 }
 set_party_name = {
 ideology = national_socialism
-long_name = "CAU_PARTY_NAME_NS_unkown"
-name = "CAU_PARTY_NAME_NS_unkown"
+long_name = "GRA_PARTY_NAME_NS_unkown"
+name = "GRA_PARTY_NAME_NS_unkown"
 }
 set_party_name = {
 ideology = occultism
-long_name = "CAU_PARTY_NAME_OC_unkown"
-name = "CAU_PARTY_NAME_OC_unkown"
+long_name = "GRA_PARTY_NAME_OC_unkown"
+name = "GRA_PARTY_NAME_OC_unkown"
 }

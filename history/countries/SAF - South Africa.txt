@@ -1,4 +1,4 @@
-﻿# 
+# 
 # 此文件为，预留历史接口供后续实装
 
 #首都
@@ -54,6 +54,7 @@ occultism = 10
 add_ideas = {
     POI_Clarendon
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	faction_idea_Commonwealth_of_Nations
 }
 
 #开局政党
