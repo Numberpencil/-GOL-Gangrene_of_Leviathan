@@ -19,13 +19,13 @@ scripted_gui = {
 			facion_icons_Triple_Alliance_visible = {
 				has_idea = faction_idea_Triple_Alliance
 			}
-			facion_icons_Balkan_Alliance_visible = {
+			facion_icons_Balkan_Defense_Union_visible = {
 				has_idea = faction_idea_Balkan_Alliance
 			}
-			facion_icons_Pan_Iberian_Union_visible = {
+			facion_icons_Pan_Iberian_Federation_visible = {
 				has_idea = faction_idea_Pan_Iberian_Union
 			}
-			facion_icons_Revolutionary_International_visible = {
+			facion_icons_Revolutionary_United_International_visible = {
 				has_idea = faction_idea_Revolutionary_International
 			}
 			facion_icons_Greater_East_Asia_Alliance_visible = {
