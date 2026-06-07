@@ -55,7 +55,16 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-
+The_deep_pain_of_the_defeated
+Licking_industrial_scars
+General_Agreement_of_Martinique
+Vengeful_Roar
+The_Shame_of_Longvi_Burier
+}
+#开局法案
+add_ideas = {
+High_social_security
+Appropriate_labor_protection
 }
 
 #开局政党

@@ -1,0 +1,22 @@
+characters = {
+    ## Leaders ##
+    #premier
+
+    Tribhuvan_Bill_Bikram_Shah = {
+        name = Tribhuvan_Bill_Bikram_Shah_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/NEP/Tribhuvan_Bill_Bikram_Shah.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

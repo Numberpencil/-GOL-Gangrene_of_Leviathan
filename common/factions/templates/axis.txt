@@ -4,9 +4,9 @@ faction_template_axis = {
 	manifest = faction_manifest_pan_europe
 
 	goals = {
-
-
-	
+    faction_goal_placeholder_1
+    faction_goal_placeholder_2
+	faction_goal_placeholder_3
 	}
 
 	default_rules = {
@@ -25,9 +25,9 @@ faction_template_Commonwealth = {
 	manifest = faction_manifest_defense_of_democracy
 
 	goals = {
-
-
-	
+    faction_goal_placeholder_1
+    faction_goal_placeholder_2
+	faction_goal_placeholder_3
 	}
 
 	default_rules = {
@@ -46,9 +46,9 @@ faction_template_Far_East_Defense = {
 	manifest = faction_manifest_defense_of_Commonwealth
 
 	goals = {
-
-
-	
+    faction_goal_placeholder_1
+    faction_goal_placeholder_2
+	faction_goal_placeholder_3
 	}
 
 	default_rules = {
@@ -67,9 +67,9 @@ faction_template_Iberia = {
 	manifest = faction_manifest_Far_United_beria
 
 	goals = {
-
-
-	
+    faction_goal_placeholder_1
+    faction_goal_placeholder_2
+	faction_goal_placeholder_3
 	}
 
 	default_rules = {
@@ -89,9 +89,9 @@ faction_Greater_East = {
 	manifest = faction_manifest_strategic_resource_control
 
 	goals = {
-
-
-	
+    faction_goal_placeholder_1
+    faction_goal_placeholder_2
+	faction_goal_placeholder_3
 	}
 
 	default_rules = {
@@ -111,9 +111,9 @@ faction_San_Francisco = {
 	manifest = faction_manifest_defense_of_San_Francisco
 
 	goals = {
-
-
-	
+    faction_goal_placeholder_1
+    faction_goal_placeholder_2
+	faction_goal_placeholder_3
 	}
 
 	default_rules = {
@@ -132,9 +132,9 @@ faction_templateRevolutionary_United_International = {
 	manifest = faction_manifest_spread_of_communism
 
 	goals = {
-
-
-	
+    faction_goal_placeholder_1
+    faction_goal_placeholder_2
+	faction_goal_placeholder_3
 	}
 
 	default_rules = {
@@ -153,9 +153,9 @@ faction_template_balkan_defense_union = {
 	manifest = Far_Defense_Balkan
 
 	goals = {
-
-
-	
+    faction_goal_placeholder_1
+    faction_goal_placeholder_2
+	faction_goal_placeholder_3
 	}
 
 	default_rules = {

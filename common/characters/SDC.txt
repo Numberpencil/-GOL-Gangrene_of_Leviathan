@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Zhang_Zongchang = {
+        name = Zhang_Zongchang_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SDC/Zhang_Zongchang.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

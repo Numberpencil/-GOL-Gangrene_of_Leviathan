@@ -159,6 +159,13 @@ defined_text = {
 		}
 		localization_key = "NZL_POI_Charles_Bathurst"
 	}
+	text = {
+		trigger = {	
+			tag = JAP			
+			has_idea = POI_Emperor_Showa
+		}
+		localization_key = "JAP_POI_Emperor_Showa"
+	}
 }
 
 		

@@ -1,0 +1,22 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Talulah = {
+        name = Talulah_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/Talulah.png"
+            }
+        }
+        country_leader = {
+            ideology = Integralist_corporatism_Talulah
+            traits = {
+            blacksnake
+            Fighter
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

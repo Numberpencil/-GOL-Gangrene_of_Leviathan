@@ -59,6 +59,27 @@ spriteTypes = {
 		texturefile = "gfx/ideas/GER/Imperial_air_force.png"
 		
 	}
+	###法国###
+	SpriteType = {
+		name = "GFX_idea_The_deep_pain_of_the_defeated"
+		texturefile = "gfx/ideas/FRA/The_deep_pain_of_the_defeated.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Licking_industrial_scars"
+		texturefile = "gfx/ideas/FRA/Licking_industrial_scars.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_General_Agreement_of_Martinique"
+		texturefile = "gfx/ideas/FRA/General_Agreement_of_Martinique.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Vengeful_Roar"
+		texturefile = "gfx/ideas/FRA/Vengeful_Roar.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_The_Shame_of_Longvi_Burier"
+		texturefile = "gfx/ideas/FRA/The_Shame_of_Longvi_Burier.png"	
+	}
 	###匈牙利###
 	SpriteType = {
 		name = "GFX_idea_A_turbulent_country"
@@ -100,22 +121,22 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_closed_economy"
-		texturefile = "gfx/interface/ideas/idea_generic_closed_economy.dds"
+		texturefile = "gfx/ideas/idea_generic_closed_economy.png"
 	}	
 	
 	spriteType = {
 		name = "GFX_idea_limited_exports"
-		texturefile = "gfx/interface/ideas/idea_generic_limited_exports.dds"
+		texturefile = "gfx/ideas/idea_generic_limited_exports.png"
 	}		
 	
 	spriteType = {
 		name = "GFX_idea_free_trade"
-		texturefile = "gfx/interface/ideas/idea_generic_free_trade.dds"
+		texturefile = "gfx/ideas/idea_generic_free_trade.png"
 	}	
 	
 	spriteType = {
 		name = "GFX_idea_export_focus"
-		texturefile = "gfx/interface/ideas/idea_generic_export_focus.dds"
+		texturefile = "gfx/ideas/idea_generic_export_focus.png"
 	}	
 		### 征兵法案
 	spriteType = {
@@ -238,5 +259,50 @@ spriteTypes = {
 		name = "GFX_idea_Rigorous_training_system"
 		texturefile = "gfx/ideas/Rigorous_training_system.png"
 	}
-	
+	###治安政策
+	spriteType = {
+		name = "GFX_idea_No_public_security_agency"
+		texturefile = "gfx/ideas/No_public_security_agency.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Preventative_security"
+		texturefile = "gfx/ideas/Preventative_security.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Standard_security"
+		texturefile = "gfx/ideas/Standard_security.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Medium_sized_law_enforcement_agencies"
+		texturefile = "gfx/ideas/Medium_sized_law_enforcement_agencies.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Large_scale_law_enforcement_agencies"
+		texturefile = "gfx/ideas/Large_scale_law_enforcement_agencies.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Severe_social_control"
+		texturefile = "gfx/ideas/Severe_social_control.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Nowhere_to_hide"
+		texturefile = "gfx/ideas/Nowhere_to_hide.png"
+	}
+	###女性政策
+	spriteType = {
+		name = "GFX_idea_Women_are_subordinate"
+		texturefile = "gfx/ideas/Women_are_subordinate.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Traditional_gender_roles"
+		texturefile = "gfx/ideas/Traditional_gender_roles.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Women_equal_rights"
+		texturefile = "gfx/ideas/Women_equal_rights.png"
+	}
+	spriteType = {
+		name = "GFX_idea_higher_status_of_women"
+		texturefile = "gfx/ideas/higher_status_of_women.png"
+	}
 }

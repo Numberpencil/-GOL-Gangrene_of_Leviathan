@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Long_Yun = {
+        name = Long_Yun_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/YUN/Long_Yun.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

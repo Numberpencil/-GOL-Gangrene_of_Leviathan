@@ -2,7 +2,7 @@
 # 此文件为，预留历史接口供后续实装
 
 #首都
-capital = 0
+capital = 554
 
 #开局国家状态
 set_stability = 0.5

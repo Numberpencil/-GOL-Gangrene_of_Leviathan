@@ -1,15 +1,15 @@
 characters = {
     ## Leaders ##
     #premier
-	Fuad_I = {
-        name =Fuad_I_name
+	Umezu_Yoshijirō = {
+        name = Umezu_Yoshijir_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/EGY/Fuad_I.png"
+                large = "gfx/leaders/JAP/Umezu_Yoshijirō.png"
             }
         }
         country_leader = {
-            ideology = Authoritarian_democrat
+            ideology = Conservativist_democrat
             traits = {
 
             }

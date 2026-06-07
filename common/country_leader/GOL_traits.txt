@@ -27,4 +27,19 @@ leader_traits = {
         socialism_drift = 0.02
 
     }
+    blacksnake = {
+         random = no
+        sprite = 1
+        army_defence_factor = 0.2
+        army_attack_factor = 0.2
+        cas_damage_reduction = 0.4
+
+    }
+    Fighter = {
+         random = no
+        sprite = 1
+	army_org_factor = 0.1
+    war_support_factor = 0.3
+    resistance_target_on_our_occupied_states = 0.3
+    }
 }

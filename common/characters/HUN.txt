@@ -67,5 +67,21 @@ characters = {
             id = -1
         }
     }
+      Hungarian_Parliament = { 
+        name = Hungarian_Parliament_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/HUN/Hungarian_Parliament.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservativist_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 
 }

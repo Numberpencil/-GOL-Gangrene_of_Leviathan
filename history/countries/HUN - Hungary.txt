@@ -11,7 +11,7 @@ set_research_slots = 4
 #人物提取
 recruit_character = Tisza_István 
 recruit_character = HUN_gov
-recruit_character = otto_I
+recruit_character = Hungarian_Parliament
 
 
 # 开局解锁科技

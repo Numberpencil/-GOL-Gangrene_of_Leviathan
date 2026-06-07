@@ -2,7 +2,7 @@
 # 此文件为，预留历史接口供后续实装
 
 #首都
-capital = 0
+capital = 386
 
 CAN = {
 	puppet = WAT

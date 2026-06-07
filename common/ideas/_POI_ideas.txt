@@ -430,6 +430,25 @@ ideas = {
 			modifier = {
 				
 			}
-		}										
+		}	
+		POI_Emperor_Showa = {
+			name = "JAP POI Emperor_Showa "
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}														
     }
 }

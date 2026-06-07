@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	aung_hcan = {
+        name = aung_hcan_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BRM/aung_hcan.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

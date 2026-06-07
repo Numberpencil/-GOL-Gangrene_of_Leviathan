@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Ferdinand_III = {
+        name = Ferdinand_III_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ETH/Ferdinand_III.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservativist_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

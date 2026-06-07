@@ -1078,9 +1078,7 @@ default_market_convoy_purchases = {
 }
 
 dont_build_capitals_if_on_treaty = {
-	enable = {
-		has_idea = MTG_naval_treaty_adherent
-	}
+
 
 	abort = {
 		OR = {

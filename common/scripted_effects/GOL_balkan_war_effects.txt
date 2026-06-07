@@ -80,6 +80,10 @@ GOL_balkan_alliance_victory_peace = {
 		transfer_state_to = ROM
 		add_core_of = ROM
 	}
+	789 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
 	766 = {
 		transfer_state_to = ROM
 		add_core_of = ROM
@@ -141,9 +145,18 @@ GOL_balkan_alliance_victory_peace = {
 		transfer_state_to = YUG
 		add_core_of = YUG
 	}
+	64 = {
+		transfer_state_to = YUG
+		add_core_of = YUG
+	}
 	
 	set_global_flag = GOL_flag_balkan_alliance_victory
-	
+	HUN = {
+	set_politics = {
+    ruling_party = democrat
+    }	
+	remove_ideas = Legacy_of_the_Habsburgs
+	}
 	# 清除投降标记flag（避免重复触发）
 	clr_global_flag = GOL_flag_romania_defeated
 	clr_global_flag = GOL_flag_yugoslavia_defeated

@@ -60,7 +60,7 @@ ideologies = {
             }
         }
         color = { #
-            159 53 39
+            167 59 59
         }
     }
 
@@ -92,7 +92,7 @@ ideologies = {
             }
         }
         color = { #
-            91 156 176
+            101 171 172
         }
     }
 
@@ -115,7 +115,7 @@ ideologies = {
             }
         }
         color = { #
-            29 39 86
+            0 102 101
         }
     }
 
@@ -143,7 +143,7 @@ ideologies = {
 
         }
         color = { #
-            108 102 88 
+            114 111 109
         }
     }
 
@@ -173,10 +173,12 @@ ideologies = {
             Oligarchist_despotism_MGP = {
 
             }
-            
+            Military_socialism_despotism = {
+
+            }
         }
         color = { #
-            45 40 39
+            67 67 67
         }
     }
 
@@ -193,7 +195,7 @@ ideologies = {
             }
         }
         color = { #
-            131 106 81
+            127 117 82
         }
     }
 
@@ -250,7 +252,7 @@ ideologies = {
             
         }
         color = { #
-            159 77 46
+            99 56 40
         }
     }
     
@@ -270,7 +272,7 @@ ideologies = {
             }
         }
         color = { #
-            52 26 16
+            43 16 0
         }
     }
     
@@ -293,7 +295,7 @@ ideologies = {
             }
         }
         color = { #
-            26 20 32
+            18 9 28
         }
     }
 }

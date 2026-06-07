@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Mutaguchi_Renya = {
+        name = Mutaguchi_Renya_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BOR/Mutaguchi_Renya.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

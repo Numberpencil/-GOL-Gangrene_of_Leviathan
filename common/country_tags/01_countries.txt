@@ -30,6 +30,7 @@ CQQ = "countries/ChongQing.txt" #重庆 北京政府四川督军
 CSA = "countries/CSA.txt" #联盟国
 CUB = "countries/Cuba.txt"
 CZE	= "countries/Czechoslovakia.txt"
+DRF = "countries/People's Democratic Republic of Yemen.txt"
 DEN = "countries/Denmark.txt"
 DMA = "countries/Deutsch Mittelafrika.txt" #德属中非
 DOM = "countries/Dominican Republic.txt"

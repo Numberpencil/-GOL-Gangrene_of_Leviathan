@@ -10,7 +10,7 @@ set_research_slots = 3
 
 #人物提取
 #recruit_character = ger_Wilhelm_II
-recruit_character = Fuad_I
+
 
 # 开局解锁科技
 

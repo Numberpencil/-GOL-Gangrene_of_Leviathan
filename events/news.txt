@@ -107,9 +107,15 @@ news_event = { #马其顿大屠杀
 	fire_only_once = yes
 	major = yes
 	trigger = {
-		MAC = { has_war_with = YUG 
-		has_capitulated = yes
+		MAC = { 
+		has_war_with = YUG  
 		}
+		or = {
+            106 = { is_controlled_by = YUG }
+			106 = { is_controlled_by = BUL }
+		}
+		
+		106 = { is_owned_by = MAC }
 	}
 	option = { #我们听不见地狱中的哀嚎
 		trigger = {

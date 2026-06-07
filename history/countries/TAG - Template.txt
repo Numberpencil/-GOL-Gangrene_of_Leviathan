@@ -2,7 +2,7 @@
 # 此文件为TAG国家的历史框架，预留历史接口供后续实装
 
 #首都
-capital = 0
+capital = 873
 
 #开局国家状态
 set_stability = 0.5

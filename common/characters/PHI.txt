@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Manuel_Luis = {
+        name = Manuel_Luis_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/PHI/Manuel_Luis.png"
+            }
+        }
+        country_leader = {
+            ideology = Liberalism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

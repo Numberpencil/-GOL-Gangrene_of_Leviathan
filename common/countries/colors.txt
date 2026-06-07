@@ -1,5 +1,8 @@
 #reload countrycolors
-
+DRF = {
+	color =  rgb{  24 27 37  }
+	color_ui =  rgb { 24 27 37 }
+}
 GER = {
 	color =  rgb{  24 27 37  }
 	color_ui =  rgb { 24 27 37 }
@@ -366,16 +369,16 @@ BRM = {
 	color_ui =  rgb { 87 111 53  }
 }
 BOR = {
-	color =  rgb { 132 101 64  }
-	color_ui =  rgb { 132 101 64  }
+	color =  rgb { 71 25 31 }
+	color_ui =  rgb { 71 25 31  }
 }
 CAM = {
 	color =  rgb { 124 72 77  }
 	color_ui =  rgb { 124 72 77  }
 }
 JHR = {
-	color =  rgb { 179 164 27 }
-	color_ui =  rgb { 179 164 27  }
+	color =  rgb { 75 27 34 }
+	color_ui =  rgb { 75 27 34  }
 }
 PER = {
 	color =  rgb { 71  113  97  }

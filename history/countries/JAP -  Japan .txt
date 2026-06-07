@@ -9,7 +9,7 @@ set_war_support = 0.4
 set_research_slots = 3
 
 #人物提取
-#recruit_character = ger_Wilhelm_II
+recruit_character = Umezu_Yoshijirō
 #recruit_character = aus_ermolli
 
 # 开局解锁科技
@@ -20,7 +20,7 @@ set_technology = {
 
 #开局执政党
 set_politics = {
-	ruling_party = despotism
+	ruling_party = democrat
 	last_election = "1934.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,5 +51,6 @@ add_to_faction = MAN
 
 #开局民族精神
 add_ideas = {
-	
-}
+	POI_COUNTRY_HAS_SECONDARY_LEADER
+	POI_Emperor_Showa
+}	

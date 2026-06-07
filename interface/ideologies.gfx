@@ -5,6 +5,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/communism.png"
 	}
 	SpriteType = { #
+		name = "GFX_ideology_ITA_communism"
+		texturefile = "gfx/interface/ideologies/communism_ITA.png"
+	}
+	SpriteType = { #
 		name = "GFX_ideology_Leninism"
 		texturefile = "gfx/interface/ideologies/Leninism.png"
 	}
@@ -35,6 +39,10 @@ spriteTypes = {
 	SpriteType = { #
 		name = "GFX_ideology_Anarchist_syndicalism"
 		texturefile = "gfx/interface/ideologies/Anarchist_syndicalism.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_Military_socialism_despotism"
+		texturefile = "gfx/interface/ideologies/Military_socialism_despotism.png"
 	}
 	SpriteType = { #
 		name = "GFX_ideology_Military_socialism"
@@ -287,6 +295,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_Radical_republicanism"
 		texturefile = "gfx/interface/ideologies/Radical_republicanism.png"
+	}
+	SpriteType = {
+		name = "GFX_ideology_ARG_Radical_republicanism"
+		texturefile = "gfx/interface/ideologies/Radical_republicanism_Argentina.png"
 	}
 	SpriteType = {
 		name = "GFX_ideology_Nationalist_syndicalism_italia"

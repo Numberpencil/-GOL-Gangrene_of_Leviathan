@@ -6,6 +6,7 @@ state = {
 
 	history = {
 		owner = FSA
+		add_core_of = DRF
 		add_core_of = FSA
 victory_points = { 5074 3 } #Aden
 

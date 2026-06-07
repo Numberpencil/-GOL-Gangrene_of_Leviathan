@@ -109,4 +109,9 @@ legacy_lazy_load = no
 		textureFile = "gfx\leaders\NZL\Charles_Bathurst.png"
 legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_secondary_leader_Emperor_Showa"
+		textureFile = "gfx\leaders\JAP\Shōwa_Tennō.png"
+legacy_lazy_load = no
+	}
 }

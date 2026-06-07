@@ -1,5 +1,61 @@
 ideas = {
     country = {
+        The_deep_pain_of_the_defeated = {
+            # 战败者的刻骨之痛
+            picture = "GFX_idea_The_deep_pain_of_the_defeated" 
+              modifier = {
+                political_power_factor = 0.1
+                war_support_factor = 0.05
+                stability_factor = -0.05
+            }
+        }
+         Licking_industrial_scars = {
+            # 舔舐工业伤痕
+            picture = "GFX_idea_Licking_industrial_scars" 
+              modifier = {
+                consumer_goods_factor = 0.05
+                industrial_capacity_factory = -0.15
+                production_speed_buildings_factor = -0.1	
+                production_factory_max_efficiency_factor = -0.1
+            }
+        }
+          General_Agreement_of_Martinique = {
+            # 马提尼翁总协定
+            picture = "GFX_idea_General_Agreement_of_Martinique" 
+              modifier = {
+
+                industrial_capacity_factory = 0.05
+	            production_speed_industrial_complex_factor = 0.05 
+                production_factory_max_efficiency_factor = 0.1
+
+                equipment_bonus = {
+				train_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+            }
+        }
+         Vengeful_Roar = {
+            # 复仇怒吼
+            picture = "GFX_idea_Licking_industrial_scars" 
+              modifier = {
+                 war_support_factor = 0.05
+                 experience_gain_army_factor = 0.1
+                 experience_gain_navy_factor = 0.1
+                 experience_gain_air_factor = 0.1
+
+            }
+        }
+         The_Shame_of_Longvi_Burier = {
+            # 隆维-布里埃之耻
+            picture = "GFX_idea_The_Shame_of_Longvi_Burier" 
+              modifier = {
+                industrial_capacity_factory = -0.10             
+               production_lack_of_resource_penalty_factor = 0.1
+                consumer_goods_factor = 0.1
+            }
+        }
         Political_enthusiasm = {
             # 政治热情
             picture = "GFX_idea_unknown" 
