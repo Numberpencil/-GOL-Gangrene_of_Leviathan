@@ -1,0 +1,8 @@
+﻿################
+##### HUN ######
+################
+
+HUN_decisions = {
+	icon = generic_military_industry
+	priority = 10
+}

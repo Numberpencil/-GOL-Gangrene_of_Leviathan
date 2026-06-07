@@ -1,4 +1,4 @@
-add_namespace = HUN
+﻿add_namespace = HUN
 
 #country_event = { #
 #	id = HUN.x
@@ -182,6 +182,7 @@ country_event = { #瓦拉几亚拒绝要求
 			id = news.1003 #巴尔干战争爆发
 		}
 		hidden_effect = {
+			set_global_flag = GOL_flag_balkan_war_started
 			YUG = {
 				country_event = {
 					id = YUG.1 #武装保卫瓦拉几亚
@@ -205,6 +206,42 @@ country_event = { #瓦拉几亚同意要求
     fire_only_once = yes
     option = { 
         name = HUN.8.a #算他们识相
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+country_event = { #德国同意提供改进型巨构机
+	id = HUN.9
+	picture = GFX_events_x
+	title = HUN.9.t
+	desc = HUN.9.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = HUN.9.a #钢铁巨兽已在路上
+		trigger = {
+			always = yes
+		}
+		hidden_effect = {
+			news_event = { #改进型巨构机首次投入巴尔干战场
+				id = news.1005
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = { #德国拒绝提供改进型巨构机
+	id = HUN.10
+	picture = GFX_events_x
+	title = HUN.10.t
+	desc = HUN.10.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = HUN.10.a #忘恩负义的柏林人
 		trigger = {
 			always = yes
 		}

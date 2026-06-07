@@ -1,0 +1,33 @@
+﻿HUN_decisions = {
+	HUN_request_megastructure = {
+		icon = generic_military_industry
+		fire_only_once = yes
+		allowed = {
+			tag = HUN
+		}
+		visible = {
+			has_global_flag = GOL_flag_balkan_war_started
+			NOT = { has_global_flag = GOL_flag_GER_approved_megastructure }
+			NOT = { has_country_flag = GOL_flag_HUN_requested_megastructure }
+		}
+		available = {
+			has_political_power > 75
+		}
+		cost = 75
+		days_remove = 30
+		days_re_enable = 30
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = GOL_flag_HUN_requested_megastructure
+				GER = {
+					country_event = { #匈牙利请求改进型巨构机
+						id = GER.2
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+}

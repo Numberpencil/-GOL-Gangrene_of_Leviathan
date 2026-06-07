@@ -1,4 +1,4 @@
-ideas = {
+﻿ideas = {
 	country = {
 		toward_collapse ={
 			picture=toward_collapse
@@ -88,7 +88,7 @@ ideas = {
 				production_speed_arms_factory_factor = -0.10
 				production_speed_industrial_complex_factor = 0.10
 				production_speed_infrastructure_factor = 0.10
-				#差一个：增加陆军默认编制“治安师”的镇压度
+				#差一个：增加陆军默认编制"治安师"的镇压度
 
 			}
 		}
@@ -157,6 +157,18 @@ ideas = {
 				air_attack_factor=-0.05
 				experience_gain_air_factor=-0.20
 				air_doctrine_cost_factor=0.15
+			}
+		}
+		GOL_idea_GER_megastructure_combat_data = {
+			picture = Megastructure_research
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+			modifier = {
+				research_speed_factor = 0.10
+				army_attack_factor = 0.05
+				land_doctrine_cost_factor = -0.10
 			}
 		}
 	}

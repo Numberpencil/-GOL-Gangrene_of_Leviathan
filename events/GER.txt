@@ -1,4 +1,4 @@
-add_namespace = GER
+﻿add_namespace = GER
 
 country_event = { #新年演讲
 	id = GER.1
@@ -11,6 +11,67 @@ country_event = { #新年演讲
         name = GER.1.a
 		trigger = {
 			always = yes
+		}
+	}
+}
+
+country_event = { #匈牙利请求改进型巨构机
+	id = GER.2
+	picture = GFX_events_x
+	title = GER.2.t
+	desc = GER.2.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		save_event_target_as = HUN_requester
+	}
+	option = {
+		name = GER.2.a #同意，让布达佩斯见识帝国的力量
+		trigger = {
+			always = yes
+		}
+		hidden_effect = {
+			set_global_flag = GOL_flag_GER_approved_megastructure
+			event_target:HUN_requester = {
+				set_country_flag = GOL_flag_received_megastructure
+				country_event = { #德国同意提供改进型巨构机
+					id = HUN.9
+					days = 5
+				}
+			}
+		}
+	}
+	option = {
+		name = GER.2.b #拒绝，我们不需要浪费资源
+		trigger = {
+			always = yes
+		}
+		hidden_effect = {
+			event_target:HUN_requester = {
+				country_event = { #德国拒绝提供改进型巨构机
+					id = HUN.10
+					days = 5
+				}
+			}
+		}
+	}
+}
+
+country_event = { #巨构机巴尔干战报
+	id = GER.3
+	picture = GFX_events_x
+	title = GER.3.t
+	desc = GER.3.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = GER.3.a #实战数据很有价值
+		trigger = {
+			always = yes
+		}
+		add_research_slots = 1
+		hidden_effect = {
+			add_ideas = GOL_idea_GER_megastructure_combat_data
 		}
 	}
 }

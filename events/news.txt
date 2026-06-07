@@ -1,4 +1,4 @@
-add_namespace = news
+﻿add_namespace = news
 
 
 #news_event = { #
@@ -75,7 +75,7 @@ news_event = { #工团赢得大选
 		name = news.1004.a
 	}
 	option = { #又一个法西斯
-		trigger = {		
+		trigger = {
 				TAG = FRA
 		}
 		name = news.1004.b
@@ -86,16 +86,22 @@ news_event = { #改进型巨构机首次投入巴尔干战场
 	title = news.1005.t
 	desc = news.1005.d
 	picture = GFX_news_event_machines_deployed_in_the_Balkans
-	is_triggered_only = no
-	fire_only_once = yes
+	is_triggered_only = yes
 	major = yes
-	trigger = {
-		107 = { is_controlled_by = HUN }
-		107 = { is_owned_by = YUG }
-		HUN = { has_war_with = YUG }
-	}
 	option = { #天哪
 		name = news.1005.a
+		hidden_effect = {
+			GER = {
+				country_event = { #巨构机巴尔干战报
+					id = GER.3
+					days = 15
+				}
+			}
+			news_event = { #德国收到巨构机巴尔干战报
+				id = news.1007
+				days = 15
+			}
+		}
 	}
 }
 news_event = { #马其顿大屠杀
@@ -107,14 +113,14 @@ news_event = { #马其顿大屠杀
 	fire_only_once = yes
 	major = yes
 	trigger = {
-		MAC = { 
-		has_war_with = YUG  
+		MAC = {
+		has_war_with = YUG
 		}
-		or = {
+		OR = {
             106 = { is_controlled_by = YUG }
 			106 = { is_controlled_by = BUL }
 		}
-		
+
 		106 = { is_owned_by = MAC }
 	}
 	option = { #我们听不见地狱中的哀嚎
@@ -127,8 +133,19 @@ news_event = { #马其顿大屠杀
 	}
 	option = { #我们听不见地狱中的哀嚎
 		trigger = {
-				is_in_faction_with = ROM			
+				is_in_faction_with = ROM
 		}
 		name = news.1006.b
+	}
+}
+news_event = { #德国收到巨构机巴尔干战报
+	id = news.1007
+	title = news.1007.t
+	desc = news.1007.d
+	picture = GFX_news_event_machines_deployed_in_the_Balkans
+	is_triggered_only = yes
+	major = yes
+	option = { #令人印象深刻
+		name = news.1007.a
 	}
 }
