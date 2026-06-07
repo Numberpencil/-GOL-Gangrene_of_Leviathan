@@ -94,12 +94,8 @@ news_event = { #改进型巨构机首次投入巴尔干战场
 			GER = {
 				country_event = { #巨构机巴尔干战报
 					id = GER.3
-					days = 15
+					days = 7
 				}
-			}
-			news_event = { #德国收到巨构机巴尔干战报
-				id = news.1007
-				days = 15
 			}
 		}
 	}
@@ -136,16 +132,5 @@ news_event = { #马其顿大屠杀
 				is_in_faction_with = ROM
 		}
 		name = news.1006.b
-	}
-}
-news_event = { #德国收到巨构机巴尔干战报
-	id = news.1007
-	title = news.1007.t
-	desc = news.1007.d
-	picture = GFX_news_event_machines_deployed_in_the_Balkans
-	is_triggered_only = yes
-	major = yes
-	option = { #令人印象深刻
-		name = news.1007.a
 	}
 }

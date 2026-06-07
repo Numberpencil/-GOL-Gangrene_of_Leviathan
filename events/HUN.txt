@@ -227,7 +227,7 @@ country_event = { #德国同意提供改进型巨构机
 		hidden_effect = {
 			news_event = { #改进型巨构机首次投入巴尔干战场
 				id = news.1005
-				days = 30
+				days = 3
 			}
 		}
 	}
@@ -241,7 +241,7 @@ country_event = { #德国拒绝提供改进型巨构机
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = HUN.10.a #忘恩负义的柏林人
+		name = HUN.10.a #忘恩负义的日耳曼人
 		trigger = {
 			always = yes
 		}

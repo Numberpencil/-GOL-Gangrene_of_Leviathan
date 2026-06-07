@@ -1,8 +1,23 @@
 ﻿################
-##### HUN ######
+##### GOL ######
 ################
 
-HUN_decisions = {
-	icon = generic_military_industry
-	priority = 10
+# 巴尔干战争决议组
+# 仅在巴尔干战争期间对匈牙利显示
+GOL_balkan_war_decisions = {
+	icon = generic_ignite_civil_war
+	picture = GFX_decision_cat_picture_balkan_war
+	priority = 9
+
+	allowed = {
+		tag = HUN
+	}
+
+	visible = {
+		has_global_flag = GOL_flag_balkan_war_started
+		NOT = { has_global_flag = GOL_flag_hungarian_victory }
+		NOT = { has_global_flag = GOL_flag_balkan_alliance_victory }
+	}
+
+	visible_when_empty = yes
 }

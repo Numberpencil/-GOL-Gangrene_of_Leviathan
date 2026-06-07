@@ -1,4 +1,4 @@
-﻿HUN_decisions = {
+﻿GOL_balkan_war_decisions = {
 	HUN_request_megastructure = {
 		icon = generic_military_industry
 		fire_only_once = yes
