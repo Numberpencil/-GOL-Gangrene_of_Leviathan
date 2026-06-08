@@ -100,4 +100,21 @@ on_actions = {
 			}
 		}
 	}
+
+	# 改进型巨构机首次投入巴尔干战场
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = HUN }
+					ROOT = { tag = YUG }
+					107 = { is_controlled_by = HUN }
+					HUN = { has_country_flag = GOL_flag_received_megastructure }
+					NOT = { has_global_flag = GOL_flag_news_1005_fired }
+				}
+				set_global_flag = GOL_flag_news_1005_fired
+				news_event = { id = news.1005 }
+			}
+		}
+	}
 }

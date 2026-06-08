@@ -30,16 +30,10 @@ country_event = { #匈牙利请求改进型巨构机
 		trigger = {
 			always = yes
 		}
-		hidden_effect = {
-			set_global_flag = GOL_flag_GER_approved_megastructure
-			event_target:HUN_requester = {
-				set_country_flag = GOL_flag_received_megastructure
-				country_event = { #德国同意提供改进型巨构机
+		country_event = { #德国同意提供改进型巨构机
 					id = HUN.9
 					days = 5
 				}
-			}
-		}
 	}
 	option = {
 		name = GER.2.b #拒绝，我们不需要浪费资源
@@ -69,9 +63,8 @@ country_event = { #巨构机巴尔干战报
 		trigger = {
 			always = yes
 		}
-		add_research_slots = 1
 		hidden_effect = {
-			add_ideas = GOL_idea_GER_megastructure_combat_data
+			#add_ideas = GOL_idea_GER_megastructure_combat_data
 		}
 	}
 }

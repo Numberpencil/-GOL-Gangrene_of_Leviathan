@@ -224,12 +224,6 @@ country_event = { #德国同意提供改进型巨构机
 		trigger = {
 			always = yes
 		}
-		hidden_effect = {
-			news_event = { #改进型巨构机首次投入巴尔干战场
-				id = news.1005
-				days = 3
-			}
-		}
 	}
 }
 
