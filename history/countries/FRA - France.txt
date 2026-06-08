@@ -10,6 +10,7 @@ set_research_slots = 4
 
 #人物提取
 recruit_character = Louis_Franchet_d.Espèrey
+recruit_character = Maurice_Thorez
 recruit_character = Marcel_Cachin
 recruit_character = Léon_Blum
 recruit_character = Paul_Four

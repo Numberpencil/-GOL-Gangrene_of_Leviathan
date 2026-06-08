@@ -1,4 +1,4 @@
-﻿add_namespace = news
+add_namespace = news
 
 
 #news_event = { #

@@ -413,20 +413,20 @@ JAP = {
 	color_ui =  rgb { 95 38 47 }
 }
 INS = {
-	color =  rgb { 101 35 43  }
-	color_ui =  rgb { 101 35 43  }
+	color =  rgb { 51 63 92  }
+	color_ui =  rgb { 51 63 92  }
 }
 PHI = {
 	color =  rgb { 64 115 132  }
 	color_ui =  rgb { 64 115 132  }
 }
 AST = {
-	color =  rgb { 102 67 67 }
-	color_ui =  rgb { 102 67 67  }
+	color =  rgb { 48 49 87 }
+	color_ui =  rgb { 48 49 87  }
 }
 NZL = {
-	color =  rgb { 152  130  191  }
-	color_ui =  rgb { 152  130  191  }
+	color =  rgb { 74 73 138  }
+	color_ui =  rgb { 74 73 138  }
 }
 CAN = {
 	color =  rgb { 107 38 29  }
