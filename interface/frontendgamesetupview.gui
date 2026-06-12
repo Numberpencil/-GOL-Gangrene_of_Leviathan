@@ -122,7 +122,7 @@ guiTypes = {
 	}
 
 	### country entry
-	containerWindowType = {
+		containerWindowType = {
 		name = "country_entry"
 
 		buttonType = {
@@ -147,12 +147,12 @@ guiTypes = {
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
-		
-		buttonType = {
-			name = "country_shine"
-			quadTextureSprite = "GFX_country_selection_entry_shine"
-			position = { x=0 y =0 }
-			clicksound = click_checkbox
+
+		iconType = {
+			name = "new_content"
+			position = { x = 110 y = 180 }
+			spriteType = "GFX_unplayed_content_notification"
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
