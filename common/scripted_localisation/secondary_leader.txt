@@ -166,6 +166,13 @@ defined_text = {
 		}
 		localization_key = "JAP_POI_Emperor_Showa"
 	}
+	text = {
+		trigger = {	
+			tag = AFG			
+			has_idea = POI_Muhammad_Zahir_Shah
+		}
+		localization_key = "AFG_POI_Muhammad_Zahir_Shah"
+	}
 }
 
 		

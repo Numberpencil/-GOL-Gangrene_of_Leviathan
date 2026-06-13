@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Paul_Emilvon_Lettow_Vorbeck = {
+        name = Paul_Emilvon_Lettow_Vorbeck_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/DSA/Paul_Emilvon_Lettow_Vorbeck.png"
+            }
+        }
+        country_leader = {
+            ideology = Oligarchist_despotism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

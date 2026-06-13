@@ -1,7 +1,7 @@
 #reload countrycolors
 DRF = {
-	color =  rgb{  24 27 37  }
-	color_ui =  rgb { 24 27 37 }
+	color =  rgb{ 100 29 31  }
+	color_ui =  rgb { 100 29 31 }
 }
 GER = {
 	color =  rgb{  24 27 37  }

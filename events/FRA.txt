@@ -385,14 +385,14 @@ country_event = {
         news_event = {
 			id = news.1004 
 		}
-	add_ideas = Political_enthusiasm
+	add_ideas = FRA_Political_enthusiasm
     set_politics = {
     ruling_party = fascism
     last_election = 1935.4.1
     elections_allowed = no      
      }
-     #unlock_national_focus = 工团胜利    
-     #load_focus_tree = 工团国策	
+     complete_national_focus = FRA_AA_Workers_Triumph    
+     load_focus_tree = FRA_pdsf_focus	
 	}
 
 }

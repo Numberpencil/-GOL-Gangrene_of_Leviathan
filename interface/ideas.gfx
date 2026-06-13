@@ -61,24 +61,24 @@ spriteTypes = {
 	}
 	###法国###
 	SpriteType = {
-		name = "GFX_idea_The_deep_pain_of_the_defeated"
-		texturefile = "gfx/ideas/FRA/The_deep_pain_of_the_defeated.png"	
+		name = "GFX_idea_FRA_The_deep_pain_of_the_defeated"
+		texturefile = "gfx/ideas/FRA/FRA_The_deep_pain_of_the_defeated.png"	
 	}
 	SpriteType = {
-		name = "GFX_idea_Licking_industrial_scars"
-		texturefile = "gfx/ideas/FRA/Licking_industrial_scars.png"	
+		name = "GFX_idea_FRA_Licking_industrial_scars"
+		texturefile = "gfx/ideas/FRA/FRA_Licking_industrial_scars.png"	
 	}
 	SpriteType = {
-		name = "GFX_idea_General_Agreement_of_Martinique"
-		texturefile = "gfx/ideas/FRA/General_Agreement_of_Martinique.png"	
+		name = "GFX_idea_FRA_General_Agreement_of_Martinique"
+		texturefile = "gfx/ideas/FRA/FRA_General_Agreement_of_Martinique.png"	
 	}
 	SpriteType = {
-		name = "GFX_idea_Vengeful_Roar"
-		texturefile = "gfx/ideas/FRA/Vengeful_Roar.png"	
+		name = "GFX_idea_FRA_Vengeful_Roar"
+		texturefile = "gfx/ideas/FRA/FRA_Vengeful_Roar.png"	
 	}
 	SpriteType = {
-		name = "GFX_idea_The_Shame_of_Longvi_Burier"
-		texturefile = "gfx/ideas/FRA/The_Shame_of_Longvi_Burier.png"	
+		name = "GFX_idea_FRA_The_Shame_of_Longvi_Burier"
+		texturefile = "gfx/ideas/FRA/FRA_The_Shame_of_Longvi_Burier.png"	
 	}
 	###匈牙利###
 	SpriteType = {

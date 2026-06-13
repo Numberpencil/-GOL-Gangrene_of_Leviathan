@@ -114,4 +114,9 @@ legacy_lazy_load = no
 		textureFile = "gfx\leaders\JAP\Shōwa_Tennō.png"
 legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_secondary_leader_Muhammad_Zahir_Shah"
+		textureFile = "gfx\leaders\AFG\Muhammad_Zahir_Shah.png"
+legacy_lazy_load = no
+	}
 }

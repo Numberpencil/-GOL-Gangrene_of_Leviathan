@@ -11,6 +11,7 @@ set_research_slots = 4
 #人物提取
 recruit_character = Louis_Franchet_d.Espèrey
 recruit_character = Maurice_Thorez
+recruit_character = Ferdinand_Foch
 recruit_character = Marcel_Cachin
 recruit_character = Léon_Blum
 recruit_character = Paul_Four
@@ -56,11 +57,11 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-The_deep_pain_of_the_defeated
-Licking_industrial_scars
-General_Agreement_of_Martinique
-Vengeful_Roar
-The_Shame_of_Longvi_Burier
+FRA_The_deep_pain_of_the_defeated
+FRA_Licking_industrial_scars
+FRA_General_Agreement_of_Martinique
+FRA_Vengeful_Roar
+FRA_The_Shame_of_Longvi_Burier
 }
 #开局法案
 add_ideas = {

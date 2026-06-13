@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Figueroa_y_Torres = {
+        name = Figueroa_y_Torres_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GSA/Figueroa_y_Torres.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

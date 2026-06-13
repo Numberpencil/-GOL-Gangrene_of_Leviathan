@@ -84,12 +84,12 @@ name = "PAR_PARTY_NAME_PP_unkown"
 }
 set_party_name = {
 ideology = fascism
-long_name = "PAR_PARTY_NAME_FS_UR"
+long_name = "PAR_PARTY_NAME_FS_unkown"
 name = "PAR_PARTY_NAME_FS_UR"
 }
 set_party_name = {
 ideology = national_socialism
-long_name = "PAR_PARTY_NAME_NS_UR"
+long_name = "PAR_PARTY_NAME_NS_unkown"
 name = "PAR_PARTY_NAME_NS_UR"
 }
 set_party_name = {
