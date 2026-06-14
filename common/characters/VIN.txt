@@ -1,0 +1,20 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Nguyen_Phuc_Vinh_Thuy = {
+        name = Nguyen_Phuc_Vinh_Thuy_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/VIN/Nguyen_Phuc_Vinh_Thuy.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+}

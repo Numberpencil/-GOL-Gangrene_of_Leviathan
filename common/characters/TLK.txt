@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Pandelis_Polyopoulos = {
+        name = Pandelis_Polyopoulos_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TLK/Pandelis_Polyopoulos.png"
+            }
+        }
+        country_leader = {
+            ideology = Leninism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

@@ -1,0 +1,78 @@
+﻿search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+	
+	FOCUS_FILTER_RESEARCH = 522
+	
+	FOCUS_FILTER_INDUSTRY = 509
+
+	FOCUS_FILTER_BALANCE_OF_POWER = 200
+	FOCUS_FILTER_SOV_POLITICAL_PARANOIA = 111
+	FOCUS_FILTER_PROPAGANDA = 110
+	FOCUS_FILTER_MISSIOLINI = 110
+	FOCUS_FILTER_ARMY_XP = 103
+	FOCUS_FILTER_NAVY_XP = 102
+	FOCUS_FILTER_AIR_XP = 101
+
+}
+
+focus_tree = {
+	id = FRA_pdsf_focus
+	
+	country = {
+		factor = 1
+		tag = FRA
+
+	}
+
+	default = yes
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+
+	#shared_focus = HABSBURG_part_of_something_bigger
+
+	focus = {
+		id = FRA_AA_Workers_Triumph
+
+		icon = GFX_focus_xx
+		#relative_position_id = 	
+		x = 10
+		y = 0
+		cost = 5
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+			
+			}
+		}
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+
+			
+			}
+
+		}
+	} 
+
+

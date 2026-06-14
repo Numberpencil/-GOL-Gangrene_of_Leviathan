@@ -18,6 +18,22 @@ characters = {
             id = -1
         }
     }
+    Maurice_Thorez = {
+        name = Maurice_Thorez_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Maurice_Thorez.png"
+            }
+        }
+        country_leader = {
+            ideology = Leninism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
     Marcel_Cachin = {
         name = Marcel_Cachin_name        
         portraits = {
@@ -155,6 +171,22 @@ characters = {
         }
         country_leader = {
             ideology = Esoteric_fascism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+      Ferdinand_Foch = {
+        name = Ferdinand_Foch_name        
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FRA/Ferdinand_Foch.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
             traits = {
 
             }

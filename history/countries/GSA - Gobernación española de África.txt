@@ -19,9 +19,13 @@ set_technology = {
 	
 }
 
+#人物提取
+#recruit_character = GRE_Wilhelm_II
+recruit_character = Figueroa_y_Torres
+
 #开局执政党
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = despotism
 	last_election = "1934.1.1"
 	election_frequency = 48
 	elections_allowed = no

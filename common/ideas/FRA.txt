@@ -1,17 +1,17 @@
 ideas = {
     country = {
-        The_deep_pain_of_the_defeated = {
+        FRA_The_deep_pain_of_the_defeated = {
             # 战败者的刻骨之痛
-            picture = "GFX_idea_The_deep_pain_of_the_defeated" 
+            picture = "GFX_idea_FRA_The_deep_pain_of_the_defeated" 
               modifier = {
                 political_power_factor = 0.1
                 war_support_factor = 0.05
                 stability_factor = -0.05
             }
         }
-         Licking_industrial_scars = {
+         FRA_Licking_industrial_scars = {
             # 舔舐工业伤痕
-            picture = "GFX_idea_Licking_industrial_scars" 
+            picture = "GFX_idea_FRA_Licking_industrial_scars" 
               modifier = {
                 consumer_goods_factor = 0.05
                 industrial_capacity_factory = -0.15
@@ -19,9 +19,9 @@ ideas = {
                 production_factory_max_efficiency_factor = -0.1
             }
         }
-          General_Agreement_of_Martinique = {
+          FRA_General_Agreement_of_Martinique = {
             # 马提尼翁总协定
-            picture = "GFX_idea_General_Agreement_of_Martinique" 
+            picture = "GFX_idea_FRA_General_Agreement_of_Martinique" 
               modifier = {
 
                 industrial_capacity_factory = 0.05
@@ -36,9 +36,9 @@ ideas = {
 			}
             }
         }
-         Vengeful_Roar = {
+         FRA_Vengeful_Roar = {
             # 复仇怒吼
-            picture = "GFX_idea_Licking_industrial_scars" 
+            picture = "GFX_idea_FRA_Licking_industrial_scars" 
               modifier = {
                  war_support_factor = 0.05
                  experience_gain_army_factor = 0.1
@@ -47,16 +47,16 @@ ideas = {
 
             }
         }
-         The_Shame_of_Longvi_Burier = {
+         FRA_The_Shame_of_Longvi_Burier = {
             # 隆维-布里埃之耻
-            picture = "GFX_idea_The_Shame_of_Longvi_Burier" 
+            picture = "GFX_idea_FRA_The_Shame_of_Longvi_Burier" 
               modifier = {
                 industrial_capacity_factory = -0.10             
                production_lack_of_resource_penalty_factor = 0.1
                 consumer_goods_factor = 0.1
             }
         }
-        Political_enthusiasm = {
+        FRA_Political_enthusiasm = {
             # 政治热情
             picture = "GFX_idea_unknown" 
               modifier = {

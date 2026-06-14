@@ -3,6 +3,7 @@ characters = {
     #premier
 	Talulah = {
         name = Talulah_name
+        desc = Talulah_desc
         portraits = {
             civilian = {
                 large = "gfx/leaders/LIB/Talulah.png"

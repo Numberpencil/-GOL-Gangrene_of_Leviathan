@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Hussein_Hazar = {
+        name = Hussein_Hazar_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/IRQ/Hussein_Hazar.png"
+            }
+        }
+        country_leader = {
+            ideology = Leninism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

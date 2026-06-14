@@ -16,13 +16,13 @@ guiTypes = {
 		background = {
 			name = "Background"	
 			quadTextureSprite = "GFX_scroll_track_horisontal"
-			position = { x=-2 y = 2 }	
+			position = { x=-2 y = -20 }	
 		}
 		
 		slider = {
 			name = "Slider"	
 			quadTextureSprite = "GFX_scroll_drager"
-			position = { x=0 y = 0 }			
+			position = { x=0 y = -20 }			
 		}
 
 		track = {
@@ -35,13 +35,13 @@ guiTypes = {
 		decreaseButton = {
 			name = "Decrease"
 			quadTextureSprite = "GFX_scroll_left"
-			position = { x=3 y = 1 }
+			position = { x=4 y = -19 }
 		}
 		
 		increaseButton = {
 			name = "Increase"
 			quadTextureSprite = "GFX_scroll_right"
-			position = { x=-19 y = -17 }
+			position = { x=-19 y = -37 }
 		}
 	}
 	

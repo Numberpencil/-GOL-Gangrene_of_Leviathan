@@ -1,0 +1,22 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Zubayri = {
+        name =  Zubayri_name
+
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/DRF/Zubayri.png"
+            }
+        }
+        country_leader = {
+            ideology = Arabic_socialism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+   
+}

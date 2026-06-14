@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Lindner_Wildau = {
+        name = Lindner_Wildau_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/DMA/Lindner_Wildau.png"
+            }
+        }
+        country_leader = {
+            ideology = Military_junta
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    
+}

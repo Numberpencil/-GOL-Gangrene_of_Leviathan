@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Yahya_Muhamad_Hamiddin = {
+        name = Yahya_Muhamad_Hamiddin_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/FSA/Yahya_Muhamad_Hamiddin.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

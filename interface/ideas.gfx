@@ -61,24 +61,24 @@ spriteTypes = {
 	}
 	###法国###
 	SpriteType = {
-		name = "GFX_idea_The_deep_pain_of_the_defeated"
-		texturefile = "gfx/ideas/FRA/The_deep_pain_of_the_defeated.png"	
+		name = "GFX_idea_FRA_The_deep_pain_of_the_defeated"
+		texturefile = "gfx/ideas/FRA/FRA_The_deep_pain_of_the_defeated.png"	
 	}
 	SpriteType = {
-		name = "GFX_idea_Licking_industrial_scars"
-		texturefile = "gfx/ideas/FRA/Licking_industrial_scars.png"	
+		name = "GFX_idea_FRA_Licking_industrial_scars"
+		texturefile = "gfx/ideas/FRA/FRA_Licking_industrial_scars.png"	
 	}
 	SpriteType = {
-		name = "GFX_idea_General_Agreement_of_Martinique"
-		texturefile = "gfx/ideas/FRA/General_Agreement_of_Martinique.png"	
+		name = "GFX_idea_FRA_General_Agreement_of_Martinique"
+		texturefile = "gfx/ideas/FRA/FRA_General_Agreement_of_Martinique.png"	
 	}
 	SpriteType = {
-		name = "GFX_idea_Vengeful_Roar"
-		texturefile = "gfx/ideas/FRA/Vengeful_Roar.png"	
+		name = "GFX_idea_FRA_Vengeful_Roar"
+		texturefile = "gfx/ideas/FRA/FRA_Vengeful_Roar.png"	
 	}
 	SpriteType = {
-		name = "GFX_idea_The_Shame_of_Longvi_Burier"
-		texturefile = "gfx/ideas/FRA/The_Shame_of_Longvi_Burier.png"	
+		name = "GFX_idea_FRA_The_Shame_of_Longvi_Burier"
+		texturefile = "gfx/ideas/FRA/FRA_The_Shame_of_Longvi_Burier.png"	
 	}
 	###匈牙利###
 	SpriteType = {
@@ -304,5 +304,93 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_higher_status_of_women"
 		texturefile = "gfx/ideas/higher_status_of_women.png"
+	}
+	###文化政策
+	spriteType = {
+		name = "GFX_idea_religious_theocracy"
+		texturefile = "gfx/ideas/religious_theocracy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Maintaining_tradition"
+		texturefile = "gfx/ideas/Maintaining_tradition.png"
+	}
+	spriteType = {
+		name = "GFX_idea_The_Doctrine_of_the_Mean"
+		texturefile = "gfx/ideas/The_Doctrine_of_the_Mean.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Cultural_freedom"
+		texturefile = "gfx/ideas/Cultural_freedom.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Complete_liberation"
+		texturefile = "gfx/ideas/Complete_liberation.png"
+	}
+	###教育体系
+	spriteType = {
+		name = "GFX_idea_No_education_system"
+		texturefile = "gfx/ideas/No_education_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Preliminary_Education_System"
+		texturefile = "gfx/ideas/Preliminary_Education_System.png"
+	}
+	spriteType = {
+		name = "GFX_idea_private_education_system"
+		texturefile = "gfx/ideas/private_education_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Basic_compulsory_education_system"
+		texturefile = "gfx/ideas/Basic_compulsory_education_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Higher_compulsory_education_system"
+		texturefile = "gfx/ideas/Higher_compulsory_education_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_public_higher_education_system"
+		texturefile = "gfx/ideas/public_higher_education_system.png"
+	}
+	###劳工政策
+	spriteType = {
+		name = "GFX_idea_slave_treatment"
+		texturefile = "gfx/ideas/slave_treatment.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Minimum_Labor_Protection"
+		texturefile = "gfx/ideas/Minimum_Labor_Protection.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Limited_labor_protection"
+		texturefile = "gfx/ideas/Limited_labor_protection.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Appropriate_labor_protection"
+		texturefile = "gfx/ideas/Appropriate_labor_protection.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Workers_Country"
+		texturefile = "gfx/ideas/Workers_Country.png"
+	}
+	###福利政策
+	spriteType = {
+		name = "GFX_idea_Living_like_dregs"
+		texturefile = "gfx/ideas/Living_like_dregs.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Minimum_Social_Security"
+		texturefile = "gfx/ideas/Minimum_Social_Security.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Basic_social_security"
+		texturefile = "gfx/ideas/Basic_social_security.png"
+	}
+	spriteType = {
+		name = "GFX_idea_High_social_security"
+		texturefile = "gfx/ideas/High_social_security.png"
+	}
+	spriteType = {
+		name = "GFX_idea_welfare_state"
+		texturefile = "gfx/ideas/welfare_state.png"
 	}
 }

@@ -1,4 +1,4 @@
-﻿ideas = {
+ideas = {
 	country = {
 		toward_collapse ={
 			picture=toward_collapse

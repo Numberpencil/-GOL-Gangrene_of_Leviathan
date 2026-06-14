@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Danba_Jianzan = {
+        name = Danba_Jianzan_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TIB/Danba_Jianzan.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

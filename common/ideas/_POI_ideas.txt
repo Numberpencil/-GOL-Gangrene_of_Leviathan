@@ -449,6 +449,25 @@ ideas = {
 			modifier = {
 				
 			}
-		}														
+		}
+		POI_Muhammad_Zahir_Shah = {
+			name = "AFG POI Muhammad_Zahir_Shah "
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}																		
     }
 }
