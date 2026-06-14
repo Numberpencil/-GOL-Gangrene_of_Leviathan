@@ -92,6 +92,10 @@ GOL_balkan_alliance_victory_peace = {
 		transfer_state_to = ROM
 		add_core_of = ROM
 	}
+	713 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
 	76 = {
 		transfer_state_to = ROM
 		add_core_of = ROM
@@ -109,9 +113,14 @@ GOL_balkan_alliance_victory_peace = {
 		add_core_of = ROM
 	}
 	789 = {
-		transfer_state_to = HUN
-		add_core_of = HUN
+		transfer_state_to = ROM
+		add_core_of = ROM
 	}
+	83 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+
 	106 = {
 		transfer_state_to = BUL
 		add_core_of = BUL
@@ -146,6 +155,10 @@ GOL_balkan_alliance_victory_peace = {
 		add_core_of = YUG
 	}
 	64 = {
+		transfer_state_to = YUG
+		add_core_of = YUG
+	}
+	875 = {
 		transfer_state_to = YUG
 		add_core_of = YUG
 	}
