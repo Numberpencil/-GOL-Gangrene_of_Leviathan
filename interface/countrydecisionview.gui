@@ -26,7 +26,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "decisionview_title"
-			position = { x = 45 y = 8 }
+			position = { x = 40 y = 15 }
 			textureFile = ""
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
@@ -243,7 +243,7 @@ guiTypes = {
 
 			checkBoxType = {
 				name = "popup_minor_events_checkbox"
-				position = { x = -11 y = -7 }
+				position = { x = -11 y = -21 }
 				quadTextureSprite = "GFX_generic_checkbox3"
 				clicksound = decisions_ui_button
 				pdx_tooltip = "MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP"
@@ -251,7 +251,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "minor_events_popup_text"
-				position = { x = 23 y = -5 }
+				position = { x = 23 y = -20 }
 				textureFile = ""
 				font = "hoi_16mbs"
 				borderSize = { x = 0 y = 0 }
@@ -271,7 +271,7 @@ guiTypes = {
 
 			checkBoxType = {
 				name = "popup_events_checkbox"
-				position = { x = -11 y = -7 }
+				position = { x = -11 y = -21 }
 				quadTextureSprite = "GFX_generic_checkbox3"
 				clicksound = decisions_ui_button
 				pdx_tooltip = "EVENT_POPUP_CHECKBOX_TOOLTIP"
@@ -279,7 +279,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "events_popup_text"
-				position = { x = 23 y = -5 }
+				position = { x = 23 y = -20 }
 				textureFile = ""
 				font = "hoi_16mbs"
 				borderSize = { x = 0 y = 0 }
@@ -299,7 +299,7 @@ guiTypes = {
 
 			checkBoxType = {
 				name = "popup_news_checkbox"
-				position = { x = -11 y = -7 }
+				position = { x = -11 y = -22 }
 				quadTextureSprite = "GFX_generic_checkbox3"
 				clicksound = decisions_ui_button
 				pdx_tooltip = "NEWS_POPUP_CHECKBOX_TOOLTIP"
@@ -307,7 +307,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "news_popup_text"
-				position = { x = 23 y = -5 }
+				position = { x = 23 y = -20 }
 				textureFile = ""
 				font = "hoi_16mbs"
 				borderSize = { x = 0 y = 0 }

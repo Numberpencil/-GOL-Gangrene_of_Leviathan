@@ -1,0 +1,11 @@
+The_opposition_is_taking_action = {
+   if ={
+	limit = {
+		tag = FRA
+		has_idea = FRA_riots_across_the_country
+	}	
+		country_event = { 
+			id = FRA.2_PDSF
+		}	
+   }
+}

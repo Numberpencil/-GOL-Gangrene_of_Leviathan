@@ -3,6 +3,12 @@
 
 # 国策名称
 FRA_AA_Workers_Triumph: "工团党凯旋"
+FRA_PDSF_nation_name_tt: "§Y法兰西国防政府§!将被称为§Y法兰西民族工人国§!。"
+FRA_AA_tough_countermeasures: "强硬手段"
+FRA_AA_Ensure_internal_loyalty: "确保内部忠诚"
+FRA_AA_Salute_to_you: "向您致敬！领袖"
 # 国策描述
 FRA_AA_Workers_Triumph_desc: "如今我们已经取得了议会的多数席位，工团主义已经在法兰西取得了胜利，我们必须进一步巩固成果"
+FRA_AA_tough_countermeasures_desc: "软弱只会导致失败，只有强硬才能避免失败与崩溃"
+FRA_AA_Ensure_internal_loyalty_desc: "如今对于pdsf的挑战将会极大的动摇我们内部的统治根基，部分工团党员的背叛会对大局造成难以想象的冲击，我们必须用一切手段确保内部的忠诚"
 

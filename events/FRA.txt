@@ -28,7 +28,7 @@ country_event = {
         FRA = {
 		kill_country_leader = yes
         promote_character = {
-            character = Castelnaul
+            character = Ferdinand_Foch
             ideology = Military_junta
         }	        
 		}
@@ -58,11 +58,7 @@ country_event = {
 			country_event = { 
 					id = FRA.2_1
 					days = 5
-				} 
-			country_event = {
-             id = FRA.14
-             days = 55
-             }              
+				}              
 			}
 		}		
 	}
@@ -378,6 +374,7 @@ country_event = {
     title = FRA.14.t
     desc = FRA.14.d
     is_triggered_only = yes
+	fire_only_once = yes
     option = { 
         name = FRA.14.a
        		add_stability = 0.2
@@ -395,4 +392,86 @@ country_event = {
      load_focus_tree = FRA_pdsf_focus	
 	}
 
+}
+#工团线事件 
+country_event = {
+	id = FRA.1_PDSF
+	title = FRA.1_PDSF.t
+	desc = FRA.1_PDSF.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = FRA.1_PDSF.a
+		add_stability = -0.1
+		add_ideas = FRA_riots_across_the_country		
+         hidden_effect = {
+             set_variable = {
+             var = var_FRA_Government_control_level
+             value = 10
+             tooltip = var_FRA_Government_control_level_tt
+            }
+            The_opposition_is_taking_action = yes
+			set_global_flag = GOL_flag_FRA_The_riots
+		 }
+	}
+}
+country_event = {
+	id = FRA.2_PDSF
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+    hidden = yes
+	timeout_days = 5
+	immediate = { 
+		random_list = {
+			10 = {
+            activate_mission = Mobilizin_students_and_workers
+			}
+			10 = {
+			activate_mission = Further_protests	
+			}
+			10 = {
+			activate_mission = Inducing_internal_party_division	
+			}
+			10 = {
+			activate_mission = Joint_Contacts
+			}
+		}
+	 }
+	option = {
+		name = FRA.2_PDSF.a
+		
+	}
+}
+country_event = {
+	id = FRA.3_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.3_PDSF.t
+	desc = FRA.3_PDSF.d
+	is_triggered_only = yes
+	immediate = { 
+		
+	 }
+	option = {
+		name = FRA.3_PDSF.a
+		add_ideas =  FRA_Martial_law
+		remove_ideas = FRA_riots_across_the_country
+		
+	}
+}
+country_event = {
+	id = FRA.4_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.4_PDSF.t
+	desc = FRA.4_PDSF.d
+	is_triggered_only = yes
+	immediate = { 
+		
+	 }
+	option = {
+		name = FRA.4_PDSF.a
+		add_ideas =  FRA_Fuhrer_law
+        clr_global_flag = GOL_flag_FRA_The_riots
+		unlock_national_focus = FRA_AA_Salute_to_you
+	}
 }

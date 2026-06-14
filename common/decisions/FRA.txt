@@ -1,0 +1,407 @@
+GOL_FRA_Suppressing_riots_decisions_category = {
+	Winning_over_the_military = {
+
+		icon = generic_industry
+		priority = 10
+		available = {
+		has_idea = FRA_riots_across_the_country
+		 has_global_flag = GOL_flag_FRA_The_riots
+		}
+
+		visible = {
+	    	
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 25
+		days_re_enable = 5
+
+		cost = 25
+        remove_effect = {
+		 add_to_variable = {
+         var = var_FRA_Government_control_level
+         value = 5
+         tooltip = var_FRA_Government_control_level_add_5_tt
+         }
+		 army_experience = 10
+		}
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	Organizing_the_SS = {
+
+		icon = generic_industry
+		priority = 9
+		available = {
+		has_idea = FRA_riots_across_the_country
+		 has_global_flag = GOL_flag_FRA_The_riots
+		}
+
+		visible = {
+	    	
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 30
+		days_re_enable = 5
+
+		cost = 75
+        remove_effect = {
+		 add_to_variable = {
+         var = var_FRA_Government_control_level
+         value = 7
+         tooltip = var_FRA_Government_control_level_add_7_tt
+         }
+		add_political_power = 10
+		}
+		complete_effect = {
+          if = {
+          limit = { NOT = { has_idea = FRA_Schutzstaffel } }
+          add_ideas = FRA_Schutzstaffel
+        }
+	   }
+
+		ai_will_do = {
+			base = 35
+			
+		}
+	}
+	Wavering_Fence_Sitters = {
+
+		icon = generic_industry
+		priority = 8
+		available = {
+		has_idea = FRA_riots_across_the_country
+		 has_global_flag = GOL_flag_FRA_The_riots
+		}
+
+		visible = {
+	    	
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 30
+		days_re_enable = 15
+
+		cost = 75
+        remove_effect = {
+		 add_to_variable = {
+         var = var_FRA_Government_control_level
+         value = 7
+         tooltip = var_FRA_Government_control_level_add_7_tt
+         }
+		}
+		complete_effect = {
+		custom_effect_tooltip = Wavering_Fence_Sitters_tooltip_tt
+         if = {
+			limit = {
+				has_active_mission = Mobilizin_students_and_workers					 			
+			}
+			remove_mission = Mobilizin_students_and_workers
+			hidden_effect = {
+		       The_opposition_is_taking_action = yes
+	        }
+		 }
+		  if = {
+			limit = {
+				has_active_mission = Further_protests					 			
+			}
+			remove_mission = Further_protests
+			hidden_effect = {
+		       The_opposition_is_taking_action = yes
+	        }
+		 }
+		  if = {
+			limit = {
+				has_active_mission = Inducing_internal_party_division					 			
+			}
+			remove_mission = Inducing_internal_party_division
+			hidden_effect = {
+		       The_opposition_is_taking_action = yes
+	        }
+		 }
+		  if = {
+			limit = {
+				has_active_mission = Joint_Contacts					 			
+			}
+			remove_mission = Joint_Contacts
+			hidden_effect = {
+		       The_opposition_is_taking_action = yes
+	        }
+		 }
+		}
+
+		ai_will_do = {
+			base = 35
+			
+		}
+	}
+	Banned_newspapers = {
+
+		icon = generic_industry
+		priority = 6
+		available = {
+		has_idea = FRA_riots_across_the_country
+		has_global_flag = GOL_flag_FRA_The_riots
+		}
+
+		visible = {
+	    	
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 50
+		days_re_enable = 5
+
+		cost = 50
+        remove_effect = {
+		 add_to_variable = {
+         var = var_FRA_Government_control_level
+         value = 5
+         tooltip = var_FRA_Government_control_level_add_5_tt
+         }
+         add_popularity = {
+         ideology = fascism
+         popularity = 0.02
+         }
+		}
+		complete_effect = {
+         
+	   }
+
+		ai_will_do = {
+			base = 35
+			
+		}
+	}
+	Martial_law_order_issued = {
+
+		icon = generic_industry
+		priority = 6
+		available = {
+		has_idea = FRA_riots_across_the_country
+		 has_global_flag = GOL_flag_FRA_The_riots
+		}
+
+		visible = {
+	    	check_variable = {
+             var_FRA_Government_control_level > 70
+             }
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 20
+
+        fire_only_once = yes
+		cost = 100
+        remove_effect = {
+		country_event = { 
+					id = FRA.3_PDSF
+				}
+		}
+		complete_effect = {
+         
+	   }
+
+		ai_will_do = {
+			base = 100
+			
+		}
+	}
+	Fuhrer_law = {
+
+		icon = generic_industry
+		priority = 6
+		available = {
+		 has_global_flag = GOL_flag_FRA_The_riots
+		}
+
+		visible = {
+	    	Not  = {has_idea = FRA_riots_across_the_country}
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 20
+
+        fire_only_once = yes
+		cost = 100
+        remove_effect = {
+		country_event = { 
+				id = FRA.4_PDSF
+			}
+		}
+		complete_effect = {
+         
+	   }
+
+		ai_will_do = {
+			base = 100
+			
+		}
+	}
+#反对派
+Mobilizin_students_and_workers = {
+    activation = {
+     always = no
+    }
+    available = {
+         always = no
+    }
+    cancel_trigger = {
+		not = {
+			has_idea = FRA_riots_across_the_country
+		}
+    }
+    icon = mission_icon     # For GFX_decision_mission_icon
+    is_good = yes
+    days_mission_timeout = 30
+    selectable_mission = no
+    complete_effect = {
+
+    }
+    timeout_effect = {
+        subtract_from_variable = {
+        var = var_FRA_Government_control_level
+        value = 5
+        tooltip = var_FRA_Government_control_level_sub_5_from_var_tt	
+     }
+	 add_political_power = -15
+	 hidden_effect = {
+		 The_opposition_is_taking_action = yes
+	 }
+	
+    }
+  }
+  Further_protests = {
+    activation = {
+     always = no
+
+    }
+    available = {
+         always = no
+    }
+    cancel_trigger = {
+		not = {
+			has_idea = FRA_riots_across_the_country
+		}
+    }
+    icon = mission_icon     # For GFX_decision_mission_icon
+    is_good = yes
+    days_mission_timeout = 30
+    selectable_mission = no
+    complete_effect = {
+
+    }
+    timeout_effect = {
+        subtract_from_variable = {
+        var = var_FRA_Government_control_level
+        value = 5
+        tooltip = var_FRA_Government_control_level_sub_5_from_var_tt	
+     }
+	  hidden_effect = {
+		 The_opposition_is_taking_action = yes
+	 }
+	 add_political_power = -15
+    }
+  }
+  Inducing_internal_party_division = {
+    activation = {
+     always = no
+
+    }
+    available = {
+         always = no
+    }
+    cancel_trigger = {
+		not = {
+			has_idea = FRA_riots_across_the_country
+		}
+    }
+    icon = mission_icon     # For GFX_decision_mission_icon
+    is_good = yes
+    days_mission_timeout = 30
+    selectable_mission = no
+    complete_effect = {
+
+    }
+    timeout_effect = {
+        subtract_from_variable = {
+        var = var_FRA_Government_control_level
+        value = 5
+        tooltip = var_FRA_Government_control_level_sub_5_from_var_tt	
+     }
+	 hidden_effect = {
+		 The_opposition_is_taking_action = yes
+	 }
+	 add_political_power = -15
+    }
+  }
+  Joint_Contacts = {
+    activation = {
+     always = no
+
+    }
+    available = {
+         always = no
+    }
+    cancel_trigger = {
+		not = {
+			has_idea = FRA_riots_across_the_country
+		}
+    }
+    icon = mission_icon     # For GFX_decision_mission_icon
+    is_good = yes
+    days_mission_timeout = 30
+    selectable_mission = no
+    complete_effect = {
+
+    }
+    timeout_effect = {
+        subtract_from_variable = {
+        var = var_FRA_Government_control_level
+        value = 5
+        tooltip = var_FRA_Government_control_level_sub_5_from_var_tt	
+     }
+	  hidden_effect = {
+		 The_opposition_is_taking_action = yes
+	 }
+	 add_political_power = -15
+    }
+  }
+}

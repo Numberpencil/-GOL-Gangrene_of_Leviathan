@@ -691,7 +691,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "national_spirit_container"
 				position = { x = 211 y = 22 }
-				size = { width = 389 height = 100 }
+				size = { width = 389 height = 92 }
 				horizontalScrollbar = "bottom_horizontal_slider_diplo"
 				clipping = yes
 				#verticalScrollbar = "right_vertical_slider_pol"
@@ -929,7 +929,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "political_ideas_window"
 		position = { x = -356 y = 80 }	
-		show_position = { x = 740 y = 80 }
+		show_position = { x = 690 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -943,7 +943,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "title"
-			position = { x = 0 y = 4 }
+			position = { x = 10 y = 8 }
 			font = "hoi_20b"
 			text = "Economic Laws"
 			maxWidth = 450
@@ -952,7 +952,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "switch"
-			position = { x = 0 y = 26 }
+			position = { x = 10 y = 25 }
 			font = "hoi_18b"
 			text = "Switch out Henschel"
 			maxWidth = 450
@@ -961,7 +961,7 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 50 }
+			position = { x = -0 y = 50 }
 			size = { width=500 height=100%% }	
 			
 			containerWindowType = {
