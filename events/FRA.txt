@@ -389,7 +389,7 @@ country_event = {
     elections_allowed = no      
      }
      complete_national_focus = FRA_AA_Workers_Triumph    
-     load_focus_tree = FRA_pdsf_focus	
+     load_focus_tree = FRA_PDSF_focus	
 	}
 
 }

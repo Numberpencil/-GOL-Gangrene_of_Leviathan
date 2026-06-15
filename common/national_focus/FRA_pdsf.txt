@@ -16,7 +16,7 @@
 }
 
 focus_tree = {
-	id = FRA_pdsf_focus
+	id = FRA_PDSF_focus
 	
 	country = {
 		factor = 4
