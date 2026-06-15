@@ -644,6 +644,11 @@ spriteTypes = {
 		size = 26
 	}
 
+	pieChartType = {
+		name = "GFX_political_chart_medium"
+		size = 32
+	}
+
 	circularProgressBarType = {
 		name = "GFX_textured_pie_chart"
 		textureFile1 = "gfx/interface/ideas/idea_volunteer_only.dds"

@@ -1,5 +1,5 @@
 #首都
-capital = 6
+capital = 925
 
 #开局国家状态
 set_stability = 0.6

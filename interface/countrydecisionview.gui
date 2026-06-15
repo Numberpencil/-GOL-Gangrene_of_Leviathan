@@ -7,7 +7,7 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=550 height=100%% }
+		size = { width=696 height=100%% }
 		
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -20,7 +20,7 @@ guiTypes = {
 		iconType = {
 			name ="production_header_bg"
 			spriteType = "GFX_header_bg"
-			position = { x= 5 y = 07 }
+			position = { x= 2 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}	
 		
@@ -38,7 +38,7 @@ guiTypes = {
 			
 		buttonType = {
 			name = "close_button"
-			position = { x = -43 y = 9 }
+			position = { x = -46 y = 12 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -93,7 +93,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "icon"
-			position = {x=10 y=16}
+			position = {x=20 y=20}
 			spriteType = "GFX_decision_category_generic"
 		}
 
