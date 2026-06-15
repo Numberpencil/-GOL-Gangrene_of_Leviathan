@@ -30,22 +30,22 @@ country_event = { #匈牙利请求改进型巨构机
 		trigger = {
 			always = yes
 		}
-		country_event = { #德国同意提供改进型巨构机
+		HUN = {
+			country_event = { #德国同意提供改进型巨构机
 					id = HUN.9
 					days = 5
 				}
+		}
 	}
 	option = {
 		name = GER.2.b #拒绝，我们不需要浪费资源
 		trigger = {
 			always = yes
 		}
-		hidden_effect = {
-			event_target:HUN_requester = {
-				country_event = { #德国拒绝提供改进型巨构机
-					id = HUN.10
-					days = 5
-				}
+		HUN = {
+			country_event = { #德国拒绝提供改进型巨构机
+				id = HUN.10
+				days = 5
 			}
 		}
 	}

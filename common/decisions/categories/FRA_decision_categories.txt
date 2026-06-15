@@ -4,7 +4,6 @@
 
 GOL_FRA_Suppressing_riots_decisions_category = {
 	icon = generic_ignite_civil_war
-	picture = GFX_decision_cat_picture_balkan_war
 	priority = 9
 
 	allowed = {

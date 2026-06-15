@@ -75,7 +75,7 @@ guiTypes = {
 		iconType = { #柏林防御协定
 			name = "facion_icons_Berlin_Defence_Agreement"
 			position = { x = -4 y = 3 }
-			size = { width = 100% height = 100% }
+			
 			spriteType = "GFX_faction_icon_Berlin_Defence_Agreement"
 			pdx_tooltip = "faction_idea_Berlin_Defence_Agreement_name"
 			alwaystransparent = yes
@@ -83,7 +83,7 @@ guiTypes = {
 		iconType = { #远东防御体系
 			name = "facion_icons_Far_East_Defense_Alliance"
 			position = { x = -4 y = 3 }
-			size = { width = 100% height = 100% }
+			
 			spriteType = "GFX_faction_icon_Far_East_Defense_Alliance"
 			pdx_tooltip = "faction_idea_Far_East_Defense_Alliance_name"
 			alwaystransparent = yes
@@ -91,7 +91,6 @@ guiTypes = {
 		iconType = { #威斯敏斯特体系
 			name = "facion_icons_Commonwealth_of_Nations"
 			position = { x = -4 y = 3 }
-			size = { width = 100% height = 100% }
 			spriteType = "GFX_faction_icon_Commonwealth_of_Nations"
 			pdx_tooltip = "faction_idea_Commonwealth_of_Nations_name"
 			alwaystransparent = yes
@@ -99,7 +98,7 @@ guiTypes = {
 		iconType = { #圣弗朗西斯科协定
 			name = "facion_icons_Treaty_of_San_Francisco"
 			position = { x = -4 y = 3 }
-			size = { width = 100% height = 100% }
+			
 			spriteType = "GFX_faction_icon_Treaty_of_San_Francisco"
 			pdx_tooltip = "faction_idea_Treaty_of_San_Francisco_name"
 			alwaystransparent = yes
@@ -107,7 +106,7 @@ guiTypes = {
 		iconType = { #三国同盟
 			name = "facion_icons_Triple_Alliance"
 			position = { x = -4 y = 3 }
-			size = { width = 100% height = 100% }
+			
 			spriteType = "GFX_faction_icon_Triple_Alliance"
 			pdx_tooltip = "faction_idea_Triple_Alliance_name"
 			alwaystransparent = yes
@@ -115,7 +114,7 @@ guiTypes = {
 		iconType = { #巴尔干同盟
 			name = "facion_icons_Balkan_Defense_Union"
 			position = { x = -4 y = 3 }
-			size = { width = 100% height = 100% }
+			
 			spriteType = "GFX_faction_icon_Balkan_Defense_Union"
 			pdx_tooltip = "faction_idea_Balkan_Alliance_name"
 			alwaystransparent = yes
@@ -123,7 +122,7 @@ guiTypes = {
 		iconType = { #泛伊比利亚邦联
 			name = "facion_icons_Pan_Iberian_Federation"
 			position = { x = -4 y = 3 }
-			size = { width = 100% height = 100% }
+			
 			spriteType = "GFX_faction_icon_Pan_Iberian_Federation"
 			pdx_tooltip = "faction_idea_Pan_Iberian_Union_name"
 			alwaystransparent = yes
@@ -131,7 +130,7 @@ guiTypes = {
 		iconType = { #革命联合国际
 			name = "facion_icons_Revolutionary_United_International"
 			position = { x = -4 y = 3 }
-			size = { width = 100% height = 100% }
+			
 			spriteType = "GFX_faction_icon_Revolutionary_United_International"
 			pdx_tooltip = "faction_idea_Revolutionary_International_name"
 			alwaystransparent = yes
@@ -139,7 +138,7 @@ guiTypes = {
 		iconType = { #大东亚协同体
 			name = "facion_icons_Greater_East_Asia_Alliance"
 			position = { x = -4 y = 3 }
-			size = { width = 100% height = 100% }
+			
 			spriteType = "GFX_faction_icon_Greater_East_Asia_Alliance"
 			pdx_tooltip = "faction_idea_Greater_East_Asia_Alliance_name"
 			alwaystransparent = yes

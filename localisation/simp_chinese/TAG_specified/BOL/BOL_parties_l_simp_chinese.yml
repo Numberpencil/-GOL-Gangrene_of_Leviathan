@@ -1,33 +1,23 @@
 ﻿l_simp_chinese:
-# 政党本地化模板
-# 命名规则：TAG_PARTY_NAME_XX_name
-
-# 共产主义政党
-BOL_PARTY_NAME_CM_unkown: "玻利维亚左翼民族运动"
-
-# 社会主义政党
-BOL_PARTY_NAME_SC_PL: "自由党左翼"
-
-# 民主政党
-BOL_PARTY_NAME_DM_PL: "自由党"
-
-# 保守主义政党
-BOL_PARTY_NAME_CS_PL: "自由党右翼"
-
-# 威权主义政党
-BOL_PARTY_NAME_AT_unkown: "陆军军官自由派"
-
-# 专制主义政党
-BOL_PARTY_NAME_DP_unkown: "陆军军官"
-
-# 民粹主义政党
-BOL_PARTY_NAME_PP_unkown: "民粹团体"
-
-# 法西斯政党
-BOL_PARTY_NAME_FS_FSB: "社会主义长枪党"
-
-# 国家社会主义政党
-BOL_PARTY_NAME_NS_FSB: "社会主义长枪党"
-
-# 神秘主义政党
-BOL_PARTY_NAME_OC_unkown: "神秘团体"
+ # 政党本地化模板
+ # 命名规则：TAG_PARTY_NAME_XX_name
+ # 共产主义政党
+ BOL_PARTY_NAME_CM_unkown:0 "玻利维亚左翼民族运动"
+ # 社会主义政党
+ BOL_PARTY_NAME_SC_PL:0 "自由党左翼"
+ # 民主政党
+ BOL_PARTY_NAME_DM_PL:0 "自由党"
+ # 保守主义政党
+ BOL_PARTY_NAME_CS_PL:0 "自由党右翼"
+ # 威权主义政党
+ BOL_PARTY_NAME_AT_unkown:0 "陆军军官自由派"
+ # 专制主义政党
+ BOL_PARTY_NAME_DP_unkown:0 "陆军军官"
+ # 民粹主义政党
+ BOL_PARTY_NAME_PP_unkown:0 "民粹团体"
+ # 法西斯政党
+ BOL_PARTY_NAME_FS_FSB:0 "社会主义长枪党"
+ # 国家社会主义政党
+ BOL_PARTY_NAME_NS_FSB:0 "社会主义长枪党"
+ # 神秘主义政党
+ BOL_PARTY_NAME_OC_unkown:0 "神秘团体"

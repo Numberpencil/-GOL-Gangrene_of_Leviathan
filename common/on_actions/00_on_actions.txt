@@ -84,7 +84,7 @@ on_actions = {
 					}
 				}
 				GOL_hungarian_victory_peace = yes
-				news_event = { id = GOL_balkan.1 }
+				news_event = { id = news.1009 } # 匈牙利阵营胜利新闻
 			}
 			
 			# 巴尔干同盟胜利
@@ -96,7 +96,7 @@ on_actions = {
 					NOT = { has_global_flag = GOL_flag_balkan_alliance_victory }
 				}
 				GOL_balkan_alliance_victory_peace = yes
-				news_event = { id = GOL_balkan.2 }
+				news_event = { id = news.1008 } # 巴尔干同盟胜利新闻
 			}
 		}
 	}
@@ -110,9 +110,7 @@ on_actions = {
 					ROOT = { tag = YUG }
 					107 = { is_controlled_by = HUN }
 					HUN = { has_country_flag = GOL_flag_received_megastructure }
-					NOT = { has_global_flag = GOL_flag_news_1005_fired }
 				}
-				set_global_flag = GOL_flag_news_1005_fired
 				news_event = { id = news.1005 }
 			}
 		}

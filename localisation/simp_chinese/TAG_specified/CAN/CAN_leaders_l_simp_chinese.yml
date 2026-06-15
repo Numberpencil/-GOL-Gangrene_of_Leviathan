@@ -1,8 +1,7 @@
 ﻿l_simp_chinese:
-# 领袖本地化模板
-# 命名规则：TAG_leader_name
-
-# 领袖名称
-#CAN_leader: "领袖名称"
-Richard_Bedford_Bennett_name: "理查德·贝德福德·贝内特"
-CAN_POI_Bethborough: "贝斯伯勒伯爵\n—————————————————————————\n§1加拿大总督§!\n\n\n\n\n\n\n£GFX_secondary_leader_Bethborough\n\n\n\n\n\n\n"
+ # 领袖本地化模板
+ # 命名规则：TAG_leader_name
+ # 领袖名称
+ #CAN_leader: "领袖名称"
+ Richard_Bedford_Bennett_name:0 "理查德·贝德福德·贝内特"
+ CAN_POI_Bethborough:0 "贝斯伯勒伯爵\n—————————————————————————\n§1加拿大总督§!\n\n\n\n\n\n\n£GFX_secondary_leader_Bethborough\n\n\n\n\n\n\n"
