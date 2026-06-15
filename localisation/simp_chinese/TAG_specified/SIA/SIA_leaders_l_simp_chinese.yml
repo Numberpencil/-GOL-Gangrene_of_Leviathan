@@ -1,6 +1,5 @@
 ﻿l_simp_chinese:
-# 领袖本地化模板
-# 命名规则：TAG_leader_name
-
-# 领袖名称
-Rama_VII_name: "拉玛七世"
+ # 领袖本地化模板
+ # 命名规则：TAG_leader_name
+ # 领袖名称
+ Rama_VII_name:0 "拉玛七世"

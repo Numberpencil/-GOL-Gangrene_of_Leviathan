@@ -1,7 +1,6 @@
 ﻿l_simp_chinese:
-# 领袖本地化模板
-# 命名规则：TAG_leader_name
-
-# 领袖名称
-#VIN_leader: "领袖名称"
-Nguyen_Phuc_Vinh_Thuy_name: "阮福永瑞"
+ # 领袖本地化模板
+ # 命名规则：TAG_leader_name
+ # 领袖名称
+ #VIN_leader: "领袖名称"
+ Nguyen_Phuc_Vinh_Thuy_name:0 "阮福永瑞"

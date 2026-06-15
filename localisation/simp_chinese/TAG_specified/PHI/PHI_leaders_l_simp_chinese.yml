@@ -1,6 +1,5 @@
 ﻿l_simp_chinese:
-# 领袖本地化模板
-# 命名规则：TAG_leader_name
-
-# 领袖名称
-Manuel_Luis_name: "曼努埃尔·奎松"
+ # 领袖本地化模板
+ # 命名规则：TAG_leader_name
+ # 领袖名称
+ Manuel_Luis_name:0 "曼努埃尔·奎松"

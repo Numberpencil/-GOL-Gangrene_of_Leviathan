@@ -1,33 +1,23 @@
 ﻿l_simp_chinese:
-# 政党本地化模板
-# 命名规则：TAG_PARTY_NAME_XX_name
-
-# 共产主义政党
-VEN_PARTY_NAME_CM_unkown: "激进工会学生"
-
-# 社会主义政党
-VEN_PARTY_NAME_SC_AD: "委内瑞拉民主民主党小组"
-
-# 民主政党
-VEN_PARTY_NAME_DM_PDN: "委内瑞拉国家民主党小组"
-
-# 保守主义政党
-VEN_PARTY_NAME_CS_unkown: "军部左派"
-
-# 威权主义政党
-VEN_PARTY_NAME_AT_unkown: "军部"
-
-# 专制主义政党
-VEN_PARTY_NAME_DP_unkown: "军部"
-
-# 民粹主义政党
-VEN_PARTY_NAME_PP_unkown: "军部民粹团体"
-
-# 法西斯政党
-VEN_PARTY_NAME_FS_unkown: "军部极端团体"
-
-# 国家社会主义政党
-VEN_PARTY_NAME_NS_unkown: "军部极端团体"
-
-# 神秘主义政党
-VEN_PARTY_NAME_OC_unkown: "军部极端团体"
+ # 政党本地化模板
+ # 命名规则：TAG_PARTY_NAME_XX_name
+ # 共产主义政党
+ VEN_PARTY_NAME_CM_unkown:0 "激进工会学生"
+ # 社会主义政党
+ VEN_PARTY_NAME_SC_AD:0 "委内瑞拉民主民主党小组"
+ # 民主政党
+ VEN_PARTY_NAME_DM_PDN:0 "委内瑞拉国家民主党小组"
+ # 保守主义政党
+ VEN_PARTY_NAME_CS_unkown:0 "军部左派"
+ # 威权主义政党
+ VEN_PARTY_NAME_AT_unkown:0 "军部"
+ # 专制主义政党
+ VEN_PARTY_NAME_DP_unkown:0 "军部"
+ # 民粹主义政党
+ VEN_PARTY_NAME_PP_unkown:0 "军部民粹团体"
+ # 法西斯政党
+ VEN_PARTY_NAME_FS_unkown:0 "军部极端团体"
+ # 国家社会主义政党
+ VEN_PARTY_NAME_NS_unkown:0 "军部极端团体"
+ # 神秘主义政党
+ VEN_PARTY_NAME_OC_unkown:0 "军部极端团体"

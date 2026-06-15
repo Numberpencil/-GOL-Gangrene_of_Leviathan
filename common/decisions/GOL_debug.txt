@@ -1,0 +1,84 @@
+GOL_debug_decisions_category = {
+	# 添加稳定度
+	GOL_debug_add_stability = {
+		icon = generic_stability
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes
+		}
+		available = {
+			always = yes
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			add_stability = 0.1
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	# 添加战争支持度
+	GOL_debug_add_war_support = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes
+		}
+		available = {
+			always = yes
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			add_war_support = 0.1
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	# 巴尔干战争快速触发
+	GOL_debug_fast_balkan_war = {
+		icon = generic_ignite_civil_war
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes
+			NOT = { has_global_flag = GOL_flag_balkan_war_started }
+			HUN = { exists = yes }
+			ROM = { exists = yes }
+		}
+		available = {
+			always = yes
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			hidden_effect = {
+				# 立即触发卡尔遇刺，启动匈牙利事件链（正常在第185天触发）
+				HUN = {
+					country_event = {
+						id = HUN.1
+					}
+				}
+				# 立即触发铁卫团进军，跳过369天的自然等待
+				ROM = {
+					country_event = {
+						id = ROM.2
+						days = 1
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

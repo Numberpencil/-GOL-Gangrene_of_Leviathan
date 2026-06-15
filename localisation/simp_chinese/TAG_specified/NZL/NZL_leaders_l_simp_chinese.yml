@@ -1,8 +1,7 @@
 ﻿l_simp_chinese:
-# 领袖本地化模板
-# 命名规则：TAG_leader_name
-
-# 领袖名称
-#NZL_leader: "领袖名称"
-George_William_Forbes_name: "乔治·威廉·福布斯"
-NZL_POI_Charles_Bathurst: "查尔斯·巴瑟斯特\n—————————————————————————\n§1新西兰总督§!\n\n\n\n\n\n\n£GFX_secondary_leader_Charles_Bathurst\n\n\n\n\n\n\n"
+ # 领袖本地化模板
+ # 命名规则：TAG_leader_name
+ # 领袖名称
+ #NZL_leader: "领袖名称"
+ George_William_Forbes_name:0 "乔治·威廉·福布斯"
+ NZL_POI_Charles_Bathurst:0 "查尔斯·巴瑟斯特\n—————————————————————————\n§1新西兰总督§!\n\n\n\n\n\n\n£GFX_secondary_leader_Charles_Bathurst\n\n\n\n\n\n\n"

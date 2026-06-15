@@ -1,0 +1,20 @@
+################
+##### GOL ######
+################
+
+# Debug决议组
+# 仅在debug模式下对所有势力显示
+GOL_debug_decisions_category = {
+	icon = generic_diplomacy
+	priority = 99
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		is_debug = yes
+	}
+
+	visible_when_empty = yes
+}

@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+ GOL_debug_decisions_category: "Debug选项"
+ GOL_debug_decisions_category_desc: "Debug决议组，仅在开启debug模式时可见。"
+ GOL_debug_add_stability: "添加稳定度"
+ GOL_debug_add_stability_desc: "添加§G10%§!稳定度。"
+ GOL_debug_add_war_support: "添加战争支持度"
+ GOL_debug_add_war_support_desc: "添加§G10%§!战争支持度。"
+ GOL_debug_fast_balkan_war: "快速触发巴尔干战争"
+ GOL_debug_fast_balkan_war_desc: "立即触发卡尔遇刺事件，并快速推进到巴尔干战争爆发。"

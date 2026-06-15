@@ -1,7 +1,6 @@
 ﻿l_simp_chinese:
-# 领袖本地化模板
-# 命名规则：TAG_leader_name
-
-# 领袖名称
-#MON_leader: "领袖名称"
-Demchugdonrup_name: "德穆楚克栋鲁普"
+ # 领袖本地化模板
+ # 命名规则：TAG_leader_name
+ # 领袖名称
+ #MON_leader: "领袖名称"
+ Demchugdonrup_name:0 "德穆楚克栋鲁普"

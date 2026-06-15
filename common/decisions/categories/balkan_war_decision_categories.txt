@@ -1,0 +1,22 @@
+################
+##### GOL ######
+################
+
+# 巴尔干战争决议组
+# 仅在巴尔干战争期间对战争双方显示
+GOL_balkan_war_decisions_category = {
+	icon = x
+	priority = 1
+
+	allowed = {
+		tag = HUN
+	}
+
+	visible = {
+		has_global_flag = GOL_flag_balkan_war_started
+		NOT = { has_global_flag = GOL_flag_hungarian_victory }
+		NOT = { has_global_flag = GOL_flag_balkan_alliance_victory }
+	}
+
+	visible_when_empty = yes
+}
