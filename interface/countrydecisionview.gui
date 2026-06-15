@@ -113,7 +113,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "track_decisions_checkbox"
-			position = { x = 447 y = 26 }
+			position = { x = 447 y = 28 }
 			quadTextureSprite = "GFX_checkbox_small5"
 			clicksound = decisions_ui_button
 			frame = 2
@@ -121,7 +121,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "category_collapse_btn"
-			position = { x=475 y=25 }
+			position = { x=475 y=28 }
 			quadTextureSprite = "GFX_conveyor_collapse_btn"
 			buttonFont = "hoi_18mbs"
 			clicksound = click_default
@@ -224,9 +224,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name_text"
-			position = { x = 35 y = 29}
+			position = { x = 50 y = 25}
 			textureFile = ""
-			font = "hoi4_typewriter22"
+			font = "hoi_20bs"
 			borderSize = { x = 0 y = 0 }
 			text = "DECISIONSVIEW_EVENT_HEADER"
 			maxWidth = 240
@@ -472,7 +472,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "btn_select"
-			position = {x=465 y=6}
+			position = {x=465 y=3}
 			spriteType = "GFX_decision_select_icon_strip"
 			clicksound = decisions_ui_checkbox
 			frame = 2
