@@ -1,0 +1,20 @@
+characters = {
+    ## Leaders ##
+    #premier
+    Joseph_Stalin = {
+        name = Joseph_Stalin_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CAU/Joseph_Stalin.png"
+            }
+        }
+        country_leader = {
+            ideology = Leninism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+}
