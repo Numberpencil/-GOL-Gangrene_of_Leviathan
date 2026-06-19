@@ -80,6 +80,78 @@ spriteTypes = {
 		name = "GFX_idea_FRA_The_Shame_of_Longvi_Burier"
 		texturefile = "gfx/ideas/FRA/FRA_The_Shame_of_Longvi_Burier.png"	
 	}
+	###德国民族精神banner###
+	SpriteType = {
+		name = "GFX_idea_banner_GER_toward_collapse"
+		texturefile = "gfx/ideas/GER/banners/toward_collapse.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_GER_rotten_and_obscurantist_system"
+		texturefile = "gfx/ideas/GER/banners/rotten_and_obscurantist_system.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_GER_Weltpolitik"
+		texturefile = "gfx/ideas/GER/banners/Weltpolitik.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_GER_Mitteleuropa_trade_agreement"
+		texturefile = "gfx/ideas/GER/banners/Mitteleuropa_trade_agreement.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_GER_The_aftermath_of_the_economic_crisis"
+		texturefile = "gfx/ideas/GER/banners/The_aftermath_of_the_economic_crisis.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_GER_Heil_dir_im_Siegerkranz"
+		texturefile = "gfx/ideas/GER/banners/Heil_dir_im_Siegerkranz.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_GER_Capital_outflow"
+		texturefile = "gfx/ideas/GER/banners/Capital_outflow.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_GER_Imperial_army"
+		texturefile = "gfx/ideas/GER/banners/Imperial_army.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_GER_Imperial_navy"
+		texturefile = "gfx/ideas/GER/banners/Imperial_navy.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_GER_Imperial_air_force"
+		texturefile = "gfx/ideas/GER/banners/Imperial_air_force.png"
+		legacy_lazy_load = no
+	}
+	###法国民族精神banner###
+	SpriteType = {
+		name = "GFX_idea_banner_FRA_Vengeful_Roar" # 复仇怒吼
+		texturefile = "gfx/ideas/FRA/banners/FRA_Vengeful_Roar.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_FRA_The_deep_pain_of_the_defeated" # 战败者的刻骨之痛
+		texturefile = "gfx/ideas/FRA/banners/FRA_The_deep_pain_of_the_defeated.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_FRA_Licking_industrial_scars" #舔舐工业伤痕
+		texturefile = "gfx/ideas/FRA/banners/FRA_Licking_industrial_scars.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = { 
+		name = "GFX_idea_banner_FRA_The_Shame_of_Longvi_Burier" #长维布里者的刻骨之痛
+		texturefile = "gfx/ideas/FRA/banners/FRA_The_Shame_of_Longvi_Burier.png"
+		legacy_lazy_load = no
+	}
 	###匈牙利###
 	SpriteType = {
 		name = "GFX_idea_A_turbulent_country"

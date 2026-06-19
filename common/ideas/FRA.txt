@@ -38,7 +38,7 @@ ideas = {
         }
          FRA_Vengeful_Roar = {
             # 复仇怒吼
-            picture = "GFX_idea_FRA_Licking_industrial_scars" 
+            picture = "GFX_idea_FRA_Vengeful_Roar" 
               modifier = {
                  war_support_factor = 0.05
                  experience_gain_army_factor = 0.1
