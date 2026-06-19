@@ -152,6 +152,11 @@ spriteTypes = {
 		texturefile = "gfx/ideas/FRA/banners/FRA_The_Shame_of_Longvi_Burier.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_idea_banner_FRA_General_Agreement_of_Martinique" # 马提尼翁总协定
+		texturefile = "gfx/ideas/FRA/banners/FRA_General_Agreement_of_Martinique.png"
+		legacy_lazy_load = no
+	}
 	###匈牙利###
 	SpriteType = {
 		name = "GFX_idea_A_turbulent_country"
