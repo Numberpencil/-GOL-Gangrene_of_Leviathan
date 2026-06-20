@@ -3,19 +3,19 @@ ideologies = {
     communism = {#共产主义
         types = {
             Leninism = {
-
+                color = { 112 0 0 }
             }
             Spartakismus = {
-
+                color = { 112 0 0 }
             }
             Mariategui_Thought = {
-
+                color = { 112 0 0 }
             }
             National_communism = {
-
+                color = { 91 31 31 }
             }
             Anarchist_communism = {
-
+                color = { 91 31 31 }
             }
         }
         color = { #
@@ -26,37 +26,37 @@ ideologies = {
     socialism = {#社会主义
         types = {
             Criminal_anarchism = {
-
+                color = { 108 37 37 }
             }
             Anarchist_syndicalism = {
-
+                color = { 177 32 32 }
             }
             Military_socialism = {
-
+                color = { 167 103 103 }
             }
             Syndicalism = {
-
+                color = { 177 32 32 }
             }
             Arabic_socialism = {
-
+                color = { 160 82 73 }
             }
             Left_wing_baathism = {
-
+                color = { 155 0 0 }
             }
             Radical_socialism = {
-
+                color = { 155 0 0 }
             }
             Social_democratism = {
-
+                color = { 181 65 87 }
             }
             Gaitanism = {
-
+                color = { 181 65 87 }
             }
             British_socialism = {
-
+                color = { 234 104 104 }
             }
             Neosanminism = {
-
+                color = { 211 41 41 }
             }
         }
         color = { #
@@ -67,28 +67,28 @@ ideologies = {
     democrat = {#民主主义
         types = {
             Islamic_liberalism = {
-
+                color = { 195 179 0 }
             }
             Liberalism = {
-
+                color = { 214 154 9 }
             }
             Christian_democratic = {
-
+                color = { 17 137 148 }
             }
             Christian_democratic_Z = {
-
+                color = { 21 76 111 }
             }
             Oligarchist_liberalism = {
-
+                color = { 235 221 143 }
             }
             Social_monarchy = {
-
+                color = { 46 90 90 }
             }
             Conservativist_democrat = {
-
+                color = { 0 128 127 }
             }
             Radical_republicanism = {
-                
+                color = { 71 177 178 }
             }
         }
         color = { #
@@ -99,19 +99,19 @@ ideologies = {
     conservatism = {#保守主义
         types = {
             Hyperconservativism = {
-
+                color = { 14 63 63 }
             }
             Conservatism_ideology = {
-
+                color = { 0 128 127 }
             }
             Konservative_Revolution = {
-
+                color = { 149 108 81 }
             }
             Konservative_Revolution_DKP = {
-
+                color = { 149 108 81 }
             }
             Conservatism_ideology_DKP = {
-
+                color = { 23 76 81 }
             }
         }
         color = { #
@@ -122,22 +122,22 @@ ideologies = {
     authoritarianism = {#威权主义
         types = {
             Monarcho_socialism = {
-
+                color = { 131 106 100 }
             }
             au_Corporatocracy = {
-
+                color = { 146 146 132 }
             }
             au_Corporatocracy_UFC = {
-
+                color = { 146 146 132 }
             }
             Constitutionalist = {
-
+                color = { 69 95 101 }
             }
             Authoritarian_democrat = {
-
+                color = { 114 111 109 }
             }
             Hybrid_regime = {
-
+                color = { 114 111 109 }
             }
 
 
@@ -150,31 +150,31 @@ ideologies = {
     despotism = { #专制主义
         types = {
             Parental_autocracy = {
-
+                color = { 26 26 26 }
             }
             de_Corporatocracy = {
-
+                color = { 47 47 40 }
             }
             de_Corporatocracy_UFC = {
-
+                color = { 47 47 40 }
             }
             Military_junta = {
-
+                color = { 64 60 55 }
             }
             Military_junta_france = {
-
+                color = { 55 63 64 }
             }
             Absolute_monarchy = {
-
+                color = { 44 29 38 }
             }
             Oligarchist_despotism = {
-
+                color = { 68 68 61 }
             }
             Oligarchist_despotism_MGP = {
-
+                color = { 68 68 61 }
             }
             Military_socialism_despotism = {
-
+                color = { 111 90 90 }
             }
         }
         color = { #
@@ -185,13 +185,13 @@ ideologies = {
     populism = {#民粹主义
         types = {
             Peron_popilism = {
-
+                color = { 109 99 65 }
             }
             Right_wing_baathist_socialism = {
-
+                color = { 139 115 89 }
             }
             Populist_conservativism = {
-
+                color = { 139 134 113 }
             }
         }
         color = { #
@@ -202,52 +202,52 @@ ideologies = {
     fascism = {#法西斯主义
         types = {
             Socialisation_corporatism = {
-
+                color = { 147 66 36 }
             }
             Socialisation_corporatism_italia = {
-
+                color = { 147 66 36 }
             }
             Classical_fascism = {
-
+                color = { 83 30 10 }
             }
             Nationalist_syndicalism = {
-
+                color = { 99 23 10 }
             }
             Nationalist_syndicalism_italia = {
-
+                color = { 99 23 10 }
             }
             Nationalist_syndicalism_france = {
-
+                color = { 99 23 10 }
             }
             Classical_futuroismo = {
-
+                color = { 46 41 92 }
             }
             Radical_futuroismo = {
-
+                color = { 116 110 171 }
             }
             Socialist_nationalism = {
-
+                color = { 116 64 45 }
             }
             Socialist_nationalism_SSNP = {
-
+                color = { 116 64 45 }
             }
             Integralist_corporatism = {
-
+                color = { 129 68 24 }
             }
             Integralist_corporatism_Talulah = {
-
+                color = { 196 74 0 }
             }
             Laban_corporatism_thought = {
 
             }
             State_corporatism = {
-
+                color = { 113 42 15 }
             }
             State_corporatism_italia = {
-
+                color = { 113 42 15 }
             }
             Nascimento_thought = {
-                
+                color = { 117 85 28 }
             }
             
         }
@@ -259,16 +259,16 @@ ideologies = {
     national_socialism = {#民族社会主义
         types = {
             National_socialism_ideology = {
-
+                color = { 43 16 0 }
             }
             National_socialism_ideology_italia = {
-
+                color = { 66 25 0 }
             }
             Accelerationist_nazim = {
-
+                color = { 62 15 0 }
             }
             DKP_NSDAP_united_government = {
-                
+                color = { 43 16 0 }
             }
         }
         color = { #
@@ -279,19 +279,19 @@ ideologies = {
     occultism = { #神秘主义
         types = {
             Esoteric_nazism = {
-
+                color = { 18 8 30 }
             }
             Esoteric_fascism = {
-
+                color = { 40 29 53 }
             }
             Esoteric_Celtsdruidism = {
-
+                color = { 29 28 18 }
             }
             Esoteric_nazism_germany = {
-
+                color = { 18 8 30 }
             }
             Esoteric_fascism_italia = {
-                
+                color = { 36 19 39 }
             }
         }
         color = { #
