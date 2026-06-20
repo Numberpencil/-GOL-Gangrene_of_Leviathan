@@ -227,7 +227,9 @@ ideas = {
 		free_trade = {
 
 			available = {
-				
+				not = {
+					has_ideas = Weltpolitik
+				}
 				
 			}
 

@@ -12,6 +12,7 @@ ideas = {
 				war_support_factor = -0.15
 				recruitable_population_factor = -0.02
 				surrender_limit = 0.15
+				consumer_goods_factor = 0.05
 
 
 			}
@@ -38,8 +39,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.05
 				production_speed_dockyard_factor = 0.05
 				send_volunteer_size=3
-				min_export = -0.8
-				resource_trade_cost_bonus_per_factory = -6
+
 				#贸易政策无法更变
 
 			}
@@ -97,16 +97,12 @@ ideas = {
 			allowed ={
 				always= yes
 			}
-			#on_add={
-			#	add_offsite_building = {
-			#		type = industrial_complex
-			#		level = 4
-			#	}
-			#}
-			#这个我怕写错先注释掉了，是地图外民用工厂数量 +4
+	
 			modifier={
 				consumer_goods_factor=0.15
 				production_speed_industrial_complex_factor = -0.10
+				industrial_factory_donations = 4
+
 			}
 		}
 		Imperial_army ={
@@ -125,6 +121,9 @@ ideas = {
 				army_speed_factor_for_controller=-0.15
 				experience_gain_army_factor=-0.20
 				land_doctrine_cost_factor=-0.15
+				army_org_regain = -0.1
+				army_speed_factor = -0.15
+				initiative_factor = 0.01
 
 			}
 		}
