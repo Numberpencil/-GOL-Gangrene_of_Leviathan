@@ -7,8 +7,28 @@ FRA_PDSF_nation_name_tt: "§Y法兰西国防政府§!将被称为§Y法兰西民
 FRA_AA_tough_countermeasures: "强硬手段"
 FRA_AA_Ensure_internal_loyalty: "确保内部忠诚"
 FRA_AA_Salute_to_you: "向您致敬！领袖"
+FRA_AA_End_of_Corruption: "消灭“堕落”"
+FRA_AA_Returning_to_secular_life: "回归世俗"
+ FRA_AA_Ignite_the_flames_of_revenge: "重燃复仇火炬"
+ FRA_AA_Officers_Salon: "军官沙龙"
+ FRA_AA_Rebuild_Syndicate: "复兴辛迪加"
+ FRA_AA_People_Storm: "组建人民冲锋队"
+ FRA_AA_Revolution_of_the_old_production_system: "旧生产制度革命"
+ FRA_AA_The_Myth_of_Syndicalism: "工团主义的神话"
 # 国策描述
 FRA_AA_Workers_Triumph_desc: "如今我们已经取得了议会的多数席位，工团主义已经在法兰西取得了胜利，我们必须进一步巩固成果"
 FRA_AA_tough_countermeasures_desc: "软弱只会导致失败，只有强硬才能避免失败与崩溃"
 FRA_AA_Ensure_internal_loyalty_desc: "如今对于PDSF的挑战将会极大的动摇我们内部的统治根基，部分工团党员的背叛会对大局造成难以想象的冲击，我们必须用一切手段确保内部的忠诚"
+FRA_AA_End_of_Corruption_desc: "美好年代与军政府时期的法国无可置疑的被资本主义堕落思想侵蚀了，而我们如今必须尽一切手段铲除令人厌恶的堕落思想"
+FRA_AA_Ignite_the_flames_of_revenge_desc: "我们仍然无法忘记那近二十年前的耻辱，对法兰西民族来说只有我们牢记仇恨，用复仇的烈焰焚烧一切方能实现最终的复仇"
+FRA_AA_Rebuild_Syndicate_desc: "若想复兴法兰西工业必先复兴与重构辛迪加，以计划的有序性取代军政府的无序性，制定统一的生产计划，分配资源与技术，并力取让每一位劳动者都变成生产的主人"
+FRA_AA_Returning_to_secular_life_desc: "第三共和国的反教权法案是妥协的不彻底的，这无疑让邪恶的罗马教会与宗教分子可以继续在法国肆意妄为阻止法兰西的复兴，更可以茶毒每一个法兰西人民，我们必须制定更为彻底的反教权法案彻底驯服天主教会"
+FRA_AA_Officers_Salon_desc: "我们需要进一步巩固与拉拢军队以确保政权的稳固"
+FRA_AA_People_Storm_desc: "是时候将保护国家以及政府的责任交到人民手中了。我们将把车间和社区的民兵组织整合成一支真正的政治性组织，让保卫公社成为每个公民的神圣职责。"
+FRA_AA_Revolution_of_the_old_production_system_desc: "旧军官们依赖个人关系和地方军阀的忠诚来维持补给线，这就像依赖脆弱的血脉。而我们提议的，是建立一个钢铁般的、由计划驱动的全国性补给导管系统。要通过与旧官僚控制的工厂进行竟争来证明辛迪加它的优越性。"
+FRA_AA_The_Myth_of_Syndicalism_desc: "我们将再度唤醒无产阶级的直觉能力，迈向工团主义最终的胜利"
+
+
+
+
 

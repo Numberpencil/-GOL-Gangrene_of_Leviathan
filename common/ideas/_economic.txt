@@ -227,9 +227,14 @@ ideas = {
 		free_trade = {
 
 			available = {
-				not = {
-					has_ideas = Weltpolitik
+			 if ={
+                 limit = {
+                        tag = GER
 				}
+				Not = {
+					has_idea = Weltpolitik
+				    }
+				}			
 				
 			}
 
@@ -282,8 +287,14 @@ ideas = {
 
 			available = {
 		
-
-			
+                if ={
+                 limit = {
+                        tag = GER
+				}
+				Not = {
+					has_idea = Weltpolitik
+				    }
+				}			
 			}
 
 
@@ -320,7 +331,14 @@ ideas = {
 	}
 		limited_exports = {
 			available = {
-	
+	             if ={
+                 limit = {
+                        tag = GER
+				}
+				Not = {
+					has_idea = Weltpolitik
+				    }
+				}			
 			}
 
 			cost = 150
@@ -382,13 +400,15 @@ ideas = {
 
 			available = {
 				has_war = yes
-
-
+                if ={
+                 limit = {
+                        tag = GER
 				}
-				
-
-			
-
+				Not = {
+					has_idea = Weltpolitik
+				    }
+				}			
+			}
 			rule = {
 				can_access_market = no
 				desc = can_not_access_market_closed_economy

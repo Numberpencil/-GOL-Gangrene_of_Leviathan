@@ -39,9 +39,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.05
 				production_speed_dockyard_factor = 0.05
 				send_volunteer_size=3
-
-				#贸易政策无法更变
-
+                custom_effect_tooltip = Trade_policy_cannot_be_changed_tt
 			}
 		}
 		Mitteleuropa_trade_agreement={
@@ -123,7 +121,7 @@ ideas = {
 				land_doctrine_cost_factor=-0.15
 				army_org_regain = -0.1
 				army_speed_factor = -0.15
-				initiative_factor = 0.01
+				land_reinforce_rate = 0.01
 
 			}
 		}

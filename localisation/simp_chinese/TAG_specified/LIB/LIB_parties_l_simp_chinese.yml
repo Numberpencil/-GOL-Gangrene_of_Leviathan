@@ -4,7 +4,7 @@
  # 共产主义政党
  #LIB_PARTY_NAME_CM_unkown: "共产主义政党名称"
  # 社会主义政党
- #LIB_PARTY_NAME_SC_unkown: "社会主义政党名称"
+ LIB_PARTY_NAME_SC_unkown: "罗德岛"
  # 民主政党
  #LIB_PARTY_NAME_DM_unkown: "民主政党名称"
  # 保守主义政党
@@ -16,7 +16,7 @@
  # 民粹主义政党
  #LIB_PARTY_NAME_PP_unkown: "民粹主义政党名称"
  # 法西斯政党
- #LIB_PARTY_NAME_FS_unkown: "法西斯政党名称"
+ LIB_PARTY_NAME_FS_unkown: "整合运动"
  # 国家社会主义政党
  #LIB_PARTY_NAME_NS_unkown: "国家社会主义政党名称"
  # 神秘主义政党

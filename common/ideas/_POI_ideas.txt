@@ -468,6 +468,25 @@ ideas = {
 			modifier = {
 				
 			}
-		}																		
+		}	
+		POI_linsen = {
+			name = "CHI POI linsen "
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}																	
     }
 }

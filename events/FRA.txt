@@ -454,7 +454,10 @@ country_event = {
 	 }
 	option = {
 		name = FRA.3_PDSF.a
-		add_ideas =  FRA_Martial_law
+		add_timed_idea = {
+           idea = FRA_Martial_law
+           days = 360
+        }
 		remove_ideas = FRA_riots_across_the_country
 		
 	}
@@ -470,7 +473,7 @@ country_event = {
 	 }
 	option = {
 		name = FRA.4_PDSF.a
-		add_ideas =  FRA_Fuhrer_law
+		add_ideas =  FRA_FuhrerCountry
         clr_global_flag = GOL_flag_FRA_The_riots
 		unlock_national_focus = FRA_AA_Salute_to_you
 	}

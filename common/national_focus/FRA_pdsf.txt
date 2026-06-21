@@ -31,15 +31,13 @@ focus_tree = {
 		focus = industrial_effort
 	}
 
-	#shared_focus = HABSBURG_part_of_something_bigger
-
 	focus = {
-		id = FRA_AA_Workers_Triumph
+		id = FRA_AA_Workers_Triumph #
 
-		icon = GFX_focus_xx
+		icon = GFX_goal_FRA_AA_Workers_Triumph
 		#relative_position_id = 	
 		x = 10
-		y = 0
+		y = 1
 		cost = 5
 
 		offset = {
@@ -80,8 +78,8 @@ focus_tree = {
 		icon = GFX_focus_xx
 		#relative_position_id = 	
 		x = 8
-		y = 1
-		cost = 5
+		y = 2
+		cost = 3
 
 		offset = {
 			x = -5
@@ -125,8 +123,8 @@ focus_tree = {
 		icon = GFX_focus_xx
 		#relative_position_id = 	
 		x = 12
-		y = 1
-		cost = 5
+		y = 2
+		cost = 3
 
 		offset = {
 			x = -5
@@ -173,8 +171,8 @@ focus_tree = {
 		icon = GFX_focus_xx
 		#relative_position_id = 	
 		x = 10
-		y = 2
-		cost = 5
+		y = 3
+		cost = 3
 
 		offset = {
 			x = -5
@@ -205,6 +203,356 @@ focus_tree = {
 		
 		completion_reward = {
        
+		}
+		}
+		focus = {
+		id = FRA_AA_End_of_Corruption
+
+		icon = GFX_focus_xx
+		#relative_position_id = 	
+		x = 8
+		y = 4
+		cost = 5
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+			
+			}
+		}
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = FRA_AA_Salute_to_you   }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = {  }
+		
+		completion_reward = {
+        add_popularity = {
+        ideology = fascism
+        popularity = -0.05
+        }
+		}
+		}
+		focus = {
+		id = FRA_AA_Returning_to_secular_life
+
+		icon = GFX_focus_xx
+		#relative_position_id = 	
+		x = 8
+		y = 5
+		cost = 8
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+			
+			}
+		}
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = FRA_AA_End_of_Corruption   }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = {  }
+		
+		completion_reward = {
+        add_war_support = 0.05
+	    add_stability = 0.05
+	    add_political_power = 100
+
+		}
+		}
+		focus = {
+		id = FRA_AA_Ignite_the_flames_of_revenge
+
+		icon = GFX_focus_xx
+		#relative_position_id = 	
+		x = 10
+		y = 4
+		cost = 5
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+			
+			}
+		}
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = FRA_AA_Salute_to_you   }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = {  }
+		
+		completion_reward = {
+        swap_ideas = {
+         remove_idea = FRA_The_deep_pain_of_the_defeated
+         add_idea = FRA_The_deep_pain_of_the_defeated_1
+        }
+		}
+		}
+		focus = {
+		id = FRA_AA_Officers_Salon
+
+		icon = GFX_focus_xx
+		#relative_position_id = 	
+		x = 10
+		y = 5
+		cost = 8
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+			
+			}
+		}
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = FRA_AA_Ignite_the_flames_of_revenge   }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = {  }
+		
+		completion_reward = {
+            add_ideas = FRA_Military_support
+
+		}
+		}
+		focus = {
+		id = FRA_AA_Rebuild_Syndicate
+
+		icon = GFX_focus_xx
+		#relative_position_id = 	
+		x = 12
+		y = 4
+		cost = 5
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+			
+			}
+		}
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = FRA_AA_Salute_to_you   }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = {  }
+		
+		completion_reward = {
+            add_ideas = FRA_syndicate
+       
+		}
+		}
+		focus = {
+		id = FRA_AA_People_Storm
+
+		icon = GFX_focus_xx
+		#relative_position_id = 	
+		x = 12
+		y = 5
+		cost = 8
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+			
+			}
+		}
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = FRA_AA_Rebuild_Syndicate   }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = {  }
+		
+		completion_reward = {
+            add_ideas = FRA_People_Storm       
+		}
+		}
+		focus = {
+		id = FRA_AA_Revolution_of_the_old_production_system
+
+		icon = GFX_focus_xx
+		#relative_position_id = 	
+		x = 10
+		y = 6
+		cost = 10
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+			
+			}
+		}
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = FRA_AA_Officers_Salon   }
+		prerequisite = { focus = FRA_AA_People_Storm   }
+        prerequisite = { focus = FRA_AA_Returning_to_secular_life   }
+
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = {  }
+		
+		completion_reward = {
+        swap_ideas = {
+         remove_idea = FRA_syndicate
+         add_idea = FRA_syndicate_1
+        }
+		random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		}
+		}
+		focus = {
+		id = FRA_AA_The_Myth_of_Syndicalism
+
+		icon = GFX_focus_xx
+		#relative_position_id = 	
+		x = 10
+		y = 7
+		cost = 10
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+			
+			}
+		}
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = FRA_AA_Revolution_of_the_old_production_system   }
+
+
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = {  }
+		
+		completion_reward = {
+       swap_ideas = {
+         remove_idea = FRA_FuhrerCountry
+         add_idea = FRA_FuhrerCountry_1
+        }
 		}
 		}
 	} 

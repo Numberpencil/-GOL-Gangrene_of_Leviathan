@@ -173,6 +173,13 @@ defined_text = {
 		}
 		localization_key = "AFG_POI_Muhammad_Zahir_Shah"
 	}
+	text = {
+		trigger = {	
+			tag = CHI			
+			has_idea = POI_linsen
+		}
+		localization_key = "CHI_POI_linsen"
+	}
 }
 
 		

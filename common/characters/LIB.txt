@@ -3,13 +3,13 @@ characters = {
     #premier
 	Talulah = {
         name = Talulah_name
-        desc = Talulah_desc
         portraits = {
             civilian = {
                 large = "gfx/leaders/LIB/Talulah.png"
             }
         }
         country_leader = {
+            desc = Talulah_name_desc
             ideology = Integralist_corporatism_Talulah
             traits = {
             blacksnake

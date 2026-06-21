@@ -9,6 +9,17 @@ ideas = {
                 stability_factor = -0.05
             }
         }
+        FRA_The_deep_pain_of_the_defeated_1 = {
+            # 战败者的刻骨之痛
+            picture = "GFX_idea_FRA_The_deep_pain_of_the_defeated" 
+              modifier = {
+                political_power_factor = 0.1
+                war_support_factor = 0.05
+                stability_factor = -0.05
+                army_core_defence_factor = 0.05
+                conscription_factor = 0.07
+            }
+        }
          FRA_Licking_industrial_scars = {
             # 舔舐工业伤痕
             picture = "GFX_idea_FRA_Licking_industrial_scars" 
@@ -91,7 +102,7 @@ ideas = {
                 political_power_factor = -0.05
             }
             }
-            FRA_Fuhrer_law = {
+            FRA_FuhrerCountry = {
             # 元首法
             picture = "GFX_idea_unknown" 
               modifier = {
@@ -103,6 +114,65 @@ ideas = {
                 production_factory_efficiency_gain_factor = 0.05 
                 trade_laws_cost_factor = -0.5
                 economy_cost_factor = -0.5
+            }
+            }
+             FRA_FuhrerCountry_1 = {
+            # 元首法
+            picture = "GFX_idea_unknown" 
+              modifier = {
+                forced_surrender_limit = 0.1
+                stability_factor = 0.1
+                command_power_gain_mult = 0.1
+                experience_gain_army_factor = 0.1
+                war_support_factor = 0.05
+                production_factory_efficiency_gain_factor = 0.05 
+                trade_laws_cost_factor = -0.5
+                economy_cost_factor = -0.5
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+                industrial_capacity_factory = 0.1
+            }
+            }
+            FRA_Military_support = {
+            # 军队支持
+            picture = "GFX_idea_unknown" 
+              modifier = {
+                command_power_gain_mult = 0.1
+                experience_gain_army = 0.1
+                experience_gain_navy = 0.1
+                experience_gain_air = 0.1
+                production_speed_arms_factory_factor = 0.05 
+
+            }
+            }
+            FRA_syndicate = {
+            # 辛迪加
+            picture = "GFX_idea_unknown" 
+              modifier = {
+              industrial_capacity_factory = 0.05
+              production_speed_buildings_factor = 0.05 
+	            consumer_goods_factor = 0.05
+            }
+            }
+            FRA_syndicate_1 = {
+            # 辛迪加
+            picture = "GFX_idea_unknown" 
+              modifier = {
+              industrial_capacity_factory = 0.05
+              production_speed_buildings_factor = 0.05 
+	            consumer_goods_factor = 0.05
+              production_factory_start_efficiency_factor = 0.05 
+
+            }
+            }
+            FRA_People_Storm = {
+            # 人民冲锋队
+            picture = "GFX_idea_unknown" 
+              modifier = {
+              war_stability_factor = 0.2
+              army_morale_factor = 0.025
+              army_org_regain = 0.025
+	            conscription = 0.005
             }
             }
         }
