@@ -1,15 +1,15 @@
 characters = {
     ## Leaders ##
     #premier
-	Paul_Emilvon_Lettow_Vorbeck = {
-        name = Paul_Emilvon_Lettow_Vorbeck_name
+	Heinrich_Kirchheim = {
+        name = Heinrich_Kirchheim_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/DSA/Paul_Emilvon_Lettow_Vorbeck.png"
+                large = "gfx/leaders/DSA/Heinrich_Kirchheim.png"
             }
         }
         country_leader = {
-            ideology = Oligarchist_despotism
+            ideology = Military_junta
             traits = {
 
             }

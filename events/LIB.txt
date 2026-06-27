@@ -4,17 +4,30 @@
 
 add_namespace = LIB
 
-#country_event = {
-#	id = LIB.1
-#	title = LIB.1.t
-#	desc = LIB.1.d
-#	picture = GFX_events_generic
-#	
-#	is_triggered_only = yes
-#	fire_only_once = yes
-#	
-#	option = {
-#		name = LIB.1.a
-#		# 预留效果接口
-#	}
-#}
+country_event = { 
+	id = LIB.1 # 塔露拉
+    title = LIB.1.t
+    desc = LIB.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = LIB.1.a
+		set_cosmetic_tag = LIB_Arknights
+		set_politics = {
+         ruling_party = fascism
+         elections_allowed = no
+       }
+	ai_chance = {
+    base = 6
+    }
+
+
+	}
+	 option = { 
+        name = LIB.1.b
+	ai_chance = {
+    base = 4
+    }
+	}
+}
+	

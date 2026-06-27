@@ -107,3 +107,13 @@ ideology = occultism
 long_name = "LIB_PARTY_NAME_OC_unkown"
 name = "LIB_PARTY_NAME_OC_unkown"
 }
+
+
+#LIB = {
+#	country_event = {
+#		id = LIB.1
+#		days = 1000
+#	}
+#	
+#}
+

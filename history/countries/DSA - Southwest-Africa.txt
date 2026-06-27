@@ -20,7 +20,7 @@ set_technology = {
 
 #人物提取
 #recruit_character = ger_Wilhelm_II
-recruit_character = Paul_Emilvon_Lettow_Vorbeck
+recruit_character = Heinrich_Kirchheim
 
 #开局执政党
 set_politics = {
