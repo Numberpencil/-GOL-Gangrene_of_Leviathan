@@ -81,4 +81,235 @@ GOL_debug_decisions_category = {
 			factor = 0
 		}
 	}
+	Switching_ideologies_communism = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = communism
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Switching_ideologies_socialism = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = socialism
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Switching_ideologies_democrat = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = democrat
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Switching_ideologies_conservatism = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = conservatism
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Switching_ideologies_authoritarianism = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = authoritarianism
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Switching_ideologies_despotism = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = despotism
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Switching_ideologies_populism = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = populism
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Switching_ideologies_fascism = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = fascism
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Switching_ideologies_national_socialism = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = national_socialism
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Switching_ideologies_occultism = {
+		icon = generic_war_support
+		allowed = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes			
+		}
+		available = {
+			always = yes
+			is_ai = no
+		}
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			set_politics = {
+            ruling_party = occultism
+            }
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

@@ -2,8 +2,8 @@
 capital = 41
 
 #开局国家状态
-set_stability = 0.6
-set_war_support = 0.4
+set_stability = 0.31
+set_war_support = 0.17
 
 #开局科研槽
 set_research_slots = 3
@@ -20,7 +20,7 @@ set_technology = {
 
 #开局执政党
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = democrat
 	last_election = "1934.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -28,16 +28,16 @@ set_politics = {
 
 #饼图成分（数字总和为100）
 set_popularities = {
-	communism = 10
-	socialism = 10
-	democrat = 10
-	conservatism = 10
-	authoritarianism = 10
-	despotism = 10
-	populism = 10
-	fascism = 10
-	national_socialism = 10
-	occultism = 10
+	communism = 14
+	socialism = 16
+	democrat = 25
+	conservatism = 3
+	authoritarianism = 7
+	despotism = 2
+	populism = 32
+	fascism = 1
+	national_socialism = 0
+	occultism = 0
 }
 
 #开局阵营（若存在）

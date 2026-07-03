@@ -17,7 +17,6 @@ victory_points = { 3456 10 } #Karachi
 
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
 			dockyard = 1
 			3456 = {
 				naval_base = 4

@@ -37,9 +37,18 @@ leader_traits = {
     }
     Fighter = {
          random = no
-        sprite = 1
+        sprite = 2
 	army_org_factor = 0.1
     war_support_factor = 0.3
     resistance_target_on_our_occupied_states = 0.3
+    }
+    Timekeeper = {
+        random = no
+        sprite = 1
+	production_speed_buildings_factor = 0.15
+    consumer_goods_expected_value = -0.1 
+    global_building_slots = 3
+    political_power_gain = 0.5
+
     }
 }

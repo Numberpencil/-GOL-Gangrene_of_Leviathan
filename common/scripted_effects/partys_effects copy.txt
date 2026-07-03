@@ -1,0 +1,160 @@
+# 管理政党效果
+Banning_political_parties_communism = {
+	hidden_effect = {
+	set_political_party = {
+    ideology = communism
+    popularity = 0
+}
+set_party_name = {
+    ideology = communism
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}
+	}
+custom_effect_tooltip = Banning_political_parties_communism_tt
+
+}
+Banning_political_parties_socialism = {
+	hidden_effect = {
+	set_political_party = {
+    ideology = socialism
+    popularity = 0
+}
+set_party_name = {
+    ideology = socialism
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}	
+	}
+custom_effect_tooltip = Banning_political_parties_socialism_tt
+
+
+}
+Banning_political_parties_democrat = {
+	hidden_effect = {
+	set_political_party = {
+    ideology = democrat
+    popularity = 0
+}
+set_party_name = {
+    ideology = democrat
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}	
+	}
+custom_effect_tooltip = Banning_political_parties_democrat_tt
+
+
+}
+Banning_political_parties_conservatism = {
+	hidden_effect = {
+set_political_party = {
+    ideology = conservatism
+    popularity = 0
+}
+set_party_name = {
+    ideology = conservatism
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}
+	}
+custom_effect_tooltip = Banning_political_parties_conservatism_tt
+
+
+}
+Banning_political_parties_authoritarianism = {
+	hidden_effect= {
+	set_political_party = {
+    ideology = authoritarianism
+    popularity = 0
+}
+set_party_name = {
+    ideology = authoritarianism
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}	
+	}
+custom_effect_tooltip = Banning_political_parties_authoritarianism_tt
+
+
+}
+Banning_political_parties_despotism = {
+	hidden_effect= {
+	set_political_party = {
+    ideology = despotism
+    popularity = 0
+}
+set_party_name = {
+    ideology = despotism
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}	
+	}
+custom_effect_tooltip = Banning_political_parties_despotism_tt
+
+
+}
+Banning_political_parties_populism = {
+	hidden_effect = {
+	set_political_party = {
+    ideology = populism
+    popularity = 0
+}
+set_party_name = {
+    ideology = populism
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}	
+	}
+custom_effect_tooltip = Banning_political_parties_populism_tt
+
+
+}
+Banning_political_parties_fascism = {
+	hidden_effect = {
+	set_political_party = {
+    ideology = fascism
+    popularity = 0
+}
+set_party_name = {
+    ideology = fascism
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}	
+	}
+custom_effect_tooltip = Banning_political_parties_fascism_tt
+
+
+}
+Banning_political_parties_national_socialism = {
+	hidden_effect = {
+		set_political_party = {
+    ideology = national_socialism
+    popularity = 0
+}
+set_party_name = {
+    ideology = national_socialism
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}
+	}
+custom_effect_tooltip = Banning_political_parties_national_socialism_tt
+
+
+}
+Banning_political_parties_occultism = {
+	hidden_effect = {
+		set_political_party = {
+    ideology = occultism
+    popularity = 0
+}
+set_party_name = {
+    ideology = occultism
+    long_name = Banning_political_parties_longname
+    name = Banning_political_parties_name
+}
+	}
+custom_effect_tooltip = Banning_political_parties_occultism_tt
+
+
+}

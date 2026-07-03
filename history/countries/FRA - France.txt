@@ -22,7 +22,26 @@ recruit_character = Lagardère
 recruit_character = Maurice_Doriot
 recruit_character = Leondod
 recruit_character = Castelnaul
-
+recruit_character = FRA_jean_de_lattre_de_tassigny
+recruit_character = FRA_alphonse_juin
+recruit_character = FRA_maurice_gamelin
+recruit_character = FRA_maxime_weygand
+recruit_character = FRA_alphonse_georges
+recruit_character = FRA_antoinemariebenoit_besson
+recruit_character = FRA_charles_de_gaulle
+recruit_character = FRA_philippe_leclerc
+recruit_character = FRA_henri_giraud
+recruit_character = FRA_charles_huntziger
+recruit_character = FRA_gastonhenri_billotte
+recruit_character = FRA_henry_freydenberg
+recruit_character = FRA_rene_olry
+recruit_character = FRA_francois_darlan
+recruit_character = FRA_jeanmarie_charles_abrial
+recruit_character = FRA_jeanpierre_esteva
+recruit_character = FRA_jean_de_laborde
+recruit_character = FRA_jean_romatet
+recruit_character = FRA_emile_laure
+recruit_character = FRA_joseph_doumenc
 # 开局解锁科技
 set_technology = {
 	infantry_weapons = 1

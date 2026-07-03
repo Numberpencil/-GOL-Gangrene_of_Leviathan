@@ -3,6 +3,13 @@
  # 命名规则：TAG_leader_name
  # 领袖名称
  Talulah_name:0 "塔露拉·雅特利亚斯"
+ Miku_name: "初音未来"
+ Vertin_name: "维尔汀"
+ Teto_name: "重音Teto"
+ Teto_name_desc: "重音Teto是作为2008年愚人节企划由日本匿名留言板2channel网友发起的虚构人物。本身的出现原本只是网友在愚人节的恶搞，但是由于形象一经发出便热度极高，最后被Crypton承认其存在。"
+ Miku_name_desc:0 "Miku, Miku, you can call me Miku"
+ Vertin_name_desc:0 "维尔汀是已知唯一能够免疫“暴雨”的人，也因此被基金会任命为司辰，在“暴雨”时常发生的当下记录时间。作为基金会成员和神秘学家，维尔汀神秘学能力很弱，没有受过神秘学战术的系统训练，但对神秘学的感知极为敏锐。"
  Talulah_name_desc:0 "塔露拉·雅特利亚斯，爱德华·雅特利亚斯的女儿，种族为德拉克，出身于龙门，大炎真龙与维多利亚红龙双重血脉的持有者，红龙的末裔，维多利亚王座的合法继承人。为整合运动建立者，同时也是整合运动的领导者和发言人，被整合运动成员称作“感染者的领袖”"
  blacksnake:0 "黑蛇"
  Fighter:0 "斗士"
+ Timekeeper: "司辰"

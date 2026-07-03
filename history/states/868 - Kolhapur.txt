@@ -17,7 +17,7 @@ victory_points = { 12295 1 } #Kolhapur
 
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+
 		}
 	}
 

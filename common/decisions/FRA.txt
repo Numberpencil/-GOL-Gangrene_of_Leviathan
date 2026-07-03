@@ -73,7 +73,10 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		complete_effect = {
           if = {
           limit = { NOT = { has_idea = FRA_Schutzstaffel } }
-          add_ideas = FRA_Schutzstaffel
+		  add_timed_idea = {
+           idea = FRA_Schutzstaffel
+           days = 365
+        }
         }
 	   }
 

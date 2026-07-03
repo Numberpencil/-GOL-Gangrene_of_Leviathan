@@ -382,7 +382,10 @@ country_event = {
         news_event = {
 			id = news.1004 
 		}
-	add_ideas = FRA_Political_enthusiasm
+	 add_timed_idea = {
+           idea = FRA_Political_enthusiasm
+           days = 365
+        }
     set_politics = {
     ruling_party = fascism
     last_election = 1935.4.1

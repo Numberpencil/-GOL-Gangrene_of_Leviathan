@@ -11,7 +11,7 @@ victory_points = { 12708 2 } #Simla
 
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
+
 		}
 	}
 

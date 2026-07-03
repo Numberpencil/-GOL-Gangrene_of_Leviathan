@@ -73,7 +73,7 @@ name = "VEN_PARTY_NAME_CS_unkown"
 set_party_name = {
 ideology = authoritarianism
 long_name = "VEN_PARTY_NAME_AT_unkown"
-name = "VEN_PARTY_NAME_AT_FR"
+name = "VEN_PARTY_NAME_AT_unkown"
 }
 set_party_name = {
 ideology = despotism

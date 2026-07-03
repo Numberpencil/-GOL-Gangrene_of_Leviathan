@@ -11,7 +11,7 @@ victory_points = { 12080 3 } #Indore
 		victory_points = { 11995 2 } #Bhopal
 
 		buildings = {
-			infrastructure = 2
+
 			industrial_complex = 1
 		}
 	}

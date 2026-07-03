@@ -19,7 +19,6 @@ victory_points = { 10088 1 } #Cuttack
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			arms_factory = 1
 		}
 	}
 

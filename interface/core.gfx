@@ -810,6 +810,11 @@ bitmapfonts = {
 		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
 		9 = { 252 169 125 }	# Gradient Step 9 - orange		{ 250 102 25 }
 		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
+		D = { 67 67 67 }
+		P = { 127 117 82 }
+		F = { 139 87 66 }
+		N = { 	205 104 57}
+		o = { 18 9 28 }
 	}
 
 

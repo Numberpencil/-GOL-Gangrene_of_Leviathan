@@ -2,22 +2,22 @@
  # 政党本地化模板
  # 命名规则：TAG_PARTY_NAME_XX_name
  # 共产主义政党
- #SPR_PARTY_NAME_CM_unkown: "共产主义政党名称"
+ SPR_PARTY_NAME_CM_unkown: "全国劳工联合会"
  # 社会主义政党
- #SPR_PARTY_NAME_SC_unkown: "社会主义政党名称"
+ SPR_PARTY_NAME_SC_unkown: "西班牙工人社会党"
  # 民主政党
- #SPR_PARTY_NAME_DM_unkown: "民主政党名称"
+ SPR_PARTY_NAME_DM_unkown: "西班牙立宪复兴党"
  # 保守主义政党
- #SPR_PARTY_NAME_CS_unkown: "保守主义政党名称"
+ SPR_PARTY_NAME_CS_unkown: "卡洛斯派正统主义团契"
  # 威权主义政党
- SPR_PARTY_NAME_AT_CR:0 "立宪复兴党"
+ SPR_PARTY_NAME_AT_CR:0 "王国专制党"
  # 专制主义政党
- #SPR_PARTY_NAME_DP_unkown: "专制主义政党名称"
+ SPR_PARTY_NAME_DP_unkown: "军事政府"
  # 民粹主义政党
- #SPR_PARTY_NAME_PP_unkown: "民粹主义政党名称"
+ SPR_PARTY_NAME_PP_unkown: "西班牙民族复兴党"
  # 法西斯政党
- #SPR_PARTY_NAME_FS_unkown: "法西斯政党名称"
+ SPR_PARTY_NAME_FS_unkown: "西班牙长枪党"
  # 国家社会主义政党
- #SPR_PARTY_NAME_NS_unkown: "国家社会主义政党名称"
+ SPR_PARTY_NAME_NS_unkown: "§R（非法）§!"
  # 神秘主义政党
- #SPR_PARTY_NAME_OC_unkown: "神秘主义政党名称"
+ SPR_PARTY_NAME_OC_unkown: "§R（非法）§!"

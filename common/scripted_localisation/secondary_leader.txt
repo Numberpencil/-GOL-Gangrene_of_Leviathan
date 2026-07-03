@@ -179,6 +179,12 @@ defined_text = {
 			has_idea = POI_linsen
 		}
 		localization_key = "CHI_POI_linsen"
+	}text = {
+		trigger = {	
+			tag = MEX			
+			has_idea = POI_Alfonso_XIII
+		}
+		localization_key = "MEX_POI_Alfonso_XIII"
 	}
 }
 

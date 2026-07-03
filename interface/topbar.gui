@@ -714,15 +714,7 @@ guiTypes = {
 				position = { x=-115 y=0 }
 				size = { width=30 height=30 }
 				
-				buttonType = {
-					name = "faction_button"
-					quadTextureSprite ="GFX_topbar_faction_empty"
-					position = { x= 0 y = -1}
-					Orientation = "UPPER_LEFT"
-					clicksound = click_close
-					oversound = ui_menu_over
-					shortcut = "ctrl+q"
-				}
+				
 	
 				instantTextBoxType = {
 					name ="initiative_text"

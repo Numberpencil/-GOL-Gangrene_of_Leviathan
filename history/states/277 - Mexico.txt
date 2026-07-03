@@ -16,8 +16,8 @@ victory_points = { 1965 25 }
 
 		buildings = {
 			infrastructure = 2
-			arms_factory = 2
-			industrial_complex = 4
+			arms_factory = 4
+			industrial_complex = 14
 			air_base = 3
 		}
 	}

@@ -9,7 +9,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Military_socialism
+            ideology = Military_socialism_despotism
             traits = {
 
             }

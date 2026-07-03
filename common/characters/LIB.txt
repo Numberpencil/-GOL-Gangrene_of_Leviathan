@@ -19,5 +19,56 @@ characters = {
             id = -1
         }
     }
+    Miku = {
+        name = Miku_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/Miku.png"
+            }
+        }
+        country_leader = {
+            desc = Miku_name_desc
+            ideology = Conservatism_ideology
+            traits = {
+          
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Vertin = {
+        name = Vertin_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/Vertin.png"
+            }
+        }
+        country_leader = {
+            desc = Vertin_name_desc
+            ideology = Liberalism
+            traits = {
+            Timekeeper
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Teto = {
+        name = Teto_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/Teto.png"
+            }
+        }
+        country_leader = {
+            desc = Teto_name_desc
+            ideology = Hybrid_regime
+            traits = {
+    
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 
 }

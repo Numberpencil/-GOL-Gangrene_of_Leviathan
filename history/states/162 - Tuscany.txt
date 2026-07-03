@@ -23,13 +23,13 @@ state = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
-			dockyard = 3
+			dockyard = 2
 			air_base = 2
 			6946 = {
 				landmark_leaning_tower_of_pisa = 1
 			}
 			6973 = {
-				naval_base = 10
+				naval_base = 4
 				naval_headquarters = {
 					level = 1
 					allowed = { has_dlc = "No Compromise, No Surrender" }
