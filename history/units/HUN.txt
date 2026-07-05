@@ -83,196 +83,232 @@ units = {
 	division = {
 		location = 6720
 		division_template = "Lovashadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 3617
 		division_template = "Lovashadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 727
 		division_template = "Lovashadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9660
 		division_template = "Lovashadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 
 	division = {
 		location = 9692
 		division_template = "Gyaloghadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.7
 	}
 	division = {
 		location = 9692
 		division_template = "Gyaloghadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 6711
 		division_template = "Gyaloghadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.7
 	}
 	division = {
 		location = 6711
 		division_template = "Gyaloghadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 6751
 		division_template = "Gyaloghadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.7
 	}
 	division = {
 		location = 9660
 		division_template = "Gyaloghadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.7
 	}
 	division = {
 		location = 11610
 		division_template = "Gyaloghadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9606
 		division_template = "Gyaloghadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 9606
+		division_template = "Gyaloghadosztály"
+		start_experience_factor = 0.6
+	
+	}
+	division = {
+		location = 9606
+		division_template = "Gyaloghadosztály"
+		start_experience_factor = 0.6
+		
+	}
+	division = {
+		location = 9606
+		division_template = "Gyaloghadosztály"
+		start_experience_factor = 0.6
+		
+	}
+	division = {
+		location = 9606
+		division_template = "Gyaloghadosztály"
+		start_experience_factor = 0.6
+		
+	}
+	division = {
+		location = 9606
+		division_template = "Gyaloghadosztály"
+		start_experience_factor = 0.6
+		
+	}
+	division = {
+		location = 9606
+		division_template = "Gyaloghadosztály"
+		start_experience_factor = 0.6
+		
 	}
 
 	division = {
 		location = 541
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		
 	}
 	division = {
 		location = 3581
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 11691
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9670
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 6679
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 9621
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 11539
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 3676
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 3696
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 	division = {
 		location = 6751
 		division_template = "Határőrség"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.5
 	}
 
 	division = {
 		location = 9660
 		division_template = "Harckocsizó hadosztály"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.3
 	}
 }

@@ -84,10 +84,6 @@ GOL_balkan_alliance_victory_peace = {
 		transfer_state_to = ROM
 		add_core_of = ROM
 	}
-	766 = {
-		transfer_state_to = ROM
-		add_core_of = ROM
-	}
 	80 = {
 		transfer_state_to = ROM
 		add_core_of = ROM
@@ -97,10 +93,6 @@ GOL_balkan_alliance_victory_peace = {
 		add_core_of = ROM
 	}
 	76 = {
-		transfer_state_to = ROM
-		add_core_of = ROM
-	}
-	93 = {
 		transfer_state_to = ROM
 		add_core_of = ROM
 	}
@@ -134,10 +126,6 @@ GOL_balkan_alliance_victory_peace = {
 		transfer_state_to = YUG
 		add_core_of = YUG
 	}
-	804 = {
-		transfer_state_to = YUG
-		add_core_of = YUG
-	}
 	103 = {
 		transfer_state_to = YUG
 		add_core_of = YUG
@@ -154,16 +142,19 @@ GOL_balkan_alliance_victory_peace = {
 		transfer_state_to = YUG
 		add_core_of = YUG
 	}
-	64 = {
-		transfer_state_to = YUG
-		add_core_of = YUG
-	}
 	875 = {
 		transfer_state_to = YUG
 		add_core_of = YUG
 	}
 	
 	set_global_flag = GOL_flag_balkan_alliance_victory
+	ROM = {
+	set_cosmetic_tag = Romania	
+	}
+	YUG = {
+		set_cosmetic_tag = Yugoslavia
+	}
+	
 	HUN = {
 	set_politics = {
     ruling_party = democrat
