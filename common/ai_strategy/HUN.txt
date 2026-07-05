@@ -1,0 +1,146 @@
+HUN_balkan_war = {
+    allowed = {
+        original_tag = HUN
+		
+    }
+    enable = {
+        OR = {
+			has_war_with = ROM
+			has_war_with = BUL
+			has_war_with = YUG
+		}
+    }
+    abort = {
+        always = no
+    }
+  
+    ai_strategy = {
+		type = invade
+		id = ROM
+		value = 100
+	}
+	ai_strategy = {
+		type = invade
+		id = BUL
+		value = 100
+	}
+    ai_strategy = {
+    type = invade
+    id = YUG
+    value = 1000
+    } 
+     
+
+}
+HUN_balkan_war1 = {
+    allowed = {
+        original_tag = HUN
+		
+    }
+    enable = {
+      always = yes
+    }
+    abort = {
+      always = no
+    }
+  
+    ai_strategy = {
+		type = prepare_for_war
+		id = ROM
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = BUL
+		value = 100
+	}
+    ai_strategy = {
+    type = prepare_for_war
+    id = YUG
+    value = 1000
+    } 
+}
+ROM_balkan_war0 = {
+    allowed = {
+		 OR = {
+        original_tag = YUG
+		original_tag = BUL
+		original_tag = ROM
+		 }
+    }
+    enable = {
+      always = yes
+    }
+    abort = {
+      MAC = {
+		has_capitulated = yes
+	  }
+    }
+  
+    ai_strategy = {
+		type = prepare_for_war
+		id = HUN
+		value = 200
+	}
+}
+ROM_balkan_war = {
+    allowed = {
+        OR = {
+        original_tag = YUG
+		original_tag = BUL
+		original_tag = ROM
+		 }
+		
+    }
+    enable = {
+      always = yes
+	  has_war_with = HUN
+	  MAC = {
+		has_capitulated = no
+	  }
+    }
+    abort = {
+      MAC = {
+		has_capitulated = yes
+	  }
+    }
+  
+    ai_strategy = {
+		type = prepare_for_war
+		id = HUN
+		value = 100
+	}
+	ai_strategy = {
+		type = invade
+		id = MAC
+		value = 100
+	}
+
+}
+ROM_balkan_war1 = {
+    allowed = {
+         OR = {
+        original_tag = YUG
+		original_tag = BUL
+		original_tag = ROM
+		 }
+		
+    }
+    enable = {
+      always = yes
+	  has_war_with = HUN
+	  MAC = {
+		has_capitulated = yes
+	  }
+    }
+    abort = {
+     always no
+    }
+  
+    ai_strategy = {
+		type = invade
+		id = HUN
+		value = 200
+	}
+
+}

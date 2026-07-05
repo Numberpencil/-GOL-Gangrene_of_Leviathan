@@ -1,0 +1,446 @@
+focus = {
+	current = "LEP_suns_year_of_glory"
+	progress = 0
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		industrial_manufacturer = mio:CHN_small_arms_industry_organisation
+		requested_factories = 5
+		progress = 0.11
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		industrial_manufacturer = mio:LEP_krupp_artillery_organisation
+		requested_factories = 2
+		progress = 0.34
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		progress = 0.82
+		efficiency = 100
+	}
+}
+
+# The LEP begins with multiple named variants of its starting divisions, one for each province.
+# This is to accommodate the events of the LEP collapse, wherein units are added, deleted, and transferred.
+# There is no compositional difference between a named and unnamed division (i.e. Qibing Xie = Anhui Qibing Xie), or between named variants of the same division.
+# Divisions in Nanjing are an exception to this rule, and are sorted as a province.
+
+###########################################################################################
+
+########################################
+# Vanilla Divisions (No-name variants) #
+########################################
+
+division_template = {
+	name = "Qibing Xie"
+	division_names_group = LEP_CAV_01
+	regiments = { # was 8 cav brigade previously
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Bubing Xie"
+	division_names_group = LEP_INF_02
+	regiments = { # was 8 inf brigade previously
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Bubing Zhen" # Chinese divisions more brigade-sized
+	division_names_group = LEP_INF_01
+	regiments = { # was square division previously
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Xin Bubing Zhen" # Chinese divisions more brigade-sized
+	division_names_group = LEP_INF_01
+	regiments = { # was square division previously
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = { #Artillery Division
+	name = "Paobing Zhen"
+	division_names_group = LEP_INF_01
+	regiments = { # Elite German-style divisions; was 6Inf5art Sart division previously
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Polizeitruppe"
+	division_names_group = LEP_MIL_02
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+}
+
+#####################
+# Nanjing Divisions #
+#####################
+
+division_template = {
+	name = "Nanjing Bubing Zhen"
+	division_names_group = LEP_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = { #Artillery Division
+	name = "Nanjing Paobing Zhen"
+	division_names_group = LEP_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+#####################
+# Jiangsu Divisions #
+#####################
+
+division_template = {
+	name = "Jiangsu Bubing Xie"
+	division_names_group = LEP_INF_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+############################################
+# Anhui Divisions (All Transferred to ANQ) #
+############################################
+
+division_template = {
+	name = "Anhui Qibing Xie"
+	division_names_group = LEP_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Anhui Bubing Zhen"
+	division_names_group = LEP_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Anhui Bubing Xie"
+	division_names_group = LEP_INF_02
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+}
+
+#######################################################
+# Zhejiang Divisions (Split between ANQ and LEP tags) #
+#######################################################
+
+division_template = {
+	name = "Zhejiang Bubing Xie"
+	division_names_group = LEP_INF_02
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+}
+
+####################
+# Fujian Divisions #
+####################
+
+division_template = {
+	name = "Fujian Bubing Zhen"
+	division_names_group = LEP_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Fujian Bubing Xie"
+	division_names_group = LEP_INF_02
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+}
+
+####################################
+# Jiangxi Divisions (Mostly loyal) #
+####################################
+
+division_template = {
+	name = "Jiangxi Bubing Xie"
+	division_names_group = LEP_INF_02
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+}
+
+#####################################################################################################
+# Units are sorted according to starting province for convenience. Nanjing is sorted as a province. #
+#####################################################################################################
+
+units = {
+	# Nanjing
+	division = {
+		name = "Nanjing Paobing Zhen"
+		location = 11913
+		division_template = "Nanjing Paobing Zhen"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.00 #Well equipped German trained divisions
+	}
+	division = {
+		name = "Nanjing Bubing Di 1 Zhen"
+		location = 11913
+		division_template = "Nanjing Bubing Zhen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.80 #Better equipped Nanjing Divisions
+	}
+	division = {
+		name = "Nanjing Bubing Di 2 Zhen"
+		location = 11982
+		division_template = "Nanjing Bubing Zhen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.80 #Better equipped Nanjing Divisions
+	}
+
+	# Jiangsu
+	division = {
+		name = "Nantong Bubing Xie"
+		location = 4091
+		division_template = "Jiangsu Bubing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Yangcheng Bubing Xie"
+		location = 12067
+		division_template = "Jiangsu Bubing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+
+	# Anhui
+	division = {
+		name = "Anhui Bubing Di 1 Zhen"
+		location = 1146
+		division_template = "Anhui Bubing Zhen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Anhui Bubing Di 2 Zhen"
+		location = 7035
+		division_template = "Anhui Bubing Zhen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Anhui Bubing Di 1 Xie"
+		location = 9937
+		division_template = "Anhui Bubing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Anhui Bubing Di 2 Xie"
+		location = 7104
+		division_template = "Anhui Bubing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Yangzhou Qibing Xie"
+		location = 4148
+		division_template = "Anhui Qibing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+
+	# Zhejiang
+	division = {
+		name = "Zhejiang Paobing Zhen"
+		location = 7191
+		division_template = "Paobing Zhen"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.00 #Well equipped German trained divisions
+	}
+	division = {
+		name = "Zhejiang Bubing Zhen"
+		location = 1096
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Jinhua Bubing Xie"
+		location = 11920
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Taizhou Bubing Xie"
+		location = 7146
+		division_template = "Zhejiang Bubing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+
+	# Fujian
+	division = {
+		name = "Fujian Bubing Di 1 Zhen"
+		location = 11986
+		division_template = "Fujian Bubing Zhen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Nanping Bubing Xie"
+		location = 1138
+		division_template = "Fujian Bubing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+
+	# Jiangxi
+	division = {
+		name = "Jiangxi Paobing Zhen"
+		location = 3992
+		division_template = "Paobing Zhen"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.00 #Well equipped German trained divisions
+	}
+	division = {
+		name = "Jiangxi Bubing Zhen"
+		location = 7653
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Jingdezhen Bubing Xie"
+		location = 1153
+		division_template = "Jiangxi Bubing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Ganzhou Bubing Xie"
+		location = 9942
+		division_template = "Jiangxi Bubing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Yichun Bubing Xie"
+		location = 12495
+		division_template = "Jiangxi Bubing Xie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+
+	# AOG
+	division = {
+		location = 7071 # Xiamen
+		division_template = "Polizeitruppe"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		location = 10076 #Wuxi
+		division_template = "Polizeitruppe"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		location = 11913 # Nanjing
+		division_template = "Polizeitruppe"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+}
+

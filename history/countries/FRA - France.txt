@@ -4,6 +4,8 @@ capital = 16
 #开局国家状态
 set_stability = 0.6
 set_war_support = 0.4
+oob = "FRA"
+set_naval_oob = "FRA_naval"
 
 #开局科研槽
 set_research_slots = 4
@@ -44,10 +46,126 @@ recruit_character = FRA_emile_laure
 recruit_character = FRA_joseph_doumenc
 # 开局解锁科技
 set_technology = {
+	### Industry ###
+	fuel_silos = 1
+	fuel_refining = 1
+	synth_oil_experiments = 1
+
+	### Infantry ###
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	marines = 1
+
+	### Support ###
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+
+	### Artillery ###
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Trains ###
+	basic_train = 1
+
+	### Navy ###
+
+	### Hulls ###
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	basic_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+
+	### Modules ###
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_heavy_battery = 1
+	basic_torpedo = 1
+	basic_depth_charges = 1
+	basic_cruiser_armor_scheme = 1
+	basic_heavy_armor_scheme = 1
+
+	### Transport ###
+	mtg_transport = 1
+
+	### GTD - cruiser sub iteration rewards ###
+	tech_gtd_unlock_cruiser_sub_modules = 1
 	
 }
+if = {
+	limit = { has_dlc_bba = yes }
+	set_air_oob = "FRA_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		engines_2 = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		basic_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_medium_airframe = 1
+		iw_large_airframe = 1
+		air_torpedoe_1 = 1
+		bba_early_transport_plane = 1
+	}
+}
 
+### Planes - non BBA ###
+if = {
+	limit = { has_dlc_bba = no }
+	set_air_oob = "FRA_air_legacy"
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		naval_bomber1 = 1
+		cv_early_fighter = 1
+		cv_naval_bomber1 = 1
+		early_bomber = 1
+		tactical_bomber1 = 1
+		CAS1 = 1
+		early_transport_plane = 1
+	}
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc_nsb = yes }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		armor_tech_1 = 1
+		engine_tech_1 = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { has_dlc_nsb = no }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+	}
+}
+
+### LaR techs ###
+if = {
+	limit = { has_dlc_lar = yes }
+	set_technology = { armored_car1 = 1 }
+}
 #开局执政党
 set_politics = {
 	ruling_party = despotism

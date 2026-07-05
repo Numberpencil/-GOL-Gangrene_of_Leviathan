@@ -1,0 +1,92 @@
+division_template = {
+	name = "Morit Diviz"
+	division_names_group = MON_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Dügeer Uulyn Diviz"
+	division_names_group = MON_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		location = 4801
+		division_template = "Morit Diviz"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 7799
+		division_template = "Morit Diviz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7843
+		division_template = "Morit Diviz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 4612
+		division_template = "Morit Diviz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 10558
+		division_template = "Morit Diviz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7799
+		division_template = "Morit Diviz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 12612
+		division_template = "Morit Diviz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 10560
+		division_template = "Morit Diviz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 1834
+		division_template = "Morit Diviz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		industrial_manufacturer = mio:generic_infantry_equipment_organization
+		requested_factories = 2
+		progress = 0.34
+		efficiency = 100
+	}
+}

@@ -1,0 +1,23 @@
+air_wings = {
+	278 = {
+		fighter_equipment_0 = {
+			owner = "ARG"
+			amount = 18
+		}
+		CAS_equipment_1 = {
+			owner = "ARG"
+			amount = 12
+			creator = "USA"
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+		}
+		progress = 0.44
+		efficiency = 100
+	}
+}

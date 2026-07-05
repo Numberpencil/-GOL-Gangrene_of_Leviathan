@@ -1,0 +1,96 @@
+division_template = {
+	name = "Piyodalarga Bo'linish"
+	division_names_group = CA_INF_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Otliqlar Bo'linmasi"
+	division_names_group = CA_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Ibrahim Bek's Riders"
+	division_names_group = CA_CAV_01
+	is_locked = yes
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Seyid Kasym Khan's Warriors"
+	division_names_group = CA_INF_01
+	is_locked = yes
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Haydarqul Bey's Warriors"
+	division_names_group = CA_INF_01
+	is_locked = yes
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		location = 9605
+		division_template = "Ibrahim Bek's Riders"
+		start_equipment_factor = 0.98
+	}
+	division = {
+		location = 9605
+		division_template = "Piyodalarga Bo'linish"
+		start_equipment_factor = 0.92
+	}
+	division = {
+		location = 10671
+		division_template = "Piyodalarga Bo'linish"
+		start_equipment_factor = 0.88
+	}
+	division = {
+		location = 12239
+		division_template = "Seyid Kasym Khan's Warriors"
+		start_equipment_factor = 0.95
+	}
+	division = {
+		location = 1384
+		division_template = "Haydarqul Bey's Warriors"
+		start_equipment_factor = 0.97
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		industrial_manufacturer = mio:generic_KR_general_purpose_organization
+		progress = 0.86
+		efficiency = 10
+	}
+}

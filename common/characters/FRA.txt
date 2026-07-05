@@ -9,7 +9,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Military_junta
+            ideology = Military_junta_france
             traits = {
                 FRA_absolute_ruler
                 FRA_beyond_cure
@@ -186,7 +186,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Military_junta
+            ideology = Military_junta_france
             traits = {
 
             }
@@ -202,7 +202,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Military_junta
+            ideology = Military_junta_france
             traits = {
 
             }
@@ -216,7 +216,7 @@ characters = {
 		portraits={
 			army={
 				large="gfx/leaders/FRA/de_lattre_de_tassigny.png"
-				small=GFX_portrait_FRA_jean_de_lattre_de_tassigny_small
+				
 			}
 		}
 		corps_commander={
@@ -234,8 +234,8 @@ characters = {
 		name=FRA_alphonse_juin
 		portraits={
 			army={
-				large=GFX_portrait_FRA_alphonse_juin
-				small=GFX_portrait_FRA_alphonse_juin_small
+				large="gfx/leaders/FRA/alphonse_juin.png"
+				
 			}
 		}
 		corps_commander={
@@ -299,10 +299,9 @@ characters = {
 		name=FRA_alphonse_georges
 		portraits={
 			army={
-				small="GFX_idea_alphonse_georges"
 			}
 			army={
-				large=GFX_portrait_FRA_alphonse_georges
+				large="gfx/leaders/FRA/alphonse_georges.png"
 			}
 		}
 		
@@ -325,7 +324,7 @@ characters = {
 		name=FRA_antoinemariebenoit_besson
 		portraits={
 			army={
-				large=GFX_portrait_FRA_antoinemariebenoit_besson
+                large="gfx/leaders/FRA/antoinemariebenoit_besson.png" 
 				small=GFX_portrait_FRA_antoinemariebenoit_besson_small
 			}
 		}
@@ -350,7 +349,7 @@ characters = {
 				small="GFX_idea_charles_de_gaulle"
 			}
 			civilian={
-				large=GFX_portrait_FRA_charles_de_gaulle
+				large="gfx/leaders/FRA/charles_de_gaulle.png" 
 			}
 		}
 		
@@ -372,7 +371,7 @@ characters = {
 				small="GFX_idea_philippe_leclerc"
 			}
 			army={
-				large=GFX_portrait_FRA_philippe_leclerc
+				large="gfx/leaders/FRA/philippe_leclerc.png" 
 			}
 		}
 	
@@ -395,7 +394,7 @@ characters = {
 				small="GFX_idea_henri_giraud"
 			}
 			army={
-				large=GFX_portrait_FRA_henri_giraud
+				large="gfx/leaders/FRA/henri_giraud.png" 
 			}
 		}
 		
@@ -418,7 +417,7 @@ characters = {
 				small="GFX_idea_charles_huntziger"
 			}
 			army={
-				large=GFX_portrait_FRA_charles_huntziger
+				large="gfx/leaders/FRA/charles_huntziger.png"
 			}
 		}
 		
@@ -460,7 +459,7 @@ characters = {
 		name=FRA_henry_freydenberg
 		portraits={
 			army={
-				large=GFX_portrait_FRA_henry_freydenberg
+				large = "gfx/leaders/FRA/henry_freydenberg.png"
 				small=GFX_portrait_FRA_henry_freydenberg_small
 			}
 		}
@@ -501,7 +500,7 @@ characters = {
 		name=FRA_jeanmarie_charles_abrial
 		portraits={
 			army={
-				large=GFX_portrait_FRA_jeanmarie_charles_abrial
+				large = "gfx/leaders/FRA/jeanmarie_charles_abrial.png"
 				small=GFX_portrait_FRA_jeanmarie_charles_abrial_small
 			}
 		}
@@ -520,7 +519,7 @@ characters = {
 		name=FRA_jeanpierre_esteva
 		portraits={
 			army={
-				large=GFX_portrait_FRA_jeanpierre_esteva
+				large = "gfx/leaders/FRA/jeanpierre_esteva.png"
 				small=GFX_portrait_FRA_jeanpierre_esteva_small
 			}
 		}
@@ -569,7 +568,7 @@ characters = {
 				small="GFX_idea_jean_de_laborde"
 			}
 			army={
-				large=GFX_portrait_FRA_jean_de_laborde
+				large="gfx/leaders/FRA/jean_de_laborde.png"
 			}
 		}
 		

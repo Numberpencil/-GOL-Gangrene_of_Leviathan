@@ -1,0 +1,408 @@
+### Templates ###
+division_template = {
+	name = "Infantry Division"
+	division_names_group = CAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	template_counter = 91
+}
+
+division_template = {
+	name = "District Militia"
+	division_names_group = CAN_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	template_counter = 91
+}
+
+division_template = {
+	name = "District Cavalry"
+	division_names_group = CAN_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Motorised Division"
+	division_names_group = CAN_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Armoured Division"
+	division_names_group = CAN_ARM_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+
+### Units ###
+units = {
+	division = {
+		location = 4428 #Vancouver
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 4428 #Vancouver
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 7259 #Victoria
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 1323 #Prince George
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 3706 #Calgary
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 3010 #Edmonton
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 3010 #Edmonton
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 4739 #Saskatoon
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 12603 #Regina
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 12603 #Regina
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 4872 #Winnipeg
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 4872 #Winnipeg
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 7899 #Port Arthur
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 7899 #Port Arthur
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 9467 #Sudbury
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 9467 #Sudbury
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 12149 #Quebec
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 10230 #Sherbrooke
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 10230 #Sherbrooke
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 7361 #Halifax
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 1354 #Halifax
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 12505 #St John's
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 3775 #Toronto
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 3775 #Toronto
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 12289 #Fredericton
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 12289 #Fredericton
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+
+	division = {
+		location = 3778
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 3778
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 3778
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 4345
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 4345
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 12149
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 7361
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 9667
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 4342
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 749
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 12582
+		division_template = "District Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 12582
+		division_template = "District Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 3706
+		division_template = "District Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 3706
+		division_template = "District Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 10611
+		division_template = "District Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	division = {
+		location = 10611
+		division_template = "District Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+
+	division = {
+		location = 774
+		division_template = "Motorised Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 3608
+		division_template = "Motorised Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 3608
+		division_template = "Motorised Division"
+		start_experience_factor = 0.3
+	}
+}
+
+### Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		industrial_manufacturer = mio:IMP_canadian_arsenals_organisation
+		requested_factories = 3
+		progress = 0.82
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		industrial_manufacturer = mio:IMP_canadian_industries_limited_organisation
+		requested_factories = 2
+		progress = 0.83
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		industrial_manufacturer = mio:IMP_dominion_cartridge_organisation
+		requested_factories = 2
+		progress = 0.44
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+		}
+		industrial_manufacturer = mio:IMP_general_motors_canada_organisation
+		requested_factories = 2
+		progress = 0.12
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc_nsb = yes }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_1
+				version_name = "A4 'Reliant' Mk. II"
+			}
+			industrial_manufacturer = mio:IMP_canadian_vickers_organisation
+			requested_factories = 2
+			progress = 0.59
+			efficiency = 50
+		}
+	}
+	else = {
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_equipment_1
+			}
+			industrial_manufacturer = mio:IMP_canadian_vickers_organisation
+			requested_factories = 2
+			progress = 0.59
+			efficiency = 50
+		}
+	}
+}

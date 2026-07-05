@@ -1,0 +1,1195 @@
+instant_effect = {
+	### Production ###
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		industrial_manufacturer = mio:RUS_imz_organisation
+		requested_factories = 7
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		industrial_manufacturer = mio:RUS_imz_organisation
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		industrial_manufacturer = mio:RUS_obukhov_organisation
+		progress = 0.3
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_2
+				version_name = "BT-7"
+			}
+			industrial_manufacturer = mio:RUS_putilovets_organisation
+			progress = 0.4
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_1
+				version_name = "T-26RT"
+			}
+			industrial_manufacturer = mio:RUS_putilovets_organisation
+			progress = 0.4
+			efficiency = 70
+		}
+		add_equipment_production = {
+			equipment = {
+				type = medium_tank_chassis_0
+				version_name = "T-28"
+			}
+			industrial_manufacturer = mio:RUS_putilovets_organisation
+			progress = 0.4
+			efficiency = 50
+		}
+	}
+	else = {
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_equipment_1
+			}
+			industrial_manufacturer = mio:RUS_putilovets_organisation
+			requested_factories = 2
+			progress = 0.4
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_equipment_2
+			}
+			industrial_manufacturer = mio:RUS_putilovets_organisation
+			progress = 0.4
+			efficiency = 70
+		}
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+		}
+		industrial_manufacturer = mio:RUS_naz_organisation
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+		}
+		industrial_manufacturer = mio:RUS_obukhov_organisation
+		progress = 0.4
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+		}
+		industrial_manufacturer = mio:RUS_bmz_organisation
+		progress = 0.4
+		efficiency = 50
+	}
+}
+
+### Division Templates ###
+division_template = {
+	name = "Diviziya MVD" #MVD Division of Internal Troops of Ministry of Internal Affairs, i.e. garrison
+	division_names_group = RUS_MVD_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = 	{
+		military_police = { x = 0 y = 0 }
+	}
+	priority = 0
+	template_counter = 33
+}
+
+division_template = {
+	name = "Pekhotnaya diviziya"			# Infantry Division
+	division_names_group = RUS_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gvardeyskaya diviziya"			# Guard Division
+	division_names_group = RUS_GRD_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Kavaleriyskaya diviziya"	# Cavalry Division
+	division_names_group = RUS_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 				# Recon bn had 16x L tanks, 45 ACs
+	}
+}
+
+division_template = {
+	name = "Kazachya diviziya"	# Cossack Division
+	division_names_group = RUS_CAV_02
+	is_locked = yes
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+	template_counter = 5
+}
+
+division_template = {
+	name = "Mekhanizirovannaya diviziya" # Mechanized Division
+	division_names_group = RUS_ARM_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 1 y = 3 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Gornostrelkovaya diviziya" # Mountaineer Rifle Division
+	division_names_group = RUS_MNT_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		mountaineers = { x = 3 y = 0 }
+		mountaineers = { x = 3 y = 1 }
+		mountaineers = { x = 3 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Aviadesantnaya brigada" # Airborne Landing Brigade
+	division_names_group = RUS_PAR_01
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Morskaya strelkovaya diviziya" # Sea Rifle Division
+	division_names_group = RUS_MAR_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+}
+
+##### OOB #####
+
+units = {
+###Russian army divided into corps, one corps based in one point and usually consist from 3 divisions +/-1.
+
+#1st Army Corps - Petrograd
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6174 #Petrograd
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6174 #Petrograd
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6174 #Petrograd
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#2nd Army Corps - Moscow
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 954
+		}
+		location = 6380 #Moscow
+		division_template = "Diviziya MVD"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6380 #Moscow
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 6380 #Moscow
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 6380 #Moscow
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 941
+		}
+		location = 6380 #Moscow
+		division_template = "Aviadesantnaya brigada"
+		start_experience_factor = 0.60
+	}
+
+#3rd Army Corps - Vladimir
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 378 #Vladimir
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = 378 #Vladimir
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 378 #Vladimir
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#4th Army Corps - Tsaritsyn
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3529 #Tsaritsyn
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 3529 #Tsaritsyn
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 3529 #Tsaritsyn
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#5th Army Corps - Voronezh
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 413 #Voronezh
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = 413 #Voronezh
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 413 #Voronezh
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#6th Army Corps -Yekaterinodar
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 3734 #Yekaterinodar
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3734 #Yekaterinodar
+		division_template = "Kavaleriyskaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3734 #Yekaterinodar
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#7th Army Corps - Kem
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 9195 #Kem
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9195 #Kem
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 49
+		}
+		location = 9195 #Kem
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#8th Army Corps - Polotsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 6326 #Polotsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 6326 #Polotsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 6326 #Polotsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#9th Army Corps - Pskov
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 11202 #Pskov
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 11202 #Pskov
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 11202 #Pskov
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#10th Army Corps - Saratov
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = 3578 #Saratov
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 3578 #Saratov
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
+		location = 3578 #Saratov
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#11th Army Corps - Petrozavodsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 11159 #Petrozavodsk
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = 11159 #Petrozavodsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 11159 #Petrozavodsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#12th Army Corps - Vitebsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 11241 #Vitebsk
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 11241 #Vitebsk
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
+		location = 11241 #Vitebsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#13th Army Corps - Bryansk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 3335 #Bryansk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = 3335 #Bryansk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = 3335 #Bryansk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#14th Army Corps - Kursk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 3580 #Kursk
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 3580 #Kursk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = 3580 #Kursk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#15th Army Corps - Chita
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 12641 #Chita
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 56
+		}
+		location = 12641 #Chita
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 12641 #Chita
+		division_template = "Mekhanizirovannaya diviziya"
+		start_experience_factor = 0.20
+		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "T-26 obr.1932" } }
+	}
+
+#16th Army Corps - Irkutsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 4797 #Irkutsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 4797 #Irkutsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = 4797 #Irkutsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#17th Army Corps - Nikolayevsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 12559 #Nikolayevsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = 12559 #Nikolayevsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 12559 #Nikolayevsk
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#18th Army Corps - Novonikolayevsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 7274 #Novonikolayevsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 7274 #Novonikolayevsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 7274 #Novonikolayevsk
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#19th Army Corps - Vladivostok
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 957 #Vladivostok
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 957 #Vladivostok
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 957 #Vladivostok
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#1st Cavalry Corps - Rostov
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9417 #Rostov
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 9417 #Rostov
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#2nd Cavalry Corps - Petrovsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3668 #Petrovsk
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 3668 #Petrovsk
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 3668 #Petrovsk
+		division_template = "Kavaleriyskaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#3rd Cavalry Corps - Dvinsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 310 #Dvinsk
+		division_template = "Kavaleriyskaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 310 #Dvinsk
+		division_template = "Kavaleriyskaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#4th Cavalry Corps - Petrograd
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6174 #Petrograd
+		division_template = "Kavaleriyskaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 6174 #Petrograd
+		division_template = "Kavaleriyskaya diviziya"
+		start_experience_factor = 0.10
+	}
+
+#5th Cavalry Corps - Petropavlovsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 7874 #Petropavlovsk
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 7874 #Petropavlovsk
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#6th Cavalry Corps - Blagoveshchensk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 7763 #Blagoveshchensk
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 7763 #Blagoveshchensk
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#7th Cavalry Corps - Fort-Aleksandrovsky
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11701 #Fort-Aleksandrovsky
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 11701 #Fort-Aleksandrovsky
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#1st Mechanized Corps - Petrograd
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6174 #Petrograd
+		division_template = "Mekhanizirovannaya diviziya"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = RUS creator = RUS version_name = "BT-5" } }
+		start_experience_factor = 0.20
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6174 #Petrograd
+		division_template = "Mekhanizirovannaya diviziya"
+		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "T-26" } }
+		start_experience_factor = 0.20
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = 6174 #Petrograd
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#2nd Mechanized Corps - Khabarovsk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12189 #Khabarovsk
+		division_template = "Mekhanizirovannaya diviziya"
+		force_equipment_variants = { light_tank_chassis_0 = { owner = RUS creator = RUS version_name = "T-27" } }
+		start_experience_factor = 0.20
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 12189 #Khabarovsk
+		division_template = "Mekhanizirovannaya diviziya"
+		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "T-26RT" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 12189 #Khabarovsk
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#3rd Mechanized Corps - Smolensk
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 306 #Smolensk
+		division_template = "Mekhanizirovannaya diviziya"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = RUS creator = RUS version_name = "BT-7" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 306 #Smolensk
+		division_template = "Mekhanizirovannaya diviziya"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = RUS creator = RUS version_name = "BT-5" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 306 #Smolensk
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#1st Alash Army Corps - Verny
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 1591 #Verny
+		division_template = "Gornostrelkovaya diviziya"
+		start_experience_factor = 0.40
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 1591 #Verny
+		division_template = "Kazachya diviziya"
+		start_experience_factor = 0.50
+	}
+
+#2nd Alash Army Corps - Turgay
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = 10164 #Turgay
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" creator = "RUS" } }
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 50
+		}
+		location = 10164 #Turgay
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" creator = "RUS" } }
+	}
+
+#Separate Mountaineer Rifle Corps - Vladikavkaz
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9628 #Vladikavkaz
+		division_template = "Gornostrelkovaya diviziya"
+		start_experience_factor = 0.40
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 9628 #Vladikavkaz
+		division_template = "Gornostrelkovaya diviziya"
+		start_experience_factor = 0.40
+	}
+
+#Stavka Reserve - Moscow
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 950
+		}
+		location = 6380 #Moscow
+		division_template = "Mekhanizirovannaya diviziya"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = RUS creator = RUS version_name = "BT-7" } }
+		start_experience_factor = 0.50
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 930
+		}
+		location = 6380 #Moscow
+		division_template = "Gvardeyskaya diviziya"
+		start_experience_factor = 0.750
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 3259 #Moscow
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 6290 #Moscow
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 301 #Moscow
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.10
+	}
+}

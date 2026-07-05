@@ -32,6 +32,21 @@ characters = {
             expire = "9999.1.1.1"
             id = -1
         }
-    }
+    } 
+    Zelea_Codreanu = {
+        name = Zelea_Codreanu_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ROM/Zelea_Codreanu.png"
+            }
+        }
+        country_leader = {
+            ideology = Classical_fascism
+            traits = {
 
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 }

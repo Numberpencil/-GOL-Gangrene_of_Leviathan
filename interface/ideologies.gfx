@@ -309,7 +309,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Nationalist_syndicalism_france.png"
 	}
 	SpriteType = {
-		name = "GFX_ideology_FRA_Military_junta"
+		name = "GFX_ideology_Military_junta_france"
 		texturefile = "gfx/interface/ideologies/Military_junta_france.png"
 	}
 	SpriteType = {

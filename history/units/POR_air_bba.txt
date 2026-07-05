@@ -1,0 +1,37 @@
+instant_effect = {
+	create_equipment_variant = {
+		name = "Gladiador"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		design_team = mio:POR_ogma_organisation
+	}
+	create_equipment_variant = {
+		name = "Lusitânia"
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+			engine_type_slot = engine_1_3x
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+}
+
+air_wings = {
+	112 = {
+		small_plane_airframe_0 = {
+			owner = "POR"
+			amount = 12
+			version_name = "Gladiador"
+		}
+		medium_plane_airframe_0 = {
+			owner = "POR"
+			amount = 12
+			version_name = "Lusitânia"
+		}
+	}
+}

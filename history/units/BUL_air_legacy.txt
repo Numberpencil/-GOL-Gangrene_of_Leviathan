@@ -1,0 +1,31 @@
+air_wings = {
+	48 = {
+		fighter_equipment_0 = {
+			owner = "BUL"
+			amount = 25
+			creator = "AUS"
+		}
+		tac_bomber_equipment_0 = {
+			owner = "BUL"
+			amount = 50
+			creator = "GER"
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+		}
+		progress = 0.29
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_0
+		}
+		progress = 0.48
+		efficiency = 100
+	}
+}

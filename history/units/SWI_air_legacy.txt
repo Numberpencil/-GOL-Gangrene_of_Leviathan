@@ -1,0 +1,24 @@
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "SWI"
+		}
+		industrial_manufacturer = mio:SWI_eidgenossisches_flugzeugwerk_organisation
+		progress = 0.85
+		efficiency = 100
+	}
+}
+
+air_wings = {
+	3 = {
+		tac_bomber_equipment_0 = {
+			owner = "SWI"
+			amount = 25
+		}
+		fighter_equipment_0 = {
+			owner = "SWI"
+			amount = 20
+		}
+	}
+}

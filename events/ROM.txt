@@ -48,7 +48,13 @@ country_event = { #进军布加勒斯特
 		trigger = {
 			always = yes
 		}
-		
+	set_politics = {
+    ruling_party = fascism
+   }
+   add_popularity = {
+    ideology = fascism
+    popularity = 0.3
+   }
 		HUN = {
 			end_puppet = ROM
 			country_event = { #瓦拉几亚脱离控制

@@ -1,0 +1,109 @@
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		industrial_manufacturer = mio:generic_KR_general_purpose_organization
+		requested_factories = 2
+		progress = 0.86
+		efficiency = 10
+	}
+}
+
+focus = {
+	current = "TRK_beating_heart"
+	progress = 1
+}
+
+division_template = {
+	name = "Piyodalarga Bo'linish"
+	division_names_group = CA_INF_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Otliqlar Bo'linmasi"
+	division_names_group = CA_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Tuya Otliqlar Bo'linmasi"
+	division_names_group = CA_CAM_01
+
+	regiments = {
+		camelry = { x = 0 y = 0 }
+		camelry = { x = 0 y = 1 }
+		camelry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Katta Ergash's Riders"
+	division_names_group = CA_CAV_01
+	is_locked = yes
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Kurshirmat's Riders"
+	division_names_group = CA_CAV_01
+	is_locked = yes
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		location = 1459
+		division_template = "Katta Ergash's Riders"
+		start_equipment_factor = 0.94
+	}
+	division = {
+		location = 1459
+		division_template = "Kurshirmat's Riders"
+		start_equipment_factor = 0.95
+	}
+	division = {
+		location = 12581
+		division_template = "Piyodalarga Bo'linish"
+		start_equipment_factor = 0.86
+	}
+	division = {
+		location = 12583
+		division_template = "Piyodalarga Bo'linish"
+		start_equipment_factor = 0.89
+	}
+	division = {
+		location = 12583
+		division_template = "Piyodalarga Bo'linish"
+		start_equipment_factor = 0.82
+	}
+	division = {
+		location = 10353
+		division_template = "Piyodalarga Bo'linish"
+		start_equipment_factor = 0.75
+	}
+}
+

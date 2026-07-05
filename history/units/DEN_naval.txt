@@ -1,0 +1,195 @@
+instant_effect = {
+	create_equipment_variant = {
+		name = "Flyvefisken Class"								# Fictional One
+		type = ship_hull_submarine_2
+		name_group = DEN_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Rota/ Daphne Class"								# represents Rota and Daphne classes
+		type = ship_hull_submarine_1
+		name_group = DEN_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Ægir Class"
+		type = ship_hull_submarine_1
+		name_group = DEN_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Odense Class"
+		type = ship_hull_cruiser_2
+		name_group = DEN_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_battery_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Gejser Class"
+		type = ship_hull_cruiser_1
+		name_group = DEN_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Søridderen Class"
+		type = ship_hull_light_1
+		name_group = DEN_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Dragen Class"
+		type = ship_hull_light_2
+		name_group = DEN_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Herluf Trolle Class"
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = DEN_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Niels Juel Class"
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = DEN_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_anti_air_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_medium_battery_1
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "Den Danske Flåde"
+		naval_base = 6287
+		task_force = {
+			name = "Den Danske Flåde"
+			location = 6287
+			ship = { name = "HDMS Dragen" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DEN version_name = "Dragen Class" } } }
+			ship = { name = "HDMS Hvalrossen" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DEN version_name = "Dragen Class" } } }
+			ship = { name = "HDMS Sværdfisken" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DEN version_name = "Dragen Class" } } }
+			ship = { name = "HDMS Søløven" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DEN version_name = "Dragen Class" } } }
+			ship = { name = "HDMS Søhunden" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DEN version_name = "Dragen Class" } } }
+			ship = { name = "HDMS Narhvalen" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DEN version_name = "Dragen Class" } } }
+			ship = { name = "HDMS Makrelen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Søridderen Class" } } }
+			ship = { name = "HDMS Nordkaperen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Søridderen Class" } } }
+			ship = { name = "HDMS Søulven" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Søridderen Class" } } }
+			ship = { name = "HDMS Havkatten" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Søridderen Class" } } }
+			ship = { name = "HDMS Isbjørnen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Søridderen Class" } } }
+			ship = { name = "HDMS Kronhjorten" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Søridderen Class" } } }
+			ship = { name = "HDMS Peder Skram" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Herluf Trolle Class" } } }
+		}
+	}
+	fleet = {
+		name = "Dansk Ubådsflåde"
+		naval_base = 3325
+		task_force = {
+			name = "Dansk Ubådsflåde"
+			location = 3325
+			ship = { name = "HDMS Ægir" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Ægir Class" } } }
+			ship = { name = "HDMS Havmanden" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Ægir Class" } } }
+			ship = { name = "HDMS Springeren" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Ægir Class" } } }
+			ship = { name = "HDMS Rota" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Rota/ Daphne Class" } } }
+			ship = { name = "HDMS Daphne" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Rota/ Daphne Class" } } }
+			ship = { name = "HDMS Sælen" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Rota/ Daphne Class" } } }
+			ship = { name = "HDMS Hvalen" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Rota/ Daphne Class" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = { #Modernizations of the Niels Iuel
+		equipment = {
+			type = ship_hull_cruiser_coastal_defense_ship
+			creator = "DEN"
+			version_name = "Niels Juel Class"
+		}
+		industrial_manufacturer = mio:DEN_odense_staalskibsverft_organisation
+		name = "HDMS Niels Juel"
+		progress = 0.8
+		amount = 1
+	}
+}

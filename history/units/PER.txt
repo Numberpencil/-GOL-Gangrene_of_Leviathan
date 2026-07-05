@@ -1,0 +1,137 @@
+division_template = {
+	name = "Dastebandi Savareh"
+	division_names_group = PER_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Dastebandi Sarbaze Piyade"
+	division_names_group = PER_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Gendarmerie"
+	division_names_group = PER_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		location = 1896
+		division_template = "Dastebandi Sarbaze Piyade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 1896
+		division_template = "Dastebandi Sarbaze Piyade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 8009
+		division_template = "Dastebandi Sarbaze Piyade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 12756
+		division_template = "Dastebandi Sarbaze Piyade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 12756
+		division_template = "Dastebandi Savareh"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 10837
+		division_template = "Dastebandi Savareh"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 8117
+		division_template = "Dastebandi Savareh"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 7982
+		division_template = "Dastebandi Sarbaze Piyade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 7982
+		division_template = "Dastebandi Sarbaze Piyade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 13082
+		division_template = "Dastebandi Sarbaze Piyade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 13082
+		division_template = "Dastebandi Sarbaze Piyade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 13082
+		division_template = "Dastebandi Sarbaze Piyade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		industrial_manufacturer = mio:PER_steyr_organisation
+		requested_factories = 2
+		progress = 0.82
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		industrial_manufacturer = mio:PER_imperial_artillery_company_organisation
+		progress = 0.83
+		efficiency = 50
+	}
+}
