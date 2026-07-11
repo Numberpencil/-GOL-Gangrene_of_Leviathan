@@ -210,6 +210,217 @@ characters = {
             id = -1
         }
     }
+	#顾问
+	Pierre_Billotte = {
+		name = Pierre_Billotte_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Pierre_Billotte.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Pierre_Billotte
+			traits = { Butcher }
+			can_be_fired = no
+			visible = {
+				has_government = despotism
+				has_focus_tree = FRA_placeholder
+			}
+		}
+		
+	}
+	Jacques_Barnault = {
+		name = Jacques_Barnault_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Jacques_Barnault.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Jacques_Barnault
+			traits = { Industrial_experts }
+			can_be_fired = no
+			visible = {
+				has_government = despotism
+				has_focus_tree = FRA_placeholder
+			}
+		}
+		
+	}
+	Francois_Lechidou = {
+		name = Francois_Lechidou_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Francois_Lechidou.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Francois_Lechidou
+			traits = { Silent_doer }
+			can_be_fired = no
+			visible = {
+				has_government = despotism
+				has_focus_tree = FRA_placeholder
+			}
+		}
+		
+	}
+	Louis_Renault = {
+		name = Louis_Renault_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Louis_Renault.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Louis_Renault
+			traits = { Corporate_executives }
+			can_be_fired = no
+			visible = {
+				has_government = despotism
+				has_focus_tree = FRA_placeholder
+			}
+		}
+		
+	}
+	Pierre_Etienne_Flandin = {
+		name = Pierre_Etienne_Flandin_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Pierre_Etienne_Flandin.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Pierre_Etienne_Flandin
+			traits = { Media_giants }
+			can_be_fired = no
+			visible = {
+				has_government = despotism
+				has_focus_tree = FRA_placeholder
+			}
+		}
+		
+	}
+	Delesel = {
+		name = Delesel_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Delesel.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Delesel
+			traits = { National_Syndicalists }
+			can_be_fired = no
+			visible = {
+				has_government = fascism
+				has_focus_tree = FRA_pdsf
+			}
+		}
+		
+	}
+	Delesel = {
+		name = Delesel_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Delesel.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Delesel
+			traits = { National_Syndicalists }
+			can_be_fired = no
+			visible = {
+				has_government = fascism
+				has_focus_tree = FRA_pdsf
+			}
+		}
+		
+	}
+	George_Ivoto = {
+		name = George_Ivoto_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/George_Ivoto.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_George_Ivoto
+			traits = { union_successors }
+			can_be_fired = no
+			visible = {
+				has_government = fascism
+				has_focus_tree = FRA_pdsf
+			}
+		}
+		
+		
+	}
+	Marcel_Deat = {
+		name = Marcel_Deat_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Marcel_Deat.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Marcel_Deat
+			traits = { Pragmatic_technocrats }
+			can_be_fired = no
+			visible = {
+				has_government = fascism
+				has_focus_tree = FRA_pdsf
+			}
+		}
+		
+	}
+	Edward_Burt = {
+		name = Edward_Burt_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Edward_Burt.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Edward_Burt
+			traits = { Minister_of_Propaganda }
+			can_be_fired = no
+			visible = {
+				has_government = fascism
+				has_focus_tree = FRA_pdsf
+			}
+		}
+		
+	}
+	Alfred_Rosmer = {
+		name = Alfred_Rosmer_name
+	portraits = {
+		civilian = {
+			small =  "gfx/leaders/FRA/Alfred_Rosmer.png"
+		}
+	}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_Alfred_Rosmer
+			traits = { Minister_of_Intelligence }
+			can_be_fired = no
+			visible = {
+				has_government = fascism
+				has_focus_tree = FRA_pdsf
+			}
+		}
+		
+	}
     #将领
     FRA_jean_de_lattre_de_tassigny={
 		name=FRA_jean_de_lattre_de_tassigny

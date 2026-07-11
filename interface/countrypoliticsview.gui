@@ -1067,14 +1067,7 @@ guiTypes = {
 		size = { width = 53 height = 53 }
 		clipping = no
 
-		iconType = {
-			name = "idea_alert_glow"
-			position = { x = -14 y = -8 }
-			spriteType = "GFX_ongoing_generic_glow_yellow"
-			scale = 0.65			
-			alwaystransparent = yes
-		}		
-		
+					
 		buttonType = {
 			name = "add_idea_button"
 			position = { x = 0 y = 0 }
@@ -1082,14 +1075,7 @@ guiTypes = {
 			clicksound = click_default
 		}
 		
-		iconType = {
-			name = "idea_traits"
-			position = { x = 43 y = 46 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
+		
 	}
 
 	containerWindowType = {
@@ -1125,14 +1111,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		iconType = {
-			name = "idea_traits"
-			position = { x = 53 y = 51 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
+		
 		
 		containerWindowType = {
 		    name = "traits_container"
@@ -1207,14 +1186,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		iconType = {
-			name = "idea_traits"
-			position = { x = 53 y = 51 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
 		
 		containerWindowType = {
 		    name = "traits_container"

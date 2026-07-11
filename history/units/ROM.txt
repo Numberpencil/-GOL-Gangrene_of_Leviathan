@@ -186,30 +186,5 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
-
-	division = {
-		location = 6667
-		division_template = "Vanatori de Munte"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		location = 11605
-		division_template = "Vanatori de Munte"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		location = 11619
-		division_template = "Vanatori de Munte"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		location = 3639
-		division_template = "Vanatori de Munte"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
 }
 

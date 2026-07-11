@@ -44,6 +44,18 @@ recruit_character = FRA_jean_de_laborde
 recruit_character = FRA_jean_romatet
 recruit_character = FRA_emile_laure
 recruit_character = FRA_joseph_doumenc
+recruit_character = Pierre_Billotte
+recruit_character = Jacques_Barnault
+recruit_character = Francois_Lechidou
+recruit_character = Louis_Renault
+recruit_character = Pierre_Etienne_Flandin
+recruit_character = Delesel
+recruit_character = George_Ivoto
+recruit_character = Marcel_Deat
+recruit_character = Edward_Burt
+recruit_character = Alfred_Rosmer
+
+
 # 开局解锁科技
 set_technology = {
 	### Industry ###
@@ -204,6 +216,11 @@ FRA_The_Shame_of_Longvi_Burier
 add_ideas = {
 High_social_security
 Appropriate_labor_protection
+FRA_Pierre_Billotte
+FRA_Jacques_Barnault
+FRA_Francois_Lechidou
+FRA_Louis_Renault
+FRA_Pierre_Etienne_Flandin
 }
 
 #开局政党
@@ -270,6 +287,10 @@ FRA = {
 	country_event = {
 		id = FRA.14
 		days = 90
+	}
+	country_event = {
+		id = FRA.13_PDSF
+		days = 150
 	}
 }
 

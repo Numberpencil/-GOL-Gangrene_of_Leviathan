@@ -250,3 +250,5 @@
  idea_group_trade_laws:0 "贸易法"
  idea_group_trade_laws_desc:0 "为我们国家选择一个贸易法"
  SPIRIT_ADD_IDEA:0 "§G点击添加$GROUP|H$§!"
+ ALREADY_HAS_ADVISOR_WITH_TRAIT: "已经存在一位具有这种特质的顾问。"
+ CHANGE_ADVISOR: "\n你可以通过点击这里并选择替换人选来移除此顾问。"

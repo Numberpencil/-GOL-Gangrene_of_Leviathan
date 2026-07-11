@@ -21,6 +21,10 @@ ideologies = {
         color = { #
             82 0 0 
         }
+        rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
     
     socialism = {#社会主义
@@ -62,6 +66,10 @@ ideologies = {
         color = { #
             167 59 59
         }
+         rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
 
     democrat = {#民主主义
@@ -94,6 +102,10 @@ ideologies = {
         color = { #
             101 171 172
         }
+         rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
 
     conservatism = {#保守主义
@@ -117,6 +129,10 @@ ideologies = {
         color = { #
             0 102 101
         }
+         rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
 
     authoritarianism = {#威权主义
@@ -145,6 +161,10 @@ ideologies = {
         color = { #
             114 111 109
         }
+         rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
 
     despotism = { #专制主义
@@ -180,6 +200,10 @@ ideologies = {
         color = { #
             67 67 67
         }
+         rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
 
     populism = {#民粹主义
@@ -197,6 +221,10 @@ ideologies = {
         color = { #
             127 117 82
         }
+         rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
 
     fascism = {#法西斯主义
@@ -254,6 +282,10 @@ ideologies = {
         color = { #
             99 56 40
         }
+         rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
     
     national_socialism = {#民族社会主义
@@ -274,10 +306,14 @@ ideologies = {
         color = { #
             43 16 0
         }
+         rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
     
     occultism = { #神秘主义
-        types = {
+        types = { 
             Esoteric_nazism = {
                 color = { 18 8 30 }
             }
@@ -297,5 +333,9 @@ ideologies = {
         color = { #
             18 9 28
         }
+         rules = { # Rules for the ideology.  (yes/no)             
+			can_send_volunteers = yes
+			can_puppet = yes			
+		}
     }
 }

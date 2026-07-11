@@ -19,17 +19,11 @@ focus_tree = {
 	id = FRA_PDSF_focus
 	
 	country = {
-		factor = 4
-		tag = FRA
-
+		factor  0
+		original_tag  = FRA
+		default = no
 	}
-
-	default = yes
-	reset_on_civilwar = no
-
-	initial_show_position = {
-		focus = industrial_effort
-	}
+	
 
 	focus = {
 		id = FRA_AA_Workers_Triumph #
@@ -108,10 +102,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		mark_focus_tree_layout_dirty = yes
         add_to_variable = {
          var = var_FRA_Government_control_level
-         value = 5
-         tooltip = var_FRA_Government_control_level_add_5_tt
+         value = 1
+         tooltip = var_FRA_Government_control_level_add_1_tt
          }
 			
 			}
@@ -155,14 +150,15 @@ focus_tree = {
 		completion_reward = {
         add_to_variable = {
          var = var_FRA_Government_control_level
-         value = 5
-         tooltip = var_FRA_Government_control_level_add_5_tt
+         value = 1
+         tooltip = var_FRA_Government_control_level_add_1_tt
          }
 			add_stability = 0.05
 			add_popularity = {
              ideology = fascism
              popularity = 0.05
              }
+			 mark_focus_tree_layout_dirty = yes
 		}
 		}
 		focus = {
@@ -182,15 +178,18 @@ focus_tree = {
 			}
 		}
 
-		allow_branch = {
+		allow_branch = {		
+			FRA = {
+		has_completed_focus = FRA_AA_tough_countermeasures
+		has_completed_focus = FRA_AA_Ensure_internal_loyalty
+			}
 		
 		}
 
 		mutually_exclusive = {
 		
 		} 
-		prerequisite = { focus = FRA_AA_Ensure_internal_loyalty   }
-        prerequisite = { focus = FRA_AA_tough_countermeasures   }
+
 		ai_will_do = {
 			base = 0.5
 		}
@@ -201,9 +200,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
+
 		completion_reward = {
-       
+          
 		}
+
 		}
 		focus = {
 		id = FRA_AA_End_of_Corruption
@@ -242,7 +243,7 @@ focus_tree = {
 		completion_reward = {
         add_popularity = {
         ideology = fascism
-        popularity = -0.05
+        popularity = 0.05
         }
 		}
 		}

@@ -51,4 +51,89 @@ leader_traits = {
     political_power_gain = 0.5
 
     }
+    Timekeeper = {
+        random = no
+        sprite = 1
+	production_speed_buildings_factor = 0.15
+    consumer_goods_expected_value = -0.1 
+    global_building_slots = 3
+    political_power_gain = 0.5
+
+    }
+    Butcher = {
+        random = no
+        sprite = 1
+	resistance_damage_to_garrison  = -0.15
+    resistance_growth = -0.1
+    compliance_growth  = -0.05
+	non_core_manpower = 0.05
+
+    }
+    Industrial_experts = {
+        random = no
+        sprite = 1
+    industrial_capacity_factory = 0.1
+    production_speed_industrial_complex_factor = 0.05
+    industry_free_repair_factor = 0.1
+
+    }
+    Silent_doer = {
+        random = no
+       sprite = 1
+    political_power_gain = 0.1
+    stability_factor = 0.05
+
+    }
+    Corporate_executives = {
+        random = no
+       sprite = 1
+    industrial_capacity_factory = 0.05
+	industrial_concern_cost_factor = -0.3    	
+    tank_manufacturer_cost_factor = -0.3
+
+    }
+    Media_giants = {
+        random = no
+       sprite = 1
+    stability_factor = 0.02
+	political_power_gain = 0.05   	
+    party_popularity_stability_factor = 0.3
+
+    }
+    National_Syndicalists = {
+    random = no
+    sprite = 1
+    political_power_factor = 0.05
+    production_factory_max_efficiency_factor = 0.1
+    }
+    union_successors = {
+    random = no
+    sprite = 1
+    production_speed_buildings_factor = 0.05 
+    local_resources_factor = 0.1
+    industrial_capacity_factory = 0.05
+    conscription = 0.002
+    }
+    Pragmatic_technocrats = {
+    random = no
+    sprite = 1
+    line_change_production_efficiency_factor = 0.1
+    stability_factor = 0.05
+    research_speed_factor  = 0.05
+    }
+    Minister_of_Propaganda = {
+    random = no
+    sprite = 1
+    line_change_production_efficiency_factor = 0.1
+    stability_factor = 0.05
+    political_power_gain = 0.01
+    
+  }
+   Minister_of_Intelligence = {
+    random = no
+    sprite = 1
+    operative_slot = 2
+    agency_upgrade_time = -0.2
+    
+  }
 }

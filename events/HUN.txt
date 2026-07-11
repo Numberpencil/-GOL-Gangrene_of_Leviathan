@@ -165,19 +165,32 @@ country_event = { #瓦拉几亚拒绝要求
     fire_only_once = yes
     option = { 
 		every_state = {
-			OR = {
-				is_owned_by = HUN
-				is_owned_by = YUG
-				is_owned_by = BOS
-				is_owned_by = MAC
-				is_owned_by = MOR
-				is_owned_by = BUL
-			}
-			add_dynamic_modifier = {
-					modifier = unplanned_offensive
-					days = 365
-				}
-		}
+    limit = {
+        OR = {
+            is_owned_by = HUN
+            is_owned_by = YUG
+            is_owned_by = BOS
+            is_owned_by = MAC
+            is_owned_by = ROM
+            is_owned_by = BUL
+        }
+    }
+    add_dynamic_modifier = {
+        modifier = unplanned_offensive
+        days = 365
+    }
+}
+YUG = {
+add_ideas = WAR_war_war
+}
+BUL = {
+add_ideas = WAR_war_war
+
+}
+ROM = {
+add_ideas = WAR_war_war
+
+}
         name = HUN.7.a #那就没什么好说的了
 		trigger = {
 			always = yes

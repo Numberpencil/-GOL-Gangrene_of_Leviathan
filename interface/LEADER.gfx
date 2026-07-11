@@ -1,0 +1,9 @@
+spriteTypes = {	
+	###FRA###
+	SpriteType = {
+		name = "GFX_idea_FRA_Pierre_Billotte"
+		texturefile = "gfx/leaders/FRA/Pierre_Billotte.png"
+		
+	}
+
+}

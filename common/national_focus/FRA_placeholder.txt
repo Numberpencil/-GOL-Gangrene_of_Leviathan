@@ -19,9 +19,8 @@ focus_tree = {
 	id = FRA_lie_focus
 	
 	country = {
-		factor = 5
-		tag = FRA
-
+		factor = 1000
+        default = yes
 	}
 
 	default = yes

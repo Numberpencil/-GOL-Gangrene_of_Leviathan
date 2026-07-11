@@ -5,8 +5,9 @@ state = {
 	state_category = minor_port
 
 	history = {
-		owner = GXC
-		add_core_of = GXC
+		owner = GDC
+		add_core_of = GDC
+		add_core_of = CHI
 buildings = {
 			infrastructure = 2
 			11981 = {

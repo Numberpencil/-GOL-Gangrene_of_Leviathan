@@ -1,0 +1,307 @@
+defined_text = {
+    name = FRA_Government_control_level
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = -5
+            }
+        }
+        localization_key = FRA_Government_control_level_1
+    }
+   text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = -4
+            }
+        }
+        localization_key = FRA_Government_control_level_2
+    }
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = -3
+            }
+        }
+        localization_key = FRA_Government_control_level_3
+    }
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = -2
+            }
+        }
+        localization_key = FRA_Government_control_level_4
+    }
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = -1
+            }
+        }
+        localization_key = FRA_Government_control_level_5
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = 0
+            }
+        }
+        localization_key = FRA_Government_control_level_6
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = 1
+            }
+        }
+        localization_key = FRA_Government_control_level_7
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = 2
+            }
+        }
+        localization_key = FRA_Government_control_level_8
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = 3
+            }
+        }
+        localization_key = FRA_Government_control_level_9
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = 4
+            }
+        }
+        localization_key = FRA_Government_control_level_10
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Government_control_level = 5
+            }
+        }
+        localization_key = FRA_Government_control_level_11
+    }
+}
+defined_text = {
+    name = FRA_Military_attitude
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = -5
+            }
+        }
+        localization_key = FRA_Military_attitude_level_1
+    }
+   text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+               var_FRA_Military_attitude = -4
+            }
+        }
+        localization_key = FRA_Military_attitude_level_2
+    }
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = -3
+            }
+        }
+        localization_key = FRA_Military_attitude_level_3
+    }
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = -2
+            }
+        }
+        localization_key = FRA_Military_attitude_level_4
+    }
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = -1
+            }
+        }
+        localization_key = FRA_Military_attitude_level_5
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = 0
+            }
+        }
+        localization_key = FRA_Military_attitude_level_6
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = 1
+            }
+        }
+        localization_key = FRA_Military_attitude_level_7
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = 2
+            }
+        }
+        localization_key = FRA_Military_attitude_level_8
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = 3
+            }
+        }
+        localization_key = FRA_Military_attitude_level_9
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = 4
+            }
+        }
+        localization_key = FRA_Military_attitude_level_10
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_Military_attitude = 5
+            }
+        }
+        localization_key = FRA_Military_attitude_level_11
+    }
+}
+defined_text = {
+    name = FRA_opposition_forces
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = -5
+            }
+        }
+        localization_key = FRA_opposition_forces_level_1
+    }
+   text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = -4
+            }
+        }
+        localization_key = FRA_opposition_forces_level_2
+    }
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = -3
+            }
+        }
+        localization_key = FRA_opposition_forces_level_3
+    }
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = -2
+            }
+        }
+        localization_key = FRA_opposition_forces_level_4
+    }
+    text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = -1
+            }
+        }
+        localization_key = FRA_opposition_forces_level_5
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = 0
+            }
+        }
+        localization_key = FRA_opposition_forces_level_6
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = 1
+            }
+        }
+        localization_key = FRA_opposition_forces_level_7
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = 2
+            }
+        }
+        localization_key = FRA_opposition_forces_level_8
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = 3
+            }
+        }
+        localization_key = FRA_opposition_forces_level_9
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = 4
+            }
+        }
+        localization_key = FRA_opposition_forces_level_10
+    }
+      text = {
+        trigger = {
+            tag = FRA
+			check_variable = {
+                var_FRA_opposition_forces = 5
+            }
+        }
+        localization_key = FRA_opposition_forces_level_11
+    }
+}		
+

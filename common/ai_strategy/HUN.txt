@@ -15,19 +15,28 @@ HUN_balkan_war = {
     }
   
     ai_strategy = {
-		type = invade
-		id = ROM
-		value = 100
+		 type = front_control
+        tag = ROM
+        value = 200
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
 	}
 	ai_strategy = {
-		type = invade
-		id = BUL
-		value = 100
+		 type = front_control
+        tag = BUL
+        value = 200
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
 	}
     ai_strategy = {
-    type = invade
-    id = YUG
-    value = 1000
+     type = front_control
+        tag = YUG
+        value = 200
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
     } 
      
 
@@ -57,7 +66,7 @@ HUN_balkan_war1 = {
     ai_strategy = {
     type = prepare_for_war
     id = YUG
-    value = 1000
+    value = 100
     } 
 }
 ROM_balkan_war0 = {
@@ -72,75 +81,164 @@ ROM_balkan_war0 = {
       always = yes
     }
     abort = {
-      MAC = {
-		has_capitulated = yes
-	  }
+     has_war_with = HUN
     }
   
-    ai_strategy = {
+    ai_strategy = { 
 		type = prepare_for_war
 		id = HUN
 		value = 200
 	}
 }
-ROM_balkan_war = {
+YUG_balkan_war = {
     allowed = {
-        OR = {
+      
         original_tag = YUG
-		original_tag = BUL
-		original_tag = ROM
-		 }
+
+		 
 		
     }
     enable = {
-      always = yes
+   
 	  has_war_with = HUN
-	  MAC = {
-		has_capitulated = no
-	  }
+
     }
     abort = {
-      MAC = {
-		has_capitulated = yes
-	  }
+    
     }
   
     ai_strategy = {
-		type = prepare_for_war
-		id = HUN
-		value = 100
-	}
+    type = front_control
+        tag = HUN
+        value = 300
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
+    } 
 	ai_strategy = {
-		type = invade
-		id = MAC
-		value = 100
+		 type = front_control
+        tag = MAC
+        value = 500
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
 	}
 
 }
-ROM_balkan_war1 = {
+BUL_balkan_war = {
     allowed = {
-         OR = {
-        original_tag = YUG
+      
+
 		original_tag = BUL
-		original_tag = ROM
-		 }
+
+		 
 		
     }
     enable = {
-      always = yes
+   
 	  has_war_with = HUN
-	  MAC = {
-		has_capitulated = yes
-	  }
+
+    }
+    abort = {
+    
+    }
+  
+    ai_strategy = {
+    type = front_control
+        tag = HUN
+        value = 300
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
+    } 
+	ai_strategy = {
+		 type = front_control
+        tag = MAC
+        value = 500
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
+	}
+
+}
+ROM_balkan_war = {
+    allowed = {
+    
+
+		original_tag = ROM
+		 
+		
+    }
+    enable = {
+   
+	  has_war_with = HUN
+
+    }
+    abort = {
+    
+    }
+  
+    ai_strategy = {
+    type = front_control
+        tag = HUN
+        value = 300
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
+    } 
+	ai_strategy = {
+		 type = front_control
+        tag = MAC
+        value = 500
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
+	}
+
+}
+GER_balkan_war1 = {
+    allowed = {
+     
+       
+       tag = GER
+        
+        
+    }
+    enable = {
+  HUN = {
+    has_war_with = BUL
+  }  	 
     }
     abort = {
      always no
     }
   
     ai_strategy = {
-		type = invade
+		type = send_volunteers_desire
 		id = HUN
-		value = 200
+		value = 1000
+	}
+
+}
+FRA_balkan_war1 = {
+    allowed = {
+       
+      tag = FRA
+        
+    }
+    enable = {
+  ROM = {
+    has_war_with = HUN
+  }  	 
+    }
+    abort = {
+     always no
+    }
+  
+    ai_strategy = {
+		type = send_volunteers_desire
+		id = ROM
+		value = 1000
 	}
 
 }

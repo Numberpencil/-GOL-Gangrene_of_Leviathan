@@ -392,12 +392,44 @@ country_event = {
     elections_allowed = no      
      }
      complete_national_focus = FRA_AA_Workers_Triumph    
-     load_focus_tree = FRA_PDSF_focus	
+     load_focus_tree = FRA_PDSF_focus
+	 custom_effect_tooltip = Government_change_tt
+	 hidden_effect	= {
+		remove_ideas = {
+            FRA_Pierre_Billotte
+            FRA_Jacques_Barnault
+            FRA_Francois_Lechidou
+            FRA_Louis_Renault
+            FRA_Pierre_Etienne_Flandin
+     }       
+		add_ideas = {
+			FRA_Delesel
+			FRA_George_Ivoto
+			FRA_Marcel_Deat
+			FRA_Edward_Burt
+			FRA_Alfred_Rosmer
+     }
+	 }
+	}
+
+}
+country_event = { 
+	id = FRA.15 # 总统死了
+    picture = GFX_event_Labor_win
+    title = FRA.15.t
+    desc = FRA.15.d
+    is_triggered_only = yes
+	fire_only_once = yes
+    option = { 
+     name = FRA.15.a
+	 add_stability = -0.05
+	 add_political_power = 75
+	 kill_ideology_leader = despotism
 	}
 
 }
 #工团线事件 
-country_event = {
+country_event = {#骚乱 
 	id = FRA.1_PDSF
 	title = FRA.1_PDSF.t
 	desc = FRA.1_PDSF.d
@@ -411,9 +443,25 @@ country_event = {
          hidden_effect = {
              set_variable = {
              var = var_FRA_Government_control_level
-             value = 10
-             tooltip = var_FRA_Government_control_level_tt
+             value = -2
             }
+			clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+			set_variable = {
+             var = var_FRA_Military_attitude
+             value = 0
+            }
+			clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+			
+			 set_variable = {
+             var = var_FRA_opposition_forces
+             value = 2
+            }
+			set_variable = {
+             var = var_FRA_action
+             value = 0
+            }
+			clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+			
             The_opposition_is_taking_action = yes
 			set_global_flag = GOL_flag_FRA_The_riots
 		 }
@@ -428,17 +476,15 @@ country_event = {
 	immediate = { 
 		random_list = {
 			10 = {
-            activate_mission = Mobilizin_students_and_workers
+            activate_mission = The_growing_outcry
 			}
 			10 = {
-			activate_mission = Further_protests	
+			activate_mission = Strikes_and_Propaganda	
 			}
 			10 = {
-			activate_mission = Inducing_internal_party_division	
+			activate_mission = Nationwide_violence	
 			}
-			10 = {
-			activate_mission = Joint_Contacts
-			}
+			
 		}
 	 }
 	option = {
@@ -446,7 +492,7 @@ country_event = {
 		
 	}
 }
-country_event = {
+country_event = {#紧急戒严
 	id = FRA.3_PDSF
 	picture = GFX_report_event_generic
 	title = FRA.3_PDSF.t
@@ -462,10 +508,10 @@ country_event = {
            days = 360
         }
 		remove_ideas = FRA_riots_across_the_country
-		
+		event_option_tooltip = FRA.1_PDSF.a_desc
 	}
 }
-country_event = {
+country_event = {#元首法 
 	id = FRA.4_PDSF
 	picture = GFX_report_event_generic
 	title = FRA.4_PDSF.t
@@ -478,6 +524,409 @@ country_event = {
 		name = FRA.4_PDSF.a
 		add_ideas =  FRA_FuhrerCountry
         clr_global_flag = GOL_flag_FRA_The_riots
+		mark_focus_tree_layout_dirty = yes
 		unlock_national_focus = FRA_AA_Salute_to_you
 	}
+}
+country_event = {#元首法 
+	id = FRA.5_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.5_PDSF.t
+	desc = FRA.5_PDSF.d
+	is_triggered_only = yes
+	immediate = { 
+		
+	 }
+	option = {
+		name = FRA.5_PDSF.a
+		add_ideas =  FRA_Schutzstaffel_a
+
+	}
+	option = {
+		name = FRA.5_PDSF.b
+		add_ideas =  FRA_Schutzstaffel_b
+
+	}
+}
+country_event = {#军队担忧 
+	id = FRA.6_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.6_PDSF.t
+	desc = FRA.6_PDSF.d
+	is_triggered_only = no
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	check_variable = {
+             var_FRA_Military_attitude < -2
+        }
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	mean_time_to_happen = {days = 1 }
+	option = {
+		name = FRA.6_PDSF.a
+        add_to_variable = {
+         var = var_FRA_Military_attitude
+         value = 1
+         tooltip = var_FRA_Military_attitude_add_1_tt
+         }
+		subtract_from_variable = {
+         var = var_FRA_Government_control_level
+         value = 1
+         tooltip = var_FRA_Government_control_level_subtract_1_tt
+         }
+		
+         add_political_power = -45
+		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+	}
+	
+}
+country_event = {#大罢工 
+	id = FRA.7_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.7_PDSF.t
+	desc = FRA.7_PDSF.d
+	is_triggered_only = no
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	check_variable = {
+             var_FRA_opposition_forces = 3
+        }
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	mean_time_to_happen = {days = 1 }
+	option = {
+		name = FRA.7_PDSF.a
+		subtract_from_variable = {
+         var = var_FRA_Government_control_level
+         value = 1
+         tooltip = var_FRA_Government_control_level_subtract_1_tt
+         }
+		
+		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+		
+		country_event = { 
+			id = FRA.8_PDSF
+			days = 5
+		}
+			
+	}
+}
+country_event = {#毫无仁慈 
+	id = FRA.8_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.8_PDSF.t
+	desc = FRA.8_PDSF.d
+	is_triggered_only = yes
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	option = {
+		name = FRA.8_PDSF.a
+		subtract_from_variable = {
+         var = var_FRA_Government_control_level
+         value = 1
+         tooltip = var_FRA_Government_control_level_subtract_1_tt
+         }
+		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+	}
+	
+}
+country_event = {#毫无仁慈 
+	id = FRA.9_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.9_PDSF.t
+	desc = FRA.9_PDSF.d
+	is_triggered_only = no
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	check_variable = {
+             var_FRA_opposition_forces  = 4
+        }
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	mean_time_to_happen = {days = 1 }
+	option = {
+		name = FRA.9_PDSF.a
+        add_stability = -0.15
+		add_political_power = -50
+	}
+	option = {
+		name = FRA.9_PDSF.b
+		add_stability = -0.15
+		add_political_power = -50
+		random_list = {
+			50 = {
+           country_event = { 
+			id = FRA.9_PDSF_a
+			days = 5
+		}
+			}
+			50 = {
+			country_event = { 
+			id = FRA.9_PDSF_b
+			days = 5
+		}
+			}
+			
+		}
+	}
+}
+country_event = {#军方支持 
+	id = FRA.9_PDSF_a
+	picture = GFX_report_event_generic
+	title = FRA.9_PDSF_a.t
+	desc = FRA.9_PDSF_a.d
+	is_triggered_only = yes
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	option = {
+		name = FRA.9_PDSF_a.a
+        add_to_variable = {
+         var = var_FRA_Government_control_level
+         value = 1
+         tooltip = var_FRA_Government_control_level_add_1_tt
+         }
+
+		 subtract_from_variable = {
+         var = var_FRA_opposition_forces
+         value = 1
+         tooltip =var_FRA_opposition_forces_subtract_1_tt
+         }
+
+		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+	}
+}
+country_event = {#军方拒绝 
+	id = FRA.9_PDSF_b
+	picture = GFX_report_event_generic
+	title = FRA.9_PDSF_b.t
+	desc = FRA.9_PDSF_b.d
+	is_triggered_only = yes
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	option = {
+		name = FRA.9_PDSF_b.a
+        subtract_from_variable = {
+         var = var_FRA_Military_attitude
+         value = 1
+         tooltip =var_FRA_Military_attitude_subtract_1_tt
+         }
+
+		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+	}
+}
+country_event = {#一无所有 
+	id = FRA.10_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.10_PDSF.t
+	desc = FRA.10_PDSF.d
+	is_triggered_only = no
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+		check_variable = {
+             var_FRA_opposition_forces = 5
+        }
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	mean_time_to_happen = {days = 1 }
+	option = {
+		name = FRA.10_PDSF.a
+		 set_politics = {
+    ruling_party = democrat
+    last_election = 1935.4.1
+    elections_allowed = no      
+     }
+	 set_cosmetic_tag = FRA_French_Republicn_name
+	 country_event = { 
+					id = FRA.11_PDSF
+				}
+	}
+	option = {
+		name = FRA.10_PDSF.b
+		 set_politics = {
+    ruling_party = despotism
+    last_election = 1935.4.1
+    elections_allowed = no      
+     }
+	 country_event = { 
+					id = FRA.12_PDSF
+				}
+	}
+	drop_cosmetic_tag = yes
+}
+country_event = {#民主胜利 
+	id = FRA.11_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.11_PDSF.t
+	desc = FRA.11_PDSF.d
+	is_triggered_only = yes
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	option = {
+		name = FRA.11_PDSF.a
+        clr_global_flag = GOL_flag_FRA_The_riots
+		remove_ideas = FRA_riots_across_the_country
+	}	
+}
+country_event = {#民主胜利 
+	id = FRA.12_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.12_PDSF.t
+	desc = FRA.12_PDSF.d
+	is_triggered_only = yes
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	option = {
+		name = FRA.12_PDSF.a
+        clr_global_flag = GOL_flag_FRA_The_riots
+		remove_ideas = FRA_riots_across_the_country
+	}	
+}
+country_event = {#反抗 
+	id = FRA.13_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.13_PDSF.t
+	desc = FRA.13_PDSF.d
+	is_triggered_only = yes
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	
+    }
+	fire_only_once = yes
+	immediate = { 
+		  hidden_effect = {
+		country_event = { 
+			id = FRA.14_PDSF
+			days = 14
+			}
+			}
+	}
+	option = {
+		name = FRA.13_PDSF.a
+
+
+		 subtract_from_variable = {
+         var = var_FRA_Government_control_level
+         value = 1
+         tooltip =var_FRA_Government_control_level_subtract_1_tt
+         }
+		 subtract_from_variable = {
+         var = var_FRA_Military_attitude
+         value = 1
+         tooltip =var_FRA_Military_attitude_subtract_1_tt
+         }
+	     add_political_power = 50
+		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+
+	}	
+	option = {
+		name = FRA.13_PDSF.b
+         subtract_from_variable = {
+         var = var_FRA_opposition_forces
+         value = 1
+         tooltip =var_FRA_opposition_forces_subtract_1_tt
+         }
+		 add_to_variable = {
+         var = var_FRA_Military_attitude
+         value = 1
+         tooltip = var_FRA_Military_attitude_add_1_tt
+         }
+	     add_political_power = -50
+		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+	}
+}
+country_event = {#反抗 
+	id = FRA.14_PDSF
+	picture = GFX_report_event_generic
+	title = FRA.14_PDSF.t
+	desc = FRA.14_PDSF.d
+	is_triggered_only = yes
+	trigger = {
+    tag = FRA
+    has_idea = FRA_riots_across_the_country
+	
+    }
+	fire_only_once = yes
+	immediate = { 
+		
+	}
+	option = {
+		name = FRA.14_PDSF.a
+
+ add_to_variable = {
+         var = var_FRA_opposition_forces
+         value = 1
+         tooltip = var_FRA_opposition_forces_add_1_tt
+         }
+	     add_political_power = 50
+		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+
+	}	
 }
