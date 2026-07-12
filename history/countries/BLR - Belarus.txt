@@ -4,6 +4,7 @@ capital = 206
 #开局国家状态
 set_stability = 0.6
 set_war_support = 0.4
+oob = "BLR"
 
 #开局科研槽
 set_research_slots = 3
@@ -14,8 +15,50 @@ recruit_character = Vasil_Zacharka
 
 # 开局解锁科技
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
-	
+	infantry_weapons1 = 1
+
+	### Support ###
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_trucks = 1
+
+	### Artillery ###
+	gw_artillery = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc_nsb = yes }
+	set_technology = { gwtank_chassis = 1 }
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { has_dlc_nsb = no }
+	set_technology = { gwtank = 1 }
+}
+
+### Planes - BBA ###
+if = {
+	limit = { has_dlc_bba = yes }
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+	}
+}
+
+### Planes - non BBA ###
+if = {
+	limit = { has_dlc_bba = no }
+	set_technology = { early_fighter = 1 }
 }
 
 

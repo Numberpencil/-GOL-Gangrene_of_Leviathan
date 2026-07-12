@@ -142,9 +142,6 @@ GOL_balkan_alliance_victory_peace = {
 	}
 	
 	set_global_flag = GOL_flag_balkan_alliance_victory
-	ROM = {
-	set_cosmetic_tag = Romania	
-	}
 	YUG = {
 		set_cosmetic_tag = Yugoslavia
 	}

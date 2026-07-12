@@ -100,14 +100,20 @@ news_event = { #改进型巨构机首次投入巴尔干战场
 		}
 	}
 }
-news_event = { #马其顿大屠杀
+news_event = { #马其顿
 	id = news.1006
 	title = news.1006.t
 	desc = news.1006.d
 	picture = GFX_news_event_North_Macedonian_massacre
-	is_triggered_only = no
-	fire_only_once = yes
+	immediate = {
+		set_global_flag = North_Macedonian_massacrea_fire
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
 	major = yes
+
 	trigger = {
 		MAC = {
 		has_war_with = YUG
@@ -116,21 +122,169 @@ news_event = { #马其顿大屠杀
             106 = { is_controlled_by = YUG }
 			106 = { is_controlled_by = BUL }
 		}
-
 		106 = { is_owned_by = MAC }
+		NOT = { has_global_flag = North_Macedonian_massacrea_fire }
+	}
+	option = { #
+		trigger = {
+		
+		}
+		name = news.1006.a
+	}
+	
+}
+news_event = { #马其顿
+	id = news.1008
+	title = news.1008.t
+	desc = news.1008.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	immediate = {
+		set_global_flag = North_Macedonian_massacrea_fire
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+
+	}
+	option = { #我们听不见地狱中的哀嚎
+		trigger = {
+		
+		}
+		name = news.1008.a
+	}
+	
+}
+news_event = { #马其顿
+	id = news.1009
+	title = news.1009.t
+	desc = news.1009.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	immediate = {
+		set_global_flag = North_Macedonian_massacrea_fire
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+
+	}
+	option = { #我们听不见地狱中的哀嚎
+		trigger = {
+		   not = {
+
+		   }
+		}
+		name = news.1009.a
+	}
+	option = { #我们听不见地狱中的哀嚎
+		trigger = {
+		    OR = {
+                  tag = SOV
+				  tag = FRA
+				  tag = ENG
+			}
+		}
+		name = news.1009.b
+	}
+	option = { #我们听不见地狱中的哀嚎
+		trigger = {
+		    OR = {
+                  tag = GER
+			}
+		}
+		name = news.1009.c
+	}
+	option = { #我们听不见地狱中的哀嚎
+		trigger = {
+		    OR = {
+                  tag = ITA
+			}
+		}
+		name = news.1009.e
+	}
+	
+}
+news_event = { #布达佩斯的陷落
+
+	id = news.1010
+	title = news.1010.t
+	desc = news.1010.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	immediate = {
+		set_global_flag = Budapest_fire
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	major = yes
+	trigger = {
+		HUN = {
+		has_war_with = ROM
+		}
+		OR = {
+            43 = { is_controlled_by = YUG }
+			43 = { is_controlled_by = BUL }
+			43 = { is_controlled_by = BOS }
+			43 = { is_controlled_by = ROM }
+		}
+		43 = { is_owned_by = HUN }
+		NOT = { has_global_flag = Budapest_fire }
+	}
+	option = { #我们听不见地狱中的哀嚎
+		trigger = {
+			
+				is_in_faction_with = GER
+			
+		}
+		name = news.1010.a
 	}
 	option = { #我们听不见地狱中的哀嚎
 		trigger = {
 			NOT = {
-				is_in_faction_with = ROM
+				is_in_faction_with = GER
 			}
 		}
-		name = news.1006.a
+		name = news.1010.b
+	}
+	
+}
+news_event = { #布加勒斯特的陷落
+
+	id = news.1011
+	title = news.1011.t
+	desc = news.1011.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	immediate = {
+		set_global_flag = Bucharest_fire
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	major = yes
+	trigger = {
+		ROM = {
+		has_war_with = HUN
+		}
+		OR = {
+            46 = { is_controlled_by = HUN }
+			46 = { is_controlled_by = MAC }
+		}
+		46 = { is_owned_by = ROM }
+		NOT = { has_global_flag = Bucharest_fire }
 	}
 	option = { #我们听不见地狱中的哀嚎
-		trigger = {
-				is_in_faction_with = ROM
-		}
-		name = news.1006.b
-	}
+	
+		name = news.1011.a
+	}		
 }
+
+

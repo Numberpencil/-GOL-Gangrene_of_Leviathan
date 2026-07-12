@@ -7,7 +7,7 @@ state = {
 
 	history = {
 		owner = SIK
-		add_core_of = CHI
+		
 		add_core_of = SIK
 buildings = {
 			infrastructure = 1

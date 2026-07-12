@@ -818,7 +818,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 957 #Vladivostok
+		location = 10696 #Vladivostok
 		division_template = "Pekhotnaya diviziya"
 		start_experience_factor = 0.10
 	}
@@ -827,7 +827,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 30
 		}
-		location = 957 #Vladivostok
+		location = 10696 #Vladivostok
 		division_template = "Pekhotnaya diviziya"
 		start_experience_factor = 0.10
 	}
@@ -836,7 +836,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 957 #Vladivostok
+		location = 10696 #Vladivostok
 		division_template = "Kazachya diviziya"
 		start_experience_factor = 0.50
 	}
@@ -956,7 +956,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 7763 #Blagoveshchensk
+		location = 12657 #Blagoveshchensk
 		division_template = "Kazachya diviziya"
 		start_experience_factor = 0.50
 	}
@@ -965,7 +965,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 17
 		}
-		location = 7763 #Blagoveshchensk
+		location = 12657 #Blagoveshchensk
 		division_template = "Kazachya diviziya"
 		start_experience_factor = 0.50
 	}
@@ -1027,7 +1027,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 12189 #Khabarovsk
+		location = 4728 #Khabarovsk
 		division_template = "Mekhanizirovannaya diviziya"
 		force_equipment_variants = { light_tank_chassis_0 = { owner = RUS creator = RUS version_name = "T-27" } }
 		start_experience_factor = 0.20
@@ -1037,7 +1037,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 12189 #Khabarovsk
+		location = 4728 #Khabarovsk
 		division_template = "Mekhanizirovannaya diviziya"
 		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "T-26RT" } }
 		start_experience_factor = 0.2
@@ -1048,7 +1048,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 19
 		}
-		location = 12189 #Khabarovsk
+		location = 4728 #Khabarovsk
 		division_template = "Gvardeyskaya diviziya"
 		start_experience_factor = 0.50
 	}

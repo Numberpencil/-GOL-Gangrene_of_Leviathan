@@ -12,7 +12,7 @@ state = {
 
 	history = {
 		owner = MAN
-		add_core_of = CHI
+		
 		add_core_of = MAN
 victory_points = { 11771 30 } #POP 4 + STRAT 2 + POL 2 = SIG 8
 		victory_points = { 11764 5 } #POP 1 + STRAT 2 + POL 0 = SIG 2

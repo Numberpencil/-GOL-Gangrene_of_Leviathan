@@ -136,6 +136,116 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
+	division = {
+		location = 3776
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 3776
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 3776
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 3776
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 3776
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 9780
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 9914
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 9914
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 3776
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 11837
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 819
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 819
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 3838
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 3838
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 11773
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 11773
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		location = 11773
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		location = 11773
+		division_template = "Divisione Fanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
 }
 
 instant_effect = {

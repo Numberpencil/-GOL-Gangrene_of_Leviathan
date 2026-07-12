@@ -1,9 +1,10 @@
 #首都
-capital = 78
+capital = 79
 
 #开局国家状态
 set_stability = 0.6
 set_war_support = 0.4
+oob = "MOL"
 
 #开局科研槽
 set_research_slots = 4
@@ -17,8 +18,19 @@ recruit_character = Michael_II
 
 # 开局解锁科技
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
-	
+	infantry_weapons1 = 1
+
+	### Support ###
+	tech_support = 1
+	tech_trucks = 1
+
+	### Artillery ###
+	gw_artillery = 1
+
+	### Trains ###
+	basic_train = 1
 }
 
 #开局执政党

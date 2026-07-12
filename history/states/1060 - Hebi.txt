@@ -10,8 +10,9 @@ state = {
 	}
 
 	history = {
-		owner = CHI
-		add_core_of = CHI
+		owner = ZWD
+		add_core_of = ZWD
+		
 victory_points = { 4144 5 } #POP 3 + STRAT 0 + POL 0 = SIG 3
 
 		buildings = {
@@ -20,6 +21,6 @@ victory_points = { 4144 5 } #POP 3 + STRAT 0 + POL 0 = SIG 3
 	}
 
 	provinces = {
-		1139  4114 4144 7074 7129
+		1139 4058   4144 7074 
 	}
 }

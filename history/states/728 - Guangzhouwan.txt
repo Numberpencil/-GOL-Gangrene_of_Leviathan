@@ -7,7 +7,7 @@ state = {
 	history = {
 		owner = GDC
 		add_core_of = GDC
-		add_core_of = CHI
+		
 buildings = {
 			infrastructure = 2
 			11981 = {

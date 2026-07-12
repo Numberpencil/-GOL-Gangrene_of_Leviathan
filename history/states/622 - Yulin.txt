@@ -10,9 +10,8 @@ state = { #Shaanxi
 	}
 
 	history = {
-		owner = XIC
-		add_core_of = CHI
-		add_core_of = XIC
+		owner = SHX
+		add_core_of = SHX
 victory_points = { 12356 20 } #POP 3 + STRAT 1 + POL 1 + BAL 1 = SIG 6
 
 		buildings = {
@@ -23,7 +22,6 @@ victory_points = { 12356 20 } #POP 3 + STRAT 1 + POL 1 + BAL 1 = SIG 6
 	}
 
 	provinces = {
-	517	1458 1647 3745 4939 5007 5025 7208 7314 7659 8049 10733 10880 12156 12356
+		1458 5007 7208 7314 7659 8049  10880 12356
 	}
 }
-517 1647 3745 4939 5025

@@ -10,7 +10,7 @@ state = {
 
 	history = {
 		owner = GDC
-		add_core_of = CHI
+		
 		add_core_of = GDC
 victory_points = { 4189 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
 

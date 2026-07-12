@@ -7,7 +7,7 @@ state = {
 
 	history = {
 		owner = MON
-		add_core_of = CHI
+		
 		add_core_of = MON
 victory_points = { 7799 2 } #Uliastai
 		victory_points = { 12520 1 } #Khovd

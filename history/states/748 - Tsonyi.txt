@@ -7,7 +7,7 @@ state = {
 
 	history = {
 		owner = TIB
-		add_core_of = CHI
+		
 		add_core_of = TIB
 victory_points = { 13892 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
 

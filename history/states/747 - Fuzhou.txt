@@ -6,7 +6,7 @@ state = { # Fuzhou
 
 	history = {
 		owner = CHI
-		add_core_of = CHI
+		
 buildings = {
 			infrastructure = 2
 			dockyard = 1 #Fuzhou Arsenal

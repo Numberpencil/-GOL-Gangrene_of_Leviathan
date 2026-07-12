@@ -6,7 +6,7 @@ state = {
 
 	history = {
 		owner = GSM
-		add_core_of = CHI
+		
 		add_core_of = GSM
 victory_points = { 12732 10 } #POP 2 + STRAT 1 + POL 1 = SIG 4
 

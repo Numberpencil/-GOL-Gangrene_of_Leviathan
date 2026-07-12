@@ -4,6 +4,7 @@ capital = 10
 #开局国家状态
 set_stability = 0.6
 set_war_support = 0.4
+oob = "POL"
 
 #开局科研槽
 set_research_slots = 3
@@ -14,8 +15,75 @@ recruit_character = Władysław_Wróblewski
 
 # 开局解锁科技
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
-	
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+
+	### Support ###
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+
+	### Artillery ###
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Industry ###
+	fuel_silos = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc_nsb = yes }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { has_dlc_nsb = no }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+
+### Planes - BBA ###
+if = {
+	limit = { has_dlc_bba = yes }
+	set_air_oob = "POL_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		engines_2 = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		basic_small_airframe = 1
+		iw_medium_airframe = 1
+		bba_early_transport_plane = 1
+	}
+}
+
+### Planes - non BBA ###
+if = {
+	limit = { has_dlc_bba = no }
+	set_air_oob = "POL_air_legacy"
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		CAS1 = 1
+		early_bomber = 1
+		early_transport_plane = 1
+	}
 }
 
 #开局执政党

@@ -10,7 +10,7 @@ state = {
 
 	history = {
 		owner = SDC
-		add_core_of = CHI
+		
 		add_core_of = SDC
 buildings = {
 			infrastructure = 3

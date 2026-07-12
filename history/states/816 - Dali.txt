@@ -11,8 +11,7 @@ state = {
 
 	history = {
 		owner = YUN
-		add_core_of = CHI
-		add_core_of = YUN
+add_core_of = YUN
 buildings = {
 			infrastructure = 2
 		}

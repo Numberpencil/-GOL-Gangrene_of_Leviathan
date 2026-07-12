@@ -1160,7 +1160,7 @@ faction_manifest_Far_Defense_Balkan = {
 		completed_amount_collection = collection:Far_Defense_Balkan
 		range = { min = 0.8 max = 0.1 }
 		reversed = {
-			  army_core_defence_factor = 0.1
+		
 		}
 		
 		progress_sections = {
@@ -1169,7 +1169,7 @@ faction_manifest_Far_Defense_Balkan = {
 	
 				modifier = {
 					war_support_factor = 0.1
-					army_attack_factor = 0.1
+				
 					
 				}			
 			}

@@ -180,17 +180,7 @@ country_event = { #瓦拉几亚拒绝要求
         days = 365
     }
 }
-YUG = {
-add_ideas = WAR_war_war
-}
-BUL = {
-add_ideas = WAR_war_war
 
-}
-ROM = {
-add_ideas = WAR_war_war
-
-}
         name = HUN.7.a #那就没什么好说的了
 		trigger = {
 			always = yes
@@ -220,6 +210,15 @@ add_ideas = WAR_war_war
 					id = BUL.1 #武装保卫瓦拉几亚
 				}
 			}
+			YUG = {
+             add_ideas = WAR_war_war
+            }
+            BUL = {
+             add_ideas = WAR_war_war
+            }
+            ROM = {
+             add_ideas = WAR_war_war
+            }
 		}
 	}
 }

@@ -667,9 +667,20 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "HELP_MENU"
 			web_link = ""
+			visible = no
 		}
 
-
+		buttonType = {
+			name = "achievements_button"
+			position = { x = -131 y = 62 }
+			quadTextureSprite ="GFX_achievements_button"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			scale = 0
+		}
 		
 		buttonType = {
 			name = "playlist_button"

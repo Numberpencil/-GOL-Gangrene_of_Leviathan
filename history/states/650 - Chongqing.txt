@@ -6,7 +6,7 @@ state = { #Chongqing
 
 	history = {
 		owner = CQQ
-		add_core_of = CHI
+		
 		add_core_of = CQQ
 victory_points = { 6999 30 } #POP 5 + STRAT 2 + POL 1 = SIG 8
 

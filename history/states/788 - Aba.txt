@@ -7,7 +7,7 @@ state = {
 
 	history = {
 		owner = CQQ
-		add_core_of = CHI
+		
 		add_core_of = CQQ
 victory_points = { 5011 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
 

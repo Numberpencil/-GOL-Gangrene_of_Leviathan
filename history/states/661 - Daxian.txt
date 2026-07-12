@@ -6,7 +6,7 @@ state = { #Eastern Sichuan
 
 	history = {
 		owner = CQQ
-		add_core_of = CHI
+		
 		add_core_of = CQQ
 victory_points = { 11865 20 } #POP 5 + STRAT 2 + POL 0 = SIG 7
 

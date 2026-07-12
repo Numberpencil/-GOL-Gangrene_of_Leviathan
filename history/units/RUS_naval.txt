@@ -116,10 +116,10 @@ units = {
 	#Pacific Fleet
 	fleet = {
 		name = "Tikhookeansky flot" #Pacific Fleet
-		naval_base = 957 #Vladivostok
+		naval_base = 4728 #Vladivostok
 		task_force = {
 			name = "Otryad nadvodnykh sil" #Surface Forces Squad
-			location = 957 #Vladivostok
+			location = 4728 #Vladivostok
 			#Battleship Brigade
 			ship = { name = "Petropavlovsk" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Sevastopol Class" } } } #Petropavlovsk
 			#Cruiser Brigade
@@ -136,7 +136,7 @@ units = {
 		}
 		task_force = {
 			name = "Brigada podvodnykh lodok" #Submarine Brigade
-			location = 9604 #Gavan
+			location = 4728 #Gavan
 			ship = { name = "General-Mayor Bubnov" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "General-Mayor Bubnov Class" } } } #B1
 			ship = { name = "Inzhener-Mekhanik Zverev" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "General-Mayor Bubnov Class" } } } #B2
 			ship = { name = "Inzhener-Mekhanik Dmitriyev" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "General-Mayor Bubnov Class" } } } #B3

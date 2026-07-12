@@ -6,8 +6,9 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = CHI
-		add_core_of = CHI
+		owner = ZWD
+		add_core_of = ZWD
+		
 buildings = {
 			infrastructure = 3
 			industrial_complex = 1

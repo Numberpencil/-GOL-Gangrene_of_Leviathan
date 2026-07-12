@@ -269,7 +269,149 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 
-				
+				containerWindowType = {
+					name = "goal_scroll_container"
+
+					verticalScrollbar = "right_vertical_slider"
+					scroll_wheel_factor = 40
+					smooth_scrolling = yes
+
+					size = { width = 100%% height = 100%% }
+
+					background = {
+						name = "scroll_dummy_background" # Without this, scrollbar won't appear
+						spriteType ="GFX_tiled_window_transparent"
+					}
+
+					containerWindowType = {
+						name = "goals_section"
+						position = { x = 0 y = 0 }
+						size = { width=100%% height=500 }
+
+						containerWindowType = {
+							name = "header_section"
+							position = { x = 10 y = 0 }
+							size = { width=527 height=35 }
+
+							background = {
+								position = { x = 0 y = 0 }
+								name = "header"
+								quadTextureSprite ="GFX_faction_header"
+								frame = 1
+								pdx_tooltip = "FACTION_GOALS_TAB_TT"
+							}
+
+							instantTextboxType = {
+								name = "label"
+								position = { x = 20 y = 10 }
+								font = "hoi_18mbs"
+								text = "FACTION_GOALS_TITLE"
+								maxWidth = 200
+								maxHeight = 20
+								format = left
+								alwaystransparent = yes
+							}
+						}
+
+						containerWindowType = {
+							name = "goals_container"
+							position = { x = 2 y = 38 }
+							size = { width=100%% height=100%% }
+							margin = { top = 13 bottom = 12}
+
+							background = {
+								position = { x = 16 y = 0 }
+								name = "background"
+								spriteType ="GFX_faction_goals_bg"
+								alwaystransparent = yes
+							}
+
+							iconType ={
+								name ="short_term_icon"
+								spriteType = "GFX_faction_term_diagram_icon_small"
+								position = { x= 30 y = 0 }
+								alwaystransparent = yes
+							}
+
+							instantTextboxType = {
+								name = "short_term_header"
+
+								position = { x = 50 y = 0 }
+								font = "hoi_18mbs"
+								text = "SHORT_TERM"
+								maxWidth = 130
+								maxHeight = 20
+								format = left
+								alwaystransparent = yes
+							}
+
+							iconType ={
+								name ="medium_term_icon"
+								spriteType = "GFX_faction_term_diagram_icon_small"
+								position = { x= 200 y = 0 }
+								frame = 2
+								alwaystransparent = yes
+							}
+
+							instantTextboxType = {
+								name = "medium_term_header"
+
+								position = { x = 220 y = 0 }
+								font = "hoi_18mbs"
+								text = "MEDIUM_TERM"
+								maxWidth = 100
+								maxHeight = 20
+								format = left
+							}
+
+							iconType ={
+								name ="long_term_icon"
+								spriteType = "GFX_faction_term_diagram_icon_small"
+								position = { x= 360 y = 0 }
+								frame = 3
+								alwaystransparent = yes
+							}
+
+							instantTextboxType = {
+								name = "long_term_header"
+
+								position = { x = 380 y = 0 }
+								font = "hoi_18mbs"
+								text = "LONG_TERM"
+								maxWidth = 100
+								maxHeight = 20
+								format = left
+								alwaystransparent = yes
+							}
+
+							gridBoxType = {
+								name = "SHORT_TERM" #dynamicly set
+								position = { x = 14 y = 32 }
+								size = { width = 100%% height = 100%% }
+								slotsize = { width = @goal_item_width height = @goal_item_height }
+								max_slots_horizontal = 1
+								format = "UPPER_LEFT"
+							}
+							gridBoxType = {
+								name = "MEDIUM_TERM" #dynamicly set
+								position = { x = 188 y = 32 }
+								size = { width = 100%% height = 100%% }
+								slotsize = { width = @goal_item_width height = @goal_item_height }
+								max_slots_horizontal = 1
+								format = "UPPER_LEFT"
+							}
+							gridBoxType = {
+								name = "LONG_TERM" #dynamicly set
+								position = { x = 364 y = 32 }
+								size = { width = 100%% height = 100%% }
+								slotsize = { width = @goal_item_width height = @goal_item_height }
+								max_slots_horizontal = 1
+								format = "UPPER_LEFT"
+							}
+						}
+
+					}
+				}
 			}
 
 # GOALS_SECTION_END
@@ -376,6 +518,16 @@ guiTypes = {
 							pdx_tooltip = "FACTION_RESEARCH_TAB_TT"
 							frame = 1
 
+						}
+
+						buttonType = {
+							name = "open_research_tab"
+							position = { x = 52 y = 2 }
+							quadTextureSprite = "GFX_button_221x34"
+							frame = 1
+							buttonFont = "hoi_18mbs"
+							buttonText = "FACTION_RESEARCH_BUTTON"
+							Orientation = "UPPER_LEFT"
 						}
 
 						instantTextboxType = {

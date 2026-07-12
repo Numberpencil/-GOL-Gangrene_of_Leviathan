@@ -13,7 +13,7 @@ state = {
 	history = {
 		owner = MON
 		add_core_of = MON
-		add_core_of = CHI
+		
 victory_points = { 4801 10 }#Urga
 
 		buildings = {

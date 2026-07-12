@@ -5,9 +5,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = HBQ
-		add_core_of = CHI
-		add_core_of = HBQ
+		owner = ZWD
+		add_core_of = ZWD
 victory_points = { 1188 15 } #POP 4 + STRAT 0 + POL 1 = SIG 5
 
 		buildings = {
@@ -20,6 +19,6 @@ victory_points = { 1188 15 } #POP 4 + STRAT 0 + POL 1 = SIG 5
 	}
 
 	provinces = {
-		1169 1188 4058 12062
+		1169 1188 4114 12062
 	}
 }

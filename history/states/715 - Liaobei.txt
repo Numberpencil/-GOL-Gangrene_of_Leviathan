@@ -6,7 +6,7 @@ state = { #Liaobei
 
 	history = {
 		owner = MAN
-		add_core_of = CHI
+		
 		add_core_of = MAN
 victory_points = { 916 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
 		victory_points = { 1638 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2

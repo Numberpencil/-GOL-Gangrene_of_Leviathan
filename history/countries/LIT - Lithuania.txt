@@ -4,6 +4,7 @@ capital = 11
 #开局国家状态
 set_stability = 0.6
 set_war_support = 0.4
+oob = "LIT"
 
 #人物提取
 #recruit_character = ger_Wilhelm_II
@@ -15,8 +16,38 @@ set_research_slots = 3
 
 # 开局解锁科技
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
-	
+	infantry_weapons1 = 1
+
+	### Support ###
+	tech_support = 1
+	tech_trucks = 1
+
+	### Artillery ###
+	gw_artillery = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Planes - BBA ###
+if = {
+	limit = { has_dlc_bba = yes }
+	set_air_oob = "LIT_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+	}
+}
+
+### Planes - non BBA ###
+if = {
+	limit = { has_dlc_bba = no }
+	set_air_oob = "LIT_air_legacy"
+	set_technology = { early_fighter = 1 }
 }
 
 #开局执政党

@@ -72,7 +72,7 @@ HUN_balkan_war1 = {
 ROM_balkan_war0 = {
     allowed = {
 		 OR = {
-        original_tag = YUG
+     original_tag = YUG
 		original_tag = BUL
 		original_tag = ROM
 		 }
@@ -222,9 +222,12 @@ GER_balkan_war1 = {
 }
 FRA_balkan_war1 = {
     allowed = {
-       
-      tag = FRA
-        
+      OR = {
+    original_tag = FRA
+		original_tag = SOV
+		original_tag = ENG
+    original_tag = ITA
+		 }
     }
     enable = {
   ROM = {

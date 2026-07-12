@@ -6,7 +6,7 @@ state = { #Ordos
 
 	history = {
 		owner = SHX
-		add_core_of = CHI
+		
 		add_core_of = SHX
 victory_points = { 10451 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
 

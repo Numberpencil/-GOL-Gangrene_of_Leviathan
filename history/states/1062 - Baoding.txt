@@ -5,9 +5,8 @@ state = {
 	state_category = four
 
 	history = {
-		owner = HBQ
-		add_core_of = CHI
-		add_core_of = HBQ
+		owner = ZWD
+		add_core_of = ZWD
 victory_points = { 7109 20 } #POP 5 + STRAT 2 + POL 0 = SIG 7
 
 		buildings = {

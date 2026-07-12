@@ -6,9 +6,8 @@ state = {
 	local_supplies = 6.0
 
 	history = {
-		owner = MON
-		add_core_of = CHI
-add_core_of = MON
+		owner = ZWD
+		add_core_of = ZWD
 victory_points = { 7648 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
 
 		buildings = {
@@ -21,6 +20,6 @@ victory_points = { 7648 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
 	}
 
 	provinces = {
-		828 952 1489 1551 1608 1796 1811 1871 4222 4495 4555 4612 4873 6837 7545 7578 7648 7674 10363 10372 10397 10575 11752 12348 12448 12554
+		828 952 1489 1551 1608 1796 1811 1871 4222 4495 4555 4612 4873 6837 7048 7545 7578 7648 7674 10363 10372 10397 10424 10575 11752 12348 12403 12448 12554
 	}
 }

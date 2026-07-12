@@ -7,7 +7,7 @@ state = {
 
 	history = {
 		owner = TIB
-		add_core_of = CHI
+		
 		add_core_of = TIB
 victory_points = { 12730 1 } #Tawang
 

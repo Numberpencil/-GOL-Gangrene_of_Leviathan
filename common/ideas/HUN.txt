@@ -51,9 +51,12 @@ ideas = {
 			allowed = {
 				has_war = yes
 			}
+			cancel = {
+					has_war = no
+				}
 			modifier = {
-				weekly_manpower = 3000 
-				equipment_capture = 0.75
+				weekly_manpower = 1000
+				equipment_capture = 0.3
 			}
 		}
 	}

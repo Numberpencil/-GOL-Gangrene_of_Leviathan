@@ -129,7 +129,7 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 3568 #Chernihiv
+		location = 525 #Chernihiv
 		name = "18a Chernihivska Pikhotna Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
@@ -141,55 +141,55 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 511 #Poltava
+		location = 525 #Poltava
 		name = "16a Poltavska Pikhotna Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 3686 #Sevastopil
+		location = 525 #Sevastopil
 		name = "19a Okrema Sevastopilska Pikhotna Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 418 #Kharkiv
+		location = 525 #Kharkiv
 		name = "3ia Kharkivska Pikhotna Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 418 #Kharkiv
+		location = 525 #Kharkiv
 		name = "4a Okrema Zaporizka Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 523 #Starobilske
+		location = 525 #Starobilske
 		name = "5a Kharkivska Pikhotna Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 9461 #Luhanske
+		location = 525 #Luhanske
 		name = "7a Katerynoslavska Pikhotna Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 9461 #Luhanske
+		location = 525 #Luhanske
 		name = "8a Okrema Zaporizka Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 6474 #Yuzivka
+		location = 525 #Yuzivka
 		name = "9a Katerynoslavska Pikhotna Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 6474 #Yuzivka
+		location = 525 #Yuzivka
 		name = "10a Katerynoslavska Pikhotna Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
@@ -231,7 +231,7 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 11462 #Sumy
+		location = 525 #Sumy
 		name = "20a Kharkivska Pikhotna Dyviziia"
 		division_template = "Pikhotna Dyviziia"
 		start_experience_factor = 0.3
@@ -239,19 +239,19 @@ units = {
 
 	### Cavalry Units
 	division = {
-		location = 9288 #Homel
+		location = 525 #Homel
 		name = "5a Chernihivska Kinna Dyviziia"
 		division_template = "Kinna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 11462 #Sumy
+		location = 525 #Sumy
 		name = "2a Kharkivska Kinna Dyviziia"
 		division_template = "Kinna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 418 #Kharkiv
+		location = 525 #Kharkiv
 		name = "1a Kharkivska Kinna Dyviziia"
 		division_template = "Kinna Dyviziia"
 		start_experience_factor = 0.3
@@ -263,13 +263,13 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 11405 #Oleksandrivske
+		location = 525 #Oleksandrivske
 		name = "3ia Katerynoslavska Kinna Dyviziia 'Almazivtsi'"
 		division_template = "Kinna Dyviziia"
 		start_experience_factor = 0.3
 	}
 	division = {
-		location = 3686 #Sevastopil
+		location = 525 #Sevastopil
 		name = "6a Okrema Sevastopilska Kinna Dyviziia"
 		division_template = "Kinna Dyviziia"
 		start_experience_factor = 0.3
