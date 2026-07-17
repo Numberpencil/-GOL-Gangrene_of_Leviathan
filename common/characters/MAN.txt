@@ -1,11 +1,11 @@
 characters = {
     ## Leaders ##
     #premier
-	Yu_Zhishan = {
-        name = Yu_Zhishan_name
+	Zhang_Zuolin = {
+        name = Zhang_Zuolin_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/MAN/Yu_Zhishan.png"
+                large = "gfx/leaders/MAN/Zhang_Zuolin.png"
             }
         }
         country_leader = {

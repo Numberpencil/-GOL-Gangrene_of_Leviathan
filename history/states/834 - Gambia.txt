@@ -5,7 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = FRA
+		owner = FWA
+		add_core_of = FWA
 victory_points = { 4989 1 } #Banjul
 
 		buildings = {

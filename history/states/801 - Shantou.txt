@@ -9,8 +9,8 @@ state = { # Shantou
 	}
 
 	history = {
-		owner = GXC
-		add_core_of = GXC
+		owner = GDC
+		add_core_of = GDC
 victory_points = { 9938 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
 
 		buildings = {

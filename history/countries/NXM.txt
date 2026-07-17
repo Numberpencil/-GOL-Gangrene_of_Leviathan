@@ -7,7 +7,9 @@ capital = 1120
 #开局国家状态
 set_stability = 0.5
 set_war_support = 0.3
-
+SHX = {
+	puppet = NXM
+}
 #人物提取
 recruit_character = Ma_Hongkui
 

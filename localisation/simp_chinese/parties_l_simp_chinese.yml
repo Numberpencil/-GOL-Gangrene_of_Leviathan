@@ -71,10 +71,7 @@
  Conservatism_ideology_desc:0 " "
  Conservatism_ideology_DKP:0 "保守主义"
  Conservatism_ideology_DKP_desc:0 ""
- Konservative_Revolution:0 "保守革命"
- Konservative_Revolution_desc:0 ""
- Konservative_Revolution_DKP:0 "保守革命"
- Konservative_Revolution_DKP_desc:0 ""
+
  #威
  authoritarianism:0 "威权主义"
  authoritarianism_noun:0 "威权主义"
@@ -158,6 +155,10 @@
  State_corporatism_italia_desc:0 ""
  Nascimento_thought:0 "纳西门托思想"
  Nascimento_thought_desc:0 ""
+ Konservative_Revolution:0 "保守革命"
+ Konservative_Revolution_desc:0 ""
+ Konservative_Revolution_DKP:0 "保守革命"
+ Konservative_Revolution_DKP_desc:0 ""
  #民
  national_socialism:0 "民族社会主义"
  national_socialism_desc:0 "极权政体"

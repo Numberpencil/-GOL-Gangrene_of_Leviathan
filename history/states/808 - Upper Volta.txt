@@ -6,7 +6,8 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = FRA
+		owner = FWA
+		add_core_of = FWA
 victory_points = { 10836 1 } #Ouagadougou
 
 		buildings = {

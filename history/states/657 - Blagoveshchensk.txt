@@ -9,9 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = MAN
-		
-		add_core_of = MAN
+		owner = SOV
+		add_core_of = SOV
 victory_points = { 7763 1 }
 
 		buildings = {

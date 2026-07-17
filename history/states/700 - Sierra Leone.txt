@@ -9,7 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = FRA
+		owner = FWA
+		add_core_of = FWA
 victory_points = { 2038 1 } #Freistadt/Freetown
 
 		buildings = {

@@ -7,7 +7,19 @@ GER = {
 	color =  rgb{  24 27 37  }
 	color_ui =  rgb { 24 27 37 }
 }
+GWA = {
+	color =  rgb{  24 27 37  }
+	color_ui =  rgb { 24 27 37 }
+}
+GEA = {
+	color =  rgb{  24 27 37  }
+	color_ui =  rgb { 24 27 37 }
+}
 FRA = {
+	color =  rgb { 38 53 83 }
+	color_ui =  rgb { 38 53 83 }
+}
+FWA = {
 	color =  rgb { 38 53 83 }
 	color_ui =  rgb { 38 53 83 }
 }
@@ -152,8 +164,8 @@ SWI = {
 	color_ui =  rgb { 143 121 137  }
 }
 CHI = {
-	color =  rgb { 39 49 76 }
-	color_ui =  rgb { 39 49 76 }
+	color =  rgb { 129 96 66 }
+	color_ui =  rgb { 129 96 66 }
 }
 HBQ = {
 	color =  rgb{ 127 53 36 }
@@ -165,16 +177,32 @@ SDC = {
 	color_ui =  rgb{ 103 62 53 }
 }
 CQQ = {
-	color =  rgb{ 88 104 107 }
-	color_ui =  rgb{ 88 104 107 }
+	color =  rgb{ 142 87 70 }
+	color_ui =  rgb{ 142 87 70 }
+}
+GMG = {
+	color =  rgb{ 118 80 58 }
+	color_ui =  rgb{ 118 80 58 }
+}
+ZSA = {
+	color =  rgb{ 142 87 70 }
+	color_ui =  rgb{ 142 87 70 }
+}
+HMG = {
+	color =  rgb{ 142 87 70 }
+	color_ui =  rgb{ 142 87 70 }
+}
+YYC = {
+	color =  rgb{ 142 87 70 }
+	color_ui =  rgb{ 142 87 70 }
 }
 HAM = {
 	color =  rgb{ 128 86 52 }
 	color_ui =  rgb{ 128 86 52 }
 }
 GDC = {
-	color =  rgb{ 29 48 82}
-	color_ui =  rgb{ 29 48 82 }
+	color =  rgb{129 96 66}
+	color_ui =  rgb{129 96 66 }
 }
 SCN = {
 	color =  rgb{ 139 87 66 }
@@ -192,25 +220,37 @@ GSH = {
 	color =  rgb{ 104 47 24 }
 	color_ui =  rgb{ 104 47 24 }
 }
+GSM = {
+	color =  rgb{ 115 79 50 }
+	color_ui =  rgb{ 115 79 50 }
+}
+NXM = {
+	color =  rgb{ 115 79 50 }
+	color_ui =  rgb{ 115 79 50 }
+}
+XRC = {
+	color =  rgb{ 101 93 75 }
+	color_ui =  rgb{ 101 93 75 }
+}
 SIK = {
-	color =  rgb { 54 102 102 }
-	color_ui =  rgb { 54 102 102 }
+	color =  rgb { 114 112 82 }
+	color_ui =  rgb { 114 112 82 }
 }
 TIB = {
-	color =  rgb { 95 104 104 }
-	color_ui =  rgb { 95 104 104 }
+	color =  rgb { 113 104 99 }
+	color_ui =  rgb { 113 104 99 }
 }
 YUN = {
-	color =  rgb { 50 63 86 }
-	color_ui =  rgb { 50 63 86 }
+	color =  rgb { 70 89 107 }
+	color_ui =  rgb { 70 89 107 }
 }
 MON = {
 	color =  rgb { 128 95 80 }
 	color_ui =  rgb { 128 95 80 }
 }
 GXC = {
-	color =  rgb {29 63 82}
-	color_ui =  rgb {29 63 82}
+	color =  rgb {129 96 66}
+	color_ui =  rgb {129 96 66}
 }
 SHX = {
 	color =  rgb { 115 79 50 }
@@ -221,12 +261,20 @@ HEN = {
 	color_ui =  rgb { 67 113 113 }
 }
 XSM = {
-	color =  rgb {19 61 55}
-	color_ui =  rgb {19 61 55 }
+	color =  rgb {44 46 30}
+	color_ui =  rgb {44 46 30 }
 }
 MAN = {
-	color =  rgb { 109 50 41 }
-	color_ui =  rgb { 109 50 41 }
+	color =  rgb { 99 54 40 }
+	color_ui =  rgb { 99 54 40 }
+}
+TRS = {
+	color =  rgb { 142 87 70 }
+	color_ui =  rgb { 142 87 70 }
+}
+ZWD = {
+	color =  rgb {142 87 70 }
+	color_ui =  rgb { 142 87 70 }
 }
 ARG = {
 	color =  rgb { 72 87 106 }
@@ -385,6 +433,10 @@ PER = {
 	color_ui =  rgb { 71  113  97  }
 }
 SAF = {
+	color =  rgb { 143 94 42  }
+	color_ui =  rgb { 143 94 42  }
+}
+BHL = {
 	color =  rgb { 143 94 42  }
 	color_ui =  rgb { 143 94 42  }
 }

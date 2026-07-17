@@ -163,6 +163,7 @@ add_to_faction = ENG
 add_to_faction = IRE
 add_to_faction = CAN
 add_to_faction = SAF
+add_to_faction = BHL
 
 
 #开局民族精神

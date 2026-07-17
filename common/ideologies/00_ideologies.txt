@@ -116,12 +116,6 @@ ideologies = {
             Conservatism_ideology = {
                 color = { 0 128 127 }
             }
-            Konservative_Revolution = {
-                color = { 149 108 81 }
-            }
-            Konservative_Revolution_DKP = {
-                color = { 149 108 81 }
-            }
             Conservatism_ideology_DKP = {
                 color = { 23 76 81 }
             }
@@ -276,6 +270,12 @@ ideologies = {
             }
             Nascimento_thought = {
                 color = { 117 85 28 }
+            }
+              Konservative_Revolution = {
+                color = { 149 108 81 }
+            }
+            Konservative_Revolution_DKP = {
+                color = { 149 108 81 }
             }
             
         }

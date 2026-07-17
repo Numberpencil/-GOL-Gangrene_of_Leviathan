@@ -6,8 +6,8 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = DMA
-		add_core_of = DMA
+		owner = GEA
+		add_core_of = GEA
 buildings = {
 			infrastructure = 1
 			5210 = {

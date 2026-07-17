@@ -281,9 +281,55 @@ news_event = { #布加勒斯特的陷落
 		46 = { is_owned_by = ROM }
 		NOT = { has_global_flag = Bucharest_fire }
 	}
-	option = { #我们听不见地狱中的哀嚎
+	option = { #巴尔干同盟破碎的开始
 	
 		name = news.1011.a
+	}		
+}
+news_event = { #法国重建民主
+
+	id = news.1012
+	title = news.1012.t
+	desc = news.1012.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	immediate = {
+		set_global_flag = Bucharest_fire
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { #巴尔干同盟破碎的开始
+	
+		name = news.1012.a
+	}		
+}
+news_event = { #布加勒斯特的陷落
+
+	id = news.1013
+	title = news.1013.t
+	desc = news.1013.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	immediate = {
+		set_global_flag = Bucharest_fire
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { #巴尔干同盟破碎的开始
+	
+		name = news.1013.a
 	}		
 }
 

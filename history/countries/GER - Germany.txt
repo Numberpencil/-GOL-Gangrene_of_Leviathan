@@ -170,6 +170,8 @@ add_to_faction = BLR
 add_to_faction = LIT
 add_to_faction = LAT
 add_to_faction = EST
+add_to_faction = GEA
+add_to_faction = GWA
 #开局民族精神
 add_ideas = {
 	toward_collapse 

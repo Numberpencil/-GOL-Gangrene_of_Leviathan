@@ -1,0 +1,9 @@
+ The_Beijing_government = {
+	icon = GFX_modifiers_flooding
+	enable = {
+		always = yes
+	}
+	political_power_gain = 0.25
+
+}
+ 

@@ -5,8 +5,8 @@ state = {
 	state_category = three
 
 	history = {
-		owner = DMA
-		add_core_of = DMA
+		owner = GEA
+		add_core_of = GEA
 victory_points = { 8144 1 } #Tabora
 		victory_points = { 13317 1 } #Muansa
 

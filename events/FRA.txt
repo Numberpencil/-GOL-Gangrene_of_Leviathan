@@ -783,9 +783,10 @@ country_event = {#一无所有
     elections_allowed = no      
      }
 	 set_cosmetic_tag = FRA_French_Republicn_name
-	 country_event = { 
-					id = FRA.11_PDSF
-				}
+	 news_event = {
+			id = news.1012
+		}
+				remove_ideas = FRA_riots_across_the_country
 	}
 	option = {
 		name = FRA.10_PDSF.b
@@ -794,55 +795,14 @@ country_event = {#一无所有
     last_election = 1935.4.1
     elections_allowed = no      
      }
-	 country_event = { 
-					id = FRA.12_PDSF
-				}
+	  news_event = {
+			id = news.1013 
+		}
+				remove_ideas = FRA_riots_across_the_country
 	}
 	drop_cosmetic_tag = yes
 }
-country_event = {#民主胜利 
-	id = FRA.11_PDSF
-	picture = GFX_report_event_generic
-	title = FRA.11_PDSF.t
-	desc = FRA.11_PDSF.d
-	is_triggered_only = yes
-	trigger = {
-    tag = FRA
-    has_idea = FRA_riots_across_the_country
-	
-    }
-	fire_only_once = yes
-	immediate = { 
-		
-	}
-	option = {
-		name = FRA.11_PDSF.a
-        clr_global_flag = GOL_flag_FRA_The_riots
-		remove_ideas = FRA_riots_across_the_country
-	}	
-}
-country_event = {#民主胜利 
-	id = FRA.12_PDSF
-	picture = GFX_report_event_generic
-	title = FRA.12_PDSF.t
-	desc = FRA.12_PDSF.d
-	is_triggered_only = yes
-	trigger = {
-    tag = FRA
-    has_idea = FRA_riots_across_the_country
-	
-    }
-	fire_only_once = yes
-	immediate = { 
-		
-	}
-	option = {
-		name = FRA.12_PDSF.a
-        clr_global_flag = GOL_flag_FRA_The_riots
-		remove_ideas = FRA_riots_across_the_country
-	}	
-}
-country_event = {#反抗 
+country_event = {#反抗的烽火 
 	id = FRA.13_PDSF
 	picture = GFX_report_event_generic
 	title = FRA.13_PDSF.t
@@ -900,7 +860,7 @@ country_event = {#反抗
 		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
 	}
 }
-country_event = {#反抗 
+country_event = {#布鲁姆的选择 
 	id = FRA.14_PDSF
 	picture = GFX_report_event_generic
 	title = FRA.14_PDSF.t
