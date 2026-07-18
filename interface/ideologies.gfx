@@ -137,6 +137,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Hybrid_regime.png"
 	}
 	SpriteType = { #
+		name = "GFX_ideology_Crony_warlord"
+		texturefile = "gfx/interface/ideologies/Crony_warlord.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_Authoritarian_Republicanism"
+		texturefile = "gfx/interface/ideologies/Authoritarian_Republicanism.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_Military_alliance"
+		texturefile = "gfx/interface/ideologies/Military_alliance.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_Hybrid_regime"
+		texturefile = "gfx/interface/ideologies/Hybrid_regime.png"
+	}
+	SpriteType = { #
 		name = "GFX_ideology_despotism"
 		texturefile = "gfx/interface/ideologies/despotism.png"
 	}
@@ -155,6 +171,10 @@ spriteTypes = {
 	SpriteType = { #
 		name = "GFX_ideology_Absolute_monarchy"
 		texturefile = "gfx/interface/ideologies/Absolute_monarchy.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_Prussian_imperialism"
+		texturefile = "gfx/interface/ideologies/Prussian_imperialism.png"
 	}
 	SpriteType = { #
 		name = "GFX_ideology_Oligarchist_despotism"
@@ -265,6 +285,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Socialist_nationalism_SSNP.png"
 	}
 	SpriteType = {
+		name = "GFX_ideology_authoritarianism"
+		texturefile = "gfx/interface/ideologies/authoritarianism.png"
+	}
+	SpriteType = {
 		name = "GFX_ideology_Integralist_corporatism_Talulah"
 		texturefile = "gfx/interface/ideologies/Integralist_corporatism_Talulah.png"
 	}
@@ -279,6 +303,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_Konservative_Revolution_DKP"
 		texturefile = "gfx/interface/ideologies/Konservative_Revolution_DKP.png"
+	}
+	SpriteType = {
+		name = "GFX_ideology_xun_zheng"
+		texturefile = "gfx/interface/ideologies/xun_zheng.png"
 	}
 	SpriteType = {
 		name = "GFX_ideology_State_corporatism"
@@ -307,6 +335,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_FRA_Nationalist_syndicalism_italia"
 		texturefile = "gfx/interface/ideologies/Nationalist_syndicalism_france.png"
+	}
+	SpriteType = {
+		name = "GFX_ideology_SPR_Nationalist_syndicalism_italia"
+		texturefile = "gfx/interface/ideologies/SPR_Nationalist_syndicalism_italia.png"
 	}
 	SpriteType = {
 		name = "GFX_ideology_Military_junta_france"

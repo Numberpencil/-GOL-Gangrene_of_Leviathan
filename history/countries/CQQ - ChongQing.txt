@@ -11,7 +11,7 @@ ZWD = {
 	puppet = CQQ
 }
 #人物提取
-recruit_character = Liu_Zhenhua
+recruit_character = Yang_Sen
 
 #开局科研槽
 set_research_slots = 3

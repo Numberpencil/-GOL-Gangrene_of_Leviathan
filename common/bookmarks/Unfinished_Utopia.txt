@@ -4,10 +4,11 @@ bookmarks = {
 		desc = "Unfinished_Utopia_DESC"
 		date = 1935.1.1.12
 		picture = "GFX_bookmarks_Unfinished_Utopia"
-		default_country = "GER"
-		default = yes
+		default_country = "USA"
+		sort_unplayed_first = no
 		
-		GER = {
+		
+		USA = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -21,7 +22,7 @@ bookmarks = {
 			}
 		}
 
-		FRA = {
+		CSA = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -35,7 +36,7 @@ bookmarks = {
 			}
 		}
 
-		ENG = {
+		CAL = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -49,61 +50,7 @@ bookmarks = {
 			}
 		}
 
-		SOV = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		AUS = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		POL = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		ITA = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
+		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

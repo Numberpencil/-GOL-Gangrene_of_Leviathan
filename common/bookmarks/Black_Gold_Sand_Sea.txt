@@ -4,9 +4,10 @@ bookmarks = {
 		desc = "Black_Gold_Sand_Sea_DESC"
 		date = 1935.1.1.12
 		picture = "GFX_bookmark_Black_Gold_Sand_Sea"
-		default_country = "GER"
+		default_country = "EGY"
+		sort_unplayed_first = no
 	
-		GER = {
+		EGY = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -20,7 +21,7 @@ bookmarks = {
 			}
 		}
 
-		FRA = {
+		SAU = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -34,7 +35,7 @@ bookmarks = {
 			}
 		}
 
-		ENG = {
+		ISR = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -48,61 +49,9 @@ bookmarks = {
 			}
 		}
 
-		SOV = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
+		
 
-		AUS = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		POL = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		ITA = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
+		
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

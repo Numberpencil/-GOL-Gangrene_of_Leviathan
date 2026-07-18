@@ -4,22 +4,9 @@ bookmarks = {
 		desc = "Sunset_of_Bygone_Days_DESC"
 		date = 1935.1.1.12
 		picture = "GFX_bookmark_Sunset_of_Bygone_Days"
-		default_country = "GER"
+		default_country = "SOV"
+		sort_unplayed_first = no
 	
-		GER = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
- 
 		FRA = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
@@ -33,8 +20,8 @@ bookmarks = {
 				
 			}
 		}
-
-		ENG = {
+ 
+		YUG = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -62,7 +49,7 @@ bookmarks = {
 			}
 		}
 
-		AUS = {
+		ROM = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -76,7 +63,7 @@ bookmarks = {
 			}
 		}
 
-		POL = {
+		BUL = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -90,19 +77,7 @@ bookmarks = {
 			}
 		}
 
-		ITA = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
+		
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

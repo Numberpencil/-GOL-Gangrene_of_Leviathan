@@ -124,6 +124,7 @@ guiTypes = {
 	### country entry
 		containerWindowType = {
 		name = "country_entry"
+		
 
 		buttonType = {
 			name = "country_leader"
@@ -982,7 +983,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 105 y = 30 }
+			position = { x= 95 y = 28 }
 			#Orientation = "UPPER_LEFT"
 			frame = 1
 		}

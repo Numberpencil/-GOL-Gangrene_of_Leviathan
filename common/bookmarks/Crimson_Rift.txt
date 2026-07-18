@@ -4,9 +4,10 @@ bookmarks = {
 		desc = "Crimson_Rift_DESC"
 		date = 1935.1.1.12
 		picture = "GFX_bookmark_Crimson_Rift"
-		default_country = "GER"
+		default_country = "TUR"
+		sort_unplayed_first = no
 	
-		GER = {
+		ORG = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -20,7 +21,7 @@ bookmarks = {
 			}
 		}
 
-		FRA = {
+		TUR = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -34,7 +35,7 @@ bookmarks = {
 			}
 		}
 
-		ENG = {
+		CAU = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -48,62 +49,7 @@ bookmarks = {
 			}
 		}
 
-		SOV = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		AUS = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		POL = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		ITA = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
+		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

@@ -154,7 +154,7 @@ set_popularities = {
 	populism = 3
 	fascism = 0
 	national_socialism = 19
-	occultism = 10
+	occultism = 0
 }
 
 #开局阵营（若存在）

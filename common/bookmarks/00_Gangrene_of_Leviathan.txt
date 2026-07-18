@@ -6,11 +6,12 @@ bookmarks = {
 		picture = "GFX_bookmark_Gangrene_of_Leviathan"
 		default_country = "GER"
 		default = yes
+		sort_unplayed_first = no
 		
 
-		GER = {
+		UKR = {
 			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
+			
 			available = { 
 				always = yes 
 			}
@@ -20,9 +21,10 @@ bookmarks = {
 			focuses = {
 				
 			}
+		
 		}
 
-		FRA = {
+		POL = {
 			history = "Gangrene_of_Leviathan_FRA_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -34,9 +36,10 @@ bookmarks = {
 			focuses = {
 				
 			}
+		
 		}
 
-		ENG = {
+		GER = {
 			history = "Gangrene_of_Leviathan_ENG_DESC"
 			ideology = authoritarianism
 			available = { 
@@ -48,48 +51,7 @@ bookmarks = {
 			focuses = {
 				
 			}
-		}
-
-		SOV = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		AUS = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-
-		POL = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
+		
 		}
 
 		ITA = {
@@ -102,9 +64,25 @@ bookmarks = {
 				
 			}
 			focuses = {
+								
+			}
+		
+		}
+
+		HUN = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
 				
 			}
+			focuses = {
+					
 		}
+
+		
 
 
 		effect = {
@@ -112,4 +90,5 @@ bookmarks = {
 			#123 = { rain_light = yes }
 		}
 	}
+}
 }
