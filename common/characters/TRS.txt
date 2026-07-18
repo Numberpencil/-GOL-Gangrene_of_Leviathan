@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Wang_Chengbin = {
+        name = Wang_Chengbin_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TRS/Wang_Chengbin.png"
+            }
+        }
+        country_leader = {
+            ideology = Crony_warlord
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

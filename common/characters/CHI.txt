@@ -1,15 +1,15 @@
 characters = {
     ## Leaders ##
     #premier
-	Chiang_Kai_shek = {
-        name = Chiang_Kai_shek_name
+	Sun_Chuanfang = {
+        name = Sun_Chuanfang_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/CHI/Chiang_Kai_shek.png"
+                large = "gfx/leaders/CHI/Sun_Chuanfang.png"
             }
         }
         country_leader = {
-            ideology = Authoritarian_democrat
+            ideology = Military_alliance
             traits = {
 
             }

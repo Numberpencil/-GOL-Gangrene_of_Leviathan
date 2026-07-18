@@ -1,15 +1,15 @@
 characters = {
     ## Leaders ##
     #premier
-	Liu_Xiang = {
-        name = Liu_Xiang_name
+	Yang_Sen = {
+        name = Yang_Sen_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/CQQ/Liu_Xiang.png"
+                large = "gfx/leaders/CQQ/Yang_Sen.png"
             }
         }
         country_leader = {
-            ideology = Parental_autocracy
+            ideology = Crony_warlord
             traits = {
 
             }

@@ -18,11 +18,11 @@ set_technology = {
 
 #人物提取
 recruit_character = Hu_Hanmin
-
+recruit_character = Chen_Jiongming
 
 #开局执政党
 set_politics = {
-	ruling_party = democrat
+	ruling_party = authoritarianism
 	last_election = "1934.1.1"
 	election_frequency = 48
 	elections_allowed = no

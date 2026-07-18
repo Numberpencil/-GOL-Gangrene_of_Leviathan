@@ -9,7 +9,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Hybrid_regime
+            ideology = Authoritarian_Republicanism
             traits = {
 
             }

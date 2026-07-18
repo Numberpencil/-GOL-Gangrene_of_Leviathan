@@ -15,7 +15,7 @@ set_technology = {
 }
 
 #人物提取
-recruit_character = Chiang_Kai_shek
+recruit_character = Sun_Chuanfang
 
 #开局执政党
 set_politics = {
@@ -45,6 +45,5 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-	POI_linsen
-	POI_COUNTRY_HAS_SECONDARY_LEADER
+
 }

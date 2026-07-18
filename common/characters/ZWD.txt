@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Cao_Kun = {
+        name = Cao_Kun_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ZWD/Cao_Kun.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_Republicanism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

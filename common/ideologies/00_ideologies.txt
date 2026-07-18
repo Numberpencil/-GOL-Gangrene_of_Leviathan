@@ -149,7 +149,18 @@ ideologies = {
             Hybrid_regime = {
                 color = { 114 111 109 }
             }
+            Crony_warlord = {
 
+            }
+            Authoritarian_Republicanism = {
+                
+            }           
+            Military_alliance = {
+                
+            }
+            xun_zheng = {
+                
+            }
 
         }
         color = { #
@@ -189,6 +200,11 @@ ideologies = {
             }
             Military_socialism_despotism = {
                 color = { 111 90 90 }
+            }
+            Prussian_imperialism = {
+                color = { 
+                          67 67 67
+                        }
             }
         }
         color = { #

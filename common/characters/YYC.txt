@@ -1,0 +1,22 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Dong_Zhengguo = {
+        name = Dong_Zhengguo_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/YYC/Dong_Zhengguo.png"
+            }
+        }
+        country_leader = {
+            ideology = Crony_warlord
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+
+}

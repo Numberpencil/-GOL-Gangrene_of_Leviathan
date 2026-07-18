@@ -1,0 +1,27 @@
+state = {
+	id = 1128
+	name = "STATE_1128"
+	manpower = 7083941
+	state_category = four
+
+	resources = {
+	
+	}
+
+	history = {
+		owner = HMG
+		add_core_of = HMG
+victory_points = { 7101 20 } #POP 4 + STRAT 2 + POL 0 = SIG 6
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		7101 7434 12086
+	}
+}
+

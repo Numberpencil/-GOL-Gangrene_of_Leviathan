@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Liu_Zhenhua = {
+        name = Liu_Zhenhua_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ZSA/Liu_Zhenhua.png"
+            }
+        }
+        country_leader = {
+            ideology = Crony_warlord
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

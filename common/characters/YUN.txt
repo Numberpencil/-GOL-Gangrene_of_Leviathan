@@ -17,5 +17,21 @@ characters = {
             id = -1
         }
     }
+    Zhu_Peide = {
+        name = Zhu_Peide_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/YUN/Zhu_Peide.png"
+            }
+        }
+        country_leader = {
+            ideology = xun_zheng
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 
 }

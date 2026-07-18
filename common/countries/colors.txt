@@ -164,8 +164,8 @@ SWI = {
 	color_ui =  rgb { 143 121 137  }
 }
 CHI = {
-	color =  rgb { 129 96 66 }
-	color_ui =  rgb { 129 96 66 }
+	color =  rgb { 169 105 36 }
+	color_ui =  rgb { 169 105 36 }
 }
 HBQ = {
 	color =  rgb{ 127 53 36 }
@@ -201,8 +201,8 @@ HAM = {
 	color_ui =  rgb{ 128 86 52 }
 }
 GDC = {
-	color =  rgb{129 96 66}
-	color_ui =  rgb{129 96 66 }
+	color =  rgb{169 105 36}
+	color_ui =  rgb{169 105 36 }
 }
 SCN = {
 	color =  rgb{ 139 87 66 }
@@ -249,8 +249,8 @@ MON = {
 	color_ui =  rgb { 128 95 80 }
 }
 GXC = {
-	color =  rgb {129 96 66}
-	color_ui =  rgb {129 96 66}
+	color =  rgb {169 105 36}
+	color_ui =  rgb {169 105 36}
 }
 SHX = {
 	color =  rgb { 115 79 50 }

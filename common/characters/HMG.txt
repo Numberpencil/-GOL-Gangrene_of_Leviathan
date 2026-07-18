@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Zhao_Hengti = {
+        name = Zhao_Hengti_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/HMG/Zhao_Hengti.png"
+            }
+        }
+        country_leader = {
+            ideology = Crony_warlord
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

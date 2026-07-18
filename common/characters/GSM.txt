@@ -1,15 +1,15 @@
 characters = {
     ## Leaders ##
     #premier
-	Ma_Hongbin = {
-        name = Ma_Hongbin_name
+	Xu_Yongchang = {
+        name = Xu_Yongchang_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/GSM/Ma_Hongbin.png"
+                large = "gfx/leaders/GSM/Xu_Yongchang.png"
             }
         }
         country_leader = {
-            ideology = Parental_autocracy
+            ideology = Crony_warlord
             traits = {
 
             }

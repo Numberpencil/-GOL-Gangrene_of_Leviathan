@@ -17,5 +17,21 @@ characters = {
             id = -1
         }
     }
+    Chen_Jiongming = {
+        name = Chen_Jiongming_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GDC/Chen_Jiongming.png"
+            }
+        }
+        country_leader = {
+            ideology = Authoritarian_Republicanism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 
 }
