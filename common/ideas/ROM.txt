@@ -1,0 +1,89 @@
+# 
+# 此文件为，预留理念接口供后续实装
+# 注意：此文件中的理念不会被实际使用，仅作为模板使用
+
+ideas = {
+country = {
+ROM_The_Rise_of_the_Iron_Guard = {
+            # 崛起的铁卫团
+            picture = "GFX_idea" 
+              modifier = {
+              	stability_factor = -0.05
+				fascism_drift = 0.05
+            }
+        }
+ROM_The_Pain_of_Division = {
+            # 分裂之痛
+            picture = "GFX_idea" 
+              modifier = {
+              	army_core_attack_factor = 0.075
+				army_core_defence_factor = 0.075
+				political_power_gain = 0.1
+				war_support_factor = 0.05
+
+            }
+			equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+			targeted_modifier = {
+            tag = HUN    # this can also take a variable that stores a scope
+               cic_to_target_factor = 0.05
+        }
+}
+ROM_The_Pain_of_Division_1 = {
+            # 分裂之痛
+            picture = "GFX_idea" 
+              modifier = {
+              	army_core_attack_factor = 0.075
+				army_core_defence_factor = 0.075
+				political_power_gain = 0.1
+				war_support_factor = 0.1
+	
+            }
+			equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+			targeted_modifier = {
+            tag = HUN    # this can also take a variable that stores a scope
+               attack_bonus_against = 0.025
+			   defense_bonus_against = 0.025
+        }
+}
+Uneasy_peasant_movement = {
+            # 不安的农民运动
+            picture = "GFX_idea" 
+              modifier = {
+              	stability_factor = -0.15
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.05
+				conscription_factor = -0.05
+	
+            }
+			equipment_bonus = {
+			
+		}
+			targeted_modifier = {
+           
+}
+}
+WAR_war_war = { #后多瑙军队
+			hidden = yes
+			allowed = {
+				has_war = yes
+			}
+			cancel = {
+					has_war = no
+				}
+			modifier = {
+				weekly_manpower = 1000
+				equipment_capture = 0.3
+			}
+		}
+}
+}

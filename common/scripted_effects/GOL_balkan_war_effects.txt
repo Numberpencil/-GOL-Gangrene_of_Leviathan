@@ -72,23 +72,15 @@ GOL_hungarian_victory_peace = {
 GOL_balkan_alliance_victory_peace = {
 	GOL_balkan_white_peace = yes
 	
-	78 = {
-		transfer_state_to = ROM
-		add_core_of = ROM
-	}
-	79 = {
-		transfer_state_to = ROM
-		add_core_of = ROM
-	}
-	789 = {
-		transfer_state_to = ROM
-		add_core_of = ROM
-	}
 	80 = {
 		transfer_state_to = ROM
 		add_core_of = ROM
 	}
 	713 = {
+		transfer_state_to = ROM
+		add_core_of = ROM
+	}
+	789 = {
 		transfer_state_to = ROM
 		add_core_of = ROM
 	}

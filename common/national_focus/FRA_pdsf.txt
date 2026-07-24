@@ -60,8 +60,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-            custom_effect_tooltip = FRA_PDSF_nation_name_tt
-			hidden_effect = { set_cosmetic_tag = FRA_PDSF_nation_name }
+            
 			
 			}
 
@@ -202,7 +201,8 @@ focus_tree = {
 		
 
 		completion_reward = {
-          
+            custom_effect_tooltip = FRA_PDSF_nation_name_tt
+			hidden_effect = { set_cosmetic_tag = FRA_PDSF_nation_name }
 		}
 
 		}

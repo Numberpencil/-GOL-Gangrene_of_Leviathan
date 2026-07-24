@@ -13,7 +13,8 @@ recruit_character = Talulah
 recruit_character = Miku
 recruit_character = Vertin
 recruit_character = Teto
-
+recruit_character = Amiya
+recruit_character = Saya
 
 
 

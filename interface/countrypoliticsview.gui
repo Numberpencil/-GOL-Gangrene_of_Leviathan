@@ -190,7 +190,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 200 y = 180 }
+			position = { x= 195 y = 175 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
@@ -576,7 +576,12 @@ guiTypes = {
 				name = "Background"		
 				spriteType ="GFX_pol_goal_bg"
 			}
-			
+			iconType = {
+				name = "goal_icon"
+				position = { x = 55 y = 55 }
+				centerposition = yes			
+				spriteType = "GFX_goal_unknown"
+			}
 			buttonType = {
 				name = "add_national_goal_button"
 				position = { x = 97 y = 14 }
@@ -607,6 +612,7 @@ guiTypes = {
 				format = left			
 				alwaystransparent = yes
 			}
+			
 
 			iconType = {
 				name = "continuous_glow"
@@ -615,12 +621,7 @@ guiTypes = {
 				scale = 0.9
 			}
 			
-			iconType = {
-				name = "goal_icon"
-				position = { x = 47 y = 48 }
-				centerposition = yes			
-				spriteType = "GFX_goal_unknown"
-			}
+			
 
 			iconType = {
 				name = "continuous_small_glow"

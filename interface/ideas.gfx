@@ -65,6 +65,10 @@ spriteTypes = {
 		texturefile = "gfx/ideas/FRA/FRA_The_deep_pain_of_the_defeated.png"	
 	}
 	SpriteType = {
+		name = "GFX_idea_FRA_The_deep_pain_of_the_defeated_1"
+		texturefile = "gfx/ideas/FRA/FRA_The_deep_pain_of_the_defeated.png"	
+	}
+	SpriteType = {
 		name = "GFX_idea_FRA_Licking_industrial_scars"
 		texturefile = "gfx/ideas/FRA/FRA_Licking_industrial_scars.png"	
 	}

@@ -133,12 +133,17 @@ ideas = {
 			modifier={
 				navy_max_range=0.15
 				navy_fuel_consumption_factor=0.15
-				#重型战舰建造速度+5％
 				critical_receive_chance=0.10
 				experience_gain_navy_factor=-0.20
 				naval_doctrine_cost_factor=0.15
 
 			}
+			 equipment_bonus = {
+			ship_hull_heavy = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
 		}
 		Imperial_air_force={
 			picture = Imperial_air_force
@@ -148,13 +153,18 @@ ideas = {
 			modifier={
 				air_range_factor=0.10
 				air_fuel_consumption_factor=0.15
-				#重型飞机建造速度+5％
 				air_strategic_bomber_bombing_factor=0.10
 				air_cas_present_factor=-0.10
 				air_attack_factor=-0.05
 				experience_gain_air_factor=-0.20
 				air_doctrine_cost_factor=0.15
 			}
+			 equipment_bonus = {
+			heavy_airframe = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
 		}
 		GOL_idea_GER_megastructure_combat_data = {
 			picture = Megastructure_research

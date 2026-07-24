@@ -1,15 +1,92 @@
-﻿# 
+# 
 # 此文件为，预留理念接口供后续实装
 # 注意：此文件中的理念不会被实际使用，仅作为模板使用
 
 ideas = {
 country = {
-#SPR_generic_idea = {
-#picture = GFX_idea_generic
-#allowed = { always = yes }
-#modifier = {
-## 预留修正接口
-#}
-#}
+ SPR_TOlivares_Act = {
+            # 奥利瓦雷斯法案
+            picture = "GFX_idea" 
+              modifier = {
+               stability_factor = 0.05
+			   research_speed_factor = 0.05
+			   political_power_factor = -0.2
+			   compliance_growth = 0.15
+			   consumer_goods_factor = 0.15
+               industrial_capacity_factory = 0.05
+			   	production_factory_max_efficiency_factor = 0.05 
+            }
+        }
+ SPR_Constitutional_crisis = {
+            # 宪政危机
+            picture = "GFX_idea" 
+              modifier = {
+              	stability_factor = -0.1
+				war_support_factor = -0.1
+				political_power_cost = 0.05
+				political_advisor_cost_factor = 1
+            }
+        }
+ SPR_The_Second_Great_Panic = {
+            # 第二次大恐慌
+            picture = "GFX_idea" 
+              modifier = {
+              	consumer_goods_expected_value = 0.25
+				industrial_capacity_factory = -0.25
+				production_speed_buildings_factor = -0.35 
+				production_factory_efficiency_gain_factor = -0.4 
+				production_factory_max_efficiency_factor = -0.20 
+            }
+        }
+ SPR_backward_army = {
+            # 落后的陆军
+            picture = "GFX_idea" 
+              modifier = {
+              	experience_gain_army_factor = -0.2
+				experience_gain_navy_factor = -0.2
+				experience_gain_air_factor = -0.2
+				land_doctrine_cost_factor = 0.1
+				air_doctrine_cost_factor = 0.1
+				naval_doctrine_cost_factor = 0.1
+				army_attack_factor = -0.1
+				breakthrough_factor = -0.15
+            }
+        
+		}
+ SPR_Save_the_Empire = {
+            # 挽救帝国
+            picture = "GFX_idea" 
+              modifier = {
+              	send_volunteer_size = 3
+				send_volunteers_tension = -0.5
+				stability_factor = -0.05
+				political_power_gain = -0.1
+				command_power_gain = -0.1
+            }
+        }
+ SPR_Family_rmies_Under_the_Covenant = {
+            # 圣约下的家族军队
+            picture = "GFX_idea" 
+			targeted_modifier = {
+               tag = ITA
+               research_speed_factor = 0.05
+			   production_speed_industrial_complex_factor = 0.075 
+			   production_speed_arms_factory_factor = 0.075 
+			   consumer_goods_factor = -0.1
+			   industrial_capacity_factory = 0.05
+             }
+              modifier = {
+              	experience_gain_army_factor = -0.05
+				experience_gain_navy_factor = 0.1
+				experience_gain_air_factor = 0.1
+				air_doctrine_cost_factor = -0.1
+				naval_doctrine_cost_factor = -0.2
+				research_speed_factor = -0.05
+			    production_speed_industrial_complex_factor = 0.075 
+			    production_speed_arms_factory_factor = 0.075 
+			    consumer_goods_factor = -0.1
+				industrial_capacity_factory = 0.05
+            }
+        }
 }
 }

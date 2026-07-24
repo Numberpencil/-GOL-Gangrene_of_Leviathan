@@ -146,14 +146,14 @@ set_politics = {
 #饼图成分（数字总和为100）
 set_popularities = {
 	communism = 4
-	socialism = 21
+	socialism = 19
 	democrat = 15
 	conservatism = 23
 	authoritarianism = 9
 	despotism = 6
 	populism = 3
 	fascism = 0
-	national_socialism = 19
+	national_socialism = 21
 	occultism = 0
 }
 

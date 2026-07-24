@@ -25,7 +25,7 @@ bookmarks = {
 		}
 
 		POL = {
-			history = "Gangrene_of_Leviathan_FRA_DESC"
+			history = "Gangrene_of_Leviathan_POL_DESC"
 			ideology = authoritarianism
 			available = { 
 				always = yes 

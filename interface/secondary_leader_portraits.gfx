@@ -124,4 +124,9 @@ legacy_lazy_load = no
 		textureFile = "gfx\leaders\CHI\linseng.png"
 legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_secondary_leader_Saya"
+		textureFile = "gfx\leaders\LIB\Saya2.png"
+legacy_lazy_load = no
+	}
 }

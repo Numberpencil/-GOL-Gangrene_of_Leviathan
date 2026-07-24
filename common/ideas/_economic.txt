@@ -965,7 +965,20 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.05 #生产效率提升。
 
  			}
-
+			hidden_effect = {
+			research_bonus = {
+             industry = -0.1
+             electronics = -0.1
+			 atomic_research -0.5
+			 infantry_folder -0.05
+			 artillery_folder -0.05
+			 nsb_armour_folder -0.05
+			 naval_folder -0.05
+			 mtgnavalfolder -0.05
+			 mtgnavalsupportfolder -0.05
+			 air_techs_folder -0.05
+            }
+		}
 			
 
 			cancel_if_invalid = no
@@ -983,7 +996,14 @@ ideas = {
 				stability_factor = 0.05#稳定
 				research_speed_factor = 0.05#科研
 
-			}			
+			}	
+			hidden_effect = {
+			research_bonus = {
+           
+			 atomic_research -0.1
+			
+            }	
+		}	
             default = yes
 			cancel_if_invalid = no
 		}
@@ -1036,6 +1056,21 @@ ideas = {
 				political_power_factor = -0.01
 
 			}
+			hidden_effect = {
+			research_bonus = {
+             industry = 0.1
+             electronics = 0.1
+			 atomic_research 0.1
+			 infantry_folder 0.1
+			 artillery_folder 0.1
+			 nsb_armour_folder 0.1
+			 naval_folder 0.1
+			 mtgnavalfolder 0.1
+			 mtgnavalsupportfolder 0.1
+			 air_techs_folder 0.1
+            }
+			}
+			
 
 			
 
@@ -1066,6 +1101,20 @@ ideas = {
 				conscription_factor = -0.1
 
 			}
+			hidden_effect = {
+			research_bonus = {
+             industry = 0.2
+             electronics = 0.2
+			 atomic_research 0.35
+			 infantry_folder 0.2
+			 artillery_folder 0.2
+			 nsb_armour_folder 0.2
+			 naval_folder 0.2
+			 mtgnavalfolder 0.2
+			 mtgnavalsupportfolder 0.2
+			 air_techs_folder 0.2
+            }
+		}
 
 			
 
@@ -1097,7 +1146,20 @@ ideas = {
 				production_speed_buildings_factor = 0.1 #建造
 
 			}
-
+			hidden_effect = {
+			research_bonus = {
+             industry = 0.3
+             electronics = 0.35
+			 atomic_research 0.5
+			 infantry_folder 0.2
+			 artillery_folder 0.2
+			 nsb_armour_folder 0.2
+			 naval_folder 0.2
+			 mtgnavalfolder 0.2
+			 mtgnavalsupportfolder 0.2
+			 air_techs_folder 0.2
+            }
+		}
 			
 
 			cancel_if_invalid = no

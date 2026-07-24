@@ -179,12 +179,22 @@ defined_text = {
 			has_idea = POI_linsen
 		}
 		localization_key = "CHI_POI_linsen"
-	}text = {
+	}
+	text = {
 		trigger = {	
 			tag = MEX			
 			has_idea = POI_Alfonso_XIII
 		}
 		localization_key = "MEX_POI_Alfonso_XIII"
+	}
+	text = {
+		trigger = {	
+			tag = LIB	
+			Saya = {
+				is_country_leader = yes
+			}		
+		}
+		localization_key = "LIB_POI_Saya"
 	}
 }
 

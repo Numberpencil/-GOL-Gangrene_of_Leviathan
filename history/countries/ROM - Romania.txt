@@ -118,6 +118,9 @@ set_popularities = {
 add_ideas = {
 	POI_Carol_II
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	ROM_The_Rise_of_the_Iron_Guard
+	ROM_The_Pain_of_Division
+	Uneasy_peasant_movement
 }
 
 ROM = {

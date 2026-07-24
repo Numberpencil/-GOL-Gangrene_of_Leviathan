@@ -27,7 +27,7 @@ characters = {
         country_leader = {
             ideology = Conservativist_democrat
             traits = {
-
+               Turn_the_tide
             }
             expire = "9999.1.1.1"
             id = -1

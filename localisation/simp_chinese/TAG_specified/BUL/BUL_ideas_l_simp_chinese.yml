@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+ # 理念本地化模板
+ # 命名规则：[hidden_][timed_]idea_TAG_num/name(_num)
+ # 示例：idea_TAG_00 或 idea_TAG_name
+ # 理念名称
+ #CAL_generic_idea: "理念名称"
+ Great_Bulgaria_Dream: "大保加利亚幻梦"
+ Treaty_of_Neuilly: "讷伊条约"
+ Military_equipment_deterioration: "废弛的军队"
+ # 理念描述
+ #CAL_generic_idea_desc: "理念描述"
+ Great_Bulgaria_Dream_desc: "世界大战中斐迪南沙皇因错误判断了协约国与同盟国的力量对比，以及被俄罗斯帝国突如其来的背叛而重创。保加利亚也因错误的加入协约国而再度被羞辱。这次大战也让保加利亚的统一之梦成为幻影。"
+ Treaty_of_Neuilly_desc: "《讷伊条约》是在美泉宫和会保加利亚与同盟国签订的耻辱性条约，这一条约限制了保加利亚的军备扩张并且要对奥地利进行大量的赔款。这一条约如枷锁一般牢固地套在保加利亚之颈，多瑙战争奥地利的崩溃曾让保加利亚看到了一丝卸下枷锁的希望，但德国干涉军的到来将之彻底粉碎"
+ Military_equipment_deterioration_desc: "自大战以来保加利亚的军队便因军备的限制与极少的军费而废弛不堪，但是如今有诸多迹象表面鲍里斯三世沙皇正试图推动保加利亚军队的再重整。"

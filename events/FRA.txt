@@ -386,6 +386,7 @@ country_event = {
            idea = FRA_Political_enthusiasm
            days = 365
         }
+		set_cosmetic_tag = FRA_French_Republicn_name
     set_politics = {
     ruling_party = fascism
     last_election = 1935.4.1
@@ -782,7 +783,7 @@ country_event = {#一无所有
     last_election = 1935.4.1
     elections_allowed = no      
      }
-	 set_cosmetic_tag = FRA_French_Republicn_name
+	 
 	 news_event = {
 			id = news.1012
 		}
@@ -798,9 +799,10 @@ country_event = {#一无所有
 	  news_event = {
 			id = news.1013 
 		}
-				remove_ideas = FRA_riots_across_the_country
+		remove_ideas = FRA_riots_across_the_country
+		drop_cosmetic_tag = yes
 	}
-	drop_cosmetic_tag = yes
+	
 }
 country_event = {#反抗的烽火 
 	id = FRA.13_PDSF

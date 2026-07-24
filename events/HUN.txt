@@ -218,6 +218,10 @@ country_event = { #瓦拉几亚拒绝要求
             }
             ROM = {
              add_ideas = WAR_war_war
+			 swap_ideas = {
+             remove_idea = ROM_The_Pain_of_Division
+             add_idea = ROM_The_Pain_of_Division_1
+            }
             }
 		}
 	}

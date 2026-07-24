@@ -133,6 +133,12 @@ add_ideas = {
 	POI_Alfonso_XIII
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 	faction_idea_Pan_Iberian_Union
+	SPR_TOlivares_Act 
+    SPR_Constitutional_crisis 
+    SPR_The_Second_Great_Panic
+    SPR_backward_army
+    SPR_Save_the_Empire
+    SPR_Family_rmies_Under_the_Covenant
 }
 
 #外交状态

@@ -124,7 +124,8 @@ guiTypes = {
 	### country entry
 		containerWindowType = {
 		name = "country_entry"
-		
+		orientation = UPPER_LEFT
+		position = { x = 225 y = 50 }
 
 		buttonType = {
 			name = "country_leader"
@@ -147,6 +148,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_country_selection_entry"
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
+			
 		}
 
 		iconType = {
@@ -866,7 +868,7 @@ guiTypes = {
 			iconType ={
 				name ="pol_faction_icon"
 				spriteType = "GFX_pol_factions_strip"
-				position = { x= -1 y = 70 }
+				position = { x= -10 y = 65 }
 				frame = 1
 			}
 

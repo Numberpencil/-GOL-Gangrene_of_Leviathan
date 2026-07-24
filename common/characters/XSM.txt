@@ -1,17 +1,17 @@
 characters = {
     ## Leaders ##
     #premier
-	Ma_Lin = {
-        name = Ma_Lin_name
+	various_tribes_in_Qinghai = {
+        name = various_tribes_in_Qinghai_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/XSM/Ma_Lin.png"
+                large = "gfx/leaders/XSM/various_tribes_in_Qinghai.png"
             }
         }
         country_leader = {
-            ideology = Authoritarian_Republicanism
+            ideology = Crony_warlord
             traits = {
-
+              No_central_government 
             }
             expire = "9999.1.1.1"
             id = -1

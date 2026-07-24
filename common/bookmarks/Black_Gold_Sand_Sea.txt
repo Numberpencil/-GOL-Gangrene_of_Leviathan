@@ -20,6 +20,19 @@ bookmarks = {
 				
 			}
 		}
+		ETH = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 
 		SAU = {
 			history = "Gangrene_of_Leviathan_DESC"
@@ -36,6 +49,19 @@ bookmarks = {
 		}
 
 		ISR = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		SUD = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 

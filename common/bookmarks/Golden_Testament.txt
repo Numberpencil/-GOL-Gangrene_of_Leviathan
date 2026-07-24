@@ -8,7 +8,7 @@ bookmarks = {
 		sort_unplayed_first = no
 	
 		SPR = {
-			history = "Gangrene_of_Leviathan_DESC"
+			history = "Golden_Testament_SPR_DESC"
 			ideology = authoritarianism
 			available = { 
 				always = yes 
@@ -77,19 +77,6 @@ bookmarks = {
 			}
 		}
 
-		PRU = {
-			history = "Gangrene_of_Leviathan_DESC"
-			ideology = authoritarianism
-			available = { 
-				always = yes 
-			}
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
 
 		
 

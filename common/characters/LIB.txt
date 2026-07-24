@@ -70,5 +70,39 @@ characters = {
             id = -1
         }
     }
+    Amiya = {
+        name = Amiya_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/Amiya.png"
+            }
+        }
+        country_leader = {
+            desc = Amiya_name_desc
+            ideology = Social_democratism
+            traits = {
+                Rhodes_Island_Leader
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Saya = {
+        name = Saya_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/Saya.png"
+            }
+        }
+        country_leader = {
+            desc = Saya_name_desc
+            ideology = Esoteric_Celtsdruidism
+            traits = {
+                
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 
 }

@@ -118,6 +118,9 @@ set_popularities = {
 add_ideas = {
 	POI_Boris_III
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	Great_Bulgaria_Dream
+	Treaty_of_Neuilly
+	Military_equipment_deterioration
 }
 
 #开局政党

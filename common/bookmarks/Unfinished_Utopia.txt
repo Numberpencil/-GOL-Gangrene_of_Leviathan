@@ -49,6 +49,32 @@ bookmarks = {
 				
 			}
 		}
+		MTN = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		LWS = {
+			history = "Gangrene_of_Leviathan_DESC"
+			ideology = authoritarianism
+			available = { 
+				always = yes 
+			}
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 
 		
 		effect = {

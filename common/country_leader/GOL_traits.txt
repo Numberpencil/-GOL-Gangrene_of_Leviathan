@@ -10,6 +10,17 @@ leader_traits = {
             base = 2
         }
     }
+    Turn_the_tide = {
+         random = no
+        sprite = 1
+        political_power_factor = 0.05
+        stability_factor = 0.05
+        consumer_goods_factor = 0.1
+                
+        ai_will_do = {
+            base = 2
+        }
+    }
     FRA_beyond_cure = {
         random = no
         sprite = 1
@@ -59,6 +70,17 @@ leader_traits = {
     global_building_slots = 3
     political_power_gain = 0.5
 
+    }
+    Rhodes_Island_Leader = {
+        random = no
+        sprite = 1
+        opinion_gain_monthly_factor = 0.5
+        opinion_gain_monthly_same_ideology_factor = 0.5
+        send_volunteer_divisions_required = -1
+        send_volunteer_factor = 1
+        terrain_penalty_reduction = 0.45
+        army_non_core_defence_factor = 0.15
+        army_non_core_attack_factor = 0.15 
     }
     Butcher = {
         random = no
@@ -135,5 +157,14 @@ leader_traits = {
     operative_slot = 2
     agency_upgrade_time = -0.2
     
+  }
+  No_central_government = {
+    random = no
+    sprite = 1
+    disabled_ideas = 1
+    political_power_factor = -1
+   	stability_factor = -1
+    war_support_factor = -1
+    conscription = -1
   }
 }

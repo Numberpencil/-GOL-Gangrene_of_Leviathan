@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
 GOL_FRA_Suppressing_riots_decisions_category: "法兰西动乱"
-GOL_FRA_Suppressing_riots_decisions_category_desc: "决战的时刻到了，那些在大选中落败的党派正在纠集他们的力量，妄图颠覆工团党合法的执政地位，他们曾以为胜利触手可及，那就让他们亲眼看着自己的最后希望如何被碾碎，这是危机，也是我们唯一彻底掌控局面的契机——Tout ou rien（§G“一切§!，或§R一无所有§!”）\n当前政府控制度[FRA_Government_control_level]\n\n当前军方态度[FRA_Military_attitude]\n\n当前反对派规模[FRA_opposition_forces]\n当反对派行动规模增长时，军方信任度和政权控制度可能会受到某些事件的冲击，如果还没能处理好的话甚至会失去控制度和信任度。"
+GOL_FRA_Suppressing_riots_decisions_category_desc: "决战的时刻到了，那些在大选中落败的党派正在纠集他们的力量，妄图颠覆工团党合法的执政地位，他们曾以为胜利触手可及，那就让他们亲眼看着自己的最后希望如何被碾碎，这是危机，也是我们唯一彻底掌控局面的契机——Tout ou rien（§G“一切§!，或§R一无所有§!”）\n\n当前政府控制度[FRA_Government_control_level]\n当前军方态度[FRA_Military_attitude]\n当前反对派规模[FRA_opposition_forces]\n\n当反对派行动规模增长时，军方信任度和政权控制度可能会受到某些事件的冲击，如果还没能处理好的话甚至会失去控制度和信任度。"
 var_FRA_Government_control_level_subtract_1_tt: "控制度§R减少§!1  "
 var_FRA_Military_attitude_subtract_1_tt: "军方态度§R减少§!1"
 var_FRA_opposition_forces_add_1_tt: "反对派规模§R增加§!1"

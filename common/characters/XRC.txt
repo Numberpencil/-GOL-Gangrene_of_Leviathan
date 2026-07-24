@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Liu_Chengxun = {
+        name = Liu_Chengxun_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/XRC/Liu_Chengxun.png"
+            }
+        }
+        country_leader = {
+            ideology = Crony_warlord
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}
