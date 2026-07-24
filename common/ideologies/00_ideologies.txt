@@ -278,6 +278,9 @@ ideologies = {
             Laban_corporatism_thought = {
 
             }
+            Revolutionary_nationalism = {
+                
+            }
             State_corporatism = {
                 color = { 113 42 15 }
             }

@@ -183,6 +183,41 @@ spriteTypes = {
 		texturefile = "gfx/ideas/HUN/Post_Danube_era_army.png"
 	}
 
+	###保加利亚###
+	SpriteType = {
+		name = "GFX_idea_Great_Bulgaria_Dream"
+		texturefile = "gfx/ideas/BUL/Great_Bulgaria_Dream.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Treaty_of_Neuilly"
+		texturefile = "gfx/ideas/BUL/Treaty_of_Neuilly.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Military_equipment_deterioration"
+		texturefile = "gfx/ideas/BUL/Military_equipment_deterioration.png"
+	}
+	###瓦拉几亚###
+	SpriteType = {
+		name = "GFX_idea_ROM_The_Rise_of_the_Iron_Guard"
+		texturefile = "gfx/ideas/ROM/ROM_The_Rise_of_the_Iron_Guard.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ROM_The_Pain_of_Division"
+		texturefile = "gfx/ideas/ROM/ROM_The_Pain_of_Division.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ROM_The_Pain_of_Division_1"
+		texturefile = "gfx/ideas/ROM/ROM_The_Pain_of_Division.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Uneasy_peasant_movement"
+		texturefile = "gfx/ideas/ROM/Uneasy_peasant_movement.png"
+	}
 	###塞尔维亚###
 	SpriteType = {
 		name = "GFX_idea_Belated_Victory"
@@ -197,6 +232,33 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_Backward_country"
 		texturefile = "gfx/ideas/YUG/Backward_country.png"
+	}
+	###西班牙王国###
+	SpriteType = {
+		name = "GFX_idea_SPR_TOlivares_Act"
+		texturefile = "gfx/ideas/SPR/SPR_TOlivares_Act.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SPR_Constitutional_crisis"
+		texturefile = "gfx/ideas/SPR/SPR_Constitutional_crisis.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SPR_The_Second_Great_Panic"
+		texturefile = "gfx/ideas/SPR/SPR_The_Second_Great_Panic.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_backward_army"
+		texturefile = "gfx/ideas/SPR/SPR_backward_army.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_Save_the_Empire"
+		texturefile = "gfx/ideas/SPR/SPR_Save_the_Empire.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_Family_rmies_Under_the_Covenant"
+		texturefile = "gfx/ideas/SPR/SPR_Family_rmies_Under_the_Covenant.png"
 	}
 		### 贸易法案
 

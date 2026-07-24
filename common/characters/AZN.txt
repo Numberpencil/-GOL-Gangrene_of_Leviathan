@@ -9,7 +9,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Oligarchist_despotism
+            ideology = de_Corporatocracy
             traits = {
 
             }

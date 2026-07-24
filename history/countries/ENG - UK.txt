@@ -230,5 +230,12 @@ long_name = "ENG_PARTY_NAME_OC_unkown"
 name = "ENG_PARTY_NAME_OC_unkown"
 }
 
+ENG = {
+	country_event = {
+		id = ENG.1
+		days = 380
+	}
+
+}
 
 #人物提取

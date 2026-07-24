@@ -4,17 +4,60 @@
 
 add_namespace = ENG
 
-#country_event = {
-#	id = ENG.1
-#	title = ENG.1.t
-#	desc = ENG.1.d
-#	picture = GFX_events_generic
-#	
-#	is_triggered_only = yes
-#	fire_only_once = yes
-#	
-#	option = {
-#		name = ENG.1.a
-#		# 预留效果接口
-#	}
-#}
+country_event = {
+	id = ENG.1
+	title = ENG.1.t
+	desc = ENG.1.d
+	picture = GFX_events_generic
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+	country_event = {
+		id = ENG.2
+		days = 320
+	}
+    }
+		}
+	option = {
+		name = ENG.1.a
+		news_event = news.1014		
+		hidden_effect = {
+	    swap_ideas = {
+        remove_idea = POI_George_V
+        add_idea = POI_Edward_VIII
+      }
+		}
+		
+	}
+}
+country_event = {
+	id = ENG.2
+	title = ENG.2.t
+	desc = ENG.2.d
+	picture = GFX_events_generic
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ENG.2.a
+		news_event = news.1015		
+		hidden_effect = {
+	    swap_ideas = {
+        remove_idea = POI_George_V
+        add_idea = POI_Edward_VIII
+      }
+		}
+		
+	}
+	option = {
+		name = ENG.2.b
+		news_event = news.1016		
+		hidden_effect = {
+	    swap_ideas = {
+        remove_idea = POI_Edward_VIII
+        add_idea = POI_George_VI
+      }
+		}
+		
+	}
+}

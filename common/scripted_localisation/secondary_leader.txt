@@ -189,12 +189,33 @@ defined_text = {
 	}
 	text = {
 		trigger = {	
+			tag = ENG			
+			has_idea = POI_Edward_VIII
+		}
+		localization_key = "ENG_POI_Edward_VIII"
+	}
+	text = {
+		trigger = {	
+			tag = ENG			
+			has_idea = POI_George_VI
+		}
+		localization_key = "ENG_POI_George_VI"
+	}
+	text = {
+		trigger = {	
 			tag = LIB	
 			Saya = {
 				is_country_leader = yes
 			}		
 		}
 		localization_key = "LIB_POI_Saya"
+	}
+	text = {
+		trigger = {	
+			tag = SOV	
+			has_idea = POI_Grand_Duke_Kirill		
+		}
+		localization_key = "SOV_POI_Grand_Duke_Kirill"
 	}
 }
 

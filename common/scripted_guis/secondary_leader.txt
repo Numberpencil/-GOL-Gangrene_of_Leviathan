@@ -5,7 +5,12 @@ scripted_gui = {
 		window_name = secondary_leader_gui_window
 		
 		visible = {
-           has_idea = POI_COUNTRY_HAS_SECONDARY_LEADER
+          OR = {
+                has_idea = POI_COUNTRY_HAS_SECONDARY_LEADER
+				Saya = {
+				is_country_leader = yes
+			}
+			}
 			# always = yes
 		}
 	}
@@ -15,7 +20,13 @@ scripted_gui = {
 		window_name = secondary_leader_gui_window_dip
 		
 		visible = {
-           has_idea = POI_COUNTRY_HAS_SECONDARY_LEADER
+			OR = {
+                has_idea = POI_COUNTRY_HAS_SECONDARY_LEADER
+				Saya = {
+				is_country_leader = yes
+			}
+			}
+           
 			# always = yes
 		}
 	}

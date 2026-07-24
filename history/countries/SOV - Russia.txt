@@ -166,3 +166,10 @@ add_ideas = {
 	POI_Kirill_Vladimirov
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 }
+SOV = {
+	country_event = {
+		id = SOV.1
+		days = 1362
+	}
+
+}

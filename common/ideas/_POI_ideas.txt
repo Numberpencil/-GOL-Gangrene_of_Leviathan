@@ -487,6 +487,63 @@ ideas = {
 			modifier = {
 				
 			}
-		}																	
+		}
+		POI_Edward_VIII = {
+			name = "ENG POI Edward_VIII "
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}	
+		POI_George_VI = {
+			name = "ENG POI George_VI "
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		POI_Grand_Duke_Kirill = {
+			name = "SOV POI Grand_Duke_Kirill "
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}																			
     }
 }

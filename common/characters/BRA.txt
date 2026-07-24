@@ -1,11 +1,11 @@
 characters = {
     ## Leaders ##
     #premier
-	Washington_Pereira = {
-        name =Washington_Pereira_name
+	Albuquerque = {
+        name =Albuquerque_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/BRA/Washington_Pereira.png"
+                large = "gfx/leaders/BRA/Albuquerque.png"
             }
         }
         country_leader = {

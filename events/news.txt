@@ -133,14 +133,12 @@ news_event = { #马其顿
 	}
 	
 }
-news_event = { #马其顿
+news_event = { #巴尔干同盟取得胜利
 	id = news.1008
 	title = news.1008.t
 	desc = news.1008.d
 	picture = GFX_news_event_North_Macedonian_massacre
-	immediate = {
-		set_global_flag = North_Macedonian_massacrea_fire
-	}
+
 	
 	mean_time_to_happen = {
 		days = 2
@@ -150,7 +148,7 @@ news_event = { #马其顿
 	trigger = {
 
 	}
-	option = { #我们听不见地狱中的哀嚎
+	option = { #布达佩斯的耻辱战败
 		trigger = {
 		
 		}
@@ -158,15 +156,12 @@ news_event = { #马其顿
 	}
 	
 }
-news_event = { #马其顿
+news_event = { #匈牙利之胜
 	id = news.1009
 	title = news.1009.t
 	desc = news.1009.d
 	picture = GFX_news_event_North_Macedonian_massacre
-	immediate = {
-		set_global_flag = North_Macedonian_massacrea_fire
-	}
-	
+
 	mean_time_to_happen = {
 		days = 2
 	}
@@ -175,7 +170,7 @@ news_event = { #马其顿
 	trigger = {
 
 	}
-	option = { #我们听不见地狱中的哀嚎
+	option = { #历史将被改写
 		trigger = {
 		   not = {
 
@@ -183,7 +178,7 @@ news_event = { #马其顿
 		}
 		name = news.1009.a
 	}
-	option = { #我们听不见地狱中的哀嚎
+	option = { #糟透了
 		trigger = {
 		    OR = {
                   tag = SOV
@@ -193,7 +188,7 @@ news_event = { #马其顿
 		}
 		name = news.1009.b
 	}
-	option = { #我们听不见地狱中的哀嚎
+	option = { #巴尔干战略的一次大胜利
 		trigger = {
 		    OR = {
                   tag = GER
@@ -201,7 +196,7 @@ news_event = { #马其顿
 		}
 		name = news.1009.c
 	}
-	option = { #我们听不见地狱中的哀嚎
+	option = { #再无阻挡匈牙利之可能
 		trigger = {
 		    OR = {
                   tag = ITA
@@ -292,13 +287,9 @@ news_event = { #法国重建民主
 	title = news.1012.t
 	desc = news.1012.d
 	picture = GFX_news_event_North_Macedonian_massacre
-	immediate = {
-		set_global_flag = Bucharest_fire
-	}
+
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+
 	major = yes
 	is_triggered_only = yes
 	trigger = {
@@ -309,15 +300,13 @@ news_event = { #法国重建民主
 		name = news.1012.a
 	}		
 }
-news_event = { #布加勒斯特的陷落
+news_event = { #法国爆发军事政变
 
 	id = news.1013
 	title = news.1013.t
 	desc = news.1013.d
 	picture = GFX_news_event_North_Macedonian_massacre
-	immediate = {
-		set_global_flag = Bucharest_fire
-	}
+	
 	
 	mean_time_to_happen = {
 		days = 2
@@ -332,5 +321,83 @@ news_event = { #布加勒斯特的陷落
 		name = news.1013.a
 	}		
 }
+news_event = { #乔治五世去世，威尔士亲王继位
+
+	id = news.1014
+	title = news.1014.t
+	desc = news.1014.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	
+	
+	
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { #巴尔干同盟破碎的开始
+	
+		name = news.1014.a
+	}		
+}
+news_event = { #爱德华八世的妥协
+
+	id = news.1015
+	title = news.1015.t
+	desc = news.1015.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	
+	
+	
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { #巴尔干同盟破碎的开始
+	
+		name = news.1015.a
+	}		
+}
+news_event = { #爱德华八世拒绝妥协，乔治六世继位
+
+	id = news.1016
+	title = news.1016.t
+	desc = news.1016.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	
+	
+	
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { #巴尔干同盟破碎的开始
+	
+		name = news.1016.a
+	}		
+}
+news_event = { #基里尔沙皇逝世
+
+	id = news.1017
+	title = news.1017.t
+	desc = news.1017.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	
+	
+	
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { #巴尔干同盟破碎的开始
+	
+		name = news.1017.a
+	}		
+}
+
+
 
 

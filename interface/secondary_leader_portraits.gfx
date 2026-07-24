@@ -129,4 +129,19 @@ legacy_lazy_load = no
 		textureFile = "gfx\leaders\LIB\Saya2.png"
 legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_secondary_leader_POI_Edward_VIII"
+		textureFile = "gfx\leaders\ENG\Edward_VIII.png"
+legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_POI_George_VI"
+		textureFile = "gfx\leaders\ENG\George_VI.png"
+legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_leader_Grand_Duke_Kirill"
+		textureFile = "gfx\leaders\SOV\Grand_Duke_Kirill.png"
+legacy_lazy_load = no
+	}
 }

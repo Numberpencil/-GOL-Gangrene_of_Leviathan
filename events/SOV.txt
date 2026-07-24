@@ -4,17 +4,23 @@
 
 add_namespace = SOV
 
-#country_event = {
-#	id = SOV.1
-#	title = SOV.1.t
-#	desc = SOV.1.d
-#	picture = GFX_events_generic
-#	
-#	is_triggered_only = yes
-#	fire_only_once = yes
-#	
-#	option = {
-#		name = SOV.1.a
-#		# 预留效果接口
-#	}
-#}
+country_event = {
+	id = SOV.1
+	title = SOV.1.t
+	desc = SOV.1.d
+	picture = GFX_events_generic
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = SOV.1.a
+		news_event = news.1017		
+		hidden_effect = {
+	    swap_ideas = {
+        remove_idea = POI_Kirill_Vladimirov
+        add_idea = POI_Grand_Duke_Kirill
+      }
+	}
+}
+}

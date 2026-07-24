@@ -1,7 +1,7 @@
 characters = {
     ## Leaders ##
     #premier
-	ger_Wilhelm_II = {
+	ger_Wilhelm_II_1 = {
         name = GER_Wilhelm_II
         portraits = {
             civilian = {
@@ -9,7 +9,119 @@ characters = {
             }
         }
         country_leader = {
-            ideology = DKP_NSDAP_united_government
+            ideology = Conservatism_ideology_DKP
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    ger_Wilhelm_II_2 = {
+        name = GER_Wilhelm_II
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/ger_Wilhelm_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Populist_conservativism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    ger_Wilhelm_II_3 = {
+        name = GER_Wilhelm_II
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/ger_Wilhelm_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Prussian_imperialism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    ger_Wilhelm_II_4 = {
+        name = GER_Wilhelm_II
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/ger_Wilhelm_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Christian_democratic_Z
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    ger_Wilhelm_II_5 = {
+        name = GER_Wilhelm_II
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/ger_Wilhelm_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Constitutionalist
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    ger_Wilhelm_II_6 = {
+        name = GER_Wilhelm_II
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/ger_Wilhelm_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    ger_Wilhelm_II_7 = {
+        name = GER_Wilhelm_II
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/ger_Wilhelm_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Spartakismus
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    ger_Wilhelm_II_8 = {
+        name = GER_Wilhelm_II
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/ger_Wilhelm_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Revolutionary_nationalism
             traits = {
 
             }
