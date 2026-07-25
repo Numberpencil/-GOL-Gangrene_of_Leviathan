@@ -233,6 +233,33 @@ spriteTypes = {
 		name = "GFX_idea_Backward_country"
 		texturefile = "gfx/ideas/YUG/Backward_country.png"
 	}
+	###俄罗斯帝国###
+	SpriteType = {
+		name = "GFX_idea_SOV_The_shackles_of_foreign_investment"
+		texturefile = "gfx/ideas/SOV/SOV_The_shackles_of_foreign_investment.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SOV_Romanov_Dynasty"
+		texturefile = "gfx/ideas/SOV/SOV_Romanov_Dynasty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SOV_The_impact_of_the_panic"
+		texturefile = "gfx/ideas/SOV/SOV_The_impact_of_the_panic.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_backward_army"
+		texturefile = "gfx/ideas/SPR/SPR_backward_army.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_Save_the_Empire"
+		texturefile = "gfx/ideas/SPR/SPR_Save_the_Empire.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_Family_rmies_Under_the_Covenant"
+		texturefile = "gfx/ideas/SPR/SPR_Family_rmies_Under_the_Covenant.png"
+	}
 	###西班牙王国###
 	SpriteType = {
 		name = "GFX_idea_SPR_TOlivares_Act"

@@ -237,8 +237,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/National_socialism.png"
 	}
 	SpriteType = { #
+		name = "GFX_ideology_national_socialism"
+		texturefile = "gfx/interface/ideologies/national_socialism.png"
+	}
+	SpriteType = { #
 		name = "GFX_ideology_National_socialism_ideology"
 		texturefile = "gfx/interface/ideologies/National_socialism_ideology.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_National_socialism_ideology_italia"
+		texturefile = "gfx/interface/ideologies/National_socialism_ideology_italia.png"
 	}
 	SpriteType = { #
 		name = "GFX_ideology_Accelerationist_nazim"

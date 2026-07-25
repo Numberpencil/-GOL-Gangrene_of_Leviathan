@@ -165,6 +165,13 @@ set_popularities = {
 add_ideas = {
 	POI_Kirill_Vladimirov
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	SOV_The_shackles_of_foreign_investment
+	SOV_Romanov_Dynasty
+	SOV_The_impact_of_the_panic
+	SOV_The_restless_re_revolution
+	SOV_The_Shame_of_Brest
+	SOV_National_Duma
+	SOV_Ten_years_of_silence
 }
 SOV = {
 	country_event = {

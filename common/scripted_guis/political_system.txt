@@ -31,4 +31,24 @@ scripted_gui = {
 			is_ai = no
 		}
 	}
+	
+	Anarchy_Diplomacy = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+		window_name = "Anarchy_Diplomacy_Container"
+		
+		visible = { is_anarchy_visible = yes }
+		
+		#triggers = {
+		#	Anarchy_Relations_Block_visible = {
+		#		is_anarchy_visible = yes
+		#	}
+		#}
+		
+		properties = {
+			Anarchy_ZZZ = {
+				image = "[GetAnarchyGUIImage]"
+			}
+		}
+	}
 }

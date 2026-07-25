@@ -1,0 +1,74 @@
+spriteTypes = {
+spriteType = {
+		name = "GFX_Anarchy_Relations_Block"
+		textureFile = "gfx/interface/anarchy/relations_block.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_scrollbar_block"
+		textureFile = "gfx/interface/anarchy/scrollbar_block.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_ZZZ"
+		textureFile = "gfx/interface/anarchy/Anarchy_ZZZ.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_ZZZ_Heydrich"
+		textureFile = "gfx/interface/anarchy/Anarchy_ZZZ_Heydrich.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_ZZZ_Thermonuclear_War"
+		textureFile = "gfx/interface/anarchy/Anarchy_ZZZ_Thermonuclear_War.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_OMO"
+		textureFile = "gfx/interface/anarchy/Anarchy_OMO.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_VIL_AM"
+		textureFile = "gfx/interface/anarchy/Anarchy_VIL_AM.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_DRL"
+		textureFile = "gfx/interface/anarchy/Anarchy_DRL.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_NRL"
+		textureFile = "gfx/interface/anarchy/Anarchy_NRL.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_UZB"
+		textureFile = "gfx/interface/anarchy/Anarchy_UZB.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_MCW_Dissapearance"
+		textureFile = "gfx/interface/anarchy/Anarchy_MCW_Dissapearance.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_MDM_Collapsed_Authority"
+		textureFile = "gfx/interface/anarchy/Anarchy_MDM_Collapse.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_GUN"
+		textureFile = "gfx/interface/anarchy/Guanabara_anarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_Anarchy_Amazon"
+		textureFile = "gfx/interface/anarchy/Anarchy_Amazon.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Anarchy_Antarctica"
+		textureFile = "gfx/interface/anarchy/Anarchy_AAN.dds"
+		noOfFrames = 20
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Anarchy_diplo_animation"
+		textureFile = "gfx/interface/anarchy/Anarchy_diplo_animation.dds"
+		noOfFrames = 17
+		animation_rate_fps = 2
+		looping = yes
+		play_on_show = yes
+	}
+	}

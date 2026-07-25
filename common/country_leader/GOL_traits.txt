@@ -166,5 +166,6 @@ leader_traits = {
    	stability_factor = -1
     war_support_factor = -1
     conscription = -1
+    political_power_cost = 10
   }
 }

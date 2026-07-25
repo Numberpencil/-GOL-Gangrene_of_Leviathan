@@ -1,15 +1,158 @@
-﻿# 
+# 
 # 此文件为，预留理念接口供后续实装
 # 注意：此文件中的理念不会被实际使用，仅作为模板使用
 
 ideas = {
 country = {
-#SOV_generic_idea = {
-#picture = GFX_idea_generic
-#allowed = { always = yes }
-#modifier = {
-## 预留修正接口
-#}
-#}
+        SOV_The_shackles_of_foreign_investment = { #外资的枷锁
+			picture = GFX_idea_SOV_The_shackles_of_foreign_investment
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			consumer_goods_factor = 0.15
+			production_speed_industrial_complex_factor = 0.075
+			production_speed_buildings_factor = 0.15 
+			industrial_capacity_factory = 0.1
+			research_speed_factor = 0.025
+			military_industrial_organization_funds_gain = 0.05
+			}
+			targeted_modifier = {
+            tag = USA    # this can also take a variable that stores a scope
+               cic_to_target_factor = 0.05
+        }
+		    targeted_modifier = {
+            tag = GER    # this can also take a variable that stores a scope
+               cic_to_target_factor = 0.075
+        }
+		}
+		SOV_Romanov_Dynasty = { #罗曼诺夫王朝
+			picture = GFX_idea_SOV_Romanov_Dynasty
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			stability_factor = 0.05
+			surrender_limit = 0.05
+			max_command_power = 25
+			conscription_factor = 0.1
+			political_power_cost = 0.1
+            trade_laws_cost_factor = 0.2
+			economy_cost_factor = 0.2
+			mobilization_laws_cost_factor = 0.2
+			}
+		} 
+		SOV_The_impact_of_the_panic = { #大恐慌的冲击
+			picture = GFX_idea_SOV_The_impact_of_the_panic
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			consumer_goods_expected_value = 0.2
+			stability_factor = -0.25
+			war_support_factor = -0.25
+			industrial_capacity_factory = -0.1
+			production_speed_buildings_factor = -0.1 
+			}
+		} 
+		SOV_The_restless_re_revolution = { #躁动的再革命
+			picture = GFX_idea_x
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			communism_drift = 0.03
+			socialism_drift = 0.03
+			political_power_factor = -0.1
+			stability_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			production_factory_efficiency_gain_factor = -0.1  
+			}
+		}
+		SOV_The_Shame_of_Brest = { #布列斯特之耻
+			picture = GFX_idea_x
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			stability_factor = -0.05
+			war_support_factor = 0.075 
+			land_doctrine_cost_factor= 0.05
+			}
+			 targeted_modifier = {
+            tag = GER    # this can also take a variable that stores a scope
+               attack_bonus_against_cores = 0.1
+			   defense_bonus_against_cores = 0.1
+        }
+		     targeted_modifier = {
+            tag = POL    # this can also take a variable that stores a scope
+               attack_bonus_against_cores = 0.1
+			   defense_bonus_against_cores = 0.1
+        }
+		     targeted_modifier = {
+            tag = UKR    # this can also take a variable that stores a scope
+               attack_bonus_against_cores = 0.1			
+			   defense_bonus_against_cores = 0.1
+        }
+		     targeted_modifier = {
+            tag = BLR    # this can also take a variable that stores a scope
+               attack_bonus_against_cores = 0.1
+			   defense_bonus_against_cores = 0.1
+        }
+		     targeted_modifier = {
+            tag = LIT    # this can also take a variable that stores a scope
+               attack_bonus_against_cores = 0.1
+			   defense_bonus_against_cores = 0.1
+        }
+		     targeted_modifier = {
+            tag = EST    # this can also take a variable that stores a scope
+               attack_bonus_against_cores = 0.1
+			   defense_bonus_against_cores = 0.1
+        }
+		     targeted_modifier = {
+            tag = LAT    # this can also take a variable that stores a scope
+               attack_bonus_against_cores = 0.1
+			   defense_bonus_against_cores = 0.1
+        }
+		}
+		SOV_National_Duma = { #全国杜马
+			picture = GFX_idea_x
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			trade_laws_cost_factor = -0.25
+			economy_cost_factor = -0.25
+			political_advisor_cost_factor = -0.15
+			stability_weekly = 0.001
+			drift_defence_factor = 0.5
+			}
+		}
+		SOV_Ten_years_of_silence = { #十年的沉寂
+			picture = GFX_idea_x
+			allowed = {
+				always = yes
+			}
+			modifier = {
+			breakthrough_factor = -0.15
+			army_defence_factor = -0.15
+			army_org_factor = -0.15
+			army_org_regain = -0.15
+			army_armor_attack_factor = -0.2
+			army_speed_factor = -0.15
+			training_time_factor = 0.2
+			land_mastery_gain_factor = -0.35
+			land_doctrine_cost_factor= 0.25
+			air_doctrine_cost_factor= 0.25
+			naval_doctrine_cost_factor= 0.25
+			}
+			add_tech_bonus = {
+				name = ITA_the_king_of_the_skies
+				ahead_reduction = 2
+				bonus = 1.0
+				uses = 1
+				category = army_armor
+			}
+		}
 }
 }
