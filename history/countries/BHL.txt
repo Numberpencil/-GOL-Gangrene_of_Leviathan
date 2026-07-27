@@ -8,7 +8,10 @@ capital = 542
 set_stability = 0.5
 set_war_support = 0.3
 SAF = {
-	puppet = BHL
+	set_autonomy = {
+            target = BHL
+            autonomous_state = autonomy_colony
+        }
 }
 #人物提取
 #recruit_character = Feng_Yuxiang

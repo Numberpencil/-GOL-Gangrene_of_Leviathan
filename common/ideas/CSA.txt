@@ -1,15 +1,129 @@
-﻿# 
+# 
 # 此文件为，预留理念接口供后续实装
 # 注意：此文件中的理念不会被实际使用，仅作为模板使用
 
 ideas = {
 country = {
-#CSA_generic_idea = {
-#picture = GFX_idea_generic
-#allowed = { always = yes }
-#modifier = {
-## 预留修正接口
-#}
-#}
+CSA_Trust_hegemony = {
+            # 托拉斯霸权
+            picture = "GFX_idea" 
+            modifier = {
+              	production_speed_buildings_factor = 0.1
+				consumer_goods_expected_value = 0.05
+				custom_override_tooltip= {
+                 tooltip = CSA_Trust_hegemony_tt
+                 not_tooltip = my_tt_NOT
+            }
+            }
+			targeted_modifier = {
+             tag = USA     
+             cic_to_target_factor = 0.35
+             mic_to_target_factor = 0.35 
+             }
+			 on_add = {
+				custom_effect_tooltip = CSA_Trust_hegemony_tt
+			 }
+			 on_remove = {
+				USA = { remove_resource_rights = 375 remove_resource_rights = 833 }
+			 }
+        }
+CSA_Caudillo_style_politics = {
+            # 考迪罗式政治
+            picture = "GFX_idea" 
+            modifier = {
+              stability_factor = -0.15
+			  economy_cost_factor = 2
+			  political_advisor_cost_factor = 2
+			  political_power_factor = -0.2
+            }
+			targeted_modifier = {
+
+             }
+			 on_add = {
+
+			 }
+			 on_remove = {
+
+			 }
+        }
+CSA_Chaotic_country = {
+            # 混乱之国
+            picture = "GFX_idea" 
+            modifier = {
+              stability_factor = -0.2
+             war_support_factor = -0.15
+            }
+			targeted_modifier = {
+
+             }
+			 on_add = {
+
+			 }
+			 on_remove = {
+
+			 }
+        }
+CSA_economic_collapse = {
+            # 经济崩溃
+            picture = "GFX_idea" 
+            modifier = {
+             consumer_goods_expected_value = 0.35
+			 industrial_capacity_factory = -0.5
+            }
+			targeted_modifier = {
+
+             }
+			 on_add = {
+
+			 }
+			 on_remove = {
+
+			 }
+        }	
+CSA_corrupt_and_backward_army = {
+            # 腐朽落后的军队
+            picture = "GFX_idea" 
+            modifier = {
+            experience_gain_army_factor = -0.75
+			experience_gain_navy_factor = -0.75
+			experience_gain_air_factor = -0.75
+			land_doctrine_cost_factor= 0.5
+			air_doctrine_cost_factor= 0.5
+			naval_doctrine_cost_factor= 0.5
+			unit_design_cost_factor = 0.3	
+            army_infantry_attack_factor = -0.2
+			research_speed_factor = -0.15
+            army_infantry_defence_factor = -0.2
+            }
+			targeted_modifier = {
+
+             }
+			 on_add = {
+
+			 }
+			 on_remove = {
+
+			 }
+        }	
+CSA_Sharing_Plan = {
+            # 腐朽落后的军队
+            picture = "GFX_idea" 
+            modifier = {
+           
+            }
+			targeted_modifier = {
+		    stability_factor = 0.05
+            industrial_capacity_factory = -0.05
+            consumer_goods_expected_value = -0.15
+			political_power_factor = 0.05
+
+             }
+			 on_add = {
+
+			 }
+			 on_remove = {
+
+			 }
+        }												
 }
 }

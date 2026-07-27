@@ -12,9 +12,10 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		visible = {
 	    has_idea = FRA_riots_across_the_country
 		has_global_flag = GOL_flag_FRA_The_riots
+		is_ai = no
 	   }
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		modifier = {
 			
@@ -71,6 +72,7 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		visible = {
 	    	has_idea = FRA_riots_across_the_country
 		has_global_flag = GOL_flag_FRA_The_riots
+		is_ai = no
 	   }
 
 		fire_only_once = no
@@ -133,6 +135,7 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		visible = {
 	    	has_idea = FRA_riots_across_the_country
 		has_global_flag = GOL_flag_FRA_The_riots
+		is_ai = no
 	   }
 
 		fire_only_once = no
@@ -185,6 +188,7 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		visible = {
 	    has_idea = FRA_riots_across_the_country
 		has_global_flag = GOL_flag_FRA_The_riots
+		is_ai = no
 	   }
 
 		fire_only_once = no
@@ -238,6 +242,7 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		visible = {
 	    has_idea = FRA_riots_across_the_country
 		has_global_flag = GOL_flag_FRA_The_riots
+		is_ai = no
 	   }
 
 		fire_only_once = yes
@@ -285,6 +290,7 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		visible = {
 	    	has_idea = FRA_riots_across_the_country
 		has_global_flag = GOL_flag_FRA_The_riots
+		is_ai = no
 	   }
 
 		fire_only_once = no
@@ -342,6 +348,7 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		visible = {
 	    has_idea = FRA_riots_across_the_country
 		has_global_flag = GOL_flag_FRA_The_riots
+		is_ai = no
 	   }
 
 		fire_only_once = no
@@ -402,6 +409,7 @@ GOL_FRA_Suppressing_riots_decisions_category = {
              }
 		has_idea = FRA_riots_across_the_country
 		has_global_flag = GOL_flag_FRA_The_riots
+		is_ai = no
 	   }
 
 		fire_only_once = yes
@@ -428,7 +436,7 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 			
 		}
 	}
-	Fuhrer_law = {
+	Fuhrer_law = {#宣布元首法
 
 		icon = generic_industry
 		priority = 6
@@ -456,16 +464,11 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 			}
 		}
 		complete_effect = {
-         hidden_effect = {
-			country_event = { 
-			id = FRA.15
-			days = 7
-		  }
-		  }
+         
 	   }
 
 		ai_will_do = {
-			base = 100
+			base = 1000
 			
 		}
 	}
@@ -586,5 +589,70 @@ The_growing_outcry = {
 	 }
     }
   }
-  
-}
+  Nationwide_violence = {
+    activation = {
+     always = no
+
+    }
+    available = {
+         always = no
+    }
+    cancel_trigger = {
+		not = {
+			has_idea = FRA_riots_across_the_country
+		}
+    }
+    icon = mission_icon     # For GFX_decision_mission_icon
+    is_good = yes
+    days_mission_timeout = 30
+    selectable_mission = no
+    complete_effect = {
+
+    }
+    timeout_effect = {
+        add_to_variable = {
+         var = var_FRA_opposition_forces
+         value = 2
+         tooltip = var_FRA_opposition_forces_add_2_tt
+         }
+		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
+		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
+		 hidden_effect = {
+		 The_opposition_is_taking_action = yes
+	 }
+    }
+  }
+    FRA_AI_1 = {
+    activation = {
+     is_ai = yes
+     has_idea = FRA_riots_across_the_country
+    }
+    available = {
+         always = no
+    }
+    cancel_trigger = {
+		not = {
+			has_idea = FRA_riots_across_the_country
+		}
+    }
+    icon = mission_icon     # For GFX_decision_mission_icon
+    is_good = yes
+    days_mission_timeout = 150
+    selectable_mission = no
+    complete_effect = {
+
+    }
+    timeout_effect = {
+        country_event = { 
+					id = FRA.3_PDSF
+			}
+		country_event = { 
+					id = FRA.4_PDSF
+					days = 10
+			}	
+		}
+	
+	 }
+  }
+

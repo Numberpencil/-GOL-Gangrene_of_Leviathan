@@ -2,8 +2,10 @@
 capital = 540
 
 SPR = {
-	puppet = GSA
-
+	set_autonomy = {
+            target = GSA
+            autonomous_state = autonomy_colony
+        }
 }
 
 #开局国家状态

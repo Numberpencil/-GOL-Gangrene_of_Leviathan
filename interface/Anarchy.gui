@@ -138,12 +138,13 @@ guiTypes = {
 			iconType = {
 				name = "Anarchy_scrollbar_block"
 				position = { x = 235 y = 0 }
-				size = { width = 270 height = 540 } 
+				size = { width = 270 height = 530 } 
 				spriteType = "GFX_Anarchy_scrollbar_block"
 			}
 			iconType = {
 				name = "Anarchy_Diplomacy_Animation"
 				position = { x = 0 y = 0 }
+				size = { width = 281 height = 530 } 
 				quadTextureSprite = "GFX_Anarchy_diplo_animation"
 				pdx_tooltip = Anarchy_diplo_tt
 			}

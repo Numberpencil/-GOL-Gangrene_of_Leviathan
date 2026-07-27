@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Albert_Günther = {
+        name = Albert_Gunther_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GEA/Albert_Günther.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

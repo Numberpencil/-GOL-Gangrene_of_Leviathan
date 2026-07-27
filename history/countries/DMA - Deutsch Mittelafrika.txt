@@ -2,7 +2,10 @@
 capital = 773
 
 GER = {
-	puppet = DMA
+	set_autonomy = {
+            target = DMA
+            autonomous_state = autonomy_colony
+        }
 }
 
 #开局国家状态

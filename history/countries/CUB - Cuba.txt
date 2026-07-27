@@ -2,7 +2,10 @@
 capital = 315
 
 SPR = {
-	puppet = CUB	
+	set_autonomy = {
+            target = CUB
+            autonomous_state = autonomy_colony
+        }
 }
 #开局国家状态
 set_stability = 0.6

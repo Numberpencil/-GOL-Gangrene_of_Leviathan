@@ -2,7 +2,7 @@ state = {
 	id = 1082
 	name = "STATE_1082"
 	manpower = 527697
-	state_category = two
+	state_category = four
 
 	history = {
 		owner = SPR
@@ -13,6 +13,7 @@ state = {
 
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 2
 		}
 	}
 

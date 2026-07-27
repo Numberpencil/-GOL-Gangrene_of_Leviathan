@@ -3,6 +3,7 @@ The_opposition_is_taking_action = {
 	limit = {
 		tag = FRA
 		has_idea = FRA_riots_across_the_country
+		is_ai = no 
 	}	
 		country_event = { 
 			id = FRA.2_PDSF

@@ -2,7 +2,7 @@ state = {
 	id = 41
 	name = "STATE_41" # Madrid
 	manpower = 2064659
-	state_category = six
+	state_category = eleven
 
 	resources = {
 		aluminium = 2
@@ -18,7 +18,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
-			industrial_complex = 12
+			industrial_complex = 8
 			air_base = 6
 		}
 	}

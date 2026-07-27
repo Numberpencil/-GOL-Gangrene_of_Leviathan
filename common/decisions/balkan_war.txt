@@ -29,4 +29,70 @@ GOL_balkan_war_decisions_category = {
 			base = 100
 		}
 	}
+	HUN_The_war_has_reached_a_stalemate = {
+		icon = x
+		fire_only_once = yes
+		activation = {
+         has_idea = HUN_war_1
+		 	has_global_flag = GOL_flag_balkan_war_started
+			NOT = { has_global_flag = GOL_flag_GER_approved_megastructure }
+			NOT = { has_country_flag = GOL_flag_HUN_requested_megastructure }
+        }
+        available = {
+         always = no
+        }
+		visible = {
+		
+		}
+
+	days_mission_timeout = 400
+    selectable_mission = no
+    complete_effect = {
+
+    }
+    timeout_effect = {
+         swap_ideas = {
+        remove_idea = HUN_war_1
+        add_idea = HUN_war_2
+       }
+	   MAC = {
+		remove_ideas = MAC_war_1
+	   }
+	   activate_mission = HUN_Frontline_collapse
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	HUN_Frontline_collapse = {
+		icon = x
+		fire_only_once = yes
+		activation = {
+		always = no
+         has_idea = HUN_war_2
+        }
+        available = {
+			NOT = {
+				 has_idea = HUN_war_2
+			}       
+        }
+		visible = {
+		
+		}
+
+	days_mission_timeout = 360
+    selectable_mission = no
+    complete_effect = {
+
+    }
+    timeout_effect = {
+        swap_ideas = {
+        remove_idea = HUN_war_2
+        add_idea = HUN_war_3
+       }
+		}
+	ai_will_do = {
+			base = 100
+		}
+	}
 }

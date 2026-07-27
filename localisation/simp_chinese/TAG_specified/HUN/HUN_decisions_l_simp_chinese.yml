@@ -2,3 +2,5 @@
  GOL_balkan_war_decisions:0 "巴尔干战争"
  HUN_request_megastructure:0 "请求德意志提供改进型巨构机"
  HUN_request_megastructure_desc:0 "巴尔干战事吃紧，我们的常规兵力在贝尔格莱德方向遭遇了顽强抵抗。向德意志帝国请求改进型巨构机支援，将极大增强我们的突破能力。\n\n花费：75 政治点数\n效果：向德国发送外交请求，等待柏林回复"
+ HUN_The_war_has_reached_a_stalemate: "战事陷入僵局"
+ HUN_Frontline_collapse: "前线即将崩溃"

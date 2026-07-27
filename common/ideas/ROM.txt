@@ -79,10 +79,11 @@ WAR_war_war = { #后多瑙军队
 			}
 			cancel = {
 					has_war = no
-				}
+			}
 			modifier = {
 				weekly_manpower = 1000
 				equipment_capture = 0.3
+				supply_consumption_factor = -0.1
 			}
 		}
 }

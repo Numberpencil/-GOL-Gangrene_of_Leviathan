@@ -47,5 +47,9 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-	
+	USA_Great_Depression
+	USA_American_melancholy
+	USA_Post_Prohibition_Era
+	USA_Collapsed_democracy
+	USA_combat_readiness
 }

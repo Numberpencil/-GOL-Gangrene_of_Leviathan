@@ -8,7 +8,10 @@ capital = 973
 set_stability = 0.5
 set_war_support = 0.3
 GER = {
-	puppet = GWA
+	set_autonomy = {
+            target = GWA
+            autonomous_state = autonomy_colony
+        }
 }
 #人物提取
 #recruit_character = Feng_Yuxiang

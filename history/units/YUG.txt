@@ -98,16 +98,7 @@ units = {
 		division_template = "Konjicka Divizija"
 		start_experience_factor = 0.5
 	}
-	division = {
-		
-		location = 11586
-		division_template = "Konjicka Divizija"
-		start_experience_factor = 0.5
-	}
-	
-		location = 11586
-		division_template = "Konjicka Divizija"
-		start_experience_factor = 0.7
+
 	}
 
 

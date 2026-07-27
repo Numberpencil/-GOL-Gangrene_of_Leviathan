@@ -527,6 +527,12 @@ country_event = {#元首法
         clr_global_flag = GOL_flag_FRA_The_riots
 		mark_focus_tree_layout_dirty = yes
 		unlock_national_focus = FRA_AA_Salute_to_you
+		hidden_effect = {
+			country_event = { 
+			id = FRA.15
+			days = 7
+		  }
+		  }
 	}
 }
 country_event = {#元首法 
@@ -781,13 +787,20 @@ country_event = {#一无所有
 		 set_politics = {
     ruling_party = democrat
     last_election = 1935.4.1
-    elections_allowed = no      
+    elections_allowed = no  
+	hidden_effect = {
+			country_event = { 
+			id = FRA.15
+			days = 7
+		  }
+		  }    
      }
-	 
+	 drop_cosmetic_tag = yes
 	 news_event = {
 			id = news.1012
 		}
-				remove_ideas = FRA_riots_across_the_country
+		remove_ideas = FRA_riots_across_the_country
+		clr_global_flag = GOL_flag_FRA_The_riots
 	}
 	option = {
 		name = FRA.10_PDSF.b
@@ -801,6 +814,13 @@ country_event = {#一无所有
 		}
 		remove_ideas = FRA_riots_across_the_country
 		drop_cosmetic_tag = yes
+		clr_global_flag = GOL_flag_FRA_The_riots
+		hidden_effect = {
+			country_event = { 
+			id = FRA.15
+			days = 7
+		  }
+		  }
 	}
 	
 }

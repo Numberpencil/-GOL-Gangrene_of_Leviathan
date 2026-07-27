@@ -46,5 +46,10 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-	
+	CSA_Trust_hegemony
+	CSA_Caudillo_style_politics
+	CSA_Chaotic_country
+	CSA_economic_collapse
+	CSA_corrupt_and_backward_army
+	CSA_Sharing_Plan
 }

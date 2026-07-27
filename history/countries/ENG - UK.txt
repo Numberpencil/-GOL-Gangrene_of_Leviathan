@@ -233,7 +233,7 @@ name = "ENG_PARTY_NAME_OC_unkown"
 ENG = {
 	country_event = {
 		id = ENG.1
-		days = 380
+		days = 385
 	}
 
 }

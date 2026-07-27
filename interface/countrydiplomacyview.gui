@@ -389,9 +389,9 @@ guiTypes = {
 					gridboxtype = {
 						name = "national_spirit_ideas_grid"
 						position = { x = -5 y = 2 }
-						size = { width = 360 height = 68 }
-						slotsize = { width = 65 height = 68 }
-						max_slots = { x = 6 y = 1 }
+						size = { width = 360 height = 70 }
+						slotsize = { width = 70 height = 70 }
+						max_slots = { x = 5 y = 1 }
 						format = "UPPER_LEFT"
 						max_slots_horizontal = 5
 					}

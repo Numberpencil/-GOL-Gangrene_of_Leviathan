@@ -8,10 +8,13 @@ capital = 965
 set_stability = 0.5
 set_war_support = 0.3
 GER = {
-	puppet = GEA
+	set_autonomy = {
+            target = GEA
+            autonomous_state = autonomy_colony
+        }
 }
 #人物提取
-#recruit_character = Feng_Yuxiang
+recruit_character = Albert_Günther
 
 #开局科研槽
 set_research_slots = 3

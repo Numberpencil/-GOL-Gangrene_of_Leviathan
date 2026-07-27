@@ -181,6 +181,9 @@ focus_tree = {
 			FRA = {
 		has_completed_focus = FRA_AA_tough_countermeasures
 		has_completed_focus = FRA_AA_Ensure_internal_loyalty
+		not = {
+			has_idea = FRA_riots_across_the_country
+		}
 			}
 		
 		}
