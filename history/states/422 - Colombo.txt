@@ -2,7 +2,7 @@ state = {
 	id = 422
 	name = "STATE_422"
 	manpower = 4850000
-	state_category = three
+	state_category = four
 
 	resources = {
 		rubber = 80
@@ -14,11 +14,13 @@ state = {
 victory_points = { 7260 3 } #Colombo
 
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 4
+			air_base = 7
 			7260 = {
-				naval_base = 3
+				naval_base = 5
 			}
+			anti_air_building = 3 
+			arms_factory = 4
 		}
 	}
 

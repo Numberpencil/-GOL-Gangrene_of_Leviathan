@@ -211,7 +211,7 @@ guiTypes = {
 		clipping = no
 		fade_time = 500
 		fade_type = linear
-				
+		position = {x=5 y=-10}		
 		background = {
 			name = "Background"		
 			spriteType ="GFX_leader_selection_entry_bg"
@@ -219,7 +219,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "leader_button"
-			position = {x=56 y=5}
+			position = {x=60 y=5}
 			quadTextureSprite ="GFX_leader_unknown"
 			scale = 0.42
 		}

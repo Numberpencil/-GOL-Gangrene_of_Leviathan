@@ -13,6 +13,7 @@ is_anarchy_visible = {
 		anarchy_AAN_default = yes
 		anarchy_GUN_anarchy = yes
 		anarchy_Amazon_anarchy = yes
+		Anarchy_XSM = yes
 	}
 }
 
@@ -22,8 +23,8 @@ anarchy_ZZZ_default = {
 	NOT = { has_global_flag = my_world_is_on_fire_how_about_yours }
 }
 
-anarchy_ZZZ_heydrich = {
-	original_tag = XSM
+Anarchy_XSM = {	
+		original_tag = XSM	
 }
 anarchy_ZZZ_thermonuclear_war = {
 	has_global_flag = my_world_is_on_fire_how_about_yours

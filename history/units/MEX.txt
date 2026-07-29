@@ -103,7 +103,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}
 	division = {
-		location = 1892
+		location = 12835
 		division_template = "División de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -195,7 +195,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}
 	division = {
-		location = 12461
+		location = 12835
 		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6

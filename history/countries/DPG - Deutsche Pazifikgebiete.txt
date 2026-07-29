@@ -1,22 +1,300 @@
 #首都
-capital = 979
+capital = 422
 
 GER = {
-	puppet = DPG
+	set_autonomy = {
+            target = DPG
+            autonomous_state = autonomy_colony
+        }
 }
 
 #开局国家状态
 set_stability = 0.6
 set_war_support = 0.4
-
+oob = "DPG"
+set_naval_oob = "DPG_naval"
+set_air_oob = "DPG_air_bba"
 #开局科研槽
 set_research_slots = 3
 
 # 开局解锁科技
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
-	
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	tech_mountaineers = 1
+	marines = 1
+
+	### Support ###
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_military_police = 1
+
+	### Artillery ###
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Industry ###
+	fuel_silos = 1
+	fuel_refining = 1
+
+	### Trains ###
+	basic_train = 1
+
+	### Navy ###
+
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	basic_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+	basic_ship_hull_carrier = 1
+
+	## Modules##
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	basic_torpedo = 1
+	improved_ship_torpedo_launcher = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_heavy_battery = 1
+	basic_depth_charges = 1
+	smoke_generator = 1
+	basic_cruiser_armor_scheme = 1
+	basic_heavy_armor_scheme = 1
+
+	### Transport ###
+	mtg_transport = 1
 }
+enable_tech_irregulars = yes
+
+### Planes - BBA ###
+
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		engines_2 = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		basic_small_airframe = 1
+		iw_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_medium_airframe = 1
+		iw_large_airframe = 1
+		bba_early_transport_plane = 1
+		air_torpedoe_1 = 1
+	}
+
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc_nsb = yes }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		armor_tech_1 = 1
+		engine_tech_1 = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { has_dlc_nsb = no }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+#设计
+create_equipment_variant = {
+			name = "Ff 68"										# Based on Arado 68
+			type = small_plane_airframe_0
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = light_mg_4x			# 4 × 7.7 mm MG
+				engine_type_slot = engine_1_1x
+				special_type_slot_1 = empty
+			}
+			design_team = mio:GER_bfw_organisation				# FF is reserved for naval planes only
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "Hs 123"
+			type = small_plane_cas_airframe_0
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = bomb_locks				# 500 kg bomb locks
+				engine_type_slot = engine_1_1x
+				special_type_slot_1 = empty
+			}
+			obsolete = yes
+			design_team = mio:GER_junkers_organisation			# Henschel is coded to only support tanks
+			icon = GFX_GER_small_0_hs123_medium
+		}
+		create_equipment_variant = {
+			name = "Do 23"
+			type = medium_plane_airframe_0
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay		# 1000kg bomb bay
+				fixed_auxiliary_weapon_slot_1 = empty
+				fixed_auxiliary_weapon_slot_2 = empty
+				fixed_auxiliary_weapon_slot_3 = empty
+				engine_type_slot = engine_1_2x
+				special_type_slot_1 = lmg_defense_turret_2x		# 3 x 7.92 mm MG
+				special_type_slot_2 = empty
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty
+			}
+			obsolete = yes
+			design_team = mio:GER_dornier_organisation
+			icon = GFX_GER_medium_0_do23_medium
+		}
+		create_equipment_variant = {
+			name = "Ju 86"
+			type = medium_plane_airframe_0
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay		# ~1,000 kg bomb load
+				fixed_auxiliary_weapon_slot_1 = empty
+				fixed_auxiliary_weapon_slot_2 = empty
+				fixed_auxiliary_weapon_slot_3 = empty
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = lmg_defense_turret_2x		# 3–4 × 7.92 mm MGs
+				special_type_slot_2 = empty
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty
+			}
+			design_team = mio:GER_dornier_organisation			# Junkers is coded to only support CAS planes
+			icon = GFX_GER_medium_1_ju86a_medium
+		}
+	### Small planes
+		create_equipment_variant = {
+			name = "Bf 109"
+			type = small_plane_airframe_1
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = light_mg_4x			# 4x MG
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = empty
+			}
+			design_team = mio:GER_bfw_organisation
+			icon = GFX_GER_small_1_bf109e_medium
+		}
+		create_equipment_variant = {
+			name = "Ju 87"
+			type = small_plane_cas_airframe_1
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = bomb_locks				# 500 kg bomb locks
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = lmg_defense_turret
+				special_type_slot_2 = dive_brakes_small
+			}
+			design_team = mio:GER_junkers_organisation
+		}
+		create_equipment_variant = {
+			name = "Fi 167"										# Fictional design
+			type = small_plane_naval_bomber_airframe_1
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = torpedo_mounting
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = lmg_defense_turret
+				special_type_slot_2 = floats
+			}
+			design_team = mio:GER_friedrichshafen_organisation
+		}
+	### Medium planes
+		create_equipment_variant = {
+			name = "Do 18"
+			type = medium_plane_airframe_0
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = lmg_defense_turret_2x
+				special_type_slot_2 = flying_boat_medium
+			}
+			design_team = mio:GER_dornier_organisation
+			icon = GFX_GER_medium_0_do18d_medium
+		}
+		create_equipment_variant = {
+			name = "He 111"
+			type = medium_plane_airframe_1
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay		# 2000 kg bomb load
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_2 = empty
+				fixed_auxiliary_weapon_slot_3 = empty
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = lmg_defense_turret_2x  	# 6x MG
+				special_type_slot_2 = lmg_defense_turret_2x
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty
+			}
+			design_team = mio:GER_dornier_organisation			# Henschel is coded to only support tanks
+			icon = GFX_GER_medium_1_he111b_medium
+		}
+		create_equipment_variant = {
+			name = "Do 17F"
+			type = medium_plane_scout_plane_airframe_1
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = recon_camera
+				fixed_auxiliary_weapon_slot_1 = empty
+				fixed_auxiliary_weapon_slot_2 = empty
+				fixed_auxiliary_weapon_slot_3 = empty
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = lmg_defense_turret_2x   	# 3 x 7.92 MG
+				special_type_slot_2 = fuel_tanks_medium			# Extended range - around 1.5k km
+				special_type_slot_3 = fuel_tanks_medium
+				special_type_slot_4 = empty
+			}
+			design_team = mio:GER_dornier_organisation
+			icon = GFX_GER_medium_1_do17f_medium
+		}
+		create_equipment_variant = {
+			name = "Bf 110"
+			type = medium_plane_fighter_airframe_1
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = light_mg_4x			# 2 x 20mm cannons are represented by 8x MG
+				fixed_auxiliary_weapon_slot_1 = light_mg_4x		# 4 x 7.92 MG
+				fixed_auxiliary_weapon_slot_2 = light_mg_4x
+				fixed_auxiliary_weapon_slot_3 = empty
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = lmg_defense_turret   		# 1 turret
+				special_type_slot_2 = empty
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty
+			}
+			design_team = mio:GER_dornier_organisation			# Bfw can't support heavy planes
+			icon = GFX_GER_medium_1_bf110c_medium
+		}
+	### Large planes
+		create_equipment_variant = {
+			name = "Do P"
+			type = large_plane_airframe_0
+			show_position = no
+			modules = {
+				fixed_main_weapon_slot = large_bomb_bay			# Up to 2000kg bomb load
+				engine_type_slot = engine_1_4x
+				special_type_slot_1 = lmg_defense_turret_2x
+			}
+			design_team = mio:GER_gothaer_waggonfabrik_organisation
+		}		
 #人物提取
 recruit_character = Schulz_Ewert
 

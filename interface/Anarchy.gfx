@@ -20,6 +20,10 @@ spriteType = {
 		textureFile = "gfx/interface/anarchy/Anarchy_ZZZ_Thermonuclear_War.dds"
 	}
 	spriteType = {
+		name = "GFX_Anarchy_XSM"
+		textureFile = "gfx/interface/anarchy/Anarchy_XSM.dds"
+	}
+	spriteType = {
 		name = "GFX_Anarchy_OMO"
 		textureFile = "gfx/interface/anarchy/Anarchy_OMO.dds"
 	}
@@ -55,6 +59,10 @@ spriteType = {
 		name = "GFX_Anarchy_Amazon"
 		textureFile = "gfx/interface/anarchy/Anarchy_Amazon.dds"
 	}
+	spriteType = {
+		name = "GFX_scrollbar_block1"
+		textureFile = "gfx/interface/anarchy/scrollbar_block1.dds"
+	}
 	frameAnimatedSpriteType = {
 		name = "GFX_Anarchy_Antarctica"
 		textureFile = "gfx/interface/anarchy/Anarchy_AAN.dds"
@@ -66,9 +74,11 @@ spriteType = {
 	frameAnimatedSpriteType = {
 		name = "GFX_Anarchy_diplo_animation"
 		textureFile = "gfx/interface/anarchy/Anarchy_diplo_animation.dds"
-		noOfFrames = 17
-		animation_rate_fps = 2
+		noOfFrames = 24
+		animation_rate_fps = 1.5
 		looping = yes
 		play_on_show = yes
+
+
 	}
 	}

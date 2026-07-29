@@ -5,7 +5,7 @@ state = { #Dairen
 	state_category = major_port
 
 	history = {
-		owner = MAN
+		owner = JAP
 		
 		add_core_of = MAN
 buildings = {

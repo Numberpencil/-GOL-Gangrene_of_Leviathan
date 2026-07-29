@@ -104,14 +104,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "Anarchy_Diplomacy_Container"
 		position = { x = 0 y = 0 }
-		size = { width = 540 height = -11 }
-		
-		icontype = {
-			name = "Anarchy_Relations_Block"
-			position = { x = 324 y = -45 }
-			spriteType = "GFX_Anarchy_Relations_Block"
-		}
-		
+		size = { width = 540 height = -11 }		
 		containerWindowType = {
 			name = "Anarchy_Diplomacy_Wallpaper_Container"
 			position = { x = 12 y = 3 }
@@ -126,8 +119,8 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "Anarchy_Diplomacy_Animation_clip"
-			position = { x = 280 y = 360 }
-			size = { width = 281 height = 540 } 
+			position = { x = 270 y = 360 }
+			size = { width = 270 height = 540 } 
 			verticalScrollbar = "right_vertical_slider"
 			#clipping = yes
 			
@@ -137,14 +130,19 @@ guiTypes = {
 			}
 			iconType = {
 				name = "Anarchy_scrollbar_block"
-				position = { x = 235 y = 0 }
+				position = { x = 246 y = 0 }
 				size = { width = 270 height = 530 } 
 				spriteType = "GFX_Anarchy_scrollbar_block"
 			}
 			iconType = {
+				name = "Anarchy_scrollbar_block1"
+				position = { x = 3 y = 520 }
+				spriteType = "GFX_scrollbar_block1"
+			}
+			iconType = {
 				name = "Anarchy_Diplomacy_Animation"
-				position = { x = 0 y = 0 }
-				size = { width = 281 height = 530 } 
+				position = { x = 3 y = 0 }
+				size = { width = 281 height = 540 } 
 				quadTextureSprite = "GFX_Anarchy_diplo_animation"
 				pdx_tooltip = Anarchy_diplo_tt
 			}

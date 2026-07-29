@@ -128,7 +128,7 @@ units = {
 		start_equipment_factor = 0.8
 	}
 	division = {
-		location = 7003
+		location = 4528
 		division_template = "Command Garrison"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
@@ -172,7 +172,7 @@ units = {
 		start_equipment_factor = 0.5
 	}
 	division = {
-		location = 7003
+		location = 4528
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5

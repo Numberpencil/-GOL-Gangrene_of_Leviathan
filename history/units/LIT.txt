@@ -84,13 +84,13 @@ division_template = {
 
 units = {
 	division = {
-		location = 13736
+		location = 6296
 		division_template = "Artilerija Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 11301
+		location = 6296
 		division_template = "Pėstininkų Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
@@ -102,7 +102,7 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 3254
+		location = 6296
 		division_template = "Pėstininkų Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1

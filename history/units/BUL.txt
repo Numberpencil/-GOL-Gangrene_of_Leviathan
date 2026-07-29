@@ -179,7 +179,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 10163
+		location = 6923
 		division_template = "Pekhotna Diviziya"
 		start_experience_factor = 0.1
 	}
@@ -189,7 +189,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 10163
+		location = 6923
 		division_template = "Pekhotna Diviziya"
 		start_experience_factor = 0.1
 	}

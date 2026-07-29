@@ -2,7 +2,7 @@
 # 确保所有阵营成员都拥有正确的阵营图标idea
 
 on_actions = {
-	# 加入阵营时
+
 on_startup = {
 		effect = {
 			#Mexican oil concessions

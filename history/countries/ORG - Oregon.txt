@@ -7,7 +7,7 @@ capital = 385
 #开局国家状态
 set_stability = 0.5
 set_war_support = 0.3
-
+oob = "ORG"
 #人物提取
 recruit_character = Vladimir_Lenin
 

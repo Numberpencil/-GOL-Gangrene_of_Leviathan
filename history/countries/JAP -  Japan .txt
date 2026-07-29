@@ -4,7 +4,8 @@ capital = 4
 #开局国家状态
 set_stability = 0.6
 set_war_support = 0.4
-
+oob = "JAP"
+set_naval_oob = "JAP_naval"
 #开局科研槽
 set_research_slots = 3
 
@@ -14,10 +15,213 @@ recruit_character = Umezu_Yoshijirō
 
 # 开局解锁科技
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
-	
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	tech_mountaineers = 1
+	marines = 1
+
+	### Support ###
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_military_police = 1
+
+	### Artillery ###
+	gw_artillery = 1
+
+	### Industry ###
+	fuel_silos = 1
+
+	### Trains ###
+	basic_train = 1
+
+	### Navy ###
+
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+
+	## Hulls ##
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	coastal_defense_ships = 1
+
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+
+	early_ship_hull_carrier = 1
+	basic_ship_hull_carrier = 1
+	early_ship_hull_heavy = 1
+	basic_ship_hull_heavy = 1
+
+	## Modules ##
+	basic_depth_charges = 1
+	basic_torpedo = 1
+	improved_ship_torpedo_launcher = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_heavy_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_heavy_armor_scheme = 1
+
+	### Transport ###
+	mtg_transport = 1
+
+	### GTD - cruiser sub iteration rewards ###
+	tech_gtd_unlock_cruiser_sub_modules = 1
 }
 
+### Planes - BBA ###
+if = {
+	limit = { has_dlc_bba = yes }
+	set_air_oob = "JAP_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		engines_2 = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_small_airframe = 1
+		air_torpedoe_1 = 1
+		bba_early_transport_plane = 1
+	}
+}
+
+### Planes - non BBA ###
+if = {
+	limit = { has_dlc_bba = no }
+	set_air_oob = "JAP_air_legacy"
+	set_technology = {
+		cv_early_fighter = 1
+		cv_CAS1 = 1
+		cv_naval_bomber1 = 1
+		early_fighter = 1
+		fighter1 = 1
+		naval_bomber1 = 1
+		early_bomber = 1
+		CAS1 = 1
+		early_transport_plane = 1
+	}
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc_nsb = yes }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { has_dlc_nsb = no }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+#设备
+create_equipment_variant = {
+		name = "Type 94 Tankette"
+		type = light_tank_chassis_0
+		show_position = no
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 1
+		}
+		obsolete = yes
+		design_team = mio:JAP_nissan_organisation
+	}
+	create_equipment_variant = {
+		name = "Type 95 Ha-Go"
+		type = light_tank_chassis_1
+		show_position = no
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = additional_machine_guns
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
+		}
+		design_team = mio:JAP_nissan_organisation
+	}
+	create_equipment_variant = {
+		name = "Type 89 I-Go"
+		type = medium_tank_chassis_0
+		show_position = no
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun
+			turret_type_slot = tank_medium_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = additional_machine_guns
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 5
+		}
+		design_team = mio:JAP_ishikawajima_organisation
+	}
+	create_equipment_variant = {
+		name = "I-Go Hei"										# Imaginary design, type 89 chassis and superstructure/close support gun like Ho-Ro
+		type = medium_tank_artillery_chassis_0
+		show_position = no
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = additional_machine_guns
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 5
+		}
+		design_team = mio:JAP_ishikawajima_organisation
+	}
+	create_equipment_variant = {
+		name = "Type 91"
+		type = heavy_tank_chassis_0
+		show_position = no
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun				# Same 57mm gun as Type 89
+			turret_type_slot = tank_heavy_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine					# Otherwise tank moves at 2.8 km/h :)
+			special_type_slot_1 = additional_machine_guns			# MG in main turret
+			special_type_slot_2 = secondary_turret_hmg				# 2x turrets with mg
+			special_type_slot_3 = secondary_turret_hmg
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+		}
+		design_team = mio:JAP_ishikawajima_organisation
+	}
 #开局执政党
 set_politics = {
 	ruling_party = democrat

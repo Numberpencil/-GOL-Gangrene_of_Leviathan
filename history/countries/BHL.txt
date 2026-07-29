@@ -10,11 +10,11 @@ set_war_support = 0.3
 SAF = {
 	set_autonomy = {
             target = BHL
-            autonomous_state = autonomy_colony
+            autonomous_state = autonomy_reichsprotectorate
         }
 }
 #人物提取
-#recruit_character = Feng_Yuxiang
+recruit_character = Charles_Noble_Arden_Clarke
 
 #开局科研槽
 set_research_slots = 3
@@ -26,7 +26,7 @@ infantry_weapons = 1
 
 #开局执政党
 set_politics = {
-ruling_party = despotism
+ruling_party = conservatism
 last_election = "1934.1.1"
 election_frequency = 48
 elections_allowed = no

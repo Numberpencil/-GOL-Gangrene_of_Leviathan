@@ -134,7 +134,177 @@ if = {
 	limit = { has_dlc_lar = yes }
 	set_technology = { armored_car1 = 1 }
 }
+#设计
 
+	create_equipment_variant = {
+		name = "Light Tank Mk. IV"
+		type = light_tank_chassis_1
+		parent_version = 0
+		show_position = no
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 2
+			tank_nsb_armor_upgrade = 1
+		}
+		obsolete = yes
+		design_team = mio:ENG_vauxhall_organisation
+	}
+	create_equipment_variant = {
+		name = "Light Tank Mk. VI"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			main_armament_slot = tank_auto_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = smoke_launchers
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
+		}
+		design_team = mio:ENG_vauxhall_organisation
+	}
+	create_equipment_variant = {
+		name = "Medium Mk. II"
+		type = medium_tank_chassis_0
+		parent_version = 0
+		show_position = no
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_medium_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = wet_ammo_storage
+		}
+		upgrades = {
+			tank_nsb_armor_upgrade = 1
+			tank_nsb_engine_upgrade = 4
+		}
+		design_team = mio:ENG_rolls_royce_organisation
+	}
+
+	### Obsolete planes
+	create_equipment_variant = {
+		name = "Hawker Fury"
+		type = small_plane_airframe_0
+		show_position = no
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x		# 2 × synchronized Vickers (.303)
+			fixed_auxiliary_weapon_slot_1 = empty
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+		design_team = mio:ENG_hawker_organisation
+	}
+	### Small planes
+	create_equipment_variant = {
+		name = "Hawker Hurricane"
+		type = small_plane_airframe_1
+		show_position = no
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x		# 8 × 0.303 in Browning (jesus Brits, 2x more than Bf.109)
+			fixed_auxiliary_weapon_slot_1 = light_mg_4x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		design_team = mio:ENG_hawker_organisation
+	}
+	create_equipment_variant = {
+		name = "Hawker Hind"
+		type = small_plane_cas_airframe_1
+		show_position = no
+		modules = {
+			fixed_main_weapon_slot = bomb_locks			# 227–450 kg carried on bomb racks/locks
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		design_team = mio:ENG_hawker_organisation
+	}
+	create_equipment_variant = {
+		name = "Blackburn Baffin"
+		type = small_plane_naval_bomber_airframe_1
+		show_position = no
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting	# One 18-inch torpedo
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		design_team = mio:ENG_blackburn_organisation
+	}
+	### CV planes
+	create_equipment_variant = {
+		name = "Hawker Nimrod"
+		type = cv_small_plane_airframe_0
+		show_position = no
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		design_team = mio:ENG_hawker_organisation
+	}
+	create_equipment_variant = {
+		name = "Blackburn Swordfish"
+		type = cv_small_plane_naval_bomber_airframe_1
+		show_position = no
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		design_team = mio:ENG_blackburn_organisation
+	}
+	### Medium planes
+	create_equipment_variant = {
+		name = "Boulton-Paul Overstrand"
+		type = medium_plane_airframe_0
+		show_position = no
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay		# 680kg load
+			engine_type_slot = engine_1_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		obsolete = yes
+		design_team = mio:ENG_baulton_paul_organisation
+	}
+	create_equipment_variant = {
+		name = "Handley-Page Hampden"
+		type = medium_plane_airframe_1
+		show_position = no
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay		# Up to 1800kg, comparable to He.111
+			fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		design_team = mio:ENG_short_organisation
+	}
+	create_equipment_variant = {
+		name = "Boulton-Paul Defiant"
+		type = medium_plane_fighter_airframe_1
+		show_position = no
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x			# Fictional to appeal game mechanics - IRL had one 4x MG turret and that's it
+			fixed_auxiliary_weapon_slot_1 = light_mg_4x
+			engine_type_slot = engine_2_2x					# Game limitation
+			special_type_slot_1 = empty
+		}
+		design_team = mio:ENG_baulton_paul_organisation
+	}
 #开局执政党
 set_politics = {
 	ruling_party = conservatism

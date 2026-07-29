@@ -74,20 +74,20 @@ units = {
 		start_equipment_factor = 0.5
 	}
 	division = {
-		location = 966
+		location = 11965
 		division_template = "Merarchía Pezikoú"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division = {
-		location = 11818
+		location = 11965
 		division_template = "Merarchía Pezikoú"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 
 	division = {
-		location = 11818
+		location = 11965
 		division_template = "Merarchía Ippikoú"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5

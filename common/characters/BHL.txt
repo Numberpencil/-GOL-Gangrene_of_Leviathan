@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Charles_Noble_Arden_Clarke = {
+        name = Charles_Noble_Arden_Clarke_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BHL/Charles_Noble_Arden_Clarke.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservatism_ideology
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+
+}

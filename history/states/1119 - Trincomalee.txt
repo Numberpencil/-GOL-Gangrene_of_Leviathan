@@ -2,7 +2,7 @@ state = {
 	id = 1119
 	name = "STATE_1119"
 	manpower = 650000
-	state_category = one
+	state_category = six
 
 	resources = {
 		rubber = 21
@@ -15,10 +15,13 @@ victory_points = { 10229 2 } #Trincomalee
 		victory_points = { 10201 1 } #Jaffna
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			10229 = {
-				naval_base = 5
+				naval_base = 9
+				naval_supply_hub = 1
+				naval_headquarters = 1
 			}
+			anti_air_building = 4
 		}
 	}
 

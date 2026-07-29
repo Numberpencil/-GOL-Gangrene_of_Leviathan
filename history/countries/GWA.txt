@@ -14,7 +14,7 @@ GER = {
         }
 }
 #人物提取
-#recruit_character = Feng_Yuxiang
+recruit_character = Albert_Günther
 
 #开局科研槽
 set_research_slots = 3

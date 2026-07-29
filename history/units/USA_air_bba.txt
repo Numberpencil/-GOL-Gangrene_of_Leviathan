@@ -1,67 +1,42 @@
 air_wings = {
-	362 = {
-		small_plane_airframe_0 = {
+	932 = {
+		small_plane_cas_airframe_1 = {
 			owner = "USA"
-			amount = 75
-			version_name = "P-26A"
+			amount = 100
+			version_name = "A-17"
 		}
-		small_plane_airframe_0 = {
+		small_plane_cas_airframe_1 = {
 			owner = "USA"
-			amount = 75
-			version_name = "P-26A"
+			amount = 82
+			version_name = "A-17"
 		}
-		small_plane_cas_airframe_0 = {
+		small_plane_airframe_1 = {
 			owner = "USA"
-			amount = 50
-			version_name = "A-12"
+			amount = 100
+			version_name = "P-35A"
 		}
-		medium_plane_airframe_0 = {
+		small_plane_airframe_1 = {
 			owner = "USA"
-			amount = 25
-			version_name = "B-2"
+			amount = 100
+			version_name = "P-35A"
 		}
-		medium_plane_airframe_0 = {
+		small_plane_airframe_1 = {
 			owner = "USA"
-			amount = 25
-			version_name = "P2Y"
+			amount = 100
+			version_name = "P-35A"
 		}
-	}
-	685 = {
-		small_plane_airframe_0 = {
+		small_plane_airframe_1 = {
 			owner = "USA"
-			amount = 25
-			version_name = "P-26A"
+			amount = 31
+			version_name = "P-35A"
 		}
-		medium_plane_airframe_0 = {
+		cv_small_plane_naval_bomber_airframe_0 = {
 			owner = "USA"
-			amount = 25
-			version_name = "B-2"
-		}
-		medium_plane_airframe_0 = {
-			owner = "USA"
-			amount = 25
-			version_name = "P2Y"
+			amount = 51
+			version_name = "BM-2"
 		}
 	}
 
-	"USS Ranger" = {
-		cv_small_plane_airframe_0 = { owner = "USA" amount = 8 version_name = "F4B" }
-		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
-		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 4 version_name = "SBU Corsair" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 8 version_name = "DT-2" }
-	}
-	"USS Constellation" = {
-		cv_small_plane_airframe_0 = { owner = "USA" amount = 8 version_name = "F4B" }
-		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
-		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 4 version_name = "SBU Corsair" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 8 version_name = "DT-2" }
-	}
-	"USS Massachusetts" = {
-		cv_small_plane_airframe_0 = { owner = "USA" amount = 8 version_name = "F4B" }
-		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
-		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 4 version_name = "SBU Corsair" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 8 version_name = "DT-2" }
-	}
 }
 
 instant_effect = {

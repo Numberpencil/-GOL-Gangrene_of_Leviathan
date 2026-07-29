@@ -1,11 +1,11 @@
 characters = {
     ## Leaders ##
     #premier
-	Albert_Günther = {
-        name = Albert_Gunther_name
+	Carl_Schmitt = {
+        name = Carl_Schmitt_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/GEA/Albert_Günther.png"
+                large = "gfx/leaders/GEA/Carl_Schmitt.png"
             }
         }
         country_leader = {

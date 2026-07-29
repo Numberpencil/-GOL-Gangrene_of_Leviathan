@@ -1,0 +1,63 @@
+units = {
+	fleet = {
+		name = "U.S. Fleet, Battle Fleet"
+		naval_base = 788 ###NS+SB Norfolk
+
+		task_force = {
+			name = "Battleships, Battle Fleet"
+			location = 1843 ###NS+SB Norfolk
+			#Battle Division 3
+			ship = { name = "battleship-1" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "Tennessee Class" } } }
+			ship = { name = "battleship-2" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "Tennessee Class" } } }
+			ship = { name = "battleship-3" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "Tennessee Class" } } }
+	
+			#重巡洋
+			ship = { name = "heavy_cruiser-1" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "New Orleans Class" } } }
+			#轻巡洋
+			ship = { name = "light_cruiser-1" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "Omaha Class" } } }
+			ship = { name = "light_cruiser-2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "Omaha Class" } } }
+			ship = { name = "light_cruiser-3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "Omaha Class" } } }
+			#航母
+
+			#潜艇
+			ship = { name = "submarine-1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CSA version_name = "S Class"  } } }
+			ship = { name = "submarine-2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CSA version_name = "S Class"  } } }
+			ship = { name = "submarine-3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CSA version_name = "S Class"  } } }
+
+			#驱逐
+			ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+			ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+			ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+			ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+			ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }			
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }			
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }			
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }
+            ship = { name = "destroyer-1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA  version_name = "Clemson Class"  } } }												
+		}
+
+
+	}
+}

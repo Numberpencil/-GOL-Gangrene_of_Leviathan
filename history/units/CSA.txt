@@ -1,0 +1,360 @@
+focus = {
+	current = "USA_social_security_act"
+	progress = 0
+}
+
+instant_effect = {
+	### Production ###
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		industrial_manufacturer = mio:USA_springfield_armory_organisation
+		requested_factories = 3
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		industrial_manufacturer = mio:USA_army_ordnance_department_organisation
+		progress = 0.83
+		efficiency = 100
+	}
+}
+
+division_template = {
+	name = "National Guard"
+	priority = -1
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+
+	}
+	support = {
+
+	}
+	template_counter = 91
+}
+division_template = {
+	name = "Infantry division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+
+	}
+	regimental_support = { #团级支援
+
+	}
+	support = {
+
+	}
+	template_counter = 91
+}
+division_template = {
+	name = "Mountain Division"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+
+
+	}
+	regimental_support = { #团级支援
+
+	}
+	support = {
+
+	}
+	template_counter = 91
+}
+
+units = {
+	### Puerto Rico ###
+	
+	division = {
+		location = 12782
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 12782
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 12782
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 12782
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 12782
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 12782
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 3960
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 3960
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 3960
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 3960
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 3960
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 3960
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 1453
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 1453
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 1453
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 1453
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 1453
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 1453
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7797
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7797
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7797
+		name = "National Guard"
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7797
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7797
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7797
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 10717
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 10717
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 10717
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 10717
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 10717
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 10717
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 788
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		location = 788
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 788
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 788
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 788
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 788
+		name = "Infantry division"
+		division_template = "Infantry division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7138
+		name = "Mountain Division"
+		division_template = "Mountain Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7138
+		name = "Mountain Division"
+		division_template = "Mountain Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 7138
+		name = "Mountain Division"
+		division_template = "Mountain Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+}
