@@ -711,7 +711,7 @@ guiTypes = {
 					max_slots_horizontal = 100
 					format = "UPPER_LEFT"
 				}
-				gridbox`type = {
+				gridboxtype = {
 					name = "spirit_grid_over_defined"
 					size = { width = 350 height = 100%% }
 					slotsize = { width = 75 height = 75 }

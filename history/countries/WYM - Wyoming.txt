@@ -6,7 +6,7 @@ capital = 381
 
 USA = {
 	set_autonomy = {
-            target = CLR
+            target = WYM
             autonomous_state = military_government
         }
 }
