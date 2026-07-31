@@ -1,67 +1,55 @@
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_0
-		}
-		industrial_manufacturer = mio:CHN_support_equipment_industry_organisation
-		progress = 0.52
-		efficiency = 50
-	}
-}
+
 
 division_template = {
-	name = "Tungan Division"
-	division_names_group = SIK_INF_01
+	name = "Infantry Division"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+
+	}
+	regimental_support = { #团级支援
+
+	}
+	support = {
+
 	}
 }
-
 division_template = {
-	name = "Tungan Cavalry Brigade"
-	division_names_group = SIK_CAV_01
+	name = "Garrison troops"
 	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+
+
+	}
+	regimental_support = { #团级支援
+
+	}
+	support = {
+
 	}
 }
 
-#Commented out divisions are under the control of Ma Shaowu, you get them once East Turkestan rebels
 
 units = {
-	#division = {
-	#	name = "Khotan Tungan Defense Division"
-	#	location = 4973
-	#	division_template = "Tungan Division"
-	#	start_experience_factor = 0.1
-	#	}
 	division = {
-		name = "Tungan Calvary Brigade"
-		location = 12656
-		division_template = "Tungan Cavalry Brigade"
-		start_experience_factor = 0.1
-	}
-	division = {
-		name = "Aksu Tungan Defense Division"
-		location = 4682
-		division_template = "Tungan Division"
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "Dihua Garrison"
 		location = 4709
-		division_template = "Tungan Division"
+		division_template = "Garrison troops"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
 	}
-	#division = {
-	#	name = "Kashgar Garrison"
-	#	location = 2015
-	#	division_template = "Tungan Division"
-	#	start_experience_factor = 0.1
-	#}
+	division = {
+		location = 4709
+		division_template = "Garrison troops"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	
+	
 }

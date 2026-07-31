@@ -41,12 +41,13 @@ USA_Collapsed_democracy = {
             # 溃散的民主
             picture = "GFX_idea" 
               modifier = {
-                fascism_drift = 0.01
+        despotism_drift = 0.01
 				political_advisor_cost_factor = -0.15
+        stability_factor = -0.15
             }
         }
 USA_combat_readiness = {
-            # 崛起的铁卫团
+            # 战备状态
             picture = "GFX_idea" 
               modifier = {
         consumer_goods_factor = 0.15

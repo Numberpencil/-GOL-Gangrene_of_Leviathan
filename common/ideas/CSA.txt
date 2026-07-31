@@ -9,11 +9,9 @@ CSA_Trust_hegemony = {
             picture = "GFX_idea" 
             modifier = {
               	production_speed_buildings_factor = 0.1
-				consumer_goods_expected_value = -0.1
-				custom_override_tooltip= {
-                 tooltip = CSA_Trust_hegemony_tt
-                 not_tooltip = my_tt_NOT
-            }
+				consumer_goods_expected_value = 0.15
+                local_resources_factor = -0.15
+                custom_modifier_tooltip = CSA_Trust_hegemony_tt
             }
 			targeted_modifier = {
              tag = USA     
@@ -21,7 +19,7 @@ CSA_Trust_hegemony = {
              mic_to_target_factor = 0.35 
              }
 			 on_add = {
-				custom_effect_tooltip = CSA_Trust_hegemony_tt
+                
 			 }
 			 on_remove = {
 				USA = { remove_resource_rights = 375 remove_resource_rights = 833 }
@@ -50,8 +48,10 @@ CSA_Chaotic_country = {
             # 混乱之国
             picture = "GFX_idea" 
             modifier = {
-              stability_factor = -0.2
+             stability_factor = -0.2
              war_support_factor = -0.15
+             resistance_growth = 0.25
+             conscription_factor = -0.1
             }
 			targeted_modifier = {
 
@@ -68,7 +68,7 @@ CSA_economic_collapse = {
             picture = "GFX_idea" 
             modifier = {
              consumer_goods_expected_value = 0.35
-			 industrial_capacity_factory = -0.5
+			 industrial_capacity_factory = -0.35
             }
 			targeted_modifier = {
 

@@ -13,7 +13,7 @@ USA = {
 #开局国家状态
 set_stability = 0.5
 set_war_support = 0.3
-
+oob = "CLR"
 #人物提取
 recruit_character = James_Brendan
 

@@ -10,7 +10,7 @@ USA = {
             autonomous_state = military_government
         }
 }
-
+oob = "WYM"
 #开局国家状态
 set_stability = 0.5
 set_war_support = 0.3

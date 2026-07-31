@@ -7,7 +7,7 @@ capital = 292
 #开局国家状态
 set_stability = 0.5
 set_war_support = 0.3
-
+oob = "SAU"
 #人物提取
 recruit_character = Ibn_Saud
 

@@ -2,7 +2,7 @@
  # 政党本地化模板
  # 命名规则：TAG_PARTY_NAME_XX_name
  # 共产主义政党
- #LIB_PARTY_NAME_CM_unkown: "共产主义政党名称"
+ LIB_PARTY_NAME_CM_unkown: "联合开发领第八小队"
  # 社会主义政党
  LIB_PARTY_NAME_SC_unkown: "罗德岛"
  # 民主政党
