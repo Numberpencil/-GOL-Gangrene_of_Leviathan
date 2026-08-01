@@ -249,16 +249,20 @@ spriteTypes = {
 		texturefile = "gfx/ideas/SOV/SOV_The_impact_of_the_panic.png"
 	}
 	SpriteType = {
-		name = "GFX_idea_SPR_backward_army"
-		texturefile = "gfx/ideas/SPR/SPR_backward_army.png"
+		name = "GFX_idea_SOV_The_restless_re_revolution"
+		texturefile = "gfx/ideas/SOV/SOV_The_restless_re_revolution.png"
 	}
 	SpriteType = {
-		name = "GFX_idea_SPR_Save_the_Empire"
-		texturefile = "gfx/ideas/SPR/SPR_Save_the_Empire.png"
+		name = "GFX_idea_SOV_The_Shame_of_Brest"
+		texturefile = "gfx/ideas/SOV/SOV_The_Shame_of_Brest.png"
 	}
 	SpriteType = {
-		name = "GFX_idea_SPR_Family_rmies_Under_the_Covenant"
-		texturefile = "gfx/ideas/SPR/SPR_Family_rmies_Under_the_Covenant.png"
+		name = "GFX_idea_SOV_National_Duma"
+		texturefile = "gfx/ideas/SOV/SOV_National_Duma.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_Ten_years_of_silence"
+		texturefile = "gfx/ideas/SOV/SOV_Ten_years_of_silence.png"
 	}
 	###西班牙王国###
 	SpriteType = {

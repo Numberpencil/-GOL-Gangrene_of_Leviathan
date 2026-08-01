@@ -46,6 +46,10 @@ set_popularities = {
 #开局民族精神
 add_ideas = {
 	faction_idea_Pan_Iberian_Union
+	PRU_Gradually_drifting_apart
+	PRU_Chaotic_Succession_to_the_Throne
+	PRU_Military_and_Civil_Leadership
+	PRU_Saltpeter_Money_Tree
 }
 #开局政党
 set_party_name = {

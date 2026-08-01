@@ -309,7 +309,25 @@ units = {
 		location = 9660
 		division_template = "Harckocsizó hadosztály"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9660
+		division_template = "Harckocsizó hadosztály"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9660
+		division_template = "Harckocsizó hadosztály"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9660
+		division_template = "Harckocsizó hadosztály"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
 	}
 }
 

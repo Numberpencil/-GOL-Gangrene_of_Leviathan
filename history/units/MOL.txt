@@ -27,10 +27,7 @@ division_template = {
 		militia = { x = 0 y = 1 }
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }	
-		militia = { x = 2 y = 0 }
-		militia = { x = 2 y = 1 }
-		militia = { x = 2 y = 2 }
+
 		
 	}
 	template_counter = 92
@@ -43,17 +40,17 @@ division_template = {
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
+
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
+
 	}
 }
 
 
 units = {
+
 	division = {
 		division_name = {
 			is_name_ordered = yes
@@ -61,7 +58,7 @@ units = {
 		}
 		location = 9716
 		division_template = "Pesadijska Divizija"
-		start_experience_factor =1
+		start_experience_factor =0.1
 	}
 	division = {
 		division_name = {
@@ -70,34 +67,7 @@ units = {
 		}
 		location = 9716
 		division_template = "Pesadijska Divizija"
-		start_experience_factor =1
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9716
-		division_template = "Pesadijska Divizija"
-		start_experience_factor =1
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9716
-		division_template = "Pesadijska Divizija"
-		start_experience_factor = 1
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9716
-		division_template = "Pesadijska Divizija"
-		start_experience_factor = 1
+		start_experience_factor =0.1
 	}
 	division = {
 		division_name = {
@@ -106,7 +76,7 @@ units = {
 		}
 		location = 3707
 		division_template = "Pikhotna Dyviziia"
-		start_experience_factor = 1
+		start_experience_factor =0.1
 	}
 	division = {
 		division_name = {
@@ -115,7 +85,7 @@ units = {
 		}
 		location = 3707
 		division_template = "Pikhotna Dyviziia"
-		start_experience_factor = 1
+		start_experience_factor =0.1
 	}
 	division = {
 		division_name = {
@@ -124,7 +94,7 @@ units = {
 		}
 		location = 3707
 		division_template = "Pikhotna Dyviziia"
-		start_experience_factor = 1
+		start_experience_factor =0.1
 	}
 	division = {
 		division_name = {
@@ -133,7 +103,7 @@ units = {
 		}
 		location = 3707
 		division_template = "Pikhotna Dyviziia"
-		start_experience_factor = 1
+		start_experience_factor =0.1
 	}
 
 }

@@ -90,6 +90,26 @@ ROM_balkan_war0 = {
 		value = 200
 	}
 }
+ROM_balkan_war1 = {
+    allowed = {
+		tag = ROM	 
+    }
+    enable = {
+      always = yes
+    }
+    abort = {
+     has_war_with = MOL
+    }
+  
+    ai_strategy = {
+		 type = front_control
+        tag = MOL
+        value = 500
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
+	}
+}
 YUG_balkan_war = {
     allowed = {
       

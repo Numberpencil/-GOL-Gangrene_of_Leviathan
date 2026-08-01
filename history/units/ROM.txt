@@ -123,68 +123,68 @@ units = {
 		location = 6652
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 818
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 6677
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9617
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9635
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 3076
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 3636
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9635
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 3663
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 6695
 		division_template = "Divizia de Infanterie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 
 	division = {
 		location = 9617
 		division_template = "Divizia de Cavalerie"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 }
 

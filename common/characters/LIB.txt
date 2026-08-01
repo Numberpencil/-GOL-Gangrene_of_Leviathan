@@ -104,5 +104,22 @@ characters = {
             id = -1
         }
     }
+     Elena = {
+        name = Elena_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/Elena.png"
+            }
+        }
+        country_leader = {
+            desc = Elena_name_desc
+            ideology = Leninism
+            traits = {
+                
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 
 }

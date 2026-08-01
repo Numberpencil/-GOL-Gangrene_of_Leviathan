@@ -97,6 +97,13 @@ on_actions = {
 				}
 				GOL_balkan_alliance_victory_peace = yes
 				news_event = { id = news.1008 } # 巴尔干同盟胜利新闻
+				news_event = { id = news.1021 days = 3 }
+				ROM = {
+					country_event = {
+						id = ROM.4
+						days = 60
+					}
+				}
 			}
 		}
 	}
@@ -115,4 +122,35 @@ on_actions = {
 			}
 		}
 	}
+	on_before_peace_conference_start = {
+		effect = {
+	
+			if = {
+				limit = {
+					ROOT = { tag = ROM }
+					FROM = { tag = MOL }
+				 }
+				ROM = {
+					white_peace = MOL
+				}
+				news_event = { id = news.1020 } # 匈牙利阵营胜利新闻
+				ROM = {
+			     annex_country = {
+				 target = MOL
+				 transfer_troops = yes
+		        }
+		        add_state_core = 78
+		        add_state_core = 79	
+				set_cosmetic_tag = Romania	
+	            }
+				MOL = {
+				remove_state_core = 78
+		        remove_state_core = 79
+				}
+			
+			
+			# 巴尔干同盟胜利
+		}
+	}
+}
 }

@@ -53,6 +53,9 @@ occultism = 10
 #功能性民族精神
 add_ideas = {
 faction_idea_Revolutionary_International
+Country_of_Fortresses
+Three_Year_Plan
+The_Predicament_of_Party_Leadership
 }
 
 #开局政党

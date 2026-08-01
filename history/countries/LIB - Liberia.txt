@@ -15,7 +15,7 @@ recruit_character = Vertin
 recruit_character = Teto
 recruit_character = Amiya
 recruit_character = Saya
-
+recruit_character = Elena
 
 
 #开局科研槽

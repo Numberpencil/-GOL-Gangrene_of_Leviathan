@@ -4,17 +4,51 @@
 
 add_namespace = MOL
 
-#country_event = {
-#	id = MOL.1
-#	title = MOL.1.t
-#	desc = MOL.1.d
-#	picture = GFX_events_generic
-#	
-#	is_triggered_only = yes
-#	fire_only_once = yes
-#	
-#	option = {
-#		name = MOL.1.a
-#		# 预留效果接口
-#	}
-#}
+country_event = { #摩尔多瓦王国问题
+	id = MOL.1
+    picture = GFX_events_x
+    title = MOL.1.t
+    desc = MOL.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = MOL.1.a #我们绝不屈服！
+		ai_chance = {
+			base = 1
+		}
+		trigger = {
+			always = yes
+		}
+		news_event = news.1018
+		remove_state_core = 78
+		remove_state_core = 79
+		ROM = {
+			annex_country = {
+				target = MOL
+				transfer_troops = yes
+				
+		}
+		add_state_core = 78
+		add_state_core = 79
+		set_cosmetic_tag = Romania
+	}
+}
+	option = { 
+        name = MOL.1.b #我们绝不屈服！
+		ai_chance = {
+			base = 1
+		}
+		trigger = {
+			always = yes
+		}
+		news_event = news.1019
+		ROM = {
+			declare_war_on = {
+            target = MOL
+            type = annex_everything
+        }
+		}
+	}
+
+
+}

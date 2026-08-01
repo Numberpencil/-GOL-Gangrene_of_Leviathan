@@ -4,5 +4,11 @@
  # 示例：idea_TAG_00 或 idea_TAG_name
  # 理念名称
  #CAU_generic_idea: "理念名称"
+ Country_of_Fortresses: "碉堡之国"
+ Three_Year_Plan: "三年计划"
+ The_Predicament_of_Party_Leadership: "党领导的窘境"
  # 理念描述
  #CAU_generic_idea_desc: "理念描述"
+ Country_of_Fortresses_desc: "为了抵御未来沙俄的进攻，高加索苏维埃投入大量资源，在山脉间构筑了密集的工事群。"
+ Three_Year_Plan_desc: "鉴于日益增长的国防压力与落后的工业现状，高共（布）决心通过持续的经济计划来改善高加索的经济社会状况。"
+ The_Predicament_of_Party_Leadership_desc: "尽管党组织能良好地完成诸多任务，但其经济与社会建设能力仍不尽人意：以行政命令压人、靠“突击”应对产量不足的情况屡见不鲜。"

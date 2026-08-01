@@ -98,4 +98,25 @@ country_event = { #来自匈牙利的最后通牒
 			puppet = ROM
 		}
 	}
+  }	
+	country_event = { #摩尔多瓦王国问题
+	id = ROM.4
+    picture = GFX_events_x
+    title = ROM.4.t
+    desc = ROM.4.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = ROM.4.a #我们绝不屈服！
+		
+		trigger = {
+			always = yes
+		}
+		custom_effect_tooltip = ROM_a_desc
+		MOL = {
+				country_event = MOL.1
+						
+		}
+	}
+
 }

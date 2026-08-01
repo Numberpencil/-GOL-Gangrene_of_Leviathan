@@ -4,5 +4,13 @@
  # 示例：idea_TAG_00 或 idea_TAG_name
  # 理念名称
  #PRU_generic_idea: "理念名称"
+ PRU_Gradually_drifting_apart: "渐行渐离"
+ PRU_Chaotic_Succession_to_the_Throne: "混乱的王位继承"
+ PRU_Military_and_Civil_Leadership: "军相之争"
+ PRU_Saltpeter_Money_Tree: "硝石摇钱树"
  # 理念描述
  #PRU_generic_idea_desc: "理念描述"
+ PRU_Gradually_drifting_apart_desc: "圣伊斯帕尼亚建立在卡洛斯战争的末期，在卡洛斯战争结束后，王国就因为收留了诸位卡洛斯派家族人物而臭名昭著。不过目前到好，西班牙对此也无法追究此事，但如此我们和西班牙渐行渐离……"
+ PRU_Chaotic_Succession_to_the_Throne_desc: "圣伊斯帕尼亚建国伊始，便长期由西班牙王室统治，但是因为卡洛斯战争和西班牙国内混乱等等原因，我国王位长年空闲，直到1930年，卡尔皮乌斯大公才被扶上王位，即卡洛斯四世（由于混乱的王位继承，所以他坚称自己是卡洛斯一世）不过由此，王位暂时定了下来"
+ PRU_Military_and_Civil_Leadership_desc: "1935年桑切斯 塞罗将军辞职时，议会最终选择了何塞·德·拉·里瓦·阿奎罗·奥斯玛作为继承人，一位拥有西班牙侯爵的总理，作为坚定的法西斯主义者，他推动着各项改革，但自认为是桑切斯 塞罗将军正统继承人的陆军总司令贝纳维德斯奖金却对此嗤之以鼻，因此，他长年和首相发生矛盾，这情景目前依然如此"
+ PRU_Saltpeter_Money_Tree_desc: "在硝石战争凯旋后，阿塔卡玛成为了我国的摇钱树，大量出口资源让我国愈发强大，这也是我们雄立南美的资本之一"

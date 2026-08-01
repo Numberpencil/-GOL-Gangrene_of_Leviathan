@@ -4,87 +4,9 @@ defined_text = {
 	name = GetAnarchyGUIImage
 	text = {
 		trigger = {
-			anarchy_ZZZ_default = yes
-		}
-		localization_key = "GFX_Anarchy_ZZZ"
-	}
-	text = {
-		trigger = {
 			Anarchy_XSM = yes
 		}
 		localization_key = "GFX_Anarchy_XSM"
-	}
-	text = {
-		trigger = {
-			anarchy_ZZZ_heydrich = yes
-		}
-		localization_key = "GFX_Anarchy_ZZZ_Heydrich"
-	}
-	text = {
-		trigger = {
-			anarchy_ZZZ_thermonuclear_war = yes
-		}
-		localization_key = "GFX_Anarchy_ZZZ_Thermonuclear_War"
-	}
-	text = {
-		trigger = {
-			anarchy_OMO_default = yes
-		}
-		localization_key = "GFX_Anarchy_OMO"
-	}
-	text = {
-		trigger = {
-			anarchy_NRL_default = yes
-		}
-		localization_key = "GFX_Anarchy_NRL"
-	}
-	text = {
-		trigger = {
-			anarchy_VIL_after_midnight = yes
-		}
-		localization_key = "GFX_Anarchy_VIL_AM"
-	}
-	text = {
-		trigger = {
-			anarchy_DRL_Orsk = yes
-		}
-		localization_key = "GFX_Anarchy_DRL"
-	}
-	text = {
-		trigger = {
-			anarchy_UZB = yes
-		}
-		localization_key = "GFX_Anarchy_UZB"
-	}
-	text = {
-		trigger = {
-			anarchy_MCW_Dissapearance = yes
-		}
-		localization_key = "GFX_Anarchy_MCW_Dissapearance"
-	}
-	text = {
-		trigger = {
-			original_tag = MDM
-		}
-		localization_key = "GFX_Anarchy_MDM_Collapsed_Authority"
-	}
-	text = {
-		trigger = {
-			anarchy_AAN_default = yes
-		}
-		localization_key = "GFX_Anarchy_Antarctica"
-	}
-	text = {
-		trigger = {
-			anarchy_GUN_anarchy = yes
-		}
-		localization_key = "GFX_Anarchy_GUN"
-	}
-	text = {
-		trigger = {
-			anarchy_Amazon_anarchy = yes
-		}
-		localization_key = "GFX_Anarchy_Amazon"
 	}
 }
 
@@ -92,75 +14,9 @@ defined_text = {
 	name = GetAnarchyGUIToolTip
 	text = {
 		trigger = {
-			anarchy_ZZZ_default = yes
+			Anarchy_XSM = yes
 		}
 		localization_key = Anarchy_ZZZ_tt
-	}
-	text = {
-		trigger = {
-			anarchy_ZZZ_heydrich = yes
-		}
-		localization_key = Anarchy_ZZZ_Heydrich_tt
-	}
-	text = {
-		trigger = {
-			anarchy_ZZZ_thermonuclear_war = yes
-		}
-		localization_key = Anarchy_ZZZ_Nuclear_tt
-	}
-	text = {
-		trigger = {
-			anarchy_OMO_default = yes
-		}
-		localization_key = Anarchy_OMO_tt
-	}
-	text = {
-		trigger = {
-			anarchy_VIL_after_midnight = yes
-		}
-		localization_key = Anarchy_VIL_after_midnight_tt
-	}
-	text = {
-		trigger = {
-			anarchy_DRL_Orsk = yes
-		}
-		localization_key = Anarchy_DRL_tt
-	}
-	text = {
-		trigger = {
-			anarchy_NRL_default = yes
-		}
-		localization_key = anarchy_NRL_tt
-	}
-	text = {
-		trigger = {
-			anarchy_UZB = yes
-		}
-		localization_key = anarchy_UZB_tt
-	}
-	text = {
-		trigger = {
-			anarchy_MCW_Dissapearance = yes
-		}
-		localization_key = anarchy_MCW_Dissapearance_tt
-	}
-	text = {
-		trigger = {
-			anarchy_AAN_default = yes
-		}
-		localization_key = anarchy_Antarctica_tt
-	}
-	text = {
-		trigger = {
-			original_tag = MDM
-		}
-		localization_key = Anarchy_MDM_Collapsed_Authority_tt
-	}
-	text = {
-		trigger = {
-			anarchy_Amazon_anarchy = yes
-		}
-		localization_key = Anarchy_Amazon_tt
 	}
 	
 }
@@ -169,80 +25,8 @@ defined_text = {
 	name = GetAnarchyGUIToolTipDelayed
 	text = {
 		trigger = {
-			anarchy_ZZZ_default = yes
+			aAnarchy_XSM = yes 
 		}
 		localization_key = Anarchy_ZZZ_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_ZZZ_heydrich = yes
-		}
-		localization_key = Anarchy_ZZZ_Heydrich_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_ZZZ_thermonuclear_war = yes
-		}
-		localization_key = Anarchy_ZZZ_Nuclear_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_OMO_default = yes
-		}
-		localization_key = Anarchy_OMO_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_VIL_after_midnight = yes
-		}
-		localization_key = Anarchy_VIL_after_midnight_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_DRL_Orsk = yes
-		}
-		localization_key = Anarchy_DRL_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_NRL_default = yes
-		}
-		localization_key = anarchy_NRL_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_UZB = yes
-		}
-		localization_key = anarchy_UZB_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_MCW_Dissapearance = yes
-		}
-		localization_key = anarchy_MCW_Dissapearance_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_AAN_default = yes
-		}
-		localization_key = Anarchy_Antarctica_tt_delayed
-	}
-	text = {
-		trigger = {
-			original_tag = MDM
-		}
-		localization_key = Anarchy_MDM_Collapsed_Authority_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_GUN_anarchy = yes
-		}
-		localization_key = Anarchy_GUN_tt_delayed
-	}
-	text = {
-		trigger = {
-			anarchy_Amazon_anarchy = yes
-		}
-		localization_key = Anarchy_Amazon_tt_delayed
 	}
 }

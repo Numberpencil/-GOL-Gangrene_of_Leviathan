@@ -13,7 +13,7 @@ state = {
 		owner = CAU
 		add_core_of = CAU
 		add_core_of = ABJ
-victory_points = { 7661 15 }
+        victory_points = { 7661 15 }
 		victory_points = { 11674 3 }
 		victory_points = { 4473 2 }
 
@@ -23,6 +23,33 @@ victory_points = { 7661 15 }
 			arms_factory = 2
 			fuel_silo = 1
 			air_base = 1
+			1536 = {
+				bunker = 3
+			}
+			1539 = {
+				bunker = 3
+			}
+			1610 = {
+				bunker = 3
+			}
+			4458 = {
+				bunker = 3
+			}
+			4477 = {
+				bunker = 3
+			}
+			4545 = {
+				bunker = 3
+			}
+			4614 = {
+				bunker = 3
+			}
+			6763 = {
+				bunker = 3
+			}
+			11645 = {
+				bunker = 3
+			}
 		}
 	}
 

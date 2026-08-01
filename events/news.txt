@@ -392,12 +392,89 @@ news_event = { #基里尔沙皇逝世
 	trigger = {
 		
 	}
-	option = { #巴尔干同盟破碎的开始
+	option = { #为新沙皇贺彩
 	
 		name = news.1017.a
 	}		
 }
 
+news_event = { #罗马尼亚统一
 
+	id = news.1018
+	title = news.1018.t
+	desc = news.1018.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	
+	
+	
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { #分裂良久的统一
+	
+		name = news.1018.a
+	}		
+}
 
+news_event = { #瓦摩战争
+
+	id = news.1019
+	title = news.1019.t
+	desc = news.1019.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	
+	
+	
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { # 又来
+	
+		name = news.1019.a
+	}		
+}
+
+news_event = { #罗马尼亚民族再统一
+
+	id = news.1020
+	title = news.1020.t
+	desc = news.1020.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	
+	
+	
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { #分裂良久的统一
+	
+		name = news.1020.a
+	}		
+}
+
+news_event = { #南斯拉夫统一
+
+	id = news.1021
+	title = news.1021.t
+	desc = news.1021.d
+	picture = GFX_news_event_North_Macedonian_massacre
+	
+	
+	
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	option = { #分裂良久的统一
+	
+		name = news.1021.a
+	}		
+}
 

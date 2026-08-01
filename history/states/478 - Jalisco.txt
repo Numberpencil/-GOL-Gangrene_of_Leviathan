@@ -15,7 +15,7 @@ victory_points = { 13089 5 }
 
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
+			industrial_complex = 3
 		}
 	}
 

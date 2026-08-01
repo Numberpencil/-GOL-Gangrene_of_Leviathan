@@ -8,7 +8,7 @@ state = {
 		owner = CAU
 		add_core_of = CAU
 		add_core_of = GRA
-victory_points = { 1599 10 }
+        victory_points = { 1599 10 }
 		victory_points = { 772 2 }
 		victory_points = { 3658 1 }
 
@@ -21,6 +21,34 @@ victory_points = { 1599 10 }
 				naval_base = 2
 				coastal_bunker = 1
 			}
+			4534 = {
+				bunker = 3
+			}
+			6436 = {
+				bunker = 3
+			}
+			9626 = {
+				bunker = 3
+			}
+			1530 = {
+				bunker = 3
+			}
+			654 = {
+				bunker = 3
+			}
+			772 = {
+				bunker = 3
+			}
+			6669 = {
+				bunker = 3
+			}
+			13866 = {
+				bunker = 3
+			}
+			12309 = {
+				bunker = 3
+			}
+
 		}
 	}
 

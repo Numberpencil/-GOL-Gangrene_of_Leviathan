@@ -20,16 +20,14 @@ focus_tree = {
 	
 	country = {
 		factor  0
-		original_tag  = FRA
-		default = no
+        
 	}
 	
 
 	focus = {
-		id = FRA_AA_Workers_Triumph #
+		id = FRA_AA_Workers_Triumph 
 
 		icon = GFX_goal_FRA_AA_Workers_Triumph
-		#relative_position_id = 	
 		x = 10
 		y = 1
 		cost = 5

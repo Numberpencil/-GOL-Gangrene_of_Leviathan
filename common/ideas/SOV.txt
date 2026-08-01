@@ -56,7 +56,7 @@ country = {
 			}
 		} 
 		SOV_The_restless_re_revolution = { #躁动的再革命
-			picture = GFX_idea_x
+			picture = GFX_idea_SOV_The_restless_re_revolution
 			allowed = {
 				always = yes
 			}
@@ -70,7 +70,7 @@ country = {
 			}
 		}
 		SOV_The_Shame_of_Brest = { #布列斯特之耻
-			picture = GFX_idea_x
+			picture = GFX_idea_SOV_The_Shame_of_Brest
 			allowed = {
 				always = yes
 			}
