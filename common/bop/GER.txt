@@ -1,0 +1,64 @@
+
+GER_Crown_Prince_stance = {
+	initial_value = -0.0
+	left_side = GER_Crown_Prince_bop_left_side	
+	right_side = GER_Crown_Prince_bop_right_side	
+	decision_category = GER_balance_of_power_category
+	
+	# Civilian Side
+	side = {
+		id = GER_Crown_Prince_bop_left_side	
+		icon = GFX_bop_ETH_communist_side
+		range = {
+			id = GER_Leaning_towards_NASPD
+			min = -1
+			max = -0.3
+			modifier = {
+			
+			}
+			on_activate = {
+			
+			}
+			on_deactivate = {
+			
+			}
+
+		}
+		range = {
+			id = GER_Leaning_towards_Maintain_neutrality
+			min = -0.3
+			max =  0.3
+			modifier = {
+			
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+			
+			}
+
+		}
+	}
+		side = {
+		id = GER_Crown_Prince_bop_right_side	
+		icon = GFX_bop_ETH_communist_side
+		range = {
+			id = GER_Leaning_towards_conservatives
+			min = 0.3
+			max = 1
+			modifier = {
+			
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+			
+			}
+
+		}
+		}
+	}
+
+

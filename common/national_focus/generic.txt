@@ -19,9 +19,9 @@ focus_tree = {
 	id = generic_focus
 	
 	country = {
-		factor = 1
+		factor = 10
 	}
-
+	
 	default = yes
 	reset_on_civilwar = no
 
@@ -32,5 +32,4 @@ focus_tree = {
 	#shared_focus = HABSBURG_part_of_something_bigger
 
 	
-
 }

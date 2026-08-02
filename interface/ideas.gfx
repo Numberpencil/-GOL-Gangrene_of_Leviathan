@@ -5,6 +5,12 @@ spriteTypes = {
 		texturefile = "gfx/ideas/GER/rotten_and_obscurantist_system.png"
 		
 	}
+	SpriteType = {
+		name = "GFX_idea_rotten_and_obscurantist_system_1"
+		texturefile = "gfx/ideas/GER/rotten_and_obscurantist_system.png"
+		
+	}
+
 
 	SpriteType = {
 		name = "GFX_idea_toward_collapse"
@@ -23,9 +29,25 @@ spriteTypes = {
 		texturefile = "gfx/ideas/GER/Mitteleuropa_trade_agreement.png"
 		
 	}
+	SpriteType = {
+		name = "GFX_idea_Mitteleuropa_trade_agreement_1" 
+		texturefile = "gfx/ideas/GER/Mitteleuropa_trade_agreement.png"
+		
+	}
+	SpriteType = {
+		name = "GFX_idea_Mitteleuropa_trade_agreement_2" 
+		texturefile = "gfx/ideas/GER/Mitteleuropa_trade_agreement.png"
+		
+	}
+
 
 	SpriteType = {
 		name = "GFX_idea_The_aftermath_of_the_economic_crisis"
+		texturefile = "gfx/ideas/GER/The_aftermath_of_the_economic_crisis.png"
+		
+	}
+	SpriteType = {
+		name = "GFX_idea_The_aftermath_of_the_economic_crisis_1"
 		texturefile = "gfx/ideas/GER/The_aftermath_of_the_economic_crisis.png"
 		
 	}
@@ -38,6 +60,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_Capital_outflow"
+		texturefile = "gfx/ideas/GER/Capital_outflow.png"
+		
+	}
+	SpriteType = {
+		name = "GFX_idea_Capital_outflow_1"
 		texturefile = "gfx/ideas/GER/Capital_outflow.png"
 		
 	}

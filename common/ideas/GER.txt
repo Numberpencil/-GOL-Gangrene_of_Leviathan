@@ -19,7 +19,7 @@ ideas = {
 			
 		
 		}
-		rotten_and_obscurantist_system ={
+		rotten_and_obscurantist_system ={#腐朽晦暗的体制
 			picture=rotten_and_obscurantist_system 
 			allowed ={
 				always= yes
@@ -27,6 +27,16 @@ ideas = {
 			modifier ={
 				stability_factor = -0.10
 				political_power_gain = -0.15
+				political_advisor_cost_factor = 0.50
+			}
+		}
+		rotten_and_obscurantist_system_1 ={#腐朽晦暗的体制
+			allowed ={
+				always= yes
+			}
+			modifier ={
+				stability_factor = -0.10
+				political_power_gain = -0.14
 				political_advisor_cost_factor = 0.50
 			}
 		}
@@ -52,6 +62,31 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				faction_trade_opinion_factor=0.10
 			}
+			
+		}
+		Mitteleuropa_trade_agreement_1={
+
+			allowed ={
+				always= yes
+			}
+			modifier={
+				consumer_goods_factor=-0.1
+				production_speed_buildings_factor =0.07
+				industrial_capacity_factory = 0.07
+				faction_trade_opinion_factor=0.10
+			}
+		}
+		Mitteleuropa_trade_agreement_2={
+
+			allowed ={
+				always= yes
+			}
+			modifier={
+				consumer_goods_factor=-0.1
+				production_speed_buildings_factor =0.07
+				industrial_capacity_factory = 0.07
+				faction_trade_opinion_factor=-0.05
+			}
 		}
 		The_aftermath_of_the_economic_crisis ={
 			picture= The_aftermath_of_the_economic_crisis
@@ -65,6 +100,66 @@ ideas = {
 				industrial_capacity_factory = -0.15
 				stability_factor = -0.05
 
+			}
+		}
+		The_aftermath_of_the_economic_crisis_1 ={
+			allowed ={
+				always= yes
+			}
+			modifier={
+				consumer_goods_factor=0.325
+				production_speed_buildings_factor =-0.1
+				production_factory_max_efficiency_factor= -0.15
+				industrial_capacity_factory = -0.1
+				stability_factor = -0.025
+
+			}
+		}
+		economic_aspect_of_the_EU_agreement_has_collapsed ={
+			allowed ={
+				always= yes
+			}
+			modifier={
+				consumer_goods_factor=0.475
+				production_speed_buildings_factor =-0.3
+				production_factory_max_efficiency_factor= -0.25
+				industrial_capacity_factory = -0.25
+				stability_factor = -0.25
+
+			}
+		}
+		economic_aspect_of_the_EU_agreement_has_collapsed_1 ={
+			allowed ={
+				always= yes
+			}
+			modifier={
+				consumer_goods_factor=0.5
+				production_speed_buildings_factor =-0.3
+				production_factory_max_efficiency_factor= -0.25
+				industrial_capacity_factory = -0.25
+				stability_factor = -0.225
+
+			}
+		}
+		economic_aspect_of_the_EU_agreement_has_collapsed_2 ={
+			allowed ={
+				always= yes
+			}
+			modifier={
+				consumer_goods_factor=0.4
+				production_speed_buildings_factor =-0.3
+				production_factory_max_efficiency_factor= -0.25
+				industrial_capacity_factory = -0.25
+				stability_factor = -0.225
+
+			}
+		}
+		Work_for_relief ={
+			allowed ={
+				always= yes
+			}
+			modifier={
+		      production_speed_infrastructure_factor = 0.15
 			}
 		}
 		Heil_dir_im_Siegerkranz ={
@@ -99,6 +194,19 @@ ideas = {
 				consumer_goods_factor=0.15
 				production_speed_industrial_complex_factor = -0.10
 				industrial_factory_donations = 4
+
+			}
+		}
+		Capital_outflow_1={
+
+			allowed ={
+				always= yes
+			}
+	
+			modifier={
+				consumer_goods_factor=0.05
+				production_speed_industrial_complex_factor = -0.05
+				industrial_factory_donations = 2
 
 			}
 		}
@@ -175,6 +283,17 @@ ideas = {
 				research_speed_factor = 0.10
 				army_attack_factor = 0.05
 				land_doctrine_cost_factor = -0.10
+			}
+		}
+		GOL_idea_Expanded_Security_Department = {
+			picture = Megastructure_research
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+			modifier = {
+				decryption_power = 10
+				operative_slot = 1
 			}
 		}
 	}

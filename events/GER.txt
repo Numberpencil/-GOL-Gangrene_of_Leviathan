@@ -1,5 +1,6 @@
 ﻿add_namespace = GER
-
+add_namespace = GER.NASPD
+add_namespace = GER.conservative
 country_event = { #新年演讲
 	id = GER.1
     picture = GFX_events_new_year_speech
@@ -7,6 +8,11 @@ country_event = { #新年演讲
     desc = GER.1.d
     is_triggered_only = yes
     fire_only_once = yes
+	immediate = {
+		hidden_effect ={
+			complete_national_focus = GER_New_Year_Speech
+		}
+	}
     option = { 
         name = GER.1.a
 		trigger = {
@@ -67,4 +73,309 @@ country_event = { #巨构机巴尔干战报
 			#add_ideas = GOL_idea_GER_megastructure_combat_data
 		}
 	}
+}
+
+country_event = { #加强中欧协定
+	id = GER.4
+    picture = GFX_events_new_year_speech
+    title = GER.4.t
+    desc = GER.4.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	immediate = {
+
+	}
+    option = { 
+        name = GER.4.a
+		trigger = {
+			always = yes
+		}
+			swap_ideas = {
+         remove_idea = Mitteleuropa_trade_agreement
+         add_idea = Mitteleuropa_trade_agreement_1
+        }
+		country_event = {
+			id = GER.5
+			days = 3
+		}
+		
+	}
+}
+
+country_event = { #新年演讲
+	id = GER.5
+    picture = GFX_events_new_year_speech
+    title = GER.5.t
+    desc = GER.5.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	immediate = {
+
+	}
+    option = { 
+        name = GER.5.a
+		trigger = {
+			always = yes
+		}
+		swap_ideas = {
+         remove_idea = Capital_outflow
+         add_idea = Capital_outflow_1
+        }
+		hidden_effect ={
+			complete_national_focus = GER_Improving_amidst_stability
+		}
+		
+	}
+}
+
+country_event = { #中欧协定经济崩溃
+	id = GER.6
+    picture = GFX_events_new_year_speech
+    title = GER.6.t
+    desc = GER.6.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		}
+	
+	immediate = {
+
+	}
+    option = { 
+        name = GER.6.a
+		trigger = {
+			always = yes
+		}
+		swap_ideas = {
+         remove_idea = Mitteleuropa_trade_agreement_1
+         add_idea = Mitteleuropa_trade_agreement_2
+        }
+		swap_ideas = {
+         remove_idea = The_aftermath_of_the_economic_crisis_1
+         add_idea = economic_aspect_of_the_EU_agreement_has_collapsed
+        }	
+		hidden_effect ={		
+			set_global_flag = The_EU_economic_agreement_has_collapsed
+			mark_focus_tree_layout_dirty = yes
+		}
+		complete_national_focus = GER_precarious_wall_has_collapsed
+	}
+}
+
+country_event = { #选择你的视角)
+	id = GER.7
+    picture = GFX_events_new_year_speech
+    title = GER.7.t
+    desc = GER.7.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		}
+	
+	immediate = {
+
+	}
+    option = { 
+        name = GER.7.a
+		trigger = {
+			always = yes
+		}
+		set_country_flag = Players_choose_NASPD
+	}
+	option = { 
+        name = GER.7.b
+		trigger = {
+			always = no
+		}
+		set_country_flag = Players_choose_conservative
+	}
+}
+country_event = { #打砸商店
+	id = GER.NASPD.1
+    picture = GFX_events_new_year_speech
+    title = GER.NASPD.1.t
+    desc = GER.NASPD.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		}
+	
+	immediate = {
+
+	}
+    option = { 
+        name = GER.NASPD.1.a
+		trigger = {
+			always = yes
+		}
+		set_country_flag = GER.NASPD_1_is_fire
+	}
+	option = { 
+        name =  GER.NASPD.1.b
+		trigger = {
+		
+		}
+		set_country_flag = GER.NASPD_1_is_fire
+	}
+}
+
+country_event = { #罗姆绯闻
+	id = GER.NASPD.2
+    picture = GFX_events_new_year_speech
+    title = GER.NASPD.2.t
+    desc = GER.NASPD.2.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		}
+	
+	immediate = {
+
+	}
+    option = { 
+        name = GER.NASPD.2.a
+		trigger = {
+			always = yes
+		}
+		set_country_flag = GER.NASPD_2_is_fire
+	}
+	option = { 
+        name =  GER.NASPD.2.b
+		trigger = {
+		
+		}
+		set_country_flag = GER.NASPD_2_is_fire
+	}
+}
+
+country_event = { #各怀鬼胎
+	id = GER.NASPD.3
+    picture = GFX_events_new_year_speech
+    title = GER.NASPD.3.t
+    desc = GER.NASPD.3.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		}
+	
+	immediate = {
+
+	}
+    option = { 
+        name = GER.NASPD.3.a
+		trigger = {
+			always = yes
+		}
+		set_country_flag = GER.NASPD_3_is_fire
+	}
+	option = { 
+        name =  GER.NASPD.3.b
+		trigger = {
+		
+		}
+		set_country_flag = GER.NASPD_3_is_fire
+	}
+}
+country_event = { #代号X
+	id = GER.NASPD.4
+    picture = GFX_events_new_year_speech
+    title = GER.NASPD.4.t
+    desc = GER.NASPD.4.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		}
+	
+	immediate = {
+
+	}
+    option = { 
+        name = GER.NASPD.4.a
+		trigger = {
+			always = yes
+		}
+		clr_country_flag = Players_choose_NASPD
+		set_country_flag = GER.NASPD_WIN
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+country_event = { #各怀鬼胎
+	id = GER.NASPD.5
+    picture = GFX_events_new_year_speech
+    title = GER.NASPD.5.t
+    desc = GER.NASPD.5.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		}
+	
+	immediate = {
+
+	}
+    option = { 
+        name = GER.NASPD.5.a
+		trigger = {
+			always = yes
+		}
+		set_country_flag = GER.NASPD_WIN
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+country_event = { #雄狮未老
+	id = GER.conservative.1
+    picture = GFX_events_new_year_speech
+    title = GER.conservative.1.t
+    desc = GER.conservative.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		}
+	
+	immediate = {
+
+	}
+    option = { 
+        name = GER.conservative.1.a
+		trigger = {
+			always = yes
+		}
+		set_country_flag = GER.conservative.1_is_fire
+	}
+	option = { 
+        name = GER.conservative.1.b
+		trigger = {
+		
+		}
+		set_country_flag = GER.conservative.1_is_fire
+	}
+	
+}
+country_event = { #中欧协定经济崩溃
+	id = GER.conservative.2
+    picture = GFX_events_new_year_speech
+    title = GER.conservative.2.t
+    desc = GER.conservative.2.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	trigger = {
+		}
+	
+	immediate = {
+
+	}
+    option = { 
+        name = GER.conservative.2.a
+		trigger = {
+			always = yes
+		}
+		set_country_flag = GER.conservative.2_is_fire
+	}
+	option = { 
+        name = GER.conservative.2.b
+		trigger = {
+		
+		}
+		set_country_flag = GER.conservative.2_is_fire
+	}
+	
 }

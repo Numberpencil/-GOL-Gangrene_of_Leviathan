@@ -1,0 +1,1236 @@
+search_filter_prios = {
+
+}
+
+focus_tree = {
+	id = GER_Opening_focus
+	
+	country = {
+		factor  0
+         modifier = {
+			add = 20
+			tag = GER
+		}
+	}
+	
+    default = no
+	focus = {
+		id = GER_New_Year_Speech
+
+		icon = GFX_goal_x
+		x = 8
+		y = 1
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+            add_political_power = 5
+			add_stability = 0.01
+			
+			}
+
+		}
+		focus = {
+		id = GER_Germanic_Brothers
+
+		icon = GFX_goal_x
+		x = 6
+		y = 2
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = GER_New_Year_Speech  }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	
+		}
+		
+		completion_reward = {
+			add_stability = 0.025
+			swap_ideas = {
+         remove_idea = rotten_and_obscurantist_system
+         add_idea = rotten_and_obscurantist_system_1
+        }
+		add_political_power = 15
+			}
+
+		}
+		focus = {
+		id = GER_Gappease_the_laborers
+
+		icon = GFX_goal_x
+		x = 6
+		y = 3
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = GER_Germanic_Brothers  }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+         remove_idea = The_aftermath_of_the_economic_crisis
+         add_idea = The_aftermath_of_the_economic_crisis_1
+        }
+			}
+
+		}
+		focus = {
+		id = GER_Strengthen_EU_agreement
+
+		icon = GFX_goal_x
+		x = 10
+		y = 2
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = GER_New_Year_Speech  }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	
+		}
+		
+		completion_reward = {
+			country_event = {
+			id = GER.4			
+		}
+			}
+
+		}
+		focus = {
+		id = GER_Improving_amidst_stability
+
+		icon = GFX_goal_x
+		x = 10
+		y = 3
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = GER_Strengthen_EU_agreement  }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	         always = no
+		}
+		
+		completion_reward = {
+	        add_political_power = 100
+			add_stability = 0.015
+			mark_focus_tree_layout_dirty = yes
+		}
+			}
+		focus = {
+		id = GER_IEarly_the_next_morning
+
+		icon = GFX_goal_x
+		x = 8
+		y = 4
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = { focus = GER_Improving_amidst_stability  }
+		prerequisite = { focus = GER_Gappease_the_laborers  }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	
+		}
+		allow_branch = {			
+		has_completed_focus = GER_Improving_amidst_stability
+		}
+		completion_reward = {
+	        add_political_power = 100
+			add_stability = 0.015
+			hidden_effect ={
+		     country_event = {
+			  id = GER.6	
+			  days = 3	
+		      }
+		}
+		}
+			}	
+focus = {
+		id = GER_precarious_wall_has_collapsed
+
+		icon = GFX_goal_x
+		x = 15
+		y = 3
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {  }
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	         always = no
+		}
+		allow_branch = {			
+		has_global_flag = The_EU_economic_agreement_has_collapsed
+		}
+		completion_reward = {
+	
+		}
+			}
+		focus = {
+		id = GER_Vow_of_Val
+
+		icon = GFX_goal_x
+		x = 15
+		y = 4
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_precarious_wall_has_collapsed}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	        add_political_power = 50
+			add_stability = 0.01
+			add_popularity = {
+             ideology = national_socialism
+             popularity = 0.01
+           }
+		  
+		}
+			}	
+        focus = {
+		id = GER_German_Economic_Conference
+
+		icon = GFX_goal_x
+		x = 12
+		y = 5
+		cost = 2
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Vow_of_Val}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	        add_political_power = 15
+	
+		}
+			}	
+        focus = {
+		id = GER_Fort_Weights
+
+		icon = GFX_goal_x
+		x = 10
+		y = 6
+		cost = 2
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_German_Economic_Conference}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	        swap_ideas = {
+         remove_idea = economic_aspect_of_the_EU_agreement_has_collapsed
+         add_idea = economic_aspect_of_the_EU_agreement_has_collapsed_1
+        }
+	
+		}
+			}
+	 focus = {
+		id = GER_Build_the_Wall_of_Midgard
+
+		icon = GFX_goal_x
+		x = 14
+		y = 6
+		cost = 3
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_German_Economic_Conference}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+	      has_completed_focus = GER_Fort_Weights
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	       swap_ideas = {
+         remove_idea = economic_aspect_of_the_EU_agreement_has_collapsed_1
+         add_idea = economic_aspect_of_the_EU_agreement_has_collapsed_2
+        }
+		random_controlled_state = {
+             add_building_construction = {
+             type = infrastructure
+             level = 1
+             instant_build = yes
+        }
+        }
+		random_controlled_state = {
+             add_building_construction = {
+             type = infrastructure
+             level = 1
+             instant_build = yes
+        }
+        }
+		random_controlled_state = {
+             add_building_construction = {
+             type = infrastructure
+             level = 1
+             instant_build = yes
+        }
+        }
+		random_controlled_state = {
+             add_building_construction = {
+             type = infrastructure
+             level = 1
+             instant_build = yes
+        }
+        }
+		random_controlled_state = {
+             add_building_construction = {
+             type = infrastructure
+             level = 1
+             instant_build = yes
+        }
+        }
+	    add_ideas = Work_for_relief
+		}
+		}	
+		focus = {
+		id = GER_The_Owl_of_Minerva
+
+		icon = GFX_goal_x
+		x = 12
+		y = 7
+		cost = 2
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Fort_Weights}
+		prerequisite = {focus = GER_Build_the_Wall_of_Midgard}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	        add_political_power = 50
+			add_stability = 0.05
+		}
+		}	
+		focus = {
+		id = GER_Mutual_deception_and_trickery
+
+		icon = GFX_goal_x
+		x = 20
+		y = 5
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Vow_of_Val}
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	        country_event = {
+			id = GER.7
+			days = 3		
+		    }
+	    set_variable = {
+            var = Nazi_Party_social_support #社会支持
+            value = 25
+        }
+		set_variable = {
+            var = Nazi_Party_Intelligence_Value #情报值
+            value = 20
+        }
+		set_variable = {
+            var = conservative_Party_social_support #社会支持-保守派
+            value = 35
+        }
+		set_variable = {
+            var = conservative_Party_Intelligence_Value #社情报值-保守派
+            value = 25
+        }
+		}
+		}
+		focus = {
+		id = GER_Getting_close_the_Crown_Prince
+
+		icon = GFX_goal_x
+		x = 20
+		y = 6
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Mutual_deception_and_trickery}
+		
+	
+		ai_will_do = {
+			base = 1
+		}
+
+		available = {
+
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	         set_power_balance = {
+             id = GER_Crown_Prince_stance
+             left_side = GER_Crown_Prince_bop_left_side
+            right_side = GER_Crown_Prince_bop_right_side
+           }
+		}
+		}
+		focus = {
+		id = GER_1935_Nuremberg_Party_Rally
+
+		icon = GFX_goal_x
+		x = 16
+		y = 7
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		focus = GER_Atlantic_Hotel_Conference
+		} 
+		prerequisite = {focus = GER_Getting_close_the_Crown_Prince}
+		
+	
+		ai_will_do = {
+			base = 1
+		}
+
+		available = {
+          has_country_flag = Players_choose_NASPD
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	    add_to_variable = {
+         var = Nazi_Party_social_support
+         value = 5
+         tooltip = var_Nazi_Party_social_support_add_5_tt
+         }
+		 clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		 unlock_decision_tooltip = GER_State_nation_head_of_state
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action }
+		}	
+		focus = {
+		id = GER_German_People_Association
+
+		icon = GFX_goal_x
+		x = 14
+		y = 8
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_1935_Nuremberg_Party_Rally}
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+         has_country_flag = Players_choose_NASPD
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	     unlock_decision_tooltip = GER_Mobilize_the_masses
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action_1 }
+		}	
+		focus = {
+		id = GER_LOffensive
+
+		icon = GFX_goal_x
+		x = 12
+		y = 9
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_German_People_Association}
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+            has_country_flag = Players_choose_NASPD 
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	     unlock_decision_tooltip = GER_Public_opinion_battle
+		 unlock_decision_tooltip = GER_Crushing_propaganda_interest_slavery
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action_2 }
+		}	
+		focus = {
+		id = GER_Steel_Helmet_Alliance
+		icon = GFX_goal_x
+		x = 14
+		y = 9
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_German_People_Association}
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+            has_country_flag = Players_choose_NASPD
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	     unlock_decision_tooltip = GER_Rallying_the_Veterans
+		 unlock_decision_tooltip = GER_Winning_over_junior_officers
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action_3 }
+		}
+		focus = {
+		id = GER_Brown_Storm
+		icon = GFX_goal_x
+		x = 14
+		y = 10
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Steel_Helmet_Alliance}
+		prerequisite = {focus = GER_LOffensive}
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+            has_country_flag = Players_choose_NASPD
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	     unlock_decision_tooltip = GER_Organize_a_parade
+		 unlock_decision_tooltip = GER_work_with_radicals
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action_4 }
+		}	
+		focus = {
+		id = GER_Listen_to_the_Shadows
+		icon = GFX_goal_x
+		x = 16
+		y = 8
+		cost = 0.5
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_1935_Nuremberg_Party_Rally}
+
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+            has_country_flag = Players_choose_NASPD
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	     unlock_decision_tooltip = GER_Expanded_Security_Department
+		 unlock_decision_tooltip = GER_Contact_local_police
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action_5 }
+		}	
+		focus = {
+		id = GER_Black_Legion_Search_Warrant
+		icon = GFX_goal_x
+		x = 16
+		y = 10
+		cost = 2
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Listen_to_the_Shadows}
+
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+            has_country_flag = Players_choose_NASPD
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	     unlock_decision_tooltip = GER_Raid_on_conservative_residences
+		 unlock_decision_tooltip = GER_Infiltrating_enemy_organizations
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action_6 }
+		}	
+		focus = {
+		id = GER_unite_forces_can_united
+		icon = GFX_goal_x
+		x = 16
+		y = 11
+		cost = 3
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Black_Legion_Search_Warrant}
+
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+            has_country_flag = Players_choose_NASPD
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+		 unlock_decision_tooltip = GER_Threaten_an_opponent
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action_7 }
+		}
+		focus = {
+		id = GER_Waffen_SS
+		icon = GFX_goal_x
+		x = 16
+		y = 12
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_unite_forces_can_united}
+
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+            has_country_flag = Players_choose_NASPD
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	     unlock_decision_tooltip = GER_Review_security
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action_8 }
+		}	
+		focus = {
+		id = GER_Operation_Hummingbird
+		icon = GFX_goal_x
+		x = 16
+		y = 13
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Waffen_SS}
+
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+            has_country_flag = Players_choose_NASPD
+		}
+		allow_branch = {			
+	
+		}
+		completion_reward = {
+	     unlock_decision_tooltip = GER_Like_shooting_fish_in_a_barrel
+		}
+		select_effect = { activate_mission = GER_Conservatives_are_taking_action_9 }
+		}
+		focus = {
+		id = GER_Public_trial
+		icon = GFX_goal_x
+		x = 12
+		y = 14
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Operation_Hummingbird}
+
+		
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+	        has_country_flag = GER.NASPD_WIN
+		}
+		completion_reward = {
+	     country_event = {
+			id = GER.NASPD.5		
+		    }
+			remove_power_balance = {
+              id = GER_Crown_Prince_stance
+            }
+		}
+		}
+		focus = {
+		id = GER_Atlantic_Hotel_Conference
+		icon = GFX_goal_x
+		x = 24
+		y = 7
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		focus = GER_1935_Nuremberg_Party_Rally
+		} 
+		prerequisite = {focus = GER_Getting_close_the_Crown_Prince}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}
+		focus = {
+		id = GER_Roundtable_Friends
+		icon = GFX_goal_x
+		x = 26
+		y = 8
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Atlantic_Hotel_Conference}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}
+		focus = {
+		id = GER_Crossing_the_Rough_Waters_Together
+		icon = GFX_goal_x
+		x = 28
+		y = 9
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Roundtable_Friends}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}
+		focus = {
+		id = GER_Ethnic_Group
+		icon = GFX_goal_x
+		x = 26
+		y = 9
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Roundtable_Friends}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}
+		focus = {
+		id = GER_People_Conservative_Alliance
+		icon = GFX_goal_x
+		x = 26
+		y = 10
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Crossing_the_Rough_Waters_Together}
+		prerequisite = {focus = GER_Ethnic_Group}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}
+		focus = {
+		id = GER_The_Elusive_Phantom
+		icon = GFX_goal_x
+		x = 24
+		y = 8
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Atlantic_Hotel_Conference}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}
+		focus = {
+		id = GER_Guerrilla_tyle_meeting
+		icon = GFX_goal_x
+		x = 24
+		y = 10
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_The_Elusive_Phantom}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}	
+		focus = {
+		id = GER_Identify_their_weaknesses
+		icon = GFX_goal_x
+		x = 24
+		y = 11
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Guerrilla_tyle_meeting}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}
+		focus = {
+		id = GER_Plant_an_informant
+		icon = GFX_goal_x
+		x = 24
+		y = 12
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Guerrilla_tyle_meeting}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}
+		focus = {
+		id = GER_Everything_is_ready
+		icon = GFX_goal_x
+		x = 24
+		y = 13
+		cost = 1
+
+		allow_branch = {
+		
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		prerequisite = {focus = GER_Guerrilla_tyle_meeting}
+
+		available = {
+           always = no
+		   has_country_flag = Players_choose_conservative
+		}
+	
+		ai_will_do = {
+			base = 0.5
+		}
+
+		allow_branch = {			
+			
+		}
+		completion_reward = {
+	     
+		}
+		}																																																		
+	}
+		
+	
+
+

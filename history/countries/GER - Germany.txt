@@ -1467,3 +1467,12 @@ set_party_name = {
 	long_name = "GER_PARTY_NAME_OC_NSDAP"
 	name = "GER_PARTY_NAME_OC_NSDAP"
 }
+
+GER = {
+	country_event = {
+		id = GER.1
+		days = 5
+	}
+
+}
+

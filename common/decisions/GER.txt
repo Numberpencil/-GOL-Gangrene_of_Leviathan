@@ -1,0 +1,1850 @@
+GOL_GER_Work_for_relief_decisions_category= {
+GER_Work_for_relief_decisions = {#推动以工代赈
+
+
+		icon = GFX_decision_generic_political_rally 
+	
+		allowed = {
+		}
+		
+		visible = {
+			
+		}
+		
+		available = {
+		}
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 1
+			
+			}
+		}
+
+		state_target = yes
+
+		target_array = ROOT.core_states
+	    
+	    target_trigger = {
+	        FROM = {
+	        	is_owned_and_controlled_by = ROOT
+				infrastructure < 5
+	        }
+	    }
+	    on_map_mode = map_and_decisions_view 
+
+	    cost = 50
+
+		fire_only_once = yes 
+
+		days_remove = 40
+
+		modifier = {
+			
+		}
+
+		complete_effect = { 
+		}
+
+		remove_effect = {
+			FROM = {
+					add_building_construction = {
+                     type = infrastructure
+                     level = 1
+                     instant_build = yes
+            }
+					
+				}
+		 }
+		
+
+		cancel_trigger = {
+			FROM = {
+				NOT = { is_controlled_by = ROOT }
+				
+			}
+		}
+
+		cancel_effect = {
+		}
+}
+	}
+GOL_GER_On_Stage_category= {
+GER_State_nation_head_of_state = {#国家.民族.元首
+
+
+		icon = generic_industry
+		priority = 19
+		available = {
+
+		}
+
+		visible = {
+          has_completed_focus = GER_1935_Nuremberg_Party_Rally
+		  has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+			political_power_cost = -0.5
+		}
+
+		days_remove = 14
+		days_re_enable = 5
+
+		cost = 0
+        remove_effect = {
+           add_political_power = 50
+		}
+
+		complete_effect = {
+       
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+GER_Mobilize_the_masses= {# 动员群众
+
+		icon = generic_industry
+		priority = 19
+		available = {
+
+		}
+
+		visible = { 
+         has_completed_focus = GER_German_People_Association
+		 has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			national_socialism_drift = 0.1
+		}
+
+		days_remove = 7
+		days_re_enable = 5
+
+		cost = 20
+        remove_effect = {
+        add_stability = -0.025
+		 add_to_variable = {
+         var = Nazi_Party_social_support
+         value = 5
+         tooltip = var_Nazi_Party_social_support_add_5_tt
+         }
+		 clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		
+			if ={
+				GER = {
+					NOT  = {
+		              	has_country_flag = GER.NASPD_1_is_firemy_flag
+					}
+					country_event = GER.NASPD.1
+				}
+			}
+			
+		 
+
+		}
+
+		complete_effect = {
+       
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}	
+	GER_Public_opinion_battle= { #舆论作战
+
+		icon = generic_industry
+		priority = 19
+		available = {
+            command_power > 10
+		}
+
+		visible = {
+            has_completed_focus = GER_LOffensive
+			has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			national_socialism_drift = 0.2
+		}
+
+		days_remove = 14
+		days_re_enable = 5
+
+		cost = 15
+
+        remove_effect = { 
+        add_stability = -0.025
+		add_to_variable = {
+         var = Nazi_Party_social_support
+         value = 5
+         tooltip = var_Nazi_Party_social_support_add_5_tt
+         }
+		 subtract_from_variable = {
+         var = conservative_Party_social_support
+         value = 5
+         tooltip = sub_5_conservative_Party_social_support_tt
+        }
+		 clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		 clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		 if ={
+				GER = {
+					NOT  = {
+		              	has_country_flag = GER.NASPD_2_is_firemy_flag
+					} 
+					country_event = GER.NASPD.2
+				}
+			}
+
+
+		}
+
+		complete_effect = {
+         add_command_power = -10
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	GER_Crushing_propaganda_interest_slavery= { #粉碎利息奴役宣传
+
+		icon = generic_industry
+		priority = 19
+		available = {
+ 
+		}
+
+		visible = {
+            has_completed_focus = GER_LOffensive
+			has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 2
+		}
+
+		days_remove = 21
+		days_re_enable = 5
+
+		cost = 25
+
+        remove_effect = { 
+        add_stability = -0.05
+		add_to_variable = {
+         var = Nazi_Party_social_support
+         value = 10
+         tooltip = var_Nazi_Party_social_support_add_10_tt
+         }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+
+		}
+
+		complete_effect = {
+   
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}	
+	GER_Organize_a_parade= { #组织游行
+
+		icon = generic_industry
+		priority = 19
+		available = {
+          has_manpower > 100
+		}
+
+		visible = {
+            has_completed_focus = GER_Brown_Storm
+			has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+		political_power_gain = 0.5
+		}
+
+		days_remove = 21
+		days_re_enable = 5
+
+		cost = 50
+
+        remove_effect = { 
+        add_stability = -0.05
+		subtract_from_variable = {
+         var = conservative_Party_social_support
+         value = 5
+         tooltip = sub_5_conservative_Party_social_support_tt
+        }
+		 clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+
+		}
+
+		complete_effect = {
+          add_manpower = -100
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	GER_Rallying_the_Veterans = { #召集老兵
+
+		icon = generic_industry
+		priority = 19
+		available = {
+          has_equipment = {
+           support_equipment > 100
+            }
+		}
+
+		visible = {
+            has_completed_focus = GER_Steel_Helmet_Alliance
+			has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+
+		}
+
+		days_remove = 7
+		days_re_enable = 5
+
+		cost = 20
+
+        remove_effect = { 
+      
+		add_to_variable = {
+         var = Nazi_Party_social_support
+         value = 10
+         tooltip = var_Nazi_Party_social_support_add_10_tt
+         }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		army_experience = 10
+		add_command_power = 5
+		add_manpower = 5000
+		}
+
+		complete_effect = {
+          add_equipment_to_stockpile = {
+          type = support_equipment
+            amount = -100
+        }
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}	
+	GER_Winning_over_junior_officers= { #拉拢基层军官
+
+		icon = generic_industry
+		priority = 19
+		available = {
+
+
+       
+        }
+		
+		visible = {
+            has_completed_focus = GER_Steel_Helmet_Alliance
+			has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+       consumer_goods_factor = 0.025
+	   conscription = 0.01
+		}
+
+		days_remove = 14
+		days_re_enable = 5
+
+		cost = 25
+
+        remove_effect = { 
+      
+		add_to_variable = {
+         var = Nazi_Party_social_support
+         value = 15
+         tooltip = var_Nazi_Party_social_support_add_15_tt
+         }
+		 subtract_from_variable = {
+         var = conservative_Party_social_support
+         value = 2.5
+         tooltip = sub_2.5_conservative_Party_social_support_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		add_command_power = 5
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}
+	GER_work_with_radicals= { #与激进派合作
+
+		icon = generic_industry
+		priority = 19
+		available = {
+
+
+       
+        }
+		
+		visible = {
+            has_completed_focus = GER_Brown_Storm
+			has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+       consumer_goods_factor = 0.025
+	   conscription = 0.01
+		}
+
+		days_remove = 14
+		days_re_enable = 5
+
+		cost = 25
+
+        remove_effect = { 
+        if ={
+				GER = {
+					NOT  = {
+		              	has_country_flag = GER.NASPD_3_is_firemy_flag
+					} 
+					country_event = GER.NASPD.3
+				}
+			}
+		add_to_variable = {
+         var = Nazi_Party_social_support
+         value = 10
+         tooltip = var_Nazi_Party_social_support_add_10_tt
+         }
+		 subtract_from_variable = {
+         var = conservative_Party_social_support
+         value = 15
+         tooltip = sub_15_conservative_Party_social_support_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		add_stability = -0.05
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}	
+
+	GER_The_Crown_Prince_opinion_mission= { #皇储的意见
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		 has_completed_focus = GER_Atlantic_Hotel_Conference
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 7
+
+
+        timeout_effect = {
+         add_political_power = -30
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}	
+	GER_Gathering_old_friends_mission= { #召集旧友
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		  has_completed_focus = GER_Roundtable_Friends
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 14
+
+
+        timeout_effect = {
+       add_to_variable = {
+         var = conservative_Party_social_support
+         value = 5
+         tooltip = var_conservative_Party_social_support_add_5_tt
+         }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		 add_equipment_to_stockpile = {
+          type = support_equipment
+            amount = -50
+        }
+		add_manpower = -500
+		 if ={
+				GER = {
+					NOT  = {
+		              	has_country_flag = GER.conservative.1_is_fire
+					} 
+					country_event = GER.conservative.1
+				}
+			}
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}	
+	GER_Defend_corporate_assets_mission= { #与激进派合作
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		   has_completed_focus = GER_Ethnic_Group
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 21
+
+
+        timeout_effect = {
+       add_to_variable = {
+         var = conservative_Party_social_support
+         value = 10
+         tooltip = var_conservative_Party_social_support_add_10_tt
+         }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		add_command_power = -10
+		add_stability = 0.025
+		if ={
+				GER = {
+					NOT  = {
+		              	has_country_flag = GER.conservative.2_is_fire
+					} 
+					country_event = GER.conservative.2
+				}
+			}
+		}
+		
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}
+	GER_Contact_Juncker_mission= { #与联络容克
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		   has_completed_focus = GER_Ethnic_Group
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 14
+
+
+        timeout_effect = {
+		subtract_from_variable = {
+         var = conservative_Party_social_support
+         value = 2.5
+         tooltip = sub_2.5_conservative_Party_social_support_tt
+        }
+		subtract_from_variable = {
+         var = Nazi_Party_social_support
+         value = 8
+         tooltip = sub_8_Nazi_Party_social_support_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		random_controlled_state = {
+             add_building_construction = {
+             type = industrial_complex
+             level = 1
+             instant_build = yes
+        }
+        }
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	
+}																	
+
+GER_conservative_romance_mission= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		  has_completed_focus = GER_Crossing_the_Rough_Waters_Together
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 14
+
+
+        timeout_effect = {
+	  add_to_variable = {
+         var = conservative_Party_social_support
+         value = 5
+         tooltip = var_conservative_Party_social_support_add_5_tt
+         }
+		subtract_from_variable = {
+         var = Nazi_Party_social_support
+         value = 5
+         tooltip = sub_5_Nazi_Party_social_support_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		add_stability = -0.05
+		}
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	
+}											
+GER_Organize_a_rally_mission= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	    activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		 has_completed_focus = GER_People_Conservative_Alliance
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+             political_power_gain = -0.5
+		}
+
+		days_mission_timeout = 14
+        days_remove = 14
+
+        timeout_effect = {
+	     
+		}
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	
+}
+GER_Nazism_Germany_Catastrophe_mission= { #纳粹：德国的灾难
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	    activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		  has_completed_focus = GER_Ethnic_Group
+        } 
+
+		fire_only_once = yes
+
+		modifier = {
+       
+		}
+
+		days_mission_timeout = 7
+
+        timeout_effect = {
+		add_to_variable = {
+         var = conservative_Party_social_support
+         value = 5
+         tooltip = var_conservative_Party_social_support_add_5_tt
+         }
+	    subtract_from_variable = {
+         var = Nazi_Party_social_support
+         value = 10
+         tooltip = sub_10_Nazi_Party_social_support_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		}
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	
+}
+GER_Winning_over_centrists_mission= { #拉拢中间派
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	    activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		 has_completed_focus = GER_People_Conservative_Alliance
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+            democrat_drift = 0.03
+		}
+
+		days_mission_timeout = 7
+        days_remove = 14
+
+        timeout_effect = {
+		add_to_variable = {
+         var = conservative_Party_social_support
+         value = 5
+         tooltip = var_conservative_Party_social_support_add_5_tt
+         }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		}
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	
+}
+GER_Conservatives_are_taking_action= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	    activation = {
+		 always = no
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 7
+
+        timeout_effect = {
+			complete_national_focus = GER_Atlantic_Hotel_Conference
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+	GER_Conservatives_are_taking_action_1= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	    activation = {
+		 always = no
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 7
+
+        timeout_effect = {
+			complete_national_focus = GER_Roundtable_Friends
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+	GER_Conservatives_are_taking_action_2= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	     activation = {
+		 always = no
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 7
+
+        timeout_effect = {
+			complete_national_focus = GER_Crossing_the_Rough_Waters_Together
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+	GER_Conservatives_are_taking_action_3= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	     activation = {
+		 always = no
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 7
+
+        timeout_effect = {
+			complete_national_focus = GER_Ethnic_Group
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+	GER_Conservatives_are_taking_action_4= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	    activation = {
+		 always = no
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 7
+
+        timeout_effect = {
+			complete_national_focus = GER_People_Conservative_Alliance
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+	GER_Conservatives_are_taking_action_5= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	     activation = {
+		 always = no
+        }  
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 7
+
+        timeout_effect = {
+			complete_national_focus = GER_The_Elusive_Phantom
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+	GER_Conservatives_are_taking_action_6= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	    activation = {
+		 always = no
+        } 
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 7
+
+
+        timeout_effect = {
+			complete_national_focus = GER_Guerrilla_tyle_meeting
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+	GER_Conservatives_are_taking_action_7= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	     activation = {
+		 always = no
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 21
+
+        timeout_effect = {
+			complete_national_focus = GER_Identify_their_weaknesses
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+	GER_Conservatives_are_taking_action_8= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	    activation = {
+		 always = no
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 21
+
+        timeout_effect = {
+			complete_national_focus = GER_Plant_an_informant
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+	GER_Conservatives_are_taking_action_9= { #保守的浪漫
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		
+	    activation = {
+		 always = no
+        } 
+
+		fire_only_once = no
+
+		modifier = {
+
+		}
+
+		days_mission_timeout = 10
+
+        timeout_effect = {
+			complete_national_focus = GER_Everything_is_ready
+								
+			}	
+					
+
+		complete_effect = {
+        
+		}
+
+		ai_will_do = {
+	
+			
+		}
+		cancel_trigger = {
+
+		}
+	}
+}
+GOL_GER_In_the_Shadows = {
+GER_Raid_on_conservative_residences = { #突袭保守派据点
+
+		icon = generic_industry
+		priority = 19
+		available = {
+          has_equipment = {
+           infantry_equipment > 150
+            }
+		}
+
+		visible = {
+
+			has_country_flag = Players_choose_NASPD
+			has_completed_focus = GER_Black_Legion_Search_Warrant
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+
+		}
+
+		days_remove = 10
+		days_re_enable = 5
+
+		cost = 20
+
+        remove_effect = { 
+      
+		subtract_from_variable = {
+         var = conservative_Party_Intelligence_Value
+         value = 5
+         tooltip = sub_5_conservative_Party_Intelligence_Value_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		}
+
+		complete_effect = {
+          add_equipment_to_stockpile = {
+          type = infantry_equipment
+            amount = -150
+        }
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	GER_Expanded_Security_Department = { #扩权安保处
+
+		icon = generic_industry
+		priority = 19
+		available = {
+          has_equipment = {
+           infantry_equipment > 150
+            }
+		}
+
+		visible = {
+
+			has_country_flag = Players_choose_NASPD
+			has_completed_focus = GER_Listen_to_the_Shadows
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+
+		}
+
+		days_remove = 14
+		days_re_enable = 5
+
+		cost = 20
+
+        remove_effect = { 
+     
+		}
+
+		complete_effect = {
+        add_to_variable = {
+         var = Nazi_Party_Intelligence_Value
+         value = 15
+         tooltip = var_Nazi_Party_Intelligence_Value_add_15_tt
+         }
+        clamp_variable = { var = Nazi_Party_Intelligence_Value max =  100 min = 0 }
+		 add_ideas = GOL_idea_Expanded_Security_Department
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	GER_Infiltrating_enemy_organizations= { #突袭保守派据点
+
+		icon = generic_industry
+		priority = 19
+		available = {
+            command_power > 10
+		}
+
+		visible = {
+
+			has_country_flag = Players_choose_NASPD
+			has_completed_focus = GER_Black_Legion_Search_Warrant
+	   }
+
+		fire_only_once = no
+
+
+		modifier = {
+
+		}
+
+		days_remove = 7
+		days_re_enable = 5
+
+		cost = 15
+
+        remove_effect = { 
+       add_to_variable = {
+         var = Nazi_Party_Intelligence_Value
+         value = 5
+         tooltip = var_Nazi_Party_Intelligence_Value_add_5_tt
+         }
+        clamp_variable = { var = Nazi_Party_Intelligence_Value max =  100 min = 0 }
+		}
+
+		complete_effect = {
+      
+		 add_command_power = -10
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	GER_Contact_local_police= { #突袭保守派据点
+
+		icon = generic_industry
+		priority = 19
+		available = {
+
+		}
+
+		visible = {
+            has_completed_focus = GER_Listen_to_the_Shadows
+			has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = no
+
+
+		modifier = {
+
+		}
+
+		days_remove = 7
+		days_re_enable = 5
+
+		cost = 20
+
+        remove_effect = { 
+      subtract_from_variable = {
+         var = Nazi_Party_Intelligence_Value
+         value = 5
+         tooltip = sub_5_Nazi_Party_Intelligence_Value_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		subtract_from_variable = {
+         var = conservative_Party_Intelligence_Value
+         value = 7
+         tooltip = sub_7_conservative_Party_Intelligence_Value_tt
+        }
+        clamp_variable = { var = conservative_Party_Intelligence_Value max =  100 min = 0 }
+		}
+
+		complete_effect = {
+       
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	GER_Review_security= { #突袭保守派据点
+
+		icon = generic_industry
+		priority = 19
+		available = {
+
+		}
+
+		visible = {
+
+			has_country_flag = Players_choose_NASPD
+			has_completed_focus = GER_Waffen_SS
+	   }
+
+		fire_only_once = yes
+
+
+		modifier = {
+
+		}
+
+		days_remove = 14
+		days_re_enable = 5
+
+		cost = 20
+
+        remove_effect = { 
+        subtract_from_variable = {
+         var = conservative_Party_Intelligence_Value
+         value = 5
+         tooltip = sub_5_conservative_Party_Intelligence_Value_tt
+        }
+        clamp_variable = { var = conservative_Party_Intelligence_Value max =  100 min = 0 }
+		}
+
+		complete_effect = {
+       
+		
+		add_manpower = -200
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	GER_Threaten_an_opponent= { #威胁对手
+
+		icon = generic_industry
+		priority = 19
+		available = {
+            has_equipment = {
+           support_equipment > 50
+            }
+			
+			
+		}
+
+		visible = {
+            has_completed_focus = GER_unite_forces_can_united
+			has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = yes
+
+
+		modifier = {
+            democrat_drift = -0.02
+		}
+
+		days_remove = 14
+		days_re_enable = 5
+
+		cost = 20
+
+        remove_effect = { 
+        add_equipment_to_stockpile = {
+          type = support_equipment
+            amount = 450
+        }
+		}
+
+		complete_effect = {
+       
+		
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	GER_Like_shooting_fish_in_a_barrel= { #突袭保守派据点
+
+		icon = generic_industry
+		priority = 19
+		available = {
+            has_equipment = {
+           infantry_equipment > 1000
+            }
+			GER = {
+			
+			custom_override_tooltip= {
+             tooltip = GER_Like_shooting_fish_in_a_barrel_tt
+             check_variable = {
+               Nazi_Party_Intelligence_Value > conservative_Party_Intelligence_Value
+            }
+             }
+			  check_variable = {
+               Nazi_Party_Intelligence_Value > 70
+            }
+			}
+		}
+
+		visible = {
+            has_completed_focus = GER_Operation_Hummingbird
+			has_country_flag = Players_choose_NASPD
+	   }
+
+		fire_only_once = yes
+
+
+		modifier = {
+            democrat_drift = -0.02
+		}
+
+		days_remove = 14
+		days_re_enable = 5
+
+		cost = 30
+
+        remove_effect = { 
+       
+		country_event = GER.NASPD.4
+		}
+
+		complete_effect = {
+        add_equipment_to_stockpile = {
+          type = support_equipment
+            amount = -1000
+        }
+		
+		}
+
+		ai_will_do = {
+			base = 50
+			
+		}
+	}
+	GER_Activate_the_network= { #召集旧友
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		 has_completed_focus = GER_The_Elusive_Phantom
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 14
+
+
+        timeout_effect = {
+       add_to_variable = {
+         var = conservative_Party_Intelligence_Value
+         value = 15
+         tooltip = var_conservative_Party_Intelligence_Value_add_15_tt
+         }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}
+	GER_Distract_attention= { #分散注意力
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		 has_completed_focus = GER_Guerrilla_tyle_meeting
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 7
+
+
+        timeout_effect = {
+         subtract_from_variable = {
+         var = Nazi_Party_Intelligence_Value
+         value = 10
+         tooltip = sub_10_Nazi_Party_Intelligence_Value_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}
+	GER_Relocate_the_gathering_site= { #分散注意力
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		 has_completed_focus = GER_Guerrilla_tyle_meeting
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 14
+
+
+        timeout_effect = {
+         subtract_from_variable = {
+         var = Nazi_Party_Intelligence_Value
+         value = 10
+         tooltip = sub_10_Nazi_Party_Intelligence_Value_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}
+	GER_Turn_NSDAP_defection= { #分散注意力
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		 has_completed_focus = GER_Guerrilla_tyle_meeting
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 7
+
+
+        timeout_effect = {
+         subtract_from_variable = {
+         var = Nazi_Party_Intelligence_Value
+         value = 5
+         tooltip = sub_5_Nazi_Party_Intelligence_Value_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		 add_to_variable = {
+         var = conservative_Party_Intelligence_Value
+         value = 5
+         tooltip = var_conservative_Party_Intelligence_Value_add_5_tt
+         }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}
+	GER_Mobilize_the_national_police { #分散注意力
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		 has_completed_focus = GER_The_Elusive_Phantom
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 14
+
+
+        timeout_effect = {
+         subtract_from_variable = {
+         var = Nazi_Party_Intelligence_Value
+         value = 5
+         tooltip = sub_5_Nazi_Party_Intelligence_Value_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}
+	GER_Infiltrating_Hitler_security { #分散注意力
+
+		icon = generic_industry
+		priority = 19
+		available = {
+           always = no      
+        }
+		activation = {
+         always = yes
+		 has_country_flag = Players_choose_NASPD
+		 has_completed_focus = GER_Plant_an_informant
+        } 
+		visible = {
+           
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+     
+		}
+
+		days_mission_timeout = 7
+
+
+        timeout_effect = {
+          subtract_from_variable = {
+         var = Nazi_Party_Intelligence_Value
+         value = 5
+         tooltip = sub_5_Nazi_Party_Intelligence_Value_tt
+        }
+        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+		 add_to_variable = {
+         var = conservative_Party_Intelligence_Value
+         value = 5
+         tooltip = var_conservative_Party_Intelligence_Value_add_5_tt
+         }
+		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		}
+
+		complete_effect = {
+         
+		}
+
+		ai_will_do = {
+	
+			
+		}
+	}
+}
