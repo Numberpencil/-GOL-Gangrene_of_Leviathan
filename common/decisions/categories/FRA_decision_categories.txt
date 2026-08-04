@@ -4,6 +4,22 @@
 
 GOL_FRA_Suppressing_riots_decisions_category = {
 	icon = generic_ignite_civil_war
+	priority = 10
+
+	allowed = {
+		tag = FRA
+	}
+    priority = {
+	base = 5
+    }
+	visible = {
+		has_global_flag = GOL_flag_FRA_The_riots
+	}
+
+	visible_when_empty = yes
+}
+GOL_FRA_Renationalization_policy_decisions_category = {
+	icon = generic_ignite_civil_war
 	priority = 9
 
 	allowed = {
@@ -13,7 +29,23 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 	base = 10
     }
 	visible = {
-		has_global_flag = GOL_flag_FRA_The_riots
+		has_completed_focus = FRA_AA_Renationalization_policy
+	}
+
+	visible_when_empty = no
+}
+GOL_FRA_Establishment_of_the_French_Economic_Council_decisions_category = {
+	icon = generic_ignite_civil_war
+	priority = 8
+
+	allowed = {
+		tag = FRA
+	}
+    priority = {
+	base = 10
+    }
+	visible = {
+		has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
 	}
 
 	visible_when_empty = yes

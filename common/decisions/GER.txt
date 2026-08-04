@@ -139,15 +139,15 @@ GER_Mobilize_the_masses= {# 动员群众
          }
 		 clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
 		
-			if ={
-				GER = {
-					NOT  = {
-		              	has_country_flag = GER.NASPD_1_is_firemy_flag
-					}
-					country_event = GER.NASPD.1
-				}
-			}
-			
+	GER = {
+    if = {
+        limit = {
+            NOT = { has_country_flag = GER_NASPD_1_is_fire }
+        }
+        country_event = { id = GER.NASPD.1 }
+        set_country_flag = GER_NASPD_1_is_fire
+    }
+    }
 		 
 
 		}
@@ -199,18 +199,16 @@ GER_Mobilize_the_masses= {# 动员群众
         }
 		 clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
 		 clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
-		 if ={
-				GER = {
-					NOT  = {
-		              	has_country_flag = GER.NASPD_2_is_firemy_flag
-					} 
-					country_event = GER.NASPD.2
-				}
-			}
-
-
-		}
-
+		 GER = {
+         if = {
+        limit = {
+            NOT = { has_country_flag = GER_NASPD_2_is_fire }
+        }
+        country_event = { id = GER.NASPD.2 }
+        set_country_flag = GER_NASPD_2_is_fire
+    }
+    }
+    }
 		complete_effect = {
          add_command_power = -10
 		}
@@ -219,7 +217,8 @@ GER_Mobilize_the_masses= {# 动员群众
 			base = 50
 			
 		}
-	}
+	
+}
 	GER_Crushing_propaganda_interest_slavery= { #粉碎利息奴役宣传
 
 		icon = generic_industry
@@ -440,14 +439,15 @@ GER_Mobilize_the_masses= {# 动员群众
 		cost = 25
 
         remove_effect = { 
-        if ={
-				GER = {
-					NOT  = {
-		              	has_country_flag = GER.NASPD_3_is_firemy_flag
-					} 
-					country_event = GER.NASPD.3
-				}
-			}
+         GER = {
+         if = {
+        limit = {
+            NOT = { has_country_flag = GER_NASPD_3_is_fire }
+        }
+        country_event = { id = GER.NASPD.3 }
+        set_country_flag = GER_NASPD_3_is_fire
+    }
+    }
 		add_to_variable = {
          var = Nazi_Party_social_support
          value = 10
@@ -548,15 +548,15 @@ GER_Mobilize_the_masses= {# 动员群众
             amount = -50
         }
 		add_manpower = -500
-		 if ={
-				GER = {
-					NOT  = {
-		              	has_country_flag = GER.conservative.1_is_fire
-					} 
-					country_event = GER.conservative.1
-				}
-			}
-		}
+		 GER = {
+         if = {
+        limit = {
+            NOT = { has_country_flag = GER_conservative_1_is_fire }
+        }
+        country_event = { id = GER.conservative.1 }
+        set_country_flag = GER_conservative_1_is_fire
+    }
+    }
 
 		complete_effect = {
          
@@ -567,6 +567,7 @@ GER_Mobilize_the_masses= {# 动员群众
 			
 		}
 	}	
+}
 	GER_Defend_corporate_assets_mission= { #与激进派合作
 
 		icon = generic_industry
@@ -604,7 +605,7 @@ GER_Mobilize_the_masses= {# 动员群众
 		if ={
 				GER = {
 					NOT  = {
-		              	has_country_flag = GER.conservative.2_is_fire
+		              	has_country_flag = GER_conservative_2_is_fire
 					} 
 					country_event = GER.conservative.2
 				}
@@ -1237,6 +1238,7 @@ GER_Conservatives_are_taking_action= { #保守的浪漫
 
 		}
 	}
+
 }
 GOL_GER_In_the_Shadows = {
 GER_Raid_on_conservative_residences = { #突袭保守派据点
@@ -1288,6 +1290,7 @@ GER_Raid_on_conservative_residences = { #突袭保守派据点
 			
 		}
 	}
+    
 	GER_Expanded_Security_Department = { #扩权安保处
 
 		icon = generic_industry
@@ -1608,7 +1611,7 @@ GER_Raid_on_conservative_residences = { #突袭保守派据点
          value = 15
          tooltip = var_conservative_Party_Intelligence_Value_add_15_tt
          }
-		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		clamp_variable = { var = conservative_Party_Intelligence_Value max =  100 min = 0 }
 		}
 
 		complete_effect = {
@@ -1651,7 +1654,7 @@ GER_Raid_on_conservative_residences = { #突袭保守派据点
          value = 10
          tooltip = sub_10_Nazi_Party_Intelligence_Value_tt
         }
-        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+        clamp_variable = { var = Nazi_Party_Intelligence_Value max =  100 min = 0 }
 		}
 
 		complete_effect = {
@@ -1694,7 +1697,7 @@ GER_Raid_on_conservative_residences = { #突袭保守派据点
          value = 10
          tooltip = sub_10_Nazi_Party_Intelligence_Value_tt
         }
-        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+        clamp_variable = { var = Nazi_Party_Intelligence_Value max =  100 min = 0 }
 		}
 
 		complete_effect = {
@@ -1737,13 +1740,13 @@ GER_Raid_on_conservative_residences = { #突袭保守派据点
          value = 5
          tooltip = sub_5_Nazi_Party_Intelligence_Value_tt
         }
-        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+        clamp_variable = { var = Nazi_Party_Intelligence_Value max =  100 min = 0 }
 		 add_to_variable = {
          var = conservative_Party_Intelligence_Value
          value = 5
          tooltip = var_conservative_Party_Intelligence_Value_add_5_tt
          }
-		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		clamp_variable = { var = conservative_Party_Intelligence_Value max =  100 min = 0 }
 		}
 
 		complete_effect = {
@@ -1786,7 +1789,7 @@ GER_Raid_on_conservative_residences = { #突袭保守派据点
          value = 5
          tooltip = sub_5_Nazi_Party_Intelligence_Value_tt
         }
-        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+        clamp_variable = { var = Nazi_Party_Intelligence_Value max =  100 min = 0 }
 		}
 
 		complete_effect = {
@@ -1829,13 +1832,13 @@ GER_Raid_on_conservative_residences = { #突袭保守派据点
          value = 5
          tooltip = sub_5_Nazi_Party_Intelligence_Value_tt
         }
-        clamp_variable = { var = Nazi_Party_social_support max =  100 min = 0 }
+        clamp_variable = { var = Nazi_Party_Intelligence_Value max =  100 min = 0 }
 		 add_to_variable = {
          var = conservative_Party_Intelligence_Value
          value = 5
          tooltip = var_conservative_Party_Intelligence_Value_add_5_tt
          }
-		clamp_variable = { var = conservative_Party_social_support max =  100 min = 0 }
+		clamp_variable = { var = conservative_Party_Intelligence_Value max =  100 min = 0 }
 		}
 
 		complete_effect = {
@@ -1844,7 +1847,8 @@ GER_Raid_on_conservative_residences = { #突袭保守派据点
 
 		ai_will_do = {
 	
-			
+			 
 		}
 	}
 }
+ 

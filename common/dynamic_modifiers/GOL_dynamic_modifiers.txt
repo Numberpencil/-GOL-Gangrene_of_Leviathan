@@ -1,0 +1,49 @@
+#	Example:
+# 
+#	example_dynamic_modifier = {
+#		icon = "GFX_idea_unknown" # optional, will show up in guis if icon is specified
+#		enable = { always = yes } #optional, the modifier won't apply if not enabled
+#		remove_trigger = { always = no } #optional, will remove the modifier if true
+#       attacker_modifier = no  # if yes this modifier will also be read in combat for 
+#                               # people engaging in the combat even if not in the state
+#
+#		# list of modifiers
+#		fuel_cost = 321
+#		max_fuel = var_max_fuel # will be taken from a variable
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		add_dynamic_modifier = {
+#			modifier = example_dynamic_modifier
+#			scope = GER # optional, if you specify this your dynamic modifier scoped to this scope (root is the effect scope)
+#			days = 14 # optional, will be removed after this many days passes
+#		}
+#	}
+#
+#	can be added to countries, states, unit leaders or special projects
+#	will only updated daily, unless forced by force_update_dynamic_modifier effect
+
+French_economy = {
+icon = GFX_idea_generic_agrarian_society
+enable = { always = yes }
+political_power_gain = var_French_economy_political_power_gain #政治点
+consumer_goods_factor = var_French_economy_consumer_goods_factor #消费品系数
+research_speed_factor  = var_French_economy_research_speed_factor #科研
+industrial_capacity_factory = var_French_economy_industrial_capacity_factory #工厂产出
+
+}
+
+GOL_jingji = {
+icon = GFX_idea_SOV_third_five_year_plan_civilian
+enable = { always = yes }
+
+
+
+
+
+
+}
+

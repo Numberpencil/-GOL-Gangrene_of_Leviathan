@@ -342,7 +342,17 @@ ideas = {
 			}
 
 			cost = 150
-			removal_cost = -1
+			removal_cost = -
+			allowed_to_remove = {		
+				 if ={
+                 limit = {
+                        tag = FRA
+				}
+				Not = {
+					has_completed_focus = FRA_AA_military_construction_law
+				    }
+				}				
+			}
 
 			modifier = {
 				min_export = 0.25

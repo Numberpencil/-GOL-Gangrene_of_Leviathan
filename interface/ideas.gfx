@@ -108,7 +108,15 @@ spriteTypes = {
 		texturefile = "gfx/ideas/FRA/FRA_Vengeful_Roar.png"	
 	}
 	SpriteType = {
+		name = "GFX_idea_FRA_Vengeful_Roar_1"
+		texturefile = "gfx/ideas/FRA/FRA_Vengeful_Roar.png"	
+	}
+	SpriteType = {
 		name = "GFX_idea_FRA_The_Shame_of_Longvi_Burier"
+		texturefile = "gfx/ideas/FRA/FRA_The_Shame_of_Longvi_Burier.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_FRA_The_Shame_of_Longvi_Burier_1"
 		texturefile = "gfx/ideas/FRA/FRA_The_Shame_of_Longvi_Burier.png"	
 	}
 	###德国民族精神banner###

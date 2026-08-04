@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = GER_New_Year_Speech
 
-		icon = GFX_goal_x
+		icon = GFX_goal_GER_New_Year_Speech
 		x = 8
 		y = 1
 		cost = 1
@@ -36,6 +36,7 @@ focus_tree = {
 
 		available = {
 			always = no
+
 		}
 		
 		completion_reward = {
@@ -48,9 +49,9 @@ focus_tree = {
 		focus = {
 		id = GER_Germanic_Brothers
 
-		icon = GFX_goal_x
-		x = 6
-		y = 2
+		icon = GFX_goal_GER_Germanic_Brothers
+		x = 6.5
+		y = 2.5
 		cost = 1
 
 		allow_branch = {
@@ -82,9 +83,9 @@ focus_tree = {
 		focus = {
 		id = GER_Gappease_the_laborers
 
-		icon = GFX_goal_x
-		x = 6
-		y = 3
+		icon = GFX_goal_GER_Gappease_the_laborers
+		x = 6.5
+		y = 4
 		cost = 1
 
 		allow_branch = {
@@ -114,9 +115,9 @@ focus_tree = {
 		focus = {
 		id = GER_Strengthen_EU_agreement
 
-		icon = GFX_goal_x
+		icon = GFX_goal_GER_Strengthen_EU_agreementh
 		x = 10
-		y = 2
+		y = 2.5
 		cost = 1
 
 		allow_branch = {
@@ -145,9 +146,9 @@ focus_tree = {
 		focus = {
 		id = GER_Improving_amidst_stability
 
-		icon = GFX_goal_x
+		icon = GFX_goal_GER_Improving_amidst_stability
 		x = 10
-		y = 3
+		y = 4
 		cost = 1
 
 		allow_branch = {
@@ -175,9 +176,9 @@ focus_tree = {
 		focus = {
 		id = GER_IEarly_the_next_morning
 
-		icon = GFX_goal_x
+		icon = GFX_goal_GER_IEarly_the_next_morning
 		x = 8
-		y = 4
+		y = 6
 		cost = 1
 
 		allow_branch = {
@@ -213,7 +214,7 @@ focus_tree = {
 focus = {
 		id = GER_precarious_wall_has_collapsed
 
-		icon = GFX_goal_x
+		icon = GFX_goal_GER_precarious_wall_has_collapsed
 		x = 15
 		y = 3
 		cost = 1
@@ -243,7 +244,7 @@ focus = {
 		focus = {
 		id = GER_Vow_of_Val
 
-		icon = GFX_goal_x
+		icon = GFX_goal_GER_Vow_of_Val
 		x = 15
 		y = 4
 		cost = 1
@@ -450,8 +451,8 @@ focus = {
 		focus = {
 		id = GER_Mutual_deception_and_trickery
 
-		icon = GFX_goal_x
-		x = 20
+		icon = GFX_goal_GER_Mutual_deception_and_trickery
+		x = 18
 		y = 5
 		cost = 1
 
@@ -502,7 +503,7 @@ focus = {
 		id = GER_Getting_close_the_Crown_Prince
 
 		icon = GFX_goal_x
-		x = 20
+		x = 18
 		y = 6
 		cost = 1
 
@@ -911,7 +912,7 @@ focus = {
 		focus = {
 		id = GER_Atlantic_Hotel_Conference
 		icon = GFX_goal_x
-		x = 24
+		x = 20
 		y = 7
 		cost = 1
 
@@ -943,7 +944,7 @@ focus = {
 		focus = {
 		id = GER_Roundtable_Friends
 		icon = GFX_goal_x
-		x = 26
+		x = 22
 		y = 8
 		cost = 1
 
@@ -969,13 +970,13 @@ focus = {
 			
 		}
 		completion_reward = {
-	     
+	   
 		}
 		}
 		focus = {
 		id = GER_Crossing_the_Rough_Waters_Together
 		icon = GFX_goal_x
-		x = 28
+		x = 24
 		y = 9
 		cost = 1
 
@@ -991,6 +992,7 @@ focus = {
 		available = {
            always = no
 		   has_country_flag = Players_choose_conservative
+	
 		}
 	
 		ai_will_do = {
@@ -1007,7 +1009,7 @@ focus = {
 		focus = {
 		id = GER_Ethnic_Group
 		icon = GFX_goal_x
-		x = 26
+		x = 22
 		y = 9
 		cost = 1
 
@@ -1039,7 +1041,7 @@ focus = {
 		focus = {
 		id = GER_People_Conservative_Alliance
 		icon = GFX_goal_x
-		x = 26
+		x = 22
 		y = 10
 		cost = 1
 
@@ -1072,7 +1074,7 @@ focus = {
 		focus = {
 		id = GER_The_Elusive_Phantom
 		icon = GFX_goal_x
-		x = 24
+		x = 20
 		y = 8
 		cost = 1
 
@@ -1104,7 +1106,7 @@ focus = {
 		focus = {
 		id = GER_Guerrilla_tyle_meeting
 		icon = GFX_goal_x
-		x = 24
+		x = 20
 		y = 10
 		cost = 1
 
@@ -1136,7 +1138,7 @@ focus = {
 		focus = {
 		id = GER_Identify_their_weaknesses
 		icon = GFX_goal_x
-		x = 24
+		x = 20
 		y = 11
 		cost = 1
 
@@ -1168,7 +1170,7 @@ focus = {
 		focus = {
 		id = GER_Plant_an_informant
 		icon = GFX_goal_x
-		x = 24
+		x = 20
 		y = 12
 		cost = 1
 
@@ -1179,7 +1181,7 @@ focus = {
 		mutually_exclusive = {
 		
 		} 
-		prerequisite = {focus = GER_Guerrilla_tyle_meeting}
+		prerequisite = {focus = GER_Identify_their_weaknesses}
 
 		available = {
            always = no
@@ -1200,7 +1202,7 @@ focus = {
 		focus = {
 		id = GER_Everything_is_ready
 		icon = GFX_goal_x
-		x = 24
+		x = 20
 		y = 13
 		cost = 1
 
@@ -1211,7 +1213,7 @@ focus = {
 		mutually_exclusive = {
 		
 		} 
-		prerequisite = {focus = GER_Guerrilla_tyle_meeting}
+		prerequisite = {focus = GER_Plant_an_informant}
 
 		available = {
            always = no

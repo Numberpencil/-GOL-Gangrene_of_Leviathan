@@ -6,4 +6,12 @@
 	political_power_gain = 0.25
 
 }
- 
+  New_Freycinet_Plan_START = {
+	icon = GFX_modifiers_flooding
+	enable = {
+		always = yes
+	}
+    production_speed_buildings_factor = 0.05 
+	production_speed_industrial_complex_factor = 0.1
+
+}

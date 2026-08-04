@@ -375,10 +375,8 @@ country_event = {
     desc = FRA.14.d
     is_triggered_only = yes
 	fire_only_once = yes
-    option = { 
-        name = FRA.14.a
-       		add_stability = 0.2
-            add_political_power = 100
+	immediate = { 
+		hidden_effect = {
         news_event = {
 			id = news.1004 
 		}
@@ -392,8 +390,16 @@ country_event = {
     last_election = 1935.4.1
     elections_allowed = no      
      }
-     complete_national_focus = FRA_AA_Workers_Triumph    
-     load_focus_tree = FRA_PDSF_focus
+	 set_global_flag = GOL_flag_FRA_PDSF
+	 mark_focus_tree_layout_dirty = yes
+     complete_national_focus = FRA_AA_Workers_Triumph 
+	}   
+	}
+    option = { 
+        name = FRA.14.a
+       		add_stability = 0.2
+            add_political_power = 100
+	
 	 custom_effect_tooltip = Government_change_tt
 	 hidden_effect	= {
 		remove_ideas = {
@@ -519,14 +525,17 @@ country_event = {#元首法
 	desc = FRA.4_PDSF.d
 	is_triggered_only = yes
 	immediate = { 
-		
+		hidden_effect = {
+		clr_global_flag = GOL_flag_FRA_The_riots
+		set_global_flag = GOL_flag_FRA_PDSF_winner
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = FRA_AA_Salute_to_you
+		}
 	 }
 	option = {
 		name = FRA.4_PDSF.a
 		add_ideas =  FRA_FuhrerCountry
-        clr_global_flag = GOL_flag_FRA_The_riots
-		mark_focus_tree_layout_dirty = yes
-		complete_national_focus = FRA_AA_Salute_to_you
+      
 		hidden_effect = {
 			country_event = { 
 			id = FRA.15

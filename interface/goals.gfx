@@ -14,13 +14,57 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/goal_generic_production.dds"			
 	}
 	SpriteType = {
-	name = "GFX_goal_generic_production"
-	texturefile = "gfx/interface/goals/goal_generic_production.dds"			
+	name = "GFX_goal_FRA_AA_Workers_Triumph"
+	texturefile = "gfx/interface/goals/FRA/FRA_AA_Workers_Triumph.png"			
 	}
 	SpriteType = {
-	name = "GFX_goal_FRA_AA_Workers_Triumph"
-	texturefile = "gfx/interface/goals/FRA_AA_Workers_Triumph.png"			
+	name = "GFX_goal_FRA_AA_tough_countermeasures"
+	texturefile = "gfx/interface/goals/FRA/FRA_AA_tough_countermeasures.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_FRA_AA_Ensure_internal_loyalty"
+	texturefile = "gfx/interface/goals/FRA/FRA_AA_Ensure_internal_loyalty.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_FRA_AA_Salute_to_you"
+	texturefile = "gfx/interface/goals/FRA/FRA_AA_Salute_to_you.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_GER_New_Year_Speech"
+	texturefile = "gfx/interface/goals/GER/GER_New_Year_Speech.png"			
 	}				
+	SpriteType = {
+	name = "GFX_goal_GER_Germanic_Brothers"
+	texturefile = "gfx/interface/goals/GER/GER_Germanic_Brothers.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_GER_Strengthen_EU_agreementh"
+	texturefile = "gfx/interface/goals/GER/GER_Strengthen_EU_agreementh.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_GER_Improving_amidst_stability"
+	texturefile = "gfx/interface/goals/GER/GER_Improving_amidst_stability.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_GER_Gappease_the_laborers"
+	texturefile = "gfx/interface/goals/GER/GER_Gappease_the_laborers.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_GER_IEarly_the_next_morning"
+	texturefile = "gfx/interface/goals/GER/GER_IEarly_the_next_morning.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_GER_Vow_of_Val"
+	texturefile = "gfx/interface/goals/GER/GER_Vow_of_Val.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_GER_precarious_wall_has_collapsed"
+	texturefile = "gfx/interface/goals/GER/GER_precarious_wall_has_collapsed.png"			
+	}
+	SpriteType = {
+	name = "GFX_goal_GER_Mutual_deception_and_trickery"
+	texturefile = "gfx/interface/goals/GER/GER_Mutual_deception_and_trickery.png"			
+	}
 	
 	SpriteType = {
 		name = "GFX_goal_shine_test"

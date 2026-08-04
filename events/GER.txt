@@ -208,14 +208,14 @@ country_event = { #打砸商店
 		trigger = {
 			always = yes
 		}
-		set_country_flag = GER.NASPD_1_is_fire
+		set_country_flag = GER_NASPD_1_is_fire
 	}
 	option = { 
         name =  GER.NASPD.1.b
 		trigger = {
 		
 		}
-		set_country_flag = GER.NASPD_1_is_fire
+		set_country_flag = GER_NASPD_1_is_fire
 	}
 }
 
@@ -237,14 +237,14 @@ country_event = { #罗姆绯闻
 		trigger = {
 			always = yes
 		}
-		set_country_flag = GER.NASPD_2_is_fire
+		set_country_flag = GER_NASPD_2_is_fire
 	}
 	option = { 
         name =  GER.NASPD.2.b
 		trigger = {
 		
 		}
-		set_country_flag = GER.NASPD_2_is_fire
+		set_country_flag = GER_NASPD_2_is_fire
 	}
 }
 
@@ -266,14 +266,14 @@ country_event = { #各怀鬼胎
 		trigger = {
 			always = yes
 		}
-		set_country_flag = GER.NASPD_3_is_fire
+		set_country_flag = GER_NASPD_3_is_fire
 	}
 	option = { 
         name =  GER.NASPD.3.b
 		trigger = {
 		
 		}
-		set_country_flag = GER.NASPD_3_is_fire
+		set_country_flag = GER_NASPD_3_is_fire
 	}
 }
 country_event = { #代号X
@@ -339,14 +339,14 @@ country_event = { #雄狮未老
 		trigger = {
 			always = yes
 		}
-		set_country_flag = GER.conservative.1_is_fire
+		set_country_flag = GER_conservative_1_is_fire
 	}
 	option = { 
         name = GER.conservative.1.b
 		trigger = {
 		
 		}
-		set_country_flag = GER.conservative.1_is_fire
+		set_country_flag = GER_conservative_1_is_fire
 	}
 	
 }
@@ -368,14 +368,14 @@ country_event = { #中欧协定经济崩溃
 		trigger = {
 			always = yes
 		}
-		set_country_flag = GER.conservative.2_is_fire
+		set_country_flag = GER_conservative_2_is_fire
 	}
 	option = { 
         name = GER.conservative.2.b
 		trigger = {
 		
 		}
-		set_country_flag = GER.conservative.2_is_fire
+		set_country_flag = GER_conservative_2_is_fire
 	}
 	
 }

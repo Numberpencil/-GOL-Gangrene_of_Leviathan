@@ -1,3 +1,932 @@
+GOL_FRA_Renationalization_policy_decisions_category = {
+		Confiscation_of_Spanish_assets = { # 国有化西班牙资产
+
+		icon = generic_industry
+		priority = 1
+		available = {
+		
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Renationalization_policy
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+			
+		}
+
+		days_remove = 30
+		days_re_enable = 5
+
+		cost = 50
+        remove_effect = {
+	   random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		reverse_add_opinion_modifier = {
+             target = SPR
+              modifier = SWE_GER_seized_swedish_assets
+             }
+			 set_global_flag = GOL_flag_Confiscation_of_Spanish_assets
+		}
+		
+		complete_effect = {
+    
+	   }
+
+		ai_will_do = {
+			base = 80
+			
+		}
+	}
+	Confiscation_of_German_assets = { #国有化德国资产
+
+		icon = generic_industry
+		priority = 2
+		available = {
+		
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Renationalization_policy
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+			
+		}
+
+		days_remove = 30
+		days_re_enable = 5
+
+		cost = 50
+        remove_effect = {
+	 random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		reverse_add_opinion_modifier = {
+             target = GER
+              modifier = SWE_GER_seized_swedish_assets
+             }
+			set_global_flag = GOL_flag_Confiscation_of_German_assets
+		}
+		
+		complete_effect = {
+      
+
+	   }
+
+		ai_will_do = {
+			base = 80
+			
+		}
+	}
+	Confiscation_of_Italian_assets = { #国有化意大利资产
+
+		icon = generic_industry
+		priority = 3
+		available = {
+		
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Renationalization_policy
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+			
+		}
+
+		days_remove = 30
+		days_re_enable = 5
+
+		cost = 50
+        remove_effect = {
+	  random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		reverse_add_opinion_modifier = {
+             target = ITA
+              modifier = SWE_GER_seized_swedish_assets
+             }
+			set_global_flag = GOL_flag_Confiscation_of_Italian_assets
+		}
+		
+		complete_effect = {
+     
+	   }
+
+		ai_will_do = {
+			base = 80
+			
+		}
+	}
+	Confiscation_of_Belgian_assets = { #国有化比利时资产
+
+		icon = generic_industry
+		priority = 4
+		available = {
+		
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Renationalization_policy
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+			
+		}
+
+		days_remove = 30
+		days_re_enable = 5
+
+		cost = 50
+        remove_effect = {
+	  random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		random_owned_state = {
+          add_extra_state_shared_building_slots = 1
+          add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }		
+        }
+		reverse_add_opinion_modifier = {
+             target = BEL
+              modifier = SWE_GER_seized_swedish_assets
+             }
+			set_global_flag = GOL_flag_Confiscation_of_Belgian_assets
+		}
+		
+		complete_effect = {
+     
+
+	   }
+
+		ai_will_do = {
+			base = 80
+			
+		}
+	}
+	Consolidate_confiscated_assets = { #整合资产
+
+		icon = generic_industry
+		priority = 0
+		available = {
+		has_global_flag = GOL_flag_Confiscation_of_Spanish_assets
+		has_global_flag = GOL_flag_Confiscation_of_German_assets
+		has_global_flag = GOL_flag_Confiscation_of_Italian_assets
+		has_global_flag = GOL_flag_Confiscation_of_Belgian_assets
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Renationalization_policy
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+			
+		}
+
+		days_remove = 30
+		days_re_enable = 5
+
+		cost = 50
+        remove_effect = {
+	add_to_variable = {
+    var = var_French_economy_consumer_goods_factor
+    value = -0.1
+    }
+    add_to_variable = {
+    var = var_French_economy_political_power_gain
+    value = 0.05
+	  tooltip = add_French_economy_Consolidate_confiscated_assets_tt
+    }
+		}
+		
+		complete_effect = {
+
+        }
+		ai_will_do = {
+			base = 80
+			
+		}
+	
+}
+}
+GOL_FRA_Establishment_of_the_French_Economic_Council_decisions_category = {
+	Attract_investment_from_local_financiers = { #吸引本土金融家投资
+
+		icon = generic_industry
+		priority = 20
+		available = {
+	
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 30
+        days_re_enable = 15
+
+		cost = var_Attract_investment_from_local_financiers_cost
+        remove_effect = {
+	  add_to_variable = {
+       var = var_Attract_investment_from_local_financiers_cost
+       value = 10  
+     }
+	 clamp_variable = { var = var_Attract_investment_from_local_financiers_cost max = 200 min = 50 }
+	  add_to_variable = {
+       var = var_French_construction_funding
+       value = 20000
+	    tooltip = add_var_Attract_investment_from_local_financiers_cost_tt
+     }
+	  clamp_variable = { var = var_French_construction_funding min = 0 }
+		}
+		
+		complete_effect = {
+    
+     }
+		ai_will_do = {
+			base = 80
+			
+		}
+	
+    }
+		Issue_government_bonds = { #发放国债
+
+		icon = generic_industry
+		priority = 19
+		available = {
+		political_power_daily > 0.2
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			political_power_cost = 0.2
+		}
+
+		days_remove = var_Issue_government_bonds_time
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	 add_to_variable = {
+       var = var_Issue_government_bonds_time
+       value = 10
+     }
+	 clamp_variable = { var = var_Attract_investment_from_local_financiers_cost max = 90 min = 20 }
+	  add_to_variable = {
+       var = var_French_construction_funding
+       value = 30000
+	    tooltip = add_var_Issue_government_bonds_tt
+     }
+	  clamp_variable = { var = var_French_construction_funding min = 0 }
+		}
+		
+		complete_effect = {
+     
+     }
+		ai_will_do = {
+			base = 80
+			
+		}
+	
+}
+Issue_Increase_funding = { #加大投资力度
+		icon = generic_industry
+		priority = 19
+		available = {
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = no
+
+		modifier = {
+			consumer_goods_expected_value = 0.1
+
+		}
+
+		days_remove = 70
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	  add_to_variable = {
+       var = var_French_construction_funding
+       value = 40000
+	    tooltip = add_var_Issue_Increase_funding_tt
+     }
+	  clamp_variable = { var = var_French_construction_funding min = 0 }
+		}
+		
+		complete_effect = {
+     
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+Issue_Expansion_of_the_Lorraine_steelworks = { # 扩建洛林钢铁厂
+		icon = generic_industry
+		priority = 19
+		available = {
+			check_variable = {
+              var_French_construction_funding > 50000
+			  tooltip = French_economy_no_money
+        }
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+			consumer_goods_expected_value = 0.1
+
+		}
+
+		days_remove = var_FRA_building_time_70
+        days_re_enable = 15
+
+		cost = 0
+       remove_effect = {
+	  swap_ideas = {
+         remove_idea = FRA_The_Shame_of_Longvi_Burier
+         add_idea = FRA_The_Shame_of_Longvi_Burier_1
+        }
+	  add_resource = {
+      type = steel
+      amount = 50
+      state = 785
+     }
+	 set_global_flag = GOL_flag_Issue_Expansion_of_the_Lorraine_steelworks
+		}
+		
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 50000
+     tooltip = sub_Issue_Expansion_of_the_Lorraine_steelworks_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	  
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+Expand_the_Syndic_Union = { #扩大辛迪加工会
+		icon = generic_industry
+		priority = 16
+		available = {
+				check_variable = {
+              var_French_construction_funding > 50000
+			  tooltip = French_economy_no_money
+        }
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+	
+
+		}
+
+		days_remove = var_FRA_building_time_70
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	 add_to_variable = {
+       var = var_French_economy_industrial_capacity_factory
+       value = 0.1	
+     }
+	 set_global_flag = GOL_flag_Expand_the_Syndic_Union
+	  16 = {
+		   add_extra_state_shared_building_slots = 2
+          add_building_construction = {
+          type = industrial_complex
+          level = 2
+          instant_build = yes
+        }
+	   }
+	  add_stability = 0.1
+	  add_war_support = 0.05
+		}
+		
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 50000
+     tooltip = sub_Expand_the_Syndic_Union_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	 
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+Improve_infrastructure = { #完善基础设施
+		icon = generic_industry
+		priority = 15
+		available = {
+				check_variable = {
+              var_French_construction_funding > 60000
+			  tooltip = French_economy_no_money
+        }
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+	
+
+		}
+
+		days_remove = var_FRA_building_time_70
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	     every_controlled_state = { 
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+           }
+		  }
+		  21 = {
+			add_building_construction = {
+            type = dam
+            level = 1
+            instant_build = yes
+           }
+		  }
+		  32 = {
+			add_building_construction = {
+            type = dam
+            level = 1
+            instant_build = yes
+           }
+		  }
+		set_global_flag = GOL_flag_Improve_infrastructure
+		}
+		
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 60000
+     tooltip = sub_Improve_infrastructure_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	 
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+Paris_General_Construction_Bureau = { #巴黎建设总局
+
+		icon = generic_industry
+		priority = 15
+		available = {
+				check_variable = {
+              var_French_construction_funding > 50000
+			  tooltip = French_economy_no_money
+        }
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+	
+
+		}
+
+		days_remove = var_FRA_building_time_70
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	      16 = {
+		   add_extra_state_shared_building_slots = 3
+          add_building_construction = {
+          type = arms_factory
+          level = 3
+          instant_build = yes
+        }
+	   }
+	   set_global_flag = GOL_flag_Paris_General_Construction_Bureau
+		}
+		
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 50000
+     tooltip = sub_Paris_General_Construction_Bureau_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	 
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+Building_an_Algiers_military_factory= { #阿尔及尔兵工厂
+		icon = generic_industry
+		priority = 15
+		available = {
+				check_variable = {
+              var_French_construction_funding > 50000
+			  tooltip = French_economy_no_money
+        }
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+	
+
+		}
+
+		days_remove = var_FRA_building_time_70
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	      459 = {
+		   add_extra_state_shared_building_slots = 3
+          add_building_construction = {
+          type = arms_factory
+          level = 3
+          instant_build = yes
+        }
+	   }
+	   set_global_flag = GOL_flag_Building_an_Algiers_military_factory
+		}
+		
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 50000
+     tooltip = sub_Paris_General_Construction_Bureau_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	 
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+New_Freycinet_Plan= { #新弗雷西内计划
+		icon = generic_industry
+		priority = 15
+		available = {
+				check_variable = {
+              var_French_construction_funding > 70000
+			  tooltip = French_economy_no_money
+        }
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+	
+
+		}
+
+		days_remove = var_FRA_building_time_70
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	    every_controlled_state = {
+        add_dynamic_modifier = {
+        modifier = New_Freycinet_Plan_START
+        days = 700
+        }
+}
+ set_global_flag = GOL_flag_New_Freycinet_Plan
+}
+		
+		
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 70000
+     tooltip = sub_New_Freycinet_Plan_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	 
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+Expanding_the_Port_of_Toulon= { #建设土伦港
+		icon = generic_industry
+		priority = 15
+		available = {
+				check_variable = {
+              var_French_construction_funding > 50000
+			  tooltip = French_economy_no_money
+        }
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+	
+
+		}
+
+		days_remove = var_FRA_building_time_50
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	   21 = {
+		
+			add_building_construction = {
+            type = naval_base
+            level = 2
+            instant_build = yes
+			province = 911
+           }
+		
+			add_building_construction = {
+            type = dockyard
+            level = 2
+            instant_build = yes
+           }
+		  }
+		   set_global_flag = GOL_flag_Expanding_the_Port_of_Toulon
+}
+
+		
+		
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 50000
+     tooltip = sub_Expanding_the_Port_of_Toulon_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	 
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+Invest_in_Schneider_Electric = { #投资施耐德企业
+		icon = generic_industry
+		priority = 15
+		available = {
+				check_variable = {
+              var_French_construction_funding > 100000
+			  tooltip = French_economy_no_money
+			  
+        }
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+	
+
+		}
+
+		days_remove = 80
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	  add_ideas = FRA_Investee_enterprise
+	  set_global_flag = GOL_flag_Invest_in_Schneider_Electric
+}
+
+		
+		
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 100000
+     tooltip = sub_Invest_in_Schneider_Electric_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	 
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+Invest_in_Renault = { #投资雷诺
+		icon = generic_industry
+		priority = 15
+		available = {
+			check_variable = {
+              var_French_construction_funding > 100000
+			  tooltip = French_economy_no_money			
+        } 
+		 has_idea = FRA_Investee_enterprise
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Establishment_of_the_French_Economic_Council
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+	
+
+		}
+
+		days_remove = 80
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	  swap_ideas = {
+         remove_idea = FRA_Investee_enterprise
+         add_idea = FRA_Investee_enterprise_1
+        }
+		set_global_flag = GOL_flag_Invest_in_Renault
+}
+
+		
+		
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 100000
+     tooltip = sub_Invest_in_Schneider_Electric_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	 
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+Rhone_Valley_resource_development= { #罗讷河谷资源开发
+		icon = generic_industry
+		priority = 15
+		available = {
+				check_variable = {
+              var_French_construction_funding > 70000
+			  tooltip = French_economy_no_money
+        }
+		}
+
+		visible = {
+          has_completed_focus = FRA_AA_Rhone_Valley_Redevelopment_Plan
+	   }
+
+		fire_only_once = yes
+
+		modifier = {
+	
+
+		}
+
+		days_remove = var_FRA_building_time_70
+        days_re_enable = 15
+
+		cost = 0
+        remove_effect = {
+	
+           add_resource = {
+           type = chromium
+            amount = 14
+            state = 32  
+	       }
+		   add_resource = {
+           type = aluminium
+            amount = 32
+            state = 32  
+	       }
+		   add_resource = {
+            amount = 20
+            state = 32  
+	       }
+}
+	complete_effect = {
+      subtract_from_variable = {
+     var = var_French_construction_funding
+     value = 70000
+     tooltip = sub_Rhone_Valley_resource_development_tt
+     }
+	clamp_variable = { var = var_French_construction_funding min = 0 }
+	 
+     }
+		ai_will_do = {
+			base = 80			
+		}	
+}
+}
 GOL_FRA_Suppressing_riots_decisions_category = {
 	Banned_newspapers = {
 
@@ -15,7 +944,7 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		is_ai = no
 	   }
 
-		fire_only_once = yes
+		fire_only_once = no
 
 		modifier = {
 			
@@ -394,11 +1323,9 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		icon = generic_industry
 		priority = 6
 		available = {
-		
-		}
-
-		visible = {
-	    	check_variable = {
+			custom_override_tooltip= {
+             tooltip = Martial_law_order_issued_tt
+             check_variable = {
              var_FRA_Government_control_level > 4
              }
 			 check_variable = {
@@ -407,8 +1334,14 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 			 check_variable = {
              var_FRA_opposition_forces < -2
              }
+             }
+		
 		has_idea = FRA_riots_across_the_country
 		has_global_flag = GOL_flag_FRA_The_riots
+		}
+
+		visible = {
+	    	
 		is_ai = no
 	   }
 
@@ -441,11 +1374,12 @@ GOL_FRA_Suppressing_riots_decisions_category = {
 		icon = generic_industry
 		priority = 6
 		available = {
+		Not  = {has_idea = FRA_riots_across_the_country}
 		 has_global_flag = GOL_flag_FRA_The_riots
 		}
 
 		visible = {
-	    	Not  = {has_idea = FRA_riots_across_the_country}
+	    	
 	   }
 
 		fire_only_once = no
@@ -546,40 +1480,6 @@ The_growing_outcry = {
          var = var_FRA_Military_attitude
          value = 1
          tooltip = var_FRA_Military_attitude_subtract_1_tt
-         }
-		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
-		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }
-		 clamp_variable = { var = var_FRA_opposition_forces max = 5 min = -5 }
-		 hidden_effect = {
-		 The_opposition_is_taking_action = yes
-	 }
-    }
-  }
-  Nationwide_violence = {
-    activation = {
-     always = no
-
-    }
-    available = {
-         always = no
-    }
-    cancel_trigger = {
-		not = {
-			has_idea = FRA_riots_across_the_country
-		}
-    }
-    icon = mission_icon     # For GFX_decision_mission_icon
-    is_good = yes
-    days_mission_timeout = 30
-    selectable_mission = no
-    complete_effect = {
-
-    }
-    timeout_effect = {
-        add_to_variable = {
-         var = var_FRA_opposition_forces
-         value = 2
-         tooltip = var_FRA_opposition_forces_add_2_tt
          }
 		 clamp_variable = { var = var_FRA_Government_control_level max = 5 min = -5 }
 		 clamp_variable = { var = var_FRA_Military_attitude max = 5 min = -5 }

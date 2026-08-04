@@ -1,3 +1,0 @@
-GOL_dip_Containing_hostile_exiles={
-		value = -15
-	}

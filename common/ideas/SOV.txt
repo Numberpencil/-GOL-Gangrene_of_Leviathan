@@ -48,7 +48,7 @@ country = {
 				always = yes
 			}
 			modifier = {
-			consumer_goods_expected_value = 0.2
+			consumer_goods_expected_value = 0.15
 			stability_factor = -0.25
 			war_support_factor = -0.25
 			industrial_capacity_factory = -0.1
