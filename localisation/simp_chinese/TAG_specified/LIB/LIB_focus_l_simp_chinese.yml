@@ -4,8 +4,12 @@
  # 示例：focus_TAG_AA_name 或 focus_TAG_AA_00
  # 国策名称
  #focus_LIB_AA_name: "国策名称"
+ LIB_AA_1: "睁眼，便是日暮"
+ LIB_AA_2: "昂首，足践烈焰"
  # 国策描述
  #focus_LIB_AA_name_desc: "国策描述"
+ LIB_AA_1_desc: "JT8-2"
+ LIB_AA_2_desc: "JT8-3"
  # 国策效果文本
  #focus_LIB_AA_name_effect: "国策效果文本"
  # 国策条件文本

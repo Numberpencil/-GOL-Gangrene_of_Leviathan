@@ -45,28 +45,7 @@ guiTypes = {
 		}
 	}
 	
-	containerWindowType = { #政体图标
-		name = "political_system_gui_window"
-		position = { x = 388 y = 368 }
-		size = { width = 72 height = 72 }
-		clipping = yes
-		containerWindowType = {
-			name = "political_system_gui_window_container"
-			position = { x = 0 y = 0 }
-			iconType = {
-				name = "GUI_icons_political_system_Constitutional_monarchy"
-				position = { x = 0 y = 0 }
-				spriteType = "GFX_GUI_icons_political_system_Constitutional_monarchy"
-				pdx_tooltip = "GUI_icons_political_system_Constitutional_monarchy_tt"
-			}
-			iconType = {
-				name = "GUI_icons_political_system_Bicameral_constitutional_monarchy"
-				position = { x = 0 y = 0 }
-				spriteType = "GFX_GUI_icons_political_system_Bicameral_constitutional_monarchy"
-				pdx_tooltip = "GUI_icons_political_system_Bicameral_constitutional_monarchy_tt"
-			}
-		}
-	}
+	
 	containerWindowType = { #阵营图标
 			name = "faction_icons_container_gui"
 			position = { x = 565 y = 60}
@@ -1284,7 +1263,7 @@ guiTypes = {
 			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes
-			maxWidth = 179
+			maxWidth = 179·
 			maxHeight = 18
 		}
 	}
@@ -2019,6 +1998,28 @@ guiTypes = {
 		}		
 		
 	}
-
+     containerWindowType = { #政体图标
+		name = "political_system_gui_window"
+		position = { x = 388 y = 368 }
+		size = { width = 72 height = 72 }
+		clipping = yes
+		containerWindowType = {
+			name = "political_system_gui_window_container"
+			position = { x = 0 y = 0 }
+			iconType = {
+				name = "GUI_icons_political_system_Constitutional_monarchy"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Constitutional_monarchy"
+				pdx_tooltip = "test_114114"
+				pdx_tooltip_delayed = "TFR_RUS_POLITICAL_SYSTEM_TT_LONG"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_Bicameral_constitutional_monarchy"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Bicameral_constitutional_monarchy"
+				pdx_tooltip = "political_system_Bicameral_constitutional_monarchy"
+			}
+		}
+	}
 	
 }

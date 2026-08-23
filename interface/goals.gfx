@@ -14,6 +14,10 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/goal_generic_production.dds"			
 	}
 	SpriteType = {
+	name = "GFX_goal_LIB"
+	texturefile = "gfx/interface/goals/goal_LIB.png"			
+	}
+	SpriteType = {
 	name = "GFX_goal_FRA_AA_Workers_Triumph"
 	texturefile = "gfx/interface/goals/FRA/FRA_AA_Workers_Triumph.png"			
 	}

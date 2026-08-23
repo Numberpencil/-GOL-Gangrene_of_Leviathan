@@ -1,0 +1,79 @@
+search_filter_prios = {
+
+
+}
+
+focus_tree = {
+	id = FRA_PDSF_focus
+	
+	country = {
+		factor  0
+         modifier = {
+			add = 20
+			tag = LIB
+		}
+	}
+	default = no
+	focus = {
+		id = LIB_AA_1
+		icon = GFX_goal_LIB
+		x = 10
+		y = 0
+		cost = 8
+
+		
+
+		allow_branch = {
+	
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+        
+			}
+
+		}
+		focus = {
+		id = LIB_AA_2
+		icon = GFX_goal_LIB
+		x = 10
+		y = 1
+		cost = 8
+
+		
+
+		allow_branch = {
+	
+		}
+
+		mutually_exclusive = {
+		
+		} 
+		
+		ai_will_do = {
+			base = 0.5
+		}
+
+		available = {
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = LIB_AA_1  }
+		completion_reward = {
+        
+			}
+
+		}
+}	

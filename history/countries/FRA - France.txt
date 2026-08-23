@@ -509,9 +509,9 @@ FRA_The_Shame_of_Longvi_Burier
 }
 #开局法案
 add_ideas = {
-High_social_security
-Appropriate_labor_protection
-FRA_Pierre_Billotte
+Medium_sized_law_enforcement_agencies
+Minimum_Social_Security
+Limited_labor_protectionFRA_Pierre_Billotte
 FRA_Jacques_Barnault
 FRA_Francois_Lechidou
 FRA_Louis_Renault
