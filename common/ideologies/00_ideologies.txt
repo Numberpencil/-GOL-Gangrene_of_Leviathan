@@ -14,8 +14,14 @@ ideologies = {
             National_communism = {
                 color = { 91 31 31 }
             }
+            National_communism_ = {
+                color = { 91 31 31 }
+            }
             Anarchist_communism = {
                 color = { 91 31 31 }
+            }
+            Joint_Development_Zone = {
+                color = { 112 0 0 }
             }
         }
         color = { #
@@ -62,6 +68,9 @@ ideologies = {
             Neosanminism = {
                 color = { 211 41 41 }
             }
+            Rhode_Island = {
+
+            }
         }
         color = { #
             167 59 59
@@ -98,6 +107,10 @@ ideologies = {
             Radical_republicanism = {
                 color = { 71 177 178 }
             }
+            Saint_Lof_Foundation = {
+
+            }
+           
         }
         color = { #
             101 171 172
@@ -118,6 +131,9 @@ ideologies = {
             }
             Conservatism_ideology_DKP = {
                 color = { 23 76 81 }
+            } 
+            MIKU = {
+            
             }
         }
         color = { #
@@ -160,6 +176,9 @@ ideologies = {
             }
             xun_zheng = {
                 
+            }
+            TETO = {
+
             }
 
         }
@@ -206,6 +225,9 @@ ideologies = {
                           67 67 67
                         }
             }
+            The_Holy_NestRegency = {
+
+            }
         }
         color = { #
             67 67 67
@@ -226,6 +248,9 @@ ideologies = {
             }
             Populist_conservativism = {
                 color = { 139 134 113 }
+            }
+            Lobotomy_Corporation = {
+
             }
         }
         color = { #
@@ -321,6 +346,9 @@ ideologies = {
             DKP_NSDAP_united_government = {
                 color = { 43 16 0 }
             }
+            Managed_democracy = {
+
+            }
         }
         color = { #
             43 16 0
@@ -347,6 +375,9 @@ ideologies = {
             }
             Esoteric_fascism_italia = {
                 color = { 36 19 39 }
+            }
+            SAYA = {
+
             }
         }
         color = { #

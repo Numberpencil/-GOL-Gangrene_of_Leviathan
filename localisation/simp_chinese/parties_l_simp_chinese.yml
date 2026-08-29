@@ -15,6 +15,7 @@
  National_communism_desc:0 ""
  Anarchist_communism:0 "无政府共产主义"
  Anarchist_communism_desc:0 ""
+ Joint_Development_Zone: "东方08小队"
  #社
  socialism:0 "社会主义"
  socialism_noun:0 "社会主义"
@@ -41,6 +42,7 @@
  British_socialism_desc:0 ""
  Neosanminism:0 "新三民主义"
  Neosanminism_desc:0 ""
+ Rhode_Island: "罗德岛-阿米娅派"
  #民
  democrat:0 "民主主义"
  democrat_noun:0 "民主主义"
@@ -61,6 +63,8 @@
  Conservativist_democrat_desc:0 "19世纪对于人民民主的恐惧成就了保守自由主义，他们拒绝狂热不现实的乌托邦的幻想，认定有财产、有教养的精英才可托付政治信任——大众是羔羊，容易被煽动家蛊惑从而走向极权与专政，那是对于民主制的僭越，也是自由民主的末路，唯有智识才能束缚浪潮。"
  Radical_republicanism:0 "激进共和主义"
  Radical_republicanism_desc:0 ""
+ Saint_Lof_Foundation: "司辰式庇护民主"
+ 
  #保
  conservatism:0 "保守主义"
  conservatism_noun:0 "保守主义"
@@ -71,7 +75,7 @@
  Conservatism_ideology_desc:0 " "
  Conservatism_ideology_DKP:0 "保守主义"
  Conservatism_ideology_DKP_desc:0 ""
-
+ MIKU: "初音未来主义"
  #威
  authoritarianism:0 "威权主义"
  authoritarianism_noun:0 "威权主义"
@@ -96,6 +100,7 @@
  Military_alliance_desc: ""
  xun_zheng: "训政"
  xun_zheng_desc: ""
+ TETO: "重音Teto主义"
  #专
  despotism:0 "专制主义"
  despotism_desc:0 "专制主义"
@@ -119,7 +124,7 @@
  Military_socialism_despotism:0 "军事社会主义"
  Prussian_imperialism: "普鲁士帝国主义"
  Prussian_imperialism_desc: "普鲁士帝国主义与其说是一种新型意识形态不如说是普鲁士思想在现代的转型——皇帝是神圣与天意的代表，国王是宗法与民族意志的唯一者，它诞生于保守建制派对‘失败与民主化’的深重恐惧。为了对抗国会的和平决议，传统的容克贵族与军工巨头扯下了旧时代体面、审慎的精英面具，首次向现代大众民粹主义出卖了灵魂。"
-
+The_Holy_NestRegency: "苍白专制主义"
  #粹
  populism:0 "民粹主义"
  populism_desc:0 "民粹主义"
@@ -130,6 +135,7 @@
  Right_wing_baathist_socialism_desc:0 ""
  Populist_conservativism:0 "民粹保守主义"
  Populist_conservativism_desc:0 ""
+ Lobotomy_Corporation: "脑叶公司"
  #法
  fascism:0 "法西斯主义"
  fascism_desc:0 "极权政体"
@@ -184,6 +190,7 @@
  National_socialism_ideology_italia_desc:0 ""
  DKP_NSDAP_united_government:0 "DKP-NSDAP联合政府"
  DKP_NSDAP_united_government_desc:0 "我是说的道理"
+ Managed_democracy: "管理式民主"
  #秘
  occultism:0 "神秘主义"
  occultism_desc:0 "极权政体"
@@ -198,6 +205,7 @@
  Esoteric_fascism_italia_desc:0 ""
  Esoteric_Celtsdruidism:0 "秘传凯尔特德鲁伊主义"
  Esoteric_Celtsdruidism_desc:0 ""
+ SAYA: "沙耶之歌"
  ####政体名称
  GUI_text_political_system_text:0 "[GetPoliticalSystemName]"
  Constitutional_monarchy:0 "立宪君主制"

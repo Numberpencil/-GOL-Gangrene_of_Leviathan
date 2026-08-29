@@ -25,12 +25,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/National_communism.png"
 	}
 	SpriteType = { #
+		name = "GFX_ideology_Joint_Development_Zone"
+		texturefile = "gfx/interface/ideologies/Joint_Development_Zone.png"
+	}
+	SpriteType = { #
 		name = "GFX_ideology_Anarchist_communism"
 		texturefile = "gfx/interface/ideologies/Anarchist_communism.png"
 	}
 	SpriteType = { #
 		name = "GFX_ideology_socialism"
 		texturefile = "gfx/interface/ideologies/socialism.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_Rhode_Island"
+		texturefile = "gfx/interface/ideologies/Rhode_Island.png"
 	}
 	SpriteType = { #
 		name = "GFX_ideology_Criminal_anarchism"
@@ -81,6 +89,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/democrat.png"
 	}
 	SpriteType = { #
+		name = "GFX_ideology_Saint_Lof_Foundation"
+		texturefile = "gfx/interface/ideologies/Saint_Lof_Foundation.png"
+	}
+	SpriteType = { #
 		name = "GFX_ideology_Islamic_liberalism"
 		texturefile = "gfx/interface/ideologies/Islamic_liberalism.png"
 	}
@@ -113,6 +125,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Conservatism_ideology.png"
 	}
 	SpriteType = { #
+		name = "GFX_ideology_MIKU"
+		texturefile = "gfx/interface/ideologies/MIKU.png"
+	}
+	SpriteType = { #
 		name = "GFX_ideology_Konservative_Revolution"
 		texturefile = "gfx/interface/ideologies/Konservative_Revolution.png"
 	}
@@ -143,6 +159,10 @@ spriteTypes = {
 	SpriteType = { #
 		name = "GFX_ideology_Authoritarian_Republicanism"
 		texturefile = "gfx/interface/ideologies/Authoritarian_Republicanism.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_TETO"
+		texturefile = "gfx/interface/ideologies/TETO.png"
 	}
 	SpriteType = { #
 		name = "GFX_ideology_Military_alliance"
@@ -315,6 +335,22 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_xun_zheng"
 		texturefile = "gfx/interface/ideologies/xun_zheng.png"
+	}
+	SpriteType = {
+		name = "GFX_ideology_SAYA"
+		texturefile = "gfx/interface/ideologies/SAYA.png"
+	}
+	SpriteType = {
+		name = "GFX_ideology_Lobotomy_Corporation"
+		texturefile = "gfx/interface/ideologies/Lobotomy_Corporation.png"
+	}
+	SpriteType = {
+		name = "GFX_ideology_Managed_democracy"
+		texturefile = "gfx/interface/ideologies/Managed_democracy.png"
+	}
+	SpriteType = {
+		name = "GFX_ideology_The_Holy_NestRegency"
+		texturefile = "gfx/interface/ideologies/The_Holy_NestRegency.png"
 	}
 	SpriteType = {
 		name = "GFX_ideology_State_corporatism"

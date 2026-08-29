@@ -16,7 +16,9 @@ recruit_character = Teto
 recruit_character = Amiya
 recruit_character = Saya
 recruit_character = Elena
-
+recruit_character = Angela
+recruit_character = General_Blasch
+recruit_character = Pure_Vessel
 
 #开局科研槽
 set_research_slots = 3

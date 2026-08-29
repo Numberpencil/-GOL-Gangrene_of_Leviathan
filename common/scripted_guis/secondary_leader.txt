@@ -7,6 +7,7 @@ scripted_gui = {
 		visible = {
           OR = {
                 has_idea = POI_COUNTRY_HAS_SECONDARY_LEADER
+				TAG = LIB
 			}
 			# always = yes
 		}
@@ -19,6 +20,7 @@ scripted_gui = {
 		visible = {
 			OR = {
                 has_idea = POI_COUNTRY_HAS_SECONDARY_LEADER
+				TAG = LIB
 			}
            
 			# always = yes

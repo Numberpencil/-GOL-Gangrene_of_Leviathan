@@ -212,6 +212,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {	
+			tag = LIB	
+			Pure_Vessel = {
+				is_country_leader = yes
+			}		
+		}
+		localization_key = "LIB_POI_Pure_Vessel"
+	}
+	text = {
+		trigger = {	
 			tag = SOV	
 			has_idea = POI_Grand_Duke_Kirill		
 		}

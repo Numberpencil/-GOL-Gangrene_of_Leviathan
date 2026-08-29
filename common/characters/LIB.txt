@@ -28,7 +28,7 @@ characters = {
         }
         country_leader = {
             desc = Miku_name_desc
-            ideology = Conservatism_ideology
+            ideology = MIKU
             traits = {
           
             }
@@ -45,7 +45,7 @@ characters = {
         }
         country_leader = {
             desc = Vertin_name_desc
-            ideology = Liberalism
+            ideology = Saint_Lof_Foundation
             traits = {
             Timekeeper
             }
@@ -62,7 +62,7 @@ characters = {
         }
         country_leader = {
             desc = Teto_name_desc
-            ideology = Hybrid_regime
+            ideology = TETO
             traits = {
     
             }
@@ -79,7 +79,7 @@ characters = {
         }
         country_leader = {
             desc = Amiya_name_desc
-            ideology = Social_democratism
+            ideology = Rhode_Island
             traits = {
                 Rhodes_Island_Leader
             }
@@ -96,7 +96,7 @@ characters = {
         }
         country_leader = {
             desc = Saya_name_desc
-            ideology = Esoteric_Celtsdruidism
+            ideology = SAYA
             traits = {
                 
             }
@@ -113,9 +113,60 @@ characters = {
         }
         country_leader = {
             desc = Elena_name_desc
-            ideology = Leninism
+            ideology = Joint_Development_Zone
             traits = {
                 
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Angela = {
+        name = Angela_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/Angela.png"
+            }
+        }
+        country_leader = {
+            desc = Angela_name_desc
+            ideology = Lobotomy_Corporation
+            traits = {
+                
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    General_Blasch = {
+        name = General_Blasch_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/General_Blasch.png"
+            }
+        }
+        country_leader = {
+            desc = General_Blasch_name_desc
+            ideology = Managed_democracy
+            traits = {
+                
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Pure_Vessel = {
+        name = Pure_Vessel_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/LIB/Pure_Vessel.png"
+            }
+        }
+        country_leader = {
+            desc = Pure_Vessel_name_desc
+            ideology = The_Holy_NestRegency
+            traits = {
+                pure
             }
             expire = "9999.1.1.1"
             id = -1

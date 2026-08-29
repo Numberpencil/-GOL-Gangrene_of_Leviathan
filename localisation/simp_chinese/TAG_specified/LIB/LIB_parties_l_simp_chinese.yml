@@ -12,12 +12,12 @@
  # 威权主义政党
  LIB_PARTY_NAME_AT_unkown: "VOCALOID...?"
  # 专制主义政党
- #LIB_PARTY_NAME_DP_unkown: "专制主义政党名称"
+ LIB_PARTY_NAME_DP_unkown: "圣巢之苍白宫廷"
  # 民粹主义政党
- #LIB_PARTY_NAME_PP_unkown: "民粹主义政党名称"
+ LIB_PARTY_NAME_PP_unkown: "脑叶公司"
  # 法西斯政党
  LIB_PARTY_NAME_FS_unkown: "整合运动"
  # 国家社会主义政党
- #LIB_PARTY_NAME_NS_unkown: "国家社会主义政党名称"
+ LIB_PARTY_NAME_NS_unkown: "民主委员会"
   #神秘主义政党
  LIB_PARTY_NAME_OC_unkown: "Nitro+"
