@@ -15,7 +15,7 @@
  National_communism_desc:0 ""
  Anarchist_communism:0 "无政府共产主义"
  Anarchist_communism_desc:0 ""
- Joint_Development_Zone: "东方08小队"
+ Joint_Development_Zone:0"联合领东方小队"
  #社
  socialism:0 "社会主义"
  socialism_noun:0 "社会主义"
@@ -43,6 +43,7 @@
  Neosanminism:0 "新三民主义"
  Neosanminism_desc:0 ""
  Rhode_Island: "罗德岛-阿米娅派"
+ Rhode_Island_desc: "阿米娅的政治与哲学思想是指罗德岛制药公司公开领袖阿米娅所持有的核心意识形态。其核心思想被广泛定义为带有强烈人道主义与社群主义色彩的、践行渐进式改革的理性理想主义。主张超国家与超阶级的“国际主义”并带有改良主义与反威权主义的特征，这使她的立场在激进革命派与保守威权派之间呈现出一种温和的中道主义特征。"
  #民
  democrat:0 "民主主义"
  democrat_noun:0 "民主主义"
@@ -64,6 +65,7 @@
  Radical_republicanism:0 "激进共和主义"
  Radical_republicanism_desc:0 ""
  Saint_Lof_Foundation: "司辰式庇护民主"
+ Saint_Lof_Foundation_desc: "维尔汀的政治与哲学思想呈现出一种具有高度人本主义色彩的、倡导多元共生的存在主义经验论。极其尊重要素和个体的“存在本身”，强烈反对任何将个体工具化、数字化的宏大叙事。反对威权主义并建立在高度的经验主义之上。"
  
  #保
  conservatism:0 "保守主义"
@@ -191,6 +193,7 @@ The_Holy_NestRegency: "苍白专制主义"
  DKP_NSDAP_united_government:0 "DKP-NSDAP联合政府"
  DKP_NSDAP_united_government_desc:0 "我是说的道理"
  Managed_democracy: "管理式民主"
+ Managed_democracy_desc: "管理式民主是超级地球政权所实行的核心政治体制与官方意识形态。该体制融合了极端爱国主义、军国主义以及高度技术官僚化的威权主义特征，其核心理念是通过科学算法和计算机系统来“协助”公民完成民主选举，从而确保国家意志的高度统一和绝对高效， 尽管在形式上保留了选举和公民参与的躯壳，但实质上的统治权集中于超级地球的最高议会及各类职能部门"
  #秘
  occultism:0 "神秘主义"
  occultism_desc:0 "极权政体"

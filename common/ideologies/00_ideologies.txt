@@ -347,7 +347,7 @@ ideologies = {
                 color = { 43 16 0 }
             }
             Managed_democracy = {
-
+                color = { 25 25 112 }
             }
         }
         color = { #

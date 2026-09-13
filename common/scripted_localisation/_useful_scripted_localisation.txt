@@ -830,9 +830,87 @@ text = {
 }
 text = {
 	trigger = {
-		has_country_leader_ideology = Integralist_corporatism_Talulah
+		has_country_leader_ideology = Joint_Development_Zone
 	}
-	localization_key = Integralist_corporatism_Talulah
+	localization_key = Joint_Development_Zone
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = Rhode_Island
+	}
+	localization_key = Rhode_Island
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = Saint_Lof_Foundation
+	}
+	localization_key = Saint_Lof_Foundation
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = MIKU
+	}
+	localization_key = MIKU
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = TETO
+	}
+	localization_key = TETO
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = The_Holy_NestRegency
+	}
+	localization_key = The_Holy_NestRegency
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = Lobotomy_Corporation
+	}
+	localization_key = Lobotomy_Corporation
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = Managed_democracy
+	}
+	localization_key = Managed_democracy
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = SAYA
+	}
+	localization_key = SAYA
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = Prussian_imperialism
+	}
+	localization_key = Prussian_imperialism
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = xun_zheng
+	}
+	localization_key = xun_zheng
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = Military_alliance
+	}
+	localization_key = Military_alliance
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = Authoritarian_Republicanism
+	}
+	localization_key = Authoritarian_Republicanism
+}
+text = {
+	trigger = {
+		has_country_leader_ideology = Crony_warlord
+	}
+	localization_key = Crony_warlord
 }
 text = {
 	trigger = {
