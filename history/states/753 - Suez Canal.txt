@@ -5,7 +5,7 @@ state = {
 	state_category = major_port
 
 	history = {
-		owner = EGY
+		owner = ZZZ
 		add_core_of = EGY
  
 

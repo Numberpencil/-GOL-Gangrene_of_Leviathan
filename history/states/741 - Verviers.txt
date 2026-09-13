@@ -5,7 +5,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = GER =
+		owner = GER 
 
 
 

@@ -6,7 +6,7 @@ state = {
 	local_supplies = 7.0
 
 	history = {
-		owner = EGY
+		owner = ZZZ
 		add_core_of = EGY
  
 		
