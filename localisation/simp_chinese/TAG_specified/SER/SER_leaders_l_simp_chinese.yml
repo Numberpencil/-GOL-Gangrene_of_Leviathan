@@ -1,5 +1,4 @@
 ﻿l_simp_chinese:
- # 领袖本地化模板
- # 命名规则：TAG_leader_name
- # 领袖名称
- #SER_leader: "领袖名称"
+ Alexander_I_name:0 "亚历山大一世"
+ Milan_name:0 "米兰·斯托亚迪诺维奇"
+ SER_POI_Alexander_I:0 "亚历山大一世\n—————————————————————————\n§1塞尔维亚国王§!\n\n\n\n\n\n\n£GFX_secondary_leader_Alexander_I\n\n\n\n\n\n\n"

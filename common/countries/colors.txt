@@ -608,6 +608,14 @@ KUR = {#6A483E
 	color =  rgb { 127 71 62 }
 	color_ui =  rgb { 127 71 62 }
 }
+JOR = {
+	color =  rgb { 158 165 120 }
+	color_ui =  rgb { 158 165 120 }
+}
+SUZ = {
+	color =  rgb { 158 165 120 }
+	color_ui =  rgb { 158 165 120 }
+}
 #TAG = {
 #	color =  rgb {   }
 #	color_ui =  rgb {   }

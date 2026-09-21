@@ -6,7 +6,7 @@
 GOL_balkan_white_peace = {
 	HUN = {
 		white_peace = ROM
-		white_peace = YUG
+		white_peace = SER
 		white_peace = BUL
 		white_peace = BOS
 	}
@@ -16,7 +16,7 @@ GOL_balkan_white_peace = {
 			MAC = {
 				OR = {
 					has_war_with = ROM
-					has_war_with = YUG
+					has_war_with = SER
 					has_war_with = BUL
 					has_war_with = BOS
 				}
@@ -24,7 +24,7 @@ GOL_balkan_white_peace = {
 		}
 		MAC = {
 			white_peace = ROM
-			white_peace = YUG
+			white_peace = SER
 			white_peace = BUL
 			white_peace = BOS
 		}
@@ -38,7 +38,7 @@ GOL_hungarian_victory_peace = {
 	
 	HUN = {
 		puppet = ROM
-		puppet = YUG
+		puppet = SER
 		puppet = BOS
 		puppet = BCV
 		puppet = MOL
@@ -63,7 +63,7 @@ GOL_hungarian_victory_peace = {
 	
 	# 清除投降标记flag（避免重复触发）
 	clr_global_flag = GOL_flag_romania_defeated
-	clr_global_flag = GOL_flag_yugoslavia_defeated
+	clr_global_flag = GOL_flag_serbia_defeated
 	clr_global_flag = GOL_flag_hungary_defeated
 }
 
@@ -109,32 +109,32 @@ GOL_balkan_alliance_victory_peace = {
 		add_core_of = BUL
 	}	
 	104 = {
-		transfer_state_to = YUG
-		add_core_of = YUG
+		transfer_state_to = SER
+		add_core_of = SER
 	}
 	103 = {
-		transfer_state_to = YUG
-		add_core_of = YUG
+		transfer_state_to = SER
+		add_core_of = SER
 	}
 	109 = {
-		transfer_state_to = YUG
-		add_core_of = YUG
+		transfer_state_to = SER
+		add_core_of = SER
 	}
 	45 = {
-		transfer_state_to = YUG
-		add_core_of = YUG
+		transfer_state_to = SER
+		add_core_of = SER
 	}
 	794 = {
-		transfer_state_to = YUG
-		add_core_of = YUG
+		transfer_state_to = SER
+		add_core_of = SER
 	}
 	875 = {
-		transfer_state_to = YUG
-		add_core_of = YUG
+		transfer_state_to = SER
+		add_core_of = SER
 	}
 	
 	set_global_flag = GOL_flag_balkan_alliance_victory
-	YUG = {
+	SER = {
 		set_cosmetic_tag = Yugoslavia
 	}
 	
@@ -146,6 +146,6 @@ GOL_balkan_alliance_victory_peace = {
 	}
 	# 清除投降标记flag（避免重复触发）
 	clr_global_flag = GOL_flag_romania_defeated
-	clr_global_flag = GOL_flag_yugoslavia_defeated
+	clr_global_flag = GOL_flag_serbia_defeated
 	clr_global_flag = GOL_flag_hungary_defeated
 }
