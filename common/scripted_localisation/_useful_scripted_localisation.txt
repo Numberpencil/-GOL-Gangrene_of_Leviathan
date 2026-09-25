@@ -830,6 +830,12 @@ text = {
 }
 text = {
 	trigger = {
+		has_country_leader_ideology = Integralist_corporatism_Talulah
+	}
+	localization_key = Integralist_corporatism_Talulah
+}
+text = {
+	trigger = {
 		has_country_leader_ideology = Joint_Development_Zone
 	}
 	localization_key = Joint_Development_Zone

@@ -17,6 +17,7 @@ recruit_character = ger_Wilhelm_II_5
 recruit_character = ger_Wilhelm_II_6
 recruit_character = ger_Wilhelm_II_7
 recruit_character = ger_Wilhelm_II_8
+recruit_character = ger_Wilhelm_II_9
 recruit_character = GER_Hitler
 
 

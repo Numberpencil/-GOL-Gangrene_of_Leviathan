@@ -590,7 +590,6 @@ default_paratroopers_production = {
 default_major_SF_para = {
 	enable = {
 		is_major = yes
-		has_tech = special_forces_paratroopers
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
@@ -603,7 +602,6 @@ default_major_SF_para = {
 default_major_SF_marines = {
 	enable = {
 		is_major = yes
-		has_tech = special_forces_marines
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {

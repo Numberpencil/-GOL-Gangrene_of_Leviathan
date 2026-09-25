@@ -121,7 +121,23 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Revolutionary_nationalism
+            ideology = Konservative_Revolution_DKP
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+      ger_Wilhelm_II_9 = {
+        name = GER_Wilhelm_II
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/GER/ger_Wilhelm_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Esoteric_nazism_germany
             traits = {
 
             }

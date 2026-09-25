@@ -138,7 +138,30 @@ guiTypes = {
 					format = center
 				}
 			}
+            
+			instantTextboxType = {
+				name = "stability_value"
+				position = { x = 446 y = -10 } #position = { x = 369 y = 42 }
+				font = "hoi_16mbs"
+				borderSize = 0
+				text = "100%"
+				maxWidth = 44
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+			} 
 
+			instantTextboxType = {
+				name = "war_support_value"
+				position = { x = 490 y = -10 } #osition = { x = 414 y = 42 }
+				#borderSize = 0
+				font = "hoi_16mbs"
+				text = "0%"
+				maxWidth = 44
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+			}
 
 
 			#------------------------- TAB BUTTONS ----------------------------
