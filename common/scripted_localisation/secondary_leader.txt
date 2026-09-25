@@ -77,7 +77,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {	
-			tag = YUG			
+			tag = SER			
 			has_idea = POI_Alexander_I
 		}
 		localization_key = "YUG_POI_Alexander_I"

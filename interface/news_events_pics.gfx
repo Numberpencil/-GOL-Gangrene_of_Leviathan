@@ -31,6 +31,63 @@ spriteTypes = {
 		name = "GFX_news_event_North_Macedonian_massacre"
 		texturefile = "gfx/events/news/North_Macedonian_massacre.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_news_event_Balkan_Union_victory"
+		texturefile = "gfx/events/news/Balkan_Union_victory.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Hungaria_victory"
+		texturefile = "gfx/events/news/Hungaria_victory.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Fall_of_Budapest"
+		texturefile = "gfx/events/news/Fall_of_Budapest.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Fall_of_Bucharest"
+		texturefile = "gfx/events/news/Fall_of_Bucharest.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_France_rebuild_democary"
+		texturefile = "gfx/events/news/France_rebuild_democary.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Millitray_Putsch_of_France"
+		texturefile = "gfx/events/news/Millitray_Putsch_of_France.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Georgr_V_died"
+		texturefile = "gfx/events/news/Georgr_V_died.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Edward_VIII"
+		texturefile = "gfx/events/news/Edward_VIII.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_George_VI_come_to_power"
+		texturefile = "gfx/events/news/George_VI_come_to_power.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Czar_Kirill_died"
+		texturefile = "gfx/events/news/Czar_Kirill_died.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Romania_united"
+		texturefile = "gfx/events/news/Romania_united.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Moldova_Wallachia_war"
+		texturefile = "gfx/events/news/Moldova_Wallachia_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Romania_nation_united"
+		texturefile = "gfx/events/news/Romania_nation_united.dds"
+	}
+	SpriteType = {
+		name = "GFX_news_event_Yugslavia_united"
+		texturefile = "gfx/events/news/Yugslavia_united.dds"
+	}
 	#SpriteType = {
 	#	name = x
 	#	texturefile = ""

@@ -21,7 +21,7 @@ bookmarks = {
 			}
 		}
  
-		YUG = {
+		SER = {
 			history = "Gangrene_of_Leviathan_DESC"
 			ideology = authoritarianism
 			available = { 

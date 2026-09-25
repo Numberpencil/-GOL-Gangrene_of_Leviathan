@@ -10,11 +10,9 @@ state = {
 	}
 
 	history = {
-		owner =  YUG
-		add_core_of =  YUG
- 
-
-		victory_points = { 3939 2 } #Kraljevo
+		owner = SER
+		add_core_of = SER
+victory_points = { 3939 2 } #Kraljevo
 
 		buildings = {
 			infrastructure = 2

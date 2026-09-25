@@ -137,6 +137,7 @@ SPR = "countries/Spain.txt"
 SUD = "countries/Sudan.txt"
 SWI = "countries/Switzerland.txt"
 SYR = "countries/Syria.txt"
+SUZ = "countries/Suez Canal.txt"
 TLK = "countries/Thessaloniki.txt"
 TIB = "countries/Tibet.txt" #西藏噶厦政府
 TRK = "countries/Turkeistan.txt" #突厥斯坦
