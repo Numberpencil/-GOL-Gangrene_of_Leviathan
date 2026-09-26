@@ -99,6 +99,10 @@ ITA = {
 	color =  rgb { 40 107 97  }
 	color_ui =  rgb { 40 107 97  }
 }
+SER = {
+	color =  rgb { 32 42 76  }
+	color_ui =  rgb { 32 42 76  }
+}
 YUG = {
 	color =  rgb { 32 42 76  }
 	color_ui =  rgb { 32 42 76  }
@@ -144,8 +148,8 @@ GRA = {
 	color_ui =  rgb {82 13 14  }
 }
 IRQ = {
-	color =  rgb { 84 30 31}
-	color_ui =  rgb {84 30 31 }
+	color =  rgb { 128 122 79 }
+	color_ui =  rgb { 128 122 79 }
 }
 BCV = {
 	color =  rgb { 118 95 81  }
@@ -164,8 +168,8 @@ SWI = {
 	color_ui =  rgb { 143 121 137  }
 }
 CHI = {
-	color =  rgb { 68 71 55 }
-	color_ui =  rgb { 68 71 55 }
+	color =  rgb { 98 94 24 }
+	color_ui =  rgb { 98 94 24 }
 }
 HBQ = {
 	color =  rgb{ 127 53 36 }
@@ -173,16 +177,16 @@ HBQ = {
 }
 
 SDC = {
-	color =  rgb{ 90 79 60 }
-	color_ui =  rgb{ 90 79 60 }
+	color =  rgb{ 108 84 42 }
+	color_ui =  rgb{ 108 84 42 }
 }
 CQQ = {
 	color =  rgb{ 142 87 70 }
 	color_ui =  rgb{ 142 87 70 }
 }
 GMG = {
-	color =  rgb{ 65 72 75 }
-	color_ui =  rgb{ 65 72 75 }
+	color =  rgb{ 97 92 42 }
+	color_ui =  rgb{ 97 92 42 }
 }
 ZSA = {
 	color =  rgb{ 142 87 70 }
@@ -253,8 +257,8 @@ GXC = {
 	color_ui =  rgb {169 105 36}
 }
 SHX = {
-	color =  rgb { 88 70 59 }
-	color_ui =  rgb { 88 70 59 }
+	color =  rgb { 114 91 63 }
+	color_ui =  rgb { 114 91 63 }
 }
 HEN = {
 	color =  rgb { 67 113 113 }
@@ -265,16 +269,16 @@ XSM = {
 	color_ui =  rgb {44 46 30 }
 }
 MAN = {
-	color =  rgb { 79 48 40 }
-	color_ui =  rgb { 79 48 40 }
+	color =  rgb { 115 56 31 }
+	color_ui =  rgb { 115 56 31 }
 }
 TRS = {
 	color =  rgb { 142 87 70 }
 	color_ui =  rgb { 142 87 70 }
 }
 ZWD = {
-	color =  rgb { 50 59 63 }
-	color_ui =  rgb { 50 59 63 }
+	color =  rgb { 52 72 80 }
+	color_ui =  rgb { 52 72 80 }
 }
 ARG = {
 	color =  rgb { 72 87 106 }
@@ -381,8 +385,8 @@ LEB = {
 	color_ui =  rgb { 130  150  60  }
 }
 ISR = {
-	color =  rgb { 86 102 55 }
-	color_ui =  rgb { 86 102 55 }
+	color =  rgb { 92 53 49 }
+	color_ui =  rgb { 92 53 49 }
 }
 SAU = {
 	color =  rgb { 79 111 86  }
@@ -461,8 +465,8 @@ BHU = {
 	color_ui =  rgb { 115 90 71 }
 }
 JAP = {
-	color =  rgb { 94 51 59 }
-	color_ui =  rgb { 94 51 59 }
+	color =  rgb { 114 60 57 }
+	color_ui =  rgb { 114 60 57 }
 }
 INS = {
 	color =  rgb { 51 63 92  }
@@ -609,8 +613,8 @@ KUR = {#6A483E
 	color_ui =  rgb { 127 71 62 }
 }
 JOR = {
-	color =  rgb { 158 165 120 }
-	color_ui =  rgb { 158 165 120 }
+	color =  rgb { 109 107 82 }
+	color_ui =  rgb { 109 107 82 }
 }
 SUZ = {
 	color =  rgb { 158 165 120 }

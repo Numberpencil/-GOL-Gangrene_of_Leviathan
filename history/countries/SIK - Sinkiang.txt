@@ -48,6 +48,7 @@ set_technology = {#牢中指定
 	mtg_transport = 1
 }
 #人物提取
+recruit_character = Yang_Zengxin
 recruit_character = Sheng_Shicai
 
 #开局执政党

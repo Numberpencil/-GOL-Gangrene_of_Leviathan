@@ -1,7 +1,7 @@
 #首都
 capital = 104
 
-YUG = {
+SER = {
 	puppet = BOS
 }
 

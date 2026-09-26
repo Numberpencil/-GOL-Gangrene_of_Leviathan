@@ -326,6 +326,19 @@ spriteTypes = {
 		name = "GFX_idea_SPR_Family_rmies_Under_the_Covenant"
 		texturefile = "gfx/ideas/SPR/SPR_Family_rmies_Under_the_Covenant.png"
 	}
+	###高加索###
+	SpriteType = {
+		name = "GFX_idea_CAU_Country_of_Fortresses"
+		texturefile = "gfx/ideas/CAU/CAU_Country_of_Fortresses.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_CAU_Three_Year_Plan"
+		texturefile = "gfx/ideas/CAU/CAU_Three_Year_Plan.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_CAU_The_Predicament_of_Party_Leadership"
+		texturefile = "gfx/ideas/CAU/CAU_The_Predicament_of_Party_Leadership.png"
+	}
 		### 贸易法案
 
 	spriteType = {

@@ -516,6 +516,7 @@ FRA_Jacques_Barnault
 FRA_Francois_Lechidou
 FRA_Louis_Renault
 FRA_Pierre_Etienne_Flandin
+FRA_Pierre_Billotte
 }
 
 #开局政党

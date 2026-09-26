@@ -5,10 +5,9 @@ state = {
 	state_category = four
 
 	history = {
-		owner = ORG
-		add_core_of = ORG
-
-		victory_points = { 3513 15 } #Portland
+		owner = LWS
+		add_core_of = LWS
+victory_points = { 3513 15 } #Portland
 		victory_points = { 4328 5 } #Salem
 
 		buildings = {

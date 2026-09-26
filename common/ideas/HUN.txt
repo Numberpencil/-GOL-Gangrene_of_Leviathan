@@ -60,7 +60,6 @@ ideas = {
 				breakthrough_factor = 0.1
 				planning_speed = 0.2	
                 max_planning_factor = 0.1
-				supply_consumption_factor = -0.15
 			}
 		}
 		HUN_war_2 = { #后多瑙军队

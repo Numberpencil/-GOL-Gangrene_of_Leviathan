@@ -16,9 +16,8 @@ MAC_war_1 = { #苦撑待变
 			ai_focus_defense_factor = 2
 			dig_in_speed_factor = 0.25
 			max_dig_in_factor = 0.25
-			pocket_penalty = 0.3
 			army_non_core_attack_factor = -0.25
-			army_core_defence_factor = 0.1
+			army_core_defence_factor = 0.05
 			}
 		}
 }
