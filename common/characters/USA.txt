@@ -1,11 +1,27 @@
 characters = {
     ## Leaders ##
     #premier
-	Lindbergh = {
+    Lindbergh = {
         name = Lindbergh_name
         portraits = {
             civilian = {
                 large = "gfx/leaders/USA/Lindbergh.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+	Muhammad_al = {
+        name = Muhammad_al_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Muhammad_al.png"
             }
         }
         country_leader = {

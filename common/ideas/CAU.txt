@@ -4,9 +4,8 @@
 
 ideas = {
 country = {
- Country_of_Fortresses = {
-            # 碉堡之国
-      picture = "GFX_idea_CAU_Country_of_Fortresses" 
+ Country_of_Fortresses = { #碉堡之国
+          
        cancel = {
 
 				}
@@ -29,9 +28,8 @@ country = {
         
         }
     }
-	Three_Year_Plan = {
-            # 三年计划
-            picture = "GFX_idea_CAU_Three_Year_Plan" 
+	Three_Year_Plan = {#三年计划
+            
        cancel = {
 
 				}
@@ -56,9 +54,8 @@ country = {
         
         }
     }
-	The_Predicament_of_Party_Leadership = {
-            # 三年计划
-            picture = "GFX_idea_CAU_The_Predicament_of_Party_Leadership" 
+	The_Predicament_of_Party_Leadership = { #三年计划
+         
        cancel = {
 
 				}

@@ -328,15 +328,15 @@ spriteTypes = {
 	}
 	###高加索###
 	SpriteType = {
-		name = "GFX_idea_CAU_Country_of_Fortresses"
+		name = "GFX_idea_Country_of_Fortresses"
 		texturefile = "gfx/ideas/CAU/CAU_Country_of_Fortresses.png"
 	}
 	SpriteType = {
-		name = "GFX_idea_CAU_Three_Year_Plan"
+		name = "GFX_idea_Three_Year_Plan"
 		texturefile = "gfx/ideas/CAU/CAU_Three_Year_Plan.png"
 	}
 	SpriteType = {
-		name = "GFX_idea_CAU_The_Predicament_of_Party_Leadership"
+		name = "GFX_idea_The_Predicament_of_Party_Leadership"
 		texturefile = "gfx/ideas/CAU/CAU_The_Predicament_of_Party_Leadership.png"
 	}
 		### 贸易法案

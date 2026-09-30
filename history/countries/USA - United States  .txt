@@ -10,6 +10,7 @@ oob = "USA"
 set_research_slots = 3
 
 #人物提取
+recruit_character = Muhammad_al
 recruit_character = Lindbergh
 
 # 开局解锁科技

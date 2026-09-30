@@ -51,7 +51,7 @@ add_to_faction = AMA
 add_to_faction = ABJ
 add_to_faction = GRA
 add_to_faction = TLK
-add_to_faction = IRQ
+
 
 
 #开局民族精神
