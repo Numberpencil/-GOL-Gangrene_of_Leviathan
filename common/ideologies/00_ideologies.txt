@@ -254,6 +254,9 @@ ideologies = {
             Populist_conservativism = {
                 color = { 139 134 113 }
             }
+            Spanish_Catholic_corporatism = {
+                color = { 139 134 113 }
+            }
             Lobotomy_Corporation = {
 
             }

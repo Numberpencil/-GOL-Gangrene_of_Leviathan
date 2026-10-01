@@ -344,7 +344,15 @@ add_ideas = {
 add_ideas = {
 	POI_George_V
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	Constitutional_monarchy
 	faction_idea_Commonwealth_of_Nations
+	ENG_Silent_Britannia
+	ENG_Tax_system_reform
+	ENG_mainland_policy
+	ENG_depressed_economy
+	ENG_Armament_innovation
+	ENG_Westminster_Agreement
+	
 }
 
 #开局政党

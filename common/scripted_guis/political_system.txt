@@ -17,6 +17,56 @@ scripted_gui = {
 			GUI_icons_political_system_Bicameral_constitutional_monarchy_visible = {
 				has_idea = Bicameral_constitutional_monarchy
 			}
+			GUI_icons_political_system_Tribal_system_visible = {
+				has_idea = Tribal_system
+			}
+			GUI_icons_political_system_Dictatorship_visible = {
+				has_idea = Dictatorship
+			}
+			GUI_icons_political_system_Oligarchic_government_visible = {
+				has_idea = Oligarchic_government
+			}
+			GUI_icons_political_system_Military_government_system_visible = {
+				has_idea = Military_government_system
+			}
+			GUI_icons_political_system_Absolute_monarchy_visible = {
+				has_idea = Absolute_monarchy
+			}
+			GUI_icons_political_system_federal_republic_visible = {
+				has_idea = federal_republic
+			}
+			GUI_icons_political_system_Theocracy_visible = {
+				has_idea = Theocracy
+			}
+			GUI_icons_political_system_parliamentary_republic_visible = {
+				has_idea = parliamentary_republic
+			}
+			GUI_icons_political_system_Colonial_government_visible = {
+				has_idea = Colonial_government
+			}
+			GUI_icons_political_system_Presidential_republic_visible = {
+				has_idea = Presidential_republic
+			}
+			GUI_icons_political_system_non_visible = {
+				NOT = {
+				has_idea = Dictatorship	
+				has_idea = Tribal_system
+				has_idea = Bicameral_constitutional_monarchy
+				has_idea = Constitutional_monarchy
+				has_idea = Oligarchic_government
+				has_idea = federal_republic
+				has_idea = Absolute_monarchy
+				has_idea = Military_government_system
+				has_idea = Theocracy
+				has_idea = federal_republic
+				has_idea = Absolute_monarchy
+				has_idea = parliamentary_republic
+				has_idea = Colonial_government
+				has_idea = Presidential_republic
+			}
+				}
+				
+			}
 		}
 	}
 	political_system_name = {

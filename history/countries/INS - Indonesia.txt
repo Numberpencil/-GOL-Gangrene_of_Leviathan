@@ -93,6 +93,7 @@ occultism = 10
 #功能性民族精神
 add_ideas = {
 faction_idea_Far_East_Defense_Alliance
+Colonial_government
 }
 
 #开局政党

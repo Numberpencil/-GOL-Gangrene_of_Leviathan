@@ -32,5 +32,128 @@ ideas = {
 				
 			}
 		}
+		Tribal_system = { #部落制
+			name = "Tribal_system"
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		Dictatorship = { #独裁
+			name = "Dictatorship"
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		Oligarchic_government = { #寡头
+			name = "Oligarchic_government"
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		Military_government_system = { #军政
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		Absolute_monarchy = { #君主制
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		federal_republic = { #联邦共和
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		Theocracy = { #神权制
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		parliamentary_republic = { #议会制
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		Colonial_government = { #殖民政府
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		Presidential_republic = { #总统制
+			removal_cost = -1
+			cancel = {
+
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
 	}
 }

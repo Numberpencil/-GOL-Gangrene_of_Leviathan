@@ -96,7 +96,7 @@ if = {
 #开局民族精神
 add_ideas = {
 	POI_Gustav_V
-	
+	Constitutional_monarchy
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 }
 

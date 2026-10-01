@@ -148,7 +148,7 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-	
+	Dictatorship
 }
 
 #外交状态

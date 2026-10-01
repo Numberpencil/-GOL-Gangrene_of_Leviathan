@@ -165,6 +165,7 @@ set_popularities = {
 add_ideas = {
 	POI_Kirill_Vladimirov
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	Constitutional_monarchy
 	SOV_The_shackles_of_foreign_investment
 	SOV_Romanov_Dynasty
 	SOV_The_impact_of_the_panic

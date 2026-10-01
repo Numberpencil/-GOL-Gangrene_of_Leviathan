@@ -6,7 +6,62 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_GUI_icons_political_system_Bicameral_constitutional_monarchy"
-		textureFile = "gfx/interface/political_systems/Bicameral_constitutional_monarchy.dds"
+		textureFile = "gfx/interface/political_systems/Bicameral_constitutional_monarchy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Tribal_system"
+		textureFile = "gfx/interface/political_systems/Tribal_system.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Dictatorship"
+		textureFile = "gfx/interface/political_systems/Dictatorship.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Oligarchic_government"
+		textureFile = "gfx/interface/political_systems/Oligarchic_government.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Military_government_system"
+		textureFile = "gfx/interface/political_systems/Military_government_system.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Absolute_monarchy"
+		textureFile = "gfx/interface/political_systems/Absolute_monarchy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_federal_republic"
+		textureFile = "gfx/interface/political_systems/federal_republic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Theocracy"
+		textureFile = "gfx/interface/political_systems/Theocracy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_parliamentary_republic"
+		textureFile = "gfx/interface/political_systems/parliamentary_republic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Colonial_government"
+		textureFile = "gfx/interface/political_systems/Colonial_government.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_Presidential_republic"
+		textureFile = "gfx/interface/political_systems/Presidential_republic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUI_icons_political_system_non"
+		textureFile = "gfx/interface/political_systems/non.png"
 		legacy_lazy_load = no
 	}
 }

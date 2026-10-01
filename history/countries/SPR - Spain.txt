@@ -204,6 +204,7 @@ add_to_faction = POR
 add_ideas = {
 	POI_Alfonso_XIII
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	Constitutional_monarchy
 	faction_idea_Pan_Iberian_Union
 	SPR_TOlivares_Act 
     SPR_Constitutional_crisis 

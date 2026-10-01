@@ -148,7 +148,7 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
-	
+	Military_government_system
 }
 
 #外交状态

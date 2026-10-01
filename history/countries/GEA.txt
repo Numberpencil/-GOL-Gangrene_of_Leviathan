@@ -55,9 +55,10 @@ occultism = 10
 #GEA_generic_idea_2
 #}
 
-功能性民族精神
+#功能性民族精神
 add_ideas = {
 	faction_idea_Berlin_Defence_Agreement
+    Colonial_government
 }
 
 #开局政党

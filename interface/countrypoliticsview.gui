@@ -2010,14 +2010,79 @@ guiTypes = {
 				name = "GUI_icons_political_system_Constitutional_monarchy"
 				position = { x = 0 y = 0 }
 				spriteType = "GFX_GUI_icons_political_system_Constitutional_monarchy"
-				pdx_tooltip = "test_114114"
-				pdx_tooltip_delayed = "TFR_RUS_POLITICAL_SYSTEM_TT_LONG"
+				pdx_tooltip = "political_system_constitutional_monarchy"
 			}
 			iconType = {
 				name = "GUI_icons_political_system_Bicameral_constitutional_monarchy"
 				position = { x = 0 y = 0 }
 				spriteType = "GFX_GUI_icons_political_system_Bicameral_constitutional_monarchy"
 				pdx_tooltip = "political_system_Bicameral_constitutional_monarchy"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_Tribal_system"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Tribal_system"
+				pdx_tooltip = "political_system_Tribal_system"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_Oligarchic_government"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Oligarchic_government"
+				pdx_tooltip = "political_system_Oligarchic_government"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_Dictatorship"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Dictatorship"
+				pdx_tooltip = "political_system_Dictatorship"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_Military_government_system"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Military_government_system"
+				pdx_tooltip = "political_system_Military_government_system"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_Absolute_monarchy"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Absolute_monarchy"
+				pdx_tooltip = "political_system_Absolute_monarchy"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_federal_republic"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_federal_republic"
+				pdx_tooltip = "political_system_federal_republic"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_Theocracy"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Theocracy"
+				pdx_tooltip = "political_system_Theocracy"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_parliamentary_republic"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_parliamentary_republic"
+				pdx_tooltip = "political_system_parliamentary_republic"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_Colonial_government"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Colonial_government"
+				pdx_tooltip = "political_system_Colonial_government"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_Presidential_republic"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_Presidential_republic"
+				pdx_tooltip = "political_system_Presidential_republic"
+			}
+			iconType = {
+				name = "GUI_icons_political_system_non"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_GUI_icons_political_system_non"
+				pdx_tooltip = "political_system_non"
 			}
 		}
 	}

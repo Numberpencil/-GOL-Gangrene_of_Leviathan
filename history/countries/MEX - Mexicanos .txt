@@ -110,5 +110,6 @@ add_ideas = {
 	faction_idea_Pan_Iberian_Union
 	POI_Alfonso_XIII
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	Constitutional_monarchy
 }
 

@@ -5,7 +5,7 @@ characters = {
         name = Abdullah_ibn_Hussein_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/ISR/Abdullah_ibn_Hussein.png"
+                large = "gfx/leaders/JOR/Abdullah_ibn_Hussein.png"
             }
         }
         country_leader = {

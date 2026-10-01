@@ -51,10 +51,9 @@ occultism = 10
 #}
 
 #功能性民族精神
-#add_ideas = {
-#ETH_functional_idea_1
-#ETH_functional_idea_2
-#}
+add_ideas = {
+Constitutional_monarchy
+}
 
 #开局政党
 set_party_name = {

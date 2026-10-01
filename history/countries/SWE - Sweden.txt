@@ -138,6 +138,7 @@ set_popularities = {
 add_ideas = {
 	POI_Gustav_V
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	Constitutional_monarchy
 }
 
 #开局政党

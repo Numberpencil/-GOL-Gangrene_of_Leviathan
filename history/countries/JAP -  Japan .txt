@@ -257,4 +257,5 @@ add_to_faction = MAN
 add_ideas = {
 	POI_COUNTRY_HAS_SECONDARY_LEADER
 	POI_Emperor_Showa
+	Constitutional_monarchy
 }	

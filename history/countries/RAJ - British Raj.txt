@@ -124,10 +124,10 @@ occultism = 10
 #}
 
 #功能性民族精神
-#add_ideas = {
-#RAJ_functional_idea_1
-#RAJ_functional_idea_2
-#}
+add_ideas = {
+faction_idea_Commonwealth_of_Nations
+Colonial_government
+}
 
 #开局政党
 set_party_name = {

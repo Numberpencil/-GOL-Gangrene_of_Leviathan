@@ -111,6 +111,7 @@ set_popularities = {
 add_ideas = {
 	POI_Christian_X
 	POI_COUNTRY_HAS_SECONDARY_LEADER
+	Constitutional_monarchy
 }
 
 #人物提取

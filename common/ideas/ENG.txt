@@ -1,4 +1,4 @@
-﻿# 
+# 
 # 此文件为，预留理念接口供后续实装
 # 注意：此文件中的理念不会被实际使用，仅作为模板使用
 
@@ -11,5 +11,102 @@ country = {
 ## 预留修正接口
 #}
 #}
+ ENG_Silent_Britannia = {
+            # 战败者的刻骨之痛
+              modifier = {
+                war_support_factor = -0.05
+                stability_factor = -0.1
+            }
+        }
+ENG_Tax_system_reform = {
+            # 战败者的刻骨之痛
+              modifier = {
+            consumer_goods_factor = -0.2
+			      production_speed_buildings_factor = 0.15
+			      industrial_factory_donations = 5
+            }
+        }
+ ENG_mainland_policy = {
+            # 战败者的刻骨之痛
+              modifier = {
+                industrial_capacity_factory = 0.1
+         	      conscription_factor = 0.1
+                ai_desired_divisions_factor = 0.2
+            }
+        }  
+ENG_depressed_economy = {
+            # 战败者的刻骨之痛
+              modifier = {
+                consumer_goods_factor = 0.2
+                industrial_capacity_factory = -0.05
+                production_speed_buildings_factor = -0.05 
+                production_factory_efficiency_gain_factor = -0.1
+                production_factory_max_efficiency_factor = -0.1
+                production_factory_start_efficiency_factor = -0.1
+            }
+        }  
+ENG_Armament_innovation = {
+            # 战败者的刻骨之痛
+              modifier = {
+                	experience_gain_army = 0.1
+				          experience_gain_navy = 0.1
+				          experience_gain_air = 0.1
+                  research_speed_factor = 0.1
+                  army_attack_factor = 0.05
+                  army_defence_factor = 0.05
+            }
+        }
+ENG_Westminster_Agreement = {
+            # 战败者的刻骨之痛
+              modifier = {
+              production_speed_buildings_factor = 0.05 		  
+              consumer_goods_factor = -0.05
+              min_export = 0.05
+              stability_factor = 0.1
+             }
+            
+             targeted_modifier = {
+               tag = IRE    
+              production_speed_buildings_factor = 0.05 		  
+              consumer_goods_factor = -0.05
+              min_export = 0.05
+              stability_factor = 0.1
+        }
+         targeted_modifier = {
+               tag = CAN    
+              production_speed_buildings_factor = 0.05 		  
+              consumer_goods_factor = -0.05
+              min_export = 0.05
+              stability_factor = 0.1
+        }
+         targeted_modifier = {
+               tag = AST    
+              production_speed_buildings_factor = 0.05 		  
+              consumer_goods_factor = -0.05
+              min_export = 0.05
+              stability_factor = 0.1
+        }
+        targeted_modifier = {
+               tag = NZL    
+              production_speed_buildings_factor = 0.05 		  
+              consumer_goods_factor = -0.05
+              min_export = 0.05
+              stability_factor = 0.1
+        }
+        targeted_modifier = {
+               tag = RAJ    
+              production_speed_buildings_factor = 0.05 		  
+              consumer_goods_factor = -0.05
+              min_export = 0.05
+              stability_factor = 0.1
+        }
+        targeted_modifier = {
+               tag = SAF    
+              production_speed_buildings_factor = 0.05 		  
+              consumer_goods_factor = -0.05
+              min_export = 0.05
+              stability_factor = 0.1
+        }
+        }                             		
 }
 }

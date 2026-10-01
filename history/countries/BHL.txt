@@ -58,6 +58,7 @@ occultism = 10
 #功能性民族精神
 add_ideas = {
 	faction_idea_Commonwealth_of_Nations
+    Colonial_government
 }
 
 #开局政党

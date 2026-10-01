@@ -143,6 +143,7 @@ set_popularities = {
 
 #开局民族精神
 add_ideas = {
+	Constitutional_monarchy
 	A_turbulent_country
 	Aftermath_of_Great_Depression
 	Legacy_of_the_Habsburgs

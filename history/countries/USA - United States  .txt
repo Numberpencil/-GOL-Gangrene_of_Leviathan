@@ -897,4 +897,5 @@ add_ideas = {
 	USA_Post_Prohibition_Era
 	USA_Collapsed_democracy
 	USA_combat_readiness
+	Dictatorship
 }

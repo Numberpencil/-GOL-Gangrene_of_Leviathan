@@ -506,6 +506,7 @@ FRA_Licking_industrial_scars
 FRA_General_Agreement_of_Martinique
 FRA_Vengeful_Roar
 FRA_The_Shame_of_Longvi_Burier
+Military_government_system
 }
 #开局法案
 add_ideas = {

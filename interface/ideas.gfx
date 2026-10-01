@@ -339,6 +339,48 @@ spriteTypes = {
 		name = "GFX_idea_The_Predicament_of_Party_Leadership"
 		texturefile = "gfx/ideas/CAU/CAU_The_Predicament_of_Party_Leadership.png"
 	}
+	###秘鲁###
+	SpriteType = {
+		name = "GFX_idea_PRU_Gradually_drifting_apart"
+		texturefile = "gfx/ideas/PRU/PRU_Gradually_drifting_apart.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_PRU_Chaotic_Succession_to_the_Throne"
+		texturefile = "gfx/ideas/PRU/PRU_Chaotic_Succession_to_the_Throne.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_PRU_Military_and_Civil_Leadership"
+		texturefile = "gfx/ideas/PRU/PRU_Military_and_Civil_Leadership.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_PRU_Saltpeter_Money_Tree"
+		texturefile = "gfx/ideas/PRU/PRU_Saltpeter_Money_Tree.png"
+	}
+	###英国###
+	SpriteType = {
+		name = "GFX_idea_ENG_Silent_Britannia"
+		texturefile = "gfx/ideas/ENG/ENG_Silent_Britannia.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_ENG_Tax_system_reform"
+		texturefile = "gfx/ideas/ENG/ENG_Tax_system_reform.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_ENG_mainland_policy"
+		texturefile = "gfx/ideas/ENG/ENG_mainland_policy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_ENG_depressed_economy"
+		texturefile = "gfx/ideas/ENG/ENG_depressed_economy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_ENG_Armament_innovation"
+		texturefile = "gfx/ideas/ENG/ENG_Armament_innovation.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_ENG_Westminster_Agreement"
+		texturefile = "gfx/ideas/ENG/ENG_Westminster_Agreement.png"
+	}
 		### 贸易法案
 
 	spriteType = {

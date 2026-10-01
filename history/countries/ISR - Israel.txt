@@ -9,7 +9,7 @@ set_stability = 0.5
 set_war_support = 0.3
 
 #人物提取
-recruit_character = Abdullah_ibn_Hussein
+#recruit_character = Abdullah_ibn_Hussein
 
 #开局科研槽
 set_research_slots = 3

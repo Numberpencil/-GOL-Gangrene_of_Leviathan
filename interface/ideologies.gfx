@@ -21,6 +21,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Mariategui_Thought.png"
 	}
 	SpriteType = { #
+		name = "GFX_ideology_Spanish_Catholic_corporatism"
+		texturefile = "gfx/interface/ideologies/Spanish_Catholic_corporatism.png"
+	}
+	SpriteType = { #
 		name = "GFX_ideology_Colonial_government"
 		texturefile = "gfx/interface/ideologies/Colonial_government.png"
 	}

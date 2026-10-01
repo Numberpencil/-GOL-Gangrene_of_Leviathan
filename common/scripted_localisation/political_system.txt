@@ -12,4 +12,64 @@ defined_text = {
 		}
 		localization_key = "Bicameral_constitutional_monarchy"
 	}
+	text = {
+		trigger = {
+			has_idea = Tribal_system
+		}
+		localization_key = "Tribal_system"
+	}
+	text = {
+		trigger = {
+			has_idea = Dictatorship
+		}
+		localization_key = "Dictatorship"
+	}
+	text = {
+		trigger = {
+			has_idea = Oligarchic_government
+		}
+		localization_key = "Oligarchic_government"
+	}
+	text = {
+		trigger = {
+			has_idea = Military_government_system
+		}
+		localization_key = "Military_government_system"
+	}
+	text = {
+		trigger = {
+			has_idea = Absolute_monarchy
+		}
+		localization_key = "Absolute_monarchy"
+	}
+	text = {
+		trigger = {
+			has_idea = Theocracy
+		}
+		localization_key = "Theocracy"
+	}
+	text = {
+		trigger = {
+			has_idea = parliamentary_republic
+		}
+		localization_key = "parliamentary_republic"
+	}
+	text = {
+		trigger = {
+			has_idea = Colonial_government
+		}
+		localization_key = "Colonial_government"
+	}
+	text = {
+		trigger = {
+			has_idea = Presidential_republic
+		}
+		localization_key = "Presidential_republic"
+	}
+	text = {
+		trigger = {
+			has_idea = federal_republic
+		}
+		localization_key = "federal_republic"
+	}
 }

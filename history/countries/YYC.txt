@@ -91,10 +91,9 @@ occultism = 10
 #}
 
 #功能性民族精神
-#add_ideas = {
-#YYC_functional_idea_1
-#YYC_functional_idea_2
-#}
+add_ideas = {
+Military_government_system
+}
 
 #开局政党
 set_party_name = {

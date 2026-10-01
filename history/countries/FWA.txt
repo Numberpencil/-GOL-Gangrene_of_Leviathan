@@ -55,9 +55,9 @@ occultism = 10
 #FWA_generic_idea_2
 #}
 
-功能性民族精神
+#功能性民族精神
 add_ideas = {
-	
+	Colonial_government
 }
 
 #开局政党
