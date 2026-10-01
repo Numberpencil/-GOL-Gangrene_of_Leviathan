@@ -21,7 +21,7 @@ infantry_weapons = 1
 
 #开局执政党
 set_politics = {
-ruling_party = authoritarianism
+ruling_party = despotism
 last_election = "1934.1.1"
 election_frequency = 48
 elections_allowed = no
@@ -51,10 +51,9 @@ occultism = 10
 #}
 
 #功能性民族精神
-#add_ideas = {
-#SUD_functional_idea_1
-#SUD_functional_idea_2
-#}
+add_ideas = {
+Absolute_monarchy
+}
 
 #开局政党
 set_party_name = {

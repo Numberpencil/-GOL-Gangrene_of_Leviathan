@@ -51,10 +51,9 @@ occultism = 10
 #}
 
 #功能性民族精神
-#add_ideas = {
-#JOR_functional_idea_1
-#JOR_functional_idea_2
-#}
+add_ideas = {
+Absolute_monarchy
+}
 
 #开局政党
 set_party_name = {

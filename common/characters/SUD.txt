@@ -9,7 +9,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Authoritarian_democrat
+            ideology = Absolute_monarchy
             traits = {
 
             }

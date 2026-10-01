@@ -36,12 +36,12 @@ IRE = {
 	color_ui =  rgb { 107 38 29  }
 }
 SPR = {
-	color =  rgb { 156 130 93  }
-	color_ui =  rgb { 156 130 93  }
+	color =  rgb { 154 115 64  }
+	color_ui =  rgb { 154 115 64  }
 }
 POR = {
-	color =  rgb { 22 121 92  }
-	color_ui =  rgb { 22 121 92  }
+	color =  rgb { 108 117 46  }
+	color_ui =  rgb { 108 117 46  }
 }
 POL = {
 	color =  rgb { 118 74 87  }

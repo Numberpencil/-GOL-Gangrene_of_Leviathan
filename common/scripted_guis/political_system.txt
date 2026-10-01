@@ -68,7 +68,7 @@ scripted_gui = {
 				
 			}
 		}
-	}
+	
 	political_system_name = {
 		window_name = "GUI_political_system_text_container"
 		context_type = player_context

@@ -326,6 +326,36 @@ spriteTypes = {
 		name = "GFX_idea_SPR_Family_rmies_Under_the_Covenant"
 		texturefile = "gfx/ideas/SPR/SPR_Family_rmies_Under_the_Covenant.png"
 	}
+	SpriteType = {
+		name = "GFX_idea_banner_SPR_TOlivares_Act"
+		texturefile = "gfx/ideas/SPR/banners/SPR_TOlivares_Act.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_SPR_Constitutional_crisis"
+		texturefile = "gfx/ideas/SPR/banners/SPR_Constitutional_crisis.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_SPR_The_Second_Great_Panic"
+		texturefile = "gfx/ideas/SPR/banners/SPR_The_Second_Great_Panic.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_SPR_backward_army"
+		texturefile = "gfx/ideas/SPR/banners/SPR_backward_army.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_SPR_Save_the_Empire"
+		texturefile = "gfx/ideas/SPR/banners/SPR_Save_the_Empire.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_SPR_Family_rmies_Under_the_Covenant"
+		texturefile = "gfx/ideas/SPR/banners/SPR_Family_rmies_Under_the_Covenant.png"
+		legacy_lazy_load = no
+	}
 	###高加索###
 	SpriteType = {
 		name = "GFX_idea_Country_of_Fortresses"

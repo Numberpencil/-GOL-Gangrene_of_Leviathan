@@ -1,15 +1,15 @@
 characters = {
     ## Leaders ##
     #premier
-	 Abdullah_ibn_Hussein = {
-        name = Abdullah_ibn_Hussein_name
+	Arthur_Wauchope = {
+        name = Arthur_Wauchope_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/JOR/Abdullah_ibn_Hussein.png"
+                large = "gfx/leaders/ISR/Arthur_Wauchope.png"
             }
         }
         country_leader = {
-            ideology = Absolute_monarchy
+            ideology = Colonial_government
             traits = {
 
             }
@@ -17,5 +17,5 @@ characters = {
             id = -1
         }
     }
-
+    
 }

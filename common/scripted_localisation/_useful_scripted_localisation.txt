@@ -728,6 +728,12 @@ defined_text = {
     }
 	text = {
 		trigger = {
+			has_country_leader_ideology = Conservativist_democrat_PDC
+		}
+		localization_key = Conservativist_democrat_PDC
+    }
+	text = {
+		trigger = {
 			has_country_leader_ideology = Esoteric_nazism
 		}
 		localization_key = Esoteric_nazism

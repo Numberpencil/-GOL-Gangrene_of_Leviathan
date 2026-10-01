@@ -104,6 +104,9 @@ ideologies = {
             Conservativist_democrat = {
                 color = { 0 99 108 }
             }
+            Conservativist_democrat_PDC = {
+                color = { 0 99 108 }
+            }
             Radical_republicanism = {
                 color = { 67 174 175 }
             }

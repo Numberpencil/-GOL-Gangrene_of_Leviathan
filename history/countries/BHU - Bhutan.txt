@@ -51,10 +51,9 @@ set_popularities = {
 #}
 
 #功能性民族精神
-#add_ideas = {
-#	idea_BHU_functional_00
-#	idea_BHU_functional_01
-#}
+add_ideas = {
+Absolute_monarchy
+}
 
 #开局政党
 set_party_name = {

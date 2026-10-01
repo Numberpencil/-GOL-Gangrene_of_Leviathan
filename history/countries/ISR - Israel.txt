@@ -9,7 +9,7 @@ set_stability = 0.5
 set_war_support = 0.3
 
 #人物提取
-#recruit_character = Abdullah_ibn_Hussein
+recruit_character = Arthur_Wauchope
 
 #开局科研槽
 set_research_slots = 3
@@ -51,10 +51,9 @@ occultism = 10
 #}
 
 #功能性民族精神
-#add_ideas = {
-#ISR_functional_idea_1
-#ISR_functional_idea_2
-#}
+add_ideas = {
+Colonial_government
+}
 
 #开局政党
 set_party_name = {

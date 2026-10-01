@@ -17,5 +17,21 @@ characters = {
             id = -1
         }
     }
+    Faisal_II = {
+        name = Faisal_II_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/IRQ/Faisal_II.png"
+            }
+        }
+        country_leader = {
+            ideology = Absolute_monarchy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 
 }

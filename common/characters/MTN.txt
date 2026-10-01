@@ -17,6 +17,22 @@ characters = {
             id = -1
         }
     }
+    William_Elmer_Holt = {
+        name = William_Elmer_Holt_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/MTN/William_Elmer_Holt.png"
+            }
+        }
+        country_leader = {
+            ideology = Conservativist_democrat
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
 
 
 }

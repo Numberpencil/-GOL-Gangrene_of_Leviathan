@@ -25,9 +25,137 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Conservativist_democrat
+            ideology = Conservativist_democrat_PDC
             traits = {
                Turn_the_tide
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Horacio_Martinez_Prieto = {
+        name = Horacio_Martinez_Prieto_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/doomer_man.png"
+            }
+        }
+        country_leader = {
+            ideology = Anarchist_communism
+            traits = {
+               
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Indalecio_Prieto = {
+        name = Indalecio_Prieto_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/doomer_man.png"
+            }
+        }
+        country_leader = {
+            ideology = Social_democratism
+            traits = {
+               
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     Fal_Conde = {
+        name = IFal_Conde_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/doomer_man.png"
+            }
+        }
+        country_leader = {
+            ideology = Hyperconservativism
+            traits = {
+               
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Sandhor = {
+        name = Sandhor_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/doomer_man.png"
+            }
+        }
+        country_leader = {
+            ideology = Parental_autocracy
+            traits = {
+               
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+    Maria_Hill_Lovelace = {
+        name = Maria_Hill_Lovelace_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/doomer_man.png"
+            }
+        }
+        country_leader = {
+            ideology = Spanish_Catholic_corporatism
+            traits = {
+               
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+      Antonio_Primo = {
+        name = Antonio_Primo_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/doomer_man.png"
+            }
+        }
+        country_leader = {
+            ideology = Nationalist_syndicalism
+            traits = {
+               
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     No_leadership_layer_SPR_1 = {
+        name = No_leadership_layer
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/doomer_man.png"
+            }
+        }
+        country_leader = {
+            ideology = National_socialism_ideology
+            traits = {
+               
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+     No_leadership_layer_SPR_2 = {
+        name = No_leadership_layer
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/doomer_man.png"
+            }
+        }
+        country_leader = {
+            ideology = Esoteric_nazism
+            traits = {
+               
             }
             expire = "9999.1.1.1"
             id = -1
