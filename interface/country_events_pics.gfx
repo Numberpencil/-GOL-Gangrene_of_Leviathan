@@ -56,4 +56,8 @@ spriteTypes = {
 		name = "GFX_event_Labor_win"
 		texturefile = "gfx/events/FRA/Labor_win.dds"
 	}	
+	spriteType = {
+		name = "GFX_event_The_Twilight_of_Empire"
+		texturefile = "gfx/events/SPR/The_Twilight_of_Empire.dds"
+	}
 }

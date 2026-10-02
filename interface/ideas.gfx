@@ -356,6 +356,16 @@ spriteTypes = {
 		texturefile = "gfx/ideas/SPR/banners/SPR_Family_rmies_Under_the_Covenant.png"
 		legacy_lazy_load = no
 	}
+	###葡萄牙###
+	SpriteType = {
+		name = "GFX_idea_POR_Sixteen_Years_of_Enslavement"
+		texturefile = "gfx/ideas/POR/POR_Sixteen_Years_of_Enslavement.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_banner_POR_Sixteen_Years_of_Enslavement"
+		texturefile = "gfx/ideas/POR/banners/POR_Sixteen_Years_of_Enslavement.png"
+		legacy_lazy_load = no
+	}
 	###高加索###
 	SpriteType = {
 		name = "GFX_idea_Country_of_Fortresses"

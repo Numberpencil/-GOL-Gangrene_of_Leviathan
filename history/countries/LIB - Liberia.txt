@@ -167,10 +167,10 @@ occultism = 10
 #create_faction_from_template = faction_template_LIB
 
 #开局民族精神
-#add_ideas = {
-#LIB_generic_idea_1
-#LIB_generic_idea_2
-#}
+add_ideas = {
+LIB_Raw_Stone_Craftsmanship
+LIB_Army_of_Terra
+}
 
 #功能性民族精神
 #add_ideas = {

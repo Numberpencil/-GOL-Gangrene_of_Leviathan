@@ -9,7 +9,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = National_communism
+            ideology = National_communism_NIC
             traits = {
 
             }

@@ -4,17 +4,17 @@
 
 add_namespace = SPR
 
-#country_event = {
-#	id = SPR.1
-#	title = SPR.1.t
-#	desc = SPR.1.d
-#	picture = GFX_events_generic
-#	
-#	is_triggered_only = yes
-#	fire_only_once = yes
-#	
-#	option = {
-#		name = SPR.1.a
-#		# 预留效果接口
-#	}
-#}
+country_event = { #卡尔遇刺
+	id = SPR.1
+    picture = GFX_event_The_Twilight_of_Empire
+    title = SPR.1.t
+    desc = SPR.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = { 
+        name = SPR.1.a #快，保护陛下！
+		add_stability = 0.025
+        add_political_power = 50
+		
+	}
+}

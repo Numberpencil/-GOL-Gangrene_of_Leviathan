@@ -120,6 +120,7 @@ set_popularities = {
 add_ideas = {
 	faction_idea_Pan_Iberian_Union
 	Military_government_system
+	POR_Sixteen_Years_of_Enslavement
 }
 #开局政党
 set_party_name = {

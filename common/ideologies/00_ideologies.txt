@@ -14,7 +14,7 @@ ideologies = {
             National_communism = {
                 color = { 91 31 31 }
             }
-            National_communism_ = {
+            National_communism_NIC = {
                 color = { 91 31 31 }
             }
             Anarchist_communism = {
@@ -22,6 +22,9 @@ ideologies = {
             }
             Joint_Development_Zone = {
                 color = { 112 0 0 }
+            }
+            Anarchist_syndicalism_SPR = {
+                color = { 146 11 11 }
             }
         }
         color = { #

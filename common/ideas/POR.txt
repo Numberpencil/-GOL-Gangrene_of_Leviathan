@@ -1,15 +1,19 @@
-﻿# 
+# 
 # 此文件为，预留理念接口供后续实装
 # 注意：此文件中的理念不会被实际使用，仅作为模板使用
 
 ideas = {
 country = {
-#POR_generic_idea = {
-#picture = GFX_idea_generic
-#allowed = { always = yes }
-#modifier = {
-## 预留修正接口
-#}
-#}
+POR_Sixteen_Years_of_Enslavement = {      
+              modifier = {
+                local_resources_factor = -0.15
+				stability_factor = -0.15
+				war_support_factor = 0.05
+				political_power_gain = -0.05
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.1
+				conscription_factor = -0.1 
+            }
+        }
 }
 }

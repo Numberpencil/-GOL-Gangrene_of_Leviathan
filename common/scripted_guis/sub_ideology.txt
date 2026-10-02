@@ -13,4 +13,14 @@ scripted_gui = {
 			is_ai = no
 		}
 	}
+		subideology_name_ui = {
+		window_name = "added_ruling_party_info_countrydiplomacyview"
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+		visible = {
+		}
+		effects = {
+		}
+
+	}
 }

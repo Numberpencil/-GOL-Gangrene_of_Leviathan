@@ -548,6 +548,18 @@ defined_text = {
     }
 	text = {
 		trigger = {
+			has_country_leader_ideology = National_communism_NIC
+		}
+		localization_key = National_communism_NIC
+    }
+	text = {
+		trigger = {
+			has_country_leader_ideology = Anarchist_syndicalism_SPR
+		}
+		localization_key = Anarchist_syndicalism_SPR
+    }
+	text = {
+		trigger = {
 			has_country_leader_ideology = Christian_democratic
 		}
 		localization_key = Christian_democratic

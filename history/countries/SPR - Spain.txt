@@ -16,7 +16,7 @@ recruit_character = Alfonso_XIII
 recruit_character = Horacio_Martinez_Prieto
 recruit_character = Indalecio_Prieto
 recruit_character = Fal_Conde
-recruit_character = Sandhor
+recruit_character = Bartolome_Barba
 recruit_character = Maria_Hill_Lovelace
 recruit_character = Antonio_Primo
 recruit_character = No_leadership_layer_SPR_1
@@ -260,7 +260,7 @@ name = "SPR_PARTY_NAME_PP_unkown"
 }
 set_party_name = {
 ideology = fascism
-long_name = "SPR_PARTY_NAME_FS_unkown"
+long_name = "SPR_PARTY_NAME_FS_unkown_long"
 name = "SPR_PARTY_NAME_FS_unkown"
 }
 set_party_name = {
@@ -273,3 +273,11 @@ ideology = occultism
 long_name = "SPR_PARTY_NAME_OC_unkown"
 name = "SPR_PARTY_NAME_OC_unkown"
 }
+SPR = {
+	country_event = {
+		id = SPR.1
+		days = 7
+	}
+
+}
+

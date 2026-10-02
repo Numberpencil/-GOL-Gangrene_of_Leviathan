@@ -41,7 +41,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = Anarchist_communism
+            ideology = Anarchist_syndicalism_SPR
             traits = {
                
             }
@@ -81,8 +81,8 @@ characters = {
             id = -1
         }
     }
-    Sandhor = {
-        name = Sandhor_name
+    Bartolome_Barba = {
+        name = Bartolome_Barba_name
         portraits = {
             civilian = {
                 large = "gfx/leaders/doomer_man.png"

@@ -1,15 +1,42 @@
-﻿# 
+# 
 # 此文件为，预留理念接口供后续实装
 # 注意：此文件中的理念不会被实际使用，仅作为模板使用
 
 ideas = {
 country = {
-#LIB_generic_idea = {
-#picture = GFX_idea_generic
-#allowed = { always = yes }
-#modifier = {
-## 预留修正接口
-#}
-#}
+LIB_Raw_Stone_Craftsmanship ={
+			allowed ={
+				always= yes
+			}
+			modifier ={
+				production_lack_of_resource_penalty_factor = -0.75
+				production_factory_start_efficiency_factor = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.2
+				consumer_goods_expected_value = -0.1
+				army_fuel_consumption_factor = -0.75
+			}
+		}
+LIB_Army_of_Terra ={
+			allowed ={
+				always= yes
+			}
+			modifier ={
+				conscription_factor = -0.9
+				land_reinforce_rate = 0.25
+				weekly_manpower = 50
+				training_time_factor = -0.3 
+				army_speed_factor = 0.3
+				army_morale_factor = 0.3
+				breakthrough_factor = 0.15
+				pocket_penalty = -0.45
+				terrain_penalty_reduction = 0.25
+				org_loss_at_low_org_factor = -0.2
+				org_loss_when_moving = -0.2
+				experience_loss_factor = -0.4
+				experience_gain_army_unit_factor = 0.5
+				supply_consumption_factor = -0.5
+			}
+		}		
 }
 }

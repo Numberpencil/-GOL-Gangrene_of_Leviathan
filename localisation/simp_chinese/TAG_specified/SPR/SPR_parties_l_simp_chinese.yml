@@ -6,17 +6,18 @@
  # 社会主义政党
  SPR_PARTY_NAME_SC_unkown: "西班牙工人社会党"
  # 民主政党
- SPR_PARTY_NAME_DM_unkown: "西班牙立宪复兴党"
+ SPR_PARTY_NAME_DM_unkown: "西班牙立宪民主党"
  # 保守主义政党
  SPR_PARTY_NAME_CS_unkown: "卡洛斯派正统主义团契"
  # 威权主义政党
  SPR_PARTY_NAME_AT_CR:0 "王国专制党"
  # 专制主义政党
- SPR_PARTY_NAME_DP_unkown: "军事政府"
+ SPR_PARTY_NAME_DP_unkown: "西班牙统一军事联盟"
  # 民粹主义政党
  SPR_PARTY_NAME_PP_unkown: "西班牙民族复兴党"
  # 法西斯政党
- SPR_PARTY_NAME_FS_unkown: "西班牙长枪党与国家工团主义者进军"
+ SPR_PARTY_NAME_FS_unkown: "西班牙长枪党"
+ SPR_PARTY_NAME_FS_unkown_long: "西班牙长枪党与国家工团主义者进军"
  # 国家社会主义政党
  SPR_PARTY_NAME_NS_unkown: "§R（非法）§!"
  # 神秘主义政党

@@ -257,14 +257,13 @@ guiTypes = {
 						name = "ideology_name"
 						position = { x = 5 y = 10 }
 						font = "hoi_16mbs"
-						text = "GetRulingIdeology"
+						text = "[ROOT.GetRulingIdeologySubtype]"
 						maxWidth = 245
 						maxHeight = 20
 					}
-
 					instantTextboxType = {
 						name = "elections"
-						position = { x = 5 y = 25 }
+						position = { x = 5 y = 37 }
 						font = "hoi_16mbs"
 						text = "elections"
 						maxWidth = 245

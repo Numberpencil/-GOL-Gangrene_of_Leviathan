@@ -4,5 +4,8 @@
  # 示例：idea_TAG_00 或 idea_TAG_name
  # 理念名称
  #LIB_generic_idea: "理念名称"
+ LIB_Raw_Stone_Craftsmanship: "源石工艺"
+ LIB_Army_of_Terra: "泰拉军团"
  # 理念描述
  #LIB_generic_idea_desc: "理念描述"
+ LIB_Army_of_Terra_desc: "我们的军队由泰拉裔居民组成，战斗力强悍，但数目稀少"
