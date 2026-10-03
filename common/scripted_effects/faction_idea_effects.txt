@@ -102,7 +102,7 @@ update_faction_ideas_for_all = {
 		}
 	}
 	
-	YUG = {
+	SER = {
 		if = {
 			limit = { is_faction_leader = yes }
 			every_country = {

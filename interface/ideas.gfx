@@ -256,17 +256,17 @@ spriteTypes = {
 	###塞尔维亚###
 	SpriteType = {
 		name = "GFX_idea_Belated_Victory"
-		texturefile = "gfx/ideas/YUG/Belated_Victory.png"
+		texturefile = "gfx/ideas/SER/Belated_Victory.png"
 	}
 
 	SpriteType = {
 		name = "GFX_idea_Myth_of_National_Rejuvenation"
-		texturefile = "gfx/ideas/YUG/Myth_of_National_Rejuvenation.png"
+		texturefile = "gfx/ideas/SER/Myth_of_National_Rejuvenation.png"
 	}
 
 	SpriteType = {
 		name = "GFX_idea_Backward_country"
-		texturefile = "gfx/ideas/YUG/Backward_country.png"
+		texturefile = "gfx/ideas/SER/Backward_country.png"
 	}
 	###俄罗斯帝国###
 	SpriteType = {

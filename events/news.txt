@@ -116,10 +116,10 @@ news_event = { #马其顿
 
 	trigger = {
 		MAC = {
-		has_war_with = YUG
+		has_war_with = SER
 		}
 		OR = {
-            106 = { is_controlled_by = YUG }
+            106 = { is_controlled_by = SER }
 			106 = { is_controlled_by = BUL }
 		}
 		106 = { is_owned_by = MAC }
@@ -225,7 +225,7 @@ news_event = { #布达佩斯的陷落
 		has_war_with = ROM
 		}
 		OR = {
-            43 = { is_controlled_by = YUG }
+            43 = { is_controlled_by = SER }
 			43 = { is_controlled_by = BUL }
 			43 = { is_controlled_by = BOS }
 			43 = { is_controlled_by = ROM }

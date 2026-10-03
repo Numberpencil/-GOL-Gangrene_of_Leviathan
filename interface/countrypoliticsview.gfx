@@ -143,7 +143,22 @@ spriteTypes = {
 		name = "GFX_autonomy_reichsprotectorate_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_reichsprotectorate_icon.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_autonomy_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colony.dds"
+	}
+	spriteType = {
+		name = "GFX_Oligopoly_icon"
+		textureFile = "gfx/interface/autonomy/Oligopoly.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colony.dds"
+	}
+	spriteType = {
+		name = "GFX_military_government_icon"
+		textureFile = "gfx/interface/autonomy/military_government.dds"
+	}
 	spriteType = {
 		name = "GFX_autonomy_satellite_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_satellite.dds"

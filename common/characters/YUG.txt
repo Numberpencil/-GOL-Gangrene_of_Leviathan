@@ -5,7 +5,7 @@
 #        name = Alexander_I_name
 #        portraits = {
 #            civilian = {
-#                large = "gfx/leaders/YUG/Alexander_I.png"
+#                large = "gfx/leaders/SER/Alexander_I.png"
 #            }
 #        }
 #        country_leader = {
@@ -25,7 +25,7 @@
 #        name = Milan_name
 #        portraits = {
 #            civilian = {
-#                large = "gfx/leaders/YUG/Milan_Stojadinović.png"
+#                large = "gfx/leaders/SER/Milan_Stojadinović.png"
 #            }
 #        }
 #        country_leader = {

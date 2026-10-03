@@ -35,7 +35,7 @@ country_groups = {
         LUX
         AUS
         CZE
-        YUG
+        SER
         ALB
         HUN
         GRE

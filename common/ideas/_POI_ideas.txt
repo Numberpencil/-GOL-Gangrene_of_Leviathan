@@ -204,7 +204,7 @@ ideas = {
 			}
 		}
 		POI_Alexander_I = {
-			name = "YUG POI Alexander_I"
+			name = "SER POI Alexander_I"
 			on_add = {
 				
 			}

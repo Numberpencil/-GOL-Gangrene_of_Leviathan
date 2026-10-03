@@ -37,7 +37,7 @@ characters = {
         name = Horacio_Martinez_Prieto_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/doomer_man.png"
+                large = "gfx/leaders/SPR/Horacio_Martinez_Prieto.png"
             }
         }
         country_leader = {
@@ -53,7 +53,7 @@ characters = {
         name = Indalecio_Prieto_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/doomer_man.png"
+                large = "gfx/leaders/SPR/Indalecio_Prieto.png"
             }
         }
         country_leader = {

@@ -7,7 +7,7 @@ HUN_balkan_war = {
         OR = {
 			has_war_with = ROM
 			has_war_with = BUL
-			has_war_with = YUG
+			has_war_with = SER
 		}
     }
     abort = {
@@ -32,7 +32,7 @@ HUN_balkan_war = {
 	}
     ai_strategy = {
      type = front_control
-        tag = YUG
+        tag = SER
         value = 200
         ordertype = front
         execution_type = rush
@@ -65,14 +65,14 @@ HUN_balkan_war1 = {
 	}
     ai_strategy = {
     type = prepare_for_war
-    id = YUG
+    id = SER
     value = 100
     } 
 }
 ROM_balkan_war0 = {
     allowed = {
 		 OR = {
-     original_tag = YUG
+     original_tag = SER
 		original_tag = BUL
 		original_tag = ROM
 		 }
@@ -110,10 +110,10 @@ ROM_balkan_war1 = {
         manual_attack = yes
 	}
 }
-YUG_balkan_war = {
+SER_balkan_war = {
     allowed = {
       
-        original_tag = YUG
+        original_tag = SER
 
 		 
 		

@@ -168,7 +168,7 @@ country_event = { #瓦拉几亚拒绝要求
     limit = {
         OR = {
             is_owned_by = HUN
-            is_owned_by = YUG
+            is_owned_by = SER
             is_owned_by = BOS
             is_owned_by = MAC
             is_owned_by = ROM
@@ -177,7 +177,7 @@ country_event = { #瓦拉几亚拒绝要求
     }
     add_dynamic_modifier = {
         modifier = unplanned_offensive
-        days = 365
+        days = 200
     }
 }
 
@@ -202,9 +202,9 @@ country_event = { #瓦拉几亚拒绝要求
 		hidden_effect = {
 			set_global_flag = GOL_flag_balkan_war_started
 			add_ideas = WAR_war_war
-			YUG = {
+			SER = {
 				country_event = {
-					id = YUG.1 #武装保卫瓦拉几亚
+					id = SER.1 #武装保卫瓦拉几亚
 				}
 			}
 			BUL = {
@@ -212,7 +212,7 @@ country_event = { #瓦拉几亚拒绝要求
 					id = BUL.1 #武装保卫瓦拉几亚
 				}
 			}
-			YUG = {
+			SER = {
              add_ideas = WAR_war_war
             }
             BUL = {

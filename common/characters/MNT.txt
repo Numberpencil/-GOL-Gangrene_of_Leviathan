@@ -1,0 +1,21 @@
+characters = {
+    ## Leaders ##
+    #premier
+	Jovan_Simonov_Plamenac = {
+        name = Jovan_Simonov_Plamenac_name
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/MTN/Jovan_Simonov_Plamenac.png"
+            }
+        }
+        country_leader = {
+            ideology = Absolute_monarchy
+            traits = {
+
+            }
+            expire = "9999.1.1.1"
+            id = -1
+        }
+    }
+   
+}

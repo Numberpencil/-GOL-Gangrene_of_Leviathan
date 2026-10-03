@@ -17,11 +17,11 @@ characters = {
             id = -1
         }
     }
-    Nikolai_Fomin = {
-        name = Nikolai_Fomin_name
+    Nikolai_Vissarionovich_Nekrasov = {
+        name = Nikolai_Vissarionovich_Nekrasov_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/SOV/Nikolai_Fomin.png"
+                large = "gfx/leaders/SOV/Nikolai_Vissarionovich_Nekrasov.png"
             }
         }
         country_leader = {

@@ -51,7 +51,7 @@ legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_secondary_leader_Alexander_I"
-		textureFile = "gfx\leaders\YUG\Alexander_I.png"
+		textureFile = "gfx\leaders\SER\Alexander_I.png"
 legacy_lazy_load = no
 	}
 	spriteType = {

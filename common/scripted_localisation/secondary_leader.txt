@@ -80,7 +80,7 @@ defined_text = {
 			tag = SER			
 			has_idea = POI_Alexander_I
 		}
-		localization_key = "YUG_POI_Alexander_I"
+		localization_key = "SER_POI_Alexander_I"
 	}
 	text = {
 		trigger = {	

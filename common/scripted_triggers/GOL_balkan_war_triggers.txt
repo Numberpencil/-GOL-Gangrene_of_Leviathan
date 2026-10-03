@@ -17,7 +17,7 @@ is_in_hungarian_faction = {
 is_in_balkan_alliance = {
 	OR = {
 		tag = ROM
-		tag = YUG
+		tag = SER
 		tag = BUL
 		tag = BOS
 	}
@@ -36,7 +36,7 @@ hungarian_victory_condition_met = {
 				}
 			}
 		}
-		YUG = {
+		SER = {
 			all_core_state = {
 				OR = {
 					is_controlled_by = HUN
@@ -62,7 +62,7 @@ is_hungarian_balkan_war_active = {
 	HUN = {
 		OR = {
 			has_war_with = ROM
-			has_war_with = YUG
+			has_war_with = SER
 			has_war_with = BUL
 			has_war_with = BOS
 		}

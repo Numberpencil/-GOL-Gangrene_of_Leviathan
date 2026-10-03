@@ -203,7 +203,7 @@
  achievement_EGY_dominion:0 "达到自治领状态"
  achievement_EGY_free:0 "达到自由状态"
  ROM_lost_starting_state:0 "罗马尼亚失去任何初始地区"
- YUG_delcared_war_on_axis_allies:0 "加入轴心国或者同盟国之后向轴心国或者同盟国宣战"
+ SER_delcared_war_on_axis_allies:0 "加入轴心国或者同盟国之后向轴心国或者同盟国宣战"
  achievement_carol_II_is_leader:0 "§Y卡罗尔二世§!是国家元首"
  CHAT_ERROR_MUTE_MISSINGARGS:0 "无效语法，示例：/mute <用户名>"
  CHAT_ERROR_UNMUTE_MISSINGARGS:0 "无效语法，示例：/unmute <用户名>"

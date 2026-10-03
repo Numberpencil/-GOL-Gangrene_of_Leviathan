@@ -932,6 +932,12 @@ text = {
 }
 text = {
 	trigger = {
+		has_country_leader_ideology = Colonial_government
+	}
+	localization_key = Colonial_government
+}
+text = {
+	trigger = {
 		has_country_leader_ideology = Authoritarian_Republicanism
 	}
 	localization_key = Authoritarian_Republicanism

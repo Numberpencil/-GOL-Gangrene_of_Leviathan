@@ -12,7 +12,7 @@ set_research_slots = 4
 
 
 #人物提取
-recruit_character = Nikolai_Fomin
+recruit_character = Nikolai_Vissarionovich_Nekrasov
 recruit_character =Kirill_Vladimirov
 
 # 开局解锁科技
