@@ -15,18 +15,5 @@ guiTypes = {
 			text = "[GetPoliticalSystemName]"
 		}
 	}
-	containerWindowType = {
-		name = "added_ruling_party_info_countrydiplomacyview" 
-		position = { x = 258 y = 139 }
-		size = { width = 255 height = 60 }
-		clipping = no
-		instantTextBoxType = {
-			name = "subideology_name"
-			position = { x = 5 y = 20 }
-			font = "hoi_16mbs"
-			text = "[FROM.GetRulingIdeologySubtype]"
-			maxWidth = 245
-			maxHeight = 20
-		}
-	}
+	
 }

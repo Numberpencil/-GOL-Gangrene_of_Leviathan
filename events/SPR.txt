@@ -12,7 +12,7 @@ country_event = { #卡尔遇刺
     is_triggered_only = yes
     fire_only_once = yes
     option = { 
-        name = SPR.1.a #快，保护陛下！
+        name = SPR.1.a #
 		add_stability = 0.025
         add_political_power = 50
 		

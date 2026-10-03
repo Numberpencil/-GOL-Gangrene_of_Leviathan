@@ -93,6 +93,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Radical_socialism.png"
 	}
 	SpriteType = { #
+		name = "GFX_ideology_SPR_Social_democratism"
+		texturefile = "gfx/interface/ideologies/SPR_Social_democratism.png"
+	}
+	SpriteType = { #
 		name = "GFX_ideology_Social_democratism"
 		texturefile = "gfx/interface/ideologies/Social_democratism.png"
 	}

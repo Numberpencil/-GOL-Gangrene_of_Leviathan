@@ -101,7 +101,7 @@ characters = {
         name = Maria_Hill_Lovelace_name
         portraits = {
             civilian = {
-                large = "gfx/leaders/doomer_man.png"
+                large = "gfx/leaders/SPR/Maria_Hill_Lovelace.png"
             }
         }
         country_leader = {
