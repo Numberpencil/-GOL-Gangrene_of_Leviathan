@@ -149,4 +149,9 @@ legacy_lazy_load = no
 		textureFile = "gfx\leaders\LIB\Pale_King.png"
 legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_secondary_leader_The_Democratic_Council"
+		textureFile = "gfx\leaders\LIB\The_Democratic_Council.png"
+legacy_lazy_load = no
+	}
 }

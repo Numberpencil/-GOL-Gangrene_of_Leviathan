@@ -73,3 +73,78 @@ defined_text = {
 		localization_key = "federal_republic"
 	}
 }
+defined_text = {
+	name = GetPoliticalSystemName_desc
+	text = {
+		trigger = {
+			has_idea = Constitutional_monarchy
+		}
+		localization_key = "Constitutional_monarchy_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = Bicameral_constitutional_monarchy
+		}
+		localization_key = "Bicameral_constitutional_monarchy_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = Tribal_system
+		}
+		localization_key = "Tribal_system_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = Dictatorship
+		}
+		localization_key = "Dictatorship_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = Oligarchic_government
+		}
+		localization_key = "Oligarchic_government_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = Military_government_system
+		}
+		localization_key = "Military_government_system_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = Absolute_monarchy
+		}
+		localization_key = "Absolute_monarchy_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = Theocracy
+		}
+		localization_key = "Theocracy_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = parliamentary_republic
+		}
+		localization_key = "parliamentary_republic_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = Colonial_government
+		}
+		localization_key = "Colonial_government_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = Presidential_republic
+		}
+		localization_key = "Presidential_republic_desc"
+	}
+	text = {
+		trigger = {
+			has_idea = federal_republic
+		}
+		localization_key = "federal_republic_desc"
+	}
+}

@@ -226,6 +226,15 @@ defined_text = {
 		}
 		localization_key = "SOV_POI_Grand_Duke_Kirill"
 	}
+	text = {
+		trigger = {	
+			tag = LIB	
+			General_Blasch = {
+				is_country_leader = yes
+			}			
+		}
+		localization_key = "LIB_POI_The_Democratic_Council"
+	}
 }
 
 		

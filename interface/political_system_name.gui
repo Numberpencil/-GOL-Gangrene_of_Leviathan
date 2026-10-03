@@ -2,7 +2,6 @@ guiTypes = {
 	containerWindowType = {
 		name = "GUI_political_system_text_container"
 		position = { x = 193 y = 406 }
-
 		instantTextBoxType = {
 			name = "GUI_text_political_system_text"
 			position = { x = 0 y = 0 }
@@ -11,8 +10,9 @@ guiTypes = {
 			maxHeight = 20
 			fixedsize = yes
 			format = left
-			alwaystransparent = yes
+			alwaystransparent = no
 			text = "[GetPoliticalSystemName]"
+			
 		}
 	}
 	

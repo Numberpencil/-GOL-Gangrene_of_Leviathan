@@ -544,6 +544,25 @@ ideas = {
 			modifier = {
 				
 			}
-		}																			
+		}	
+		POI_The_Democratic_Council = {
+			name = "LIB POI POI_The_Democratic_Council "
+			on_add = {
+				
+			}
+			on_remove = {
+				
+			}
+			removal_cost = -1
+			cancel = {
+		
+			}
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}																		
     }
 }

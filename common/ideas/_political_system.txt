@@ -16,7 +16,9 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				stability_factor = 0.025
+				political_power_factor = 0.015
+	
 			}
 		} 
 		Bicameral_constitutional_monarchy = { #二元君主立宪
@@ -29,7 +31,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				political_power_factor = 0.025
+				party_popularity_stability_factor = 0.1
 			}
 		}
 		Tribal_system = { #部落制
@@ -42,7 +45,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				political_power_factor = -0.035
+				war_support_factor = 0.025
 			}
 		}
 		Dictatorship = { #独裁
@@ -55,7 +59,9 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				stability_factor = -0.025
+				political_advisor_cost_factor = -0.05
+				consumer_goods_factor = -0.015
 			}
 		}
 		Oligarchic_government = { #寡头
@@ -68,7 +74,9 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				production_speed_buildings_factor = 0.015
+				consumer_goods_factor = 0.025
+				political_power_factor = -0.005
 			}
 		}
 		Military_government_system = { #军政
@@ -80,7 +88,9 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				stability_factor = -0.05
+				industrial_capacity_factory = 0.025
+				experience_gain_army_factor = 0.015
 			}
 		}
 		Absolute_monarchy = { #君主制
@@ -92,7 +102,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				war_support_factor = 0.025
+				army_core_defence_factor = 0.025
 			}
 		}
 		federal_republic = { #联邦共和
@@ -104,7 +115,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				war_support_factor = 0.025
+				stability_factor = 0.025
 			}
 		}
 		Theocracy = { #神权制
@@ -116,7 +128,11 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				army_non_core_defence_factor = 0.05
+                army_non_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+                army_core_attack_factor = 0.05
+				stability_factor = 0.1
 			}
 		}
 		parliamentary_republic = { #议会制
@@ -128,7 +144,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				political_power_factor = 0.05
 			}
 		}
 		Colonial_government = { #殖民政府
@@ -140,7 +156,9 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				overlord_trade_cost_factor = -0.2
+				cic_to_overlord_factor = 0.3
+				mic_to_overlord_factor = 0.3
 			}
 		}
 		Presidential_republic = { #总统制
@@ -152,7 +170,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				
+				stability_factor = 0.05
+				drift_defence_factor = 0.05
 			}
 		}
 	}

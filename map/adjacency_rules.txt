@@ -522,9 +522,7 @@ adjacency_rule = {
 	required_provinces = { 8061 4903 5035 2049 12842 5101 10788 }
 
 	is_disabled = {
-		tooltip = disable_transsaharian_tt
-		has_global_flag = TRANSSAHARIAN_ROUTE_DISABLED
-		NOT = { has_country_flag = can_cross_sahara }
+		
 	}
 
 	icon = 12849
