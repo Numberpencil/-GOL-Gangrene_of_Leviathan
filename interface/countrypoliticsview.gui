@@ -2059,14 +2059,14 @@ guiTypes = {
 				position = { x = 0 y = 0 }
 				spriteType = "GFX_GUI_icons_political_system_federal_republic"
 				pdx_tooltip = "political_system_federal_republic"
-				pdx_tooltip_delayed = "political_system_federal_republic_desc"
+				pdx_tooltip_delayed = "federal_republic_desc"
 			}
 			iconType = {
 				name = "GUI_icons_political_system_Theocracy"
 				position = { x = 0 y = 0 }
 				spriteType = "GFX_GUI_icons_political_system_Theocracy"
 				pdx_tooltip = "political_system_Theocracy"
-				pdx_tooltip_delayed = "political_system_Theocracy_desc"
+				pdx_tooltip_delayed = "Theocracy_desc"
 
 			}
 			iconType = {
@@ -2074,21 +2074,21 @@ guiTypes = {
 				position = { x = 0 y = 0 }
 				spriteType = "GFX_GUI_icons_political_system_parliamentary_republic"
 				pdx_tooltip = "political_system_parliamentary_republic"
-				pdx_tooltip_delayed = "political_system_parliamentary_republic_desc"
+				pdx_tooltip_delayed = "parliamentary_republic_desc"
 			}
 			iconType = {
 				name = "GUI_icons_political_system_Colonial_government"
 				position = { x = 0 y = 0 }
 				spriteType = "GFX_GUI_icons_political_system_Colonial_government"
 				pdx_tooltip = "political_system_Colonial_government"
-				pdx_tooltip_delayed = "political_system_Colonial_government_desc"
+				pdx_tooltip_delayed = "Colonial_government_desc"
 			}
 			iconType = {
 				name = "GUI_icons_political_system_Presidential_republic"
 				position = { x = 0 y = 0 }
 				spriteType = "GFX_GUI_icons_political_system_Presidential_republic"
 				pdx_tooltip = "political_system_Presidential_republic"
-				pdx_tooltip_delayed = "political_system_Presidential_republic_desc"
+				pdx_tooltip_delayed = "Presidential_republic_desc"
 			}
 			iconType = {
 				name = "GUI_icons_political_system_non"
