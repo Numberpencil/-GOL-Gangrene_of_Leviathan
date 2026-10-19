@@ -1,0 +1,13 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_PROBE_world"
+		texturefile = "gfx/interface/PROBE/world.png"
+	}
+	spriteType = {
+		name = "GFX_PROBE_atlas"
+		texturefile = "gfx/interface/PROBE/atlas.png"
+		noOfFrames = 2
+		transparencecheck = yes
+		effectFile = "gfx/FX/PROBE_selection_country.shader"
+	}
+}

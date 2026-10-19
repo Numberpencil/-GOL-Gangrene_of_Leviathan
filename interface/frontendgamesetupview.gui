@@ -122,52 +122,48 @@ guiTypes = {
 	}
 
 	### country entry
-		containerWindowType = {
+	### country entry（P-10 TNOPX 参数 + 图集反偏移）
+	containerWindowType = {
 		name = "country_entry"
-		orientation = UPPER_LEFT
-		position = { x = 225 y = 50 }
+		size = { width = 5632 height = 2048 }
+		clipping = no
+
+		buttonType = {
+			name = "country"
+			quadTextureSprite = "GFX_PROBE_atlas"
+			position = { x = -33792 y = -12288 }
+			clicksound = click_checkbox
+			scale = 6
+		}
 
 		buttonType = {
 			name = "country_leader"
-			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 17 y = 22 }
-			scale=0.75
-			clicksound = click_checkbox
+			quadTextureSprite = "GFX_leader_unknown"
+			hide = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "country_flag"
-			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 34 y = 188 }
-			Orientation = "UPPER_LEFT"
+			quadTextureSprite = "GFX_shield_medium"
+			hide = yes
 			alwaystransparent = yes
-		}
-
-		buttonType = {
-			name = "country"
-			quadTextureSprite = "GFX_country_selection_entry"
-			position = { x=0 y =0 }
-			clicksound = click_checkbox
-			
 		}
 
 		iconType = {
 			name = "new_content"
-			position = { x = 110 y = 180 }
 			spriteType = "GFX_unplayed_content_notification"
+			hide = yes
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 8 y = 247 }
 			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 131
-			maxHeight = 20
+			maxWidth = 1
+			maxHeight = 1
 			fixedsize = yes
-			format = center
-			Orientation = "UPPER_LEFT"
+			hide = yes
 		}
 	}
 
@@ -672,19 +668,36 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries"
-			position = { x = 15 y = 120 }
-			size = { width = -15 height = 120}
+			position = { x = 20 y = 110 }
+			size = { width = 1192 height = 430 }
+			clipping = yes
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+
+			iconType = {
+				name = "PROBE_world_background"
+				position = { x = -2700 y = -350 }
+				spriteType = "GFX_PROBE_world"
+				alwaystransparent = yes
+			}
 
 			gridboxType = {
 				name ="countries_grid"
-				position = { x = 0 y = 0 }
-				size = { width = 100% height = 100% }
-				slotsize = { width = 150 height = 0 }
+				position = { x = -2700 y = -350 }
+				size = { width = 5632 height = 2048 }
+				slotsize = { width = 5632 height = 2048 }
 				add_horizontal = yes
-				max_slots_vertical = 1
+				max_slots_horizontal = 7
+				max_slots_vertical = 7
 				format = "UPPER_LEFT"
 			}
-
 		}
 
 		containerWindowType = {
@@ -2254,3 +2267,5 @@ guiTypes = {
 		}
 	}
 }
+
+
