@@ -1,4 +1,11 @@
 ﻿l_simp_chinese:
- ENG_PARTY_NAME_SC_LP:0 "工党"
+ENG_PARTY_NAME_CM_unkown: "英国共产党"
+ ENG_PARTY_NAME_SC_LP:0 "英国工党"
  ENG_PARTY_NAME_DM_LD:0 "自由党"
- ENG_PARTY_NAME_CS_CP:0 "保守党"
+ ENG_PARTY_NAME_CS_CP:0 "国民政府"
+ ENG_PARTY_NAME_AT_unkown: "王党"
+ ENG_PARTY_NAME_DP_unkown: "临时政府"
+ ENG_PARTY_NAME_PP_unkown: "无组织"
+ ENG_PARTY_NAME_FS_unkown: "英国法西斯联盟"
+ ENG_PARTY_NAME_NS_unkown: "§R（非法）"
+ ENG_PARTY_NAME_OC_unkown: "§R（非法）"
