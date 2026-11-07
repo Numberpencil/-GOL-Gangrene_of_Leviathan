@@ -17,6 +17,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Spartakismus.png"
 	}
 	SpriteType = { #
+		name = "GFX_ideology_Spartakismus_banner"
+		texturefile = "gfx/interface/ideologies/banner/Spartakismus_banner.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = { #
+		name = "GFX_ideology_GER_Conservativist_democrat_PDC"
+		texturefile = "gfx/interface/ideologies/GER_Constitutional_Democratic_Party.png"
+	}
+	SpriteType = { #
 		name = "GFX_ideology_Conservativist_democrat_PDC"
 		texturefile = "gfx/interface/ideologies/Spanish_Constitutional_Democratic_Party.png"
 	}
@@ -95,6 +104,15 @@ spriteTypes = {
 	SpriteType = { #
 		name = "GFX_ideology_SPR_Social_democratism"
 		texturefile = "gfx/interface/ideologies/SPR_Social_democratism.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_GER_Social_democratism"
+		texturefile = "gfx/interface/ideologies/GER_Social_democratism.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_GER_Social_democratism_banner"
+		texturefile = "gfx/interface/ideologies/banner/GER_Social_democratism_banner.png"
+		legacy_lazy_load = no
 	}
 	SpriteType = { #
 		name = "GFX_ideology_Social_democratism"
@@ -316,6 +334,11 @@ spriteTypes = {
 		name = "GFX_ideology_DKP_NSDAP_united_government"
 		texturefile = "gfx/interface/ideologies/DKP_NSDAP_united_government.png"
 	}
+	SpriteType = { #
+		name = "GFX_ideology_DKP_NSDAP_united_government_banner"
+		texturefile = "gfx/interface/ideologies/banner/DKP_NSDAP_united_government_banner.png"
+		legacy_lazy_load = no
+	}
 	SpriteType = {
 		name = "GFX_ideology_Neosanminism"
 		texturefile = "gfx/interface/ideologies/Neosanminism.png"
@@ -324,6 +347,11 @@ spriteTypes = {
 		name = "GFX_ideology_Conservatism_ideology_DKP"
 		texturefile = "gfx/interface/ideologies/Conservatism_ideology_DKP.png"
 	}
+	SpriteType = { #
+		name = "GFX_ideology_Conservatism_ideology_DKP_banner"
+		texturefile = "gfx/interface/ideologies/banner/Conservatism_ideology_DKP_banner.png"
+		legacy_lazy_load = no
+	}
 	SpriteType = {
 		name = "GFX_ideology_Oligarchist_despotism_MGP"
 		texturefile = "gfx/interface/ideologies/Oligarchist_despotism_MGP.png"
@@ -331,6 +359,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_Christian_democratic_Z"
 		texturefile = "gfx/interface/ideologies/Christian_democratic_Z.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_Christian_democratic_Z_banner"
+		texturefile = "gfx/interface/ideologies/banner/Christian_democratic_Z_banner.png"
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_ideology_Socialist_nationalism_SSNP"
@@ -403,6 +436,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_FRA_Nationalist_syndicalism_italia"
 		texturefile = "gfx/interface/ideologies/Nationalist_syndicalism_france.png"
+	}
+	SpriteType = { #
+		name = "GFX_ideology_Nationalist_syndicalism_banner"
+		texturefile = "gfx/interface/ideologies/banner/Nationalist_syndicalism_banner.png"
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_ideology_SPR_Nationalist_syndicalism_italia"
